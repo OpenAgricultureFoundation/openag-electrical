@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -168,38 +168,6 @@
 <wire x1="88.773" y1="50.546" x2="88.138" y2="50.546" width="0.0254" layer="41"/>
 <text x="98.552" y="44.704" size="1.27" layer="21" rot="R90">Light Controller v1
 MIT OpenAg</text>
-<text x="99.06" y="9.398" size="1.27" layer="22" rot="MR0">Light Controller v1
-MIT OpenAg
-
-This board controls x6, 24V LED channels up to 700mA each. It has a dedicated 
-microcontroller (PSOC 4100) with optional headers for a Particle Photon.
-
-We are believers in the power of open source hardware / software to make
-future food production systems accessible to all. Being so, we freely share all 
-hardware design files and supporting software on our GitHub (OpenAgInitiative).
-
-
-The design files for this board are located in the following GitHub repository:
-    https://github.com/OpenAgInitiative/openag_light_controller
-
-All boards we develop exclusively utilize parts from our eagle parts library. We 
-do this to maximize component reuse and ensure part verification. 
-
-The OpenAg eagle library is located in the following GitHub repository:
-    https://github.com/OpenAgInitiative/openag_eagle_library
-
-Whenever possible, we strive to create re-usable and modular elements throughout all of our designs.
-
-
-The OpenAg eagle design blocks are located in the following GitHub repository: 
-    https://github.com/OpenAgInitiative/openag_eagle_design_blocks
-
-We are always looking for more collaborators aligned with our ideologies! Want 
-to get involved? 
-    Join the forum: http://forum.openag.media.mit.edu/    
-    Visit the wiki: https://wiki.openag.media.mit.edu/
-
-</text>
 </plain>
 <libraries>
 <library name="openag-regulators">
@@ -1663,8 +1631,8 @@ design rules under a new name.</description>
 <element name="C35" library="openag-capacitors" package="C0603" value="330pF" x="91.567" y="54.991" smashed="yes" rot="R270">
 <attribute name="NAME" x="91.186" y="56.642" size="0.635" layer="25"/>
 <attribute name="POPULATE" value="YES" x="91.567" y="54.991" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="89.662" y="55.626" size="1.27" layer="27" rot="R270"/>
 <attribute name="VALUE" value="330pF" x="91.567" y="54.991" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="89.662" y="55.626" size="1.27" layer="27" rot="R270"/>
 <attribute name="VERIFIED" value="NO" x="91.567" y="54.991" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R1" library="openag-resistors" package="RC0603N" value="0 OHM" x="72.39" y="64.77" smashed="yes">

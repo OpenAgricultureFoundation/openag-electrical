@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -6569,7 +6569,7 @@ Cambridge, MA</text>
 <text x="20.066" y="109.474" size="3.81" layer="103">RJ12 Connector</text>
 <wire x1="0" y1="76.2" x2="76.2" y2="76.2" width="0.254" layer="97" style="longdash"/>
 <text x="15.24" y="29.972" size="3.81" layer="103">I2C Pullup Resistors</text>
-<wire x1="2.54" y1="38.1" x2="78.74" y2="38.1" width="0.254" layer="97" style="longdash"/>
+<wire x1="0" y1="38.1" x2="78.74" y2="38.1" width="0.254" layer="97" style="longdash"/>
 <text x="87.122" y="98.298" size="3.048" layer="103">APDS-9250 RGB/UV + Ambient 
      Light Intensity Sensor</text>
 <text x="104.14" y="86.36" size="1.778" layer="97">Note:

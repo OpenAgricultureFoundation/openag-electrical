@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -156,6 +156,49 @@
 <rectangle x1="-3.42" y1="2" x2="-2.93" y2="3.1" layer="51"/>
 <rectangle x1="-4.69" y1="2" x2="-4.2" y2="3.1" layer="51"/>
 </package>
+<package name="SOIC16LWB">
+<description>&lt;b&gt;SMALL OUTLINE PACKAGE&lt;/b&gt; 10.3 x 10.3 &lt;p&gt;
+Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</description>
+<wire x1="5.255" y1="3.735" x2="5.255" y2="-3.735" width="0.2032" layer="21"/>
+<wire x1="5.255" y1="-3.735" x2="-5.23" y2="-3.735" width="0.2032" layer="51"/>
+<wire x1="-5.23" y1="-3.735" x2="-5.23" y2="3.735" width="0.2032" layer="21"/>
+<wire x1="-5.23" y1="3.735" x2="5.255" y2="3.735" width="0.2032" layer="51"/>
+<circle x="-7.446" y="-5.102" radius="0.6427" width="1.27" layer="21"/>
+<smd name="1" x="-4.445" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="2" x="-3.175" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="3" x="-1.905" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="4" x="-0.635" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="5" x="0.635" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="6" x="1.905" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="7" x="3.175" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="8" x="4.445" y="-4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="9" x="4.445" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="10" x="3.175" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="11" x="1.905" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="12" x="0.635" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="13" x="-0.635" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="14" x="-1.905" y="4.575" dx="0.6" dy="1.8" layer="1" rot="R180"/>
+<smd name="15" x="-3.175" y="4.575" dx="0.6" dy="1.8" layer="1"/>
+<smd name="16" x="-4.445" y="4.575" dx="0.6" dy="1.8" layer="1"/>
+<text x="-5.72" y="-3.051" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.275" y="-0.581" size="1.27" layer="27">&gt;VALUE</text>
+<rectangle x1="-4.6949" y1="-5.0651" x2="-4.1951" y2="-3.7349" layer="51"/>
+<rectangle x1="-3.4249" y1="-5.1651" x2="-2.9251" y2="-3.8349" layer="51"/>
+<rectangle x1="-2.1549" y1="-5.1651" x2="-1.6551" y2="-3.8349" layer="51"/>
+<rectangle x1="-0.8849" y1="-5.1651" x2="-0.3851" y2="-3.8349" layer="51"/>
+<rectangle x1="0.3851" y1="-5.1651" x2="0.8849" y2="-3.8349" layer="51"/>
+<rectangle x1="1.6551" y1="-5.1651" x2="2.1549" y2="-3.8349" layer="51"/>
+<rectangle x1="2.9251" y1="-5.1651" x2="3.4249" y2="-3.8349" layer="51"/>
+<rectangle x1="4.1951" y1="-5.1651" x2="4.6949" y2="-3.8349" layer="51"/>
+<rectangle x1="4.1951" y1="3.8349" x2="4.6949" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="2.9251" y1="3.8349" x2="3.4249" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="1.6551" y1="3.8349" x2="2.1549" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="0.3851" y1="3.8349" x2="0.8849" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="-0.8849" y1="3.8349" x2="-0.3851" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="-2.1549" y1="3.8349" x2="-1.6551" y2="5.1651" layer="51" rot="R180"/>
+<rectangle x1="-3.4249" y1="3.7349" x2="-2.9251" y2="5.0651" layer="51"/>
+<rectangle x1="-4.6949" y1="3.7349" x2="-4.1951" y2="5.0651" layer="51"/>
+</package>
 </packages>
 <symbols>
 <symbol name="ISO1540DR">
@@ -294,7 +337,7 @@
 <gate name="G$1" symbol="ADM2481" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="SOIC16N">
+<device name="" package="SOIC16LWB">
 <connects>
 <connect gate="G$1" pin="!RE!" pad="4"/>
 <connect gate="G$1" pin="A" pad="12"/>
@@ -308,11 +351,7 @@
 <connect gate="G$1" pin="VDD2" pad="16"/>
 </connects>
 <technologies>
-<technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="ADM2481BRWZ-RL7" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
-</technology>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
