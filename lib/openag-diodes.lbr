@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.1">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -364,6 +364,64 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
 <attribute name="VALUE" value="SMAJ26A-13-F" constant="no"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="APT1608CGCK" prefix="D">
+<description>&lt;strong&gt;Kingbright - APT1608CGCK - LED GREEN CLEAR 0603 SMD&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Green 570nm LED Indication - Discrete 2.1V 0603 (1608 Metric)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Color: Green&lt;/li&gt;
+		&lt;li&gt;Lens Color: Colorless&lt;/li&gt;
+		&lt;li&gt;Lens Transparency: Clear&lt;/li&gt;
+		&lt;li&gt;Millicandela Rating: 50mcd&lt;/li&gt;
+		&lt;li&gt;Lens Style/Size: Rectangle with Flat Top, 1.20mm x 0.80mm&lt;/li&gt;
+		&lt;li&gt;Voltage - Forward (Vf) (Typ): 2.1V&lt;/li&gt;
+		&lt;li&gt;Current - Test: 20mA&lt;/li&gt;
+		&lt;li&gt;Viewing Angle: 120°&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Wavelength - Dominant: 570nm&lt;/li&gt;
+		&lt;li&gt;Wavelength - Peak: 574nm&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: Chip LED&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 1.60mm L x 0.80mm W&lt;/li&gt;
+		&lt;li&gt;Height (Max): 0.75mm&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.kingbrightusa.com/images/catalog/SPEC/APT1608CGCK.pdf'&gt;APT1608CGCK&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#'&gt;754-1116-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="LED" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="CHIPLED_0603">
+<connects>
+<connect gate="G$1" pin="A" pad="A"/>
+<connect gate="G$1" pin="C" pad="C"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="APT1608CGCK" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>

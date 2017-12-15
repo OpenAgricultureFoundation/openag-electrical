@@ -1,4 +1,4 @@
-description[en] = <b>OSH Park Design Rules</b>\n<p>\nPlease make sure your boards conform to these design rules.\n</p>\n<p>\nNote, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. \n<a href="http://docs.oshpark.com/design-tools/eagle/design-rules-files/">Adjustable Settings</a>\n</p>
+description[en] = OpenAg's DRC for routing. Makes auto-trace spacing easier. Be sure to check fab house's DRC before sending out.
 layerSetup = (1*16)
 mtCopper = 0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm
 mtIsolate = 1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm
@@ -9,7 +9,7 @@ mdPadPad = 16mil
 mdPadVia = 16mil
 mdViaVia = 16mil
 mdSmdPad = 16mil
-mdSmdVia = 12mil
+mdSmdVia = 16mil
 mdSmdSmd = 16mil
 mdViaViaSameLayer = 8mil
 mnLayersViaInSmd = 2

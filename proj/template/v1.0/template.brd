@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.2">
+<eagle version="8.4.3">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="125" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -40,7 +40,7 @@
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
@@ -62,10 +62,14 @@
 </layers>
 <board>
 <plain>
-<wire x1="0" y1="0" x2="40.62" y2="0" width="0" layer="20"/>
-<wire x1="40.62" y1="0" x2="40.64" y2="21.59" width="0" layer="20"/>
-<wire x1="40.64" y1="21.59" x2="0" y2="21.59" width="0" layer="20"/>
-<wire x1="0" y1="21.59" x2="0" y2="0" width="0" layer="20"/>
+<wire x1="0" y1="0" x2="50.78" y2="0" width="0" layer="20"/>
+<wire x1="50.78" y1="0" x2="50.927" y2="31.75" width="0" layer="20"/>
+<wire x1="50.927" y1="31.75" x2="0" y2="31.75" width="0" layer="20"/>
+<wire x1="0" y1="31.75" x2="0" y2="0" width="0" layer="20"/>
+<hole x="3.175" y="3.175" drill="3.81"/>
+<hole x="47.625" y="3.175" drill="3.81"/>
+<hole x="3.175" y="28.575" drill="3.81"/>
+<hole x="47.625" y="28.575" drill="3.81"/>
 </plain>
 <libraries>
 <library name="openag-frames">
@@ -1529,15 +1533,29 @@ design rules under a new name.</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="39.37" y="1.27" rot="MR0">
-<attribute name="AUTHOR" value="XX" x="39.37" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value="Template for starting new designs." x="39.37" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TITLE" value="Example Template!" x="39.37" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle_template" x="39.37" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VER" value="1.0" x="39.37" y="1.27" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="44.45" y="6.35" rot="MR0">
+<attribute name="AUTHOR" value="XX" x="44.45" y="6.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="Template for starting new designs." x="44.45" y="6.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TITLE" value="Example Template!" x="44.45" y="6.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle_template" x="44.45" y="6.35" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VER" value="1.0" x="44.45" y="6.35" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 </elements>
 <signals>
+<signal name="GND">
+<polygon width="0.3048" layer="1" isolate="0.4064" rank="3">
+<vertex x="0" y="0"/>
+<vertex x="50.8" y="0"/>
+<vertex x="50.8" y="31.75"/>
+<vertex x="0" y="31.75"/>
+</polygon>
+<polygon width="0.3048" layer="16" isolate="0.4064" rank="3">
+<vertex x="0" y="31.75"/>
+<vertex x="50.8" y="31.75"/>
+<vertex x="50.8" y="0"/>
+<vertex x="0" y="0"/>
+</polygon>
+</signal>
 </signals>
 </board>
 </drawing>
