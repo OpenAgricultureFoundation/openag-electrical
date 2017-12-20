@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -5779,6 +5779,7 @@ Cambridge, MA</text>
 <parts>
 <part name="FRAME1" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="TITLE" value="Example Template!"/>
+<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/template"/>
 </part>
 </parts>
 <sheets>

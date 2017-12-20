@@ -10,6 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="no" active="no"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="no" active="no"/>
@@ -1495,7 +1507,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <wire x1="2.7" y1="2.15" x2="-2.7" y2="2.15" width="0.2032" layer="21"/>
 <wire x1="-2.7" y1="2.15" x2="-2.7" y2="-2.15" width="0.2032" layer="21"/>
 <wire x1="-2.7" y1="-2.15" x2="2.7" y2="-2.15" width="0.2032" layer="21"/>
-<circle x="-1.95" y="-1.625" radius="0.325" width="0" layer="21"/>
 <smd name="1" x="-2.275" y="-2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
 <smd name="2" x="-1.625" y="-2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
 <smd name="3" x="-0.975" y="-2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
@@ -1512,7 +1523,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <smd name="14" x="-0.975" y="2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
 <smd name="15" x="-1.625" y="2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
 <smd name="16" x="-2.275" y="2.925" dx="1.2" dy="0.35" layer="1" rot="R90" stop="no"/>
-<text x="-2.925" y="-2.925" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-3.179" y="-1.909" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="4.225" y="-3.25" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-2.825" y1="-2.875" x2="-1.725" y2="-2.625" layer="51" rot="R90"/>
 <rectangle x1="-2.175" y1="-2.875" x2="-1.075" y2="-2.625" layer="51" rot="R90"/>
@@ -1546,6 +1557,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <rectangle x1="-1.2" y1="2.25" x2="-0.75" y2="3.6" layer="29" rot="R180"/>
 <rectangle x1="-1.85" y1="2.25" x2="-1.4" y2="3.6" layer="29" rot="R180"/>
 <rectangle x1="-2.5" y1="2.25" x2="-2.05" y2="3.6" layer="29" rot="R180"/>
+<circle x="-3.683" y="-2.921" radius="0.359209375" width="0.762" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -2484,7 +2496,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-6.35" y="3.81" size="1.016" layer="25" ratio="10">&gt;NAME</text>
 <text x="-6.35" y="-5.08" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
 </package>
-<package name="RJ12">
+<package name="OPENAG-I2C-RJ12">
 <description>&lt;B&gt;RJ12, RJ14, RJ25&lt;/B&gt;
 &lt;P&gt;RJ12, RJ14 and RJ22 jacks side mounted
 http://www.tycoelectronics.com</description>
@@ -2494,10 +2506,10 @@ http://www.tycoelectronics.com</description>
 <wire x1="-10.795" y1="-6.985" x2="-10.795" y2="6.985" width="0.127" layer="21"/>
 <wire x1="-10.795" y1="6.985" x2="7.62" y2="6.985" width="0.127" layer="21"/>
 <wire x1="7.62" y1="6.985" x2="8.255" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.905" x2="3.175" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="3.175" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="3.175" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="3.175" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="21"/>
 <wire x1="7.62" y1="6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
 <pad name="1" x="-8.89" y="-3.175" drill="0.8"/>
 <pad name="2" x="-6.35" y="-1.905" drill="0.8"/>
@@ -2509,6 +2521,56 @@ http://www.tycoelectronics.com</description>
 <text x="-10.16" y="6.985" size="1.27" layer="25">&gt;NAME</text>
 <hole x="0" y="-5.08" drill="3.25"/>
 <hole x="0" y="5.08" drill="3.25"/>
+<wire x1="-7.874" y1="-3.175" x2="1.905" y2="-3.175" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.1524" layer="22"/>
+<wire x1="-5.207" y1="3.175" x2="1.905" y2="3.175" width="0.1524" layer="22"/>
+<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="22"/>
+<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.1524" layer="22"/>
+<text x="4.572" y="-3.556" size="0.762" layer="22" rot="MR0">GND</text>
+<text x="3.556" y="-2.286" size="0.762" layer="22" rot="MR0">IO</text>
+<text x="4.064" y="-1.016" size="0.762" layer="22" rot="MR0">SCL</text>
+<text x="4.318" y="0.254" size="0.762" layer="22" rot="MR0">SDA</text>
+<text x="4.064" y="1.524" size="0.762" layer="22" rot="MR0">3V3</text>
+<text x="3.81" y="2.794" size="0.762" layer="22" rot="MR0">NC</text>
+</package>
+<package name="OPENAG-RS485-RJ12">
+<description>&lt;B&gt;RJ12, RJ14, RJ25&lt;/B&gt;
+&lt;P&gt;RJ12, RJ14 and RJ22 jacks side mounted
+http://www.tycoelectronics.com</description>
+<wire x1="8.255" y1="6.985" x2="8.255" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="8.255" y1="-6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="-6.985" x2="-10.795" y2="-6.985" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="-6.985" x2="-10.795" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-10.795" y1="6.985" x2="7.62" y2="6.985" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="8.255" y2="6.985" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.127" layer="21"/>
+<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.127" layer="21"/>
+<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="21"/>
+<wire x1="7.62" y1="6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
+<pad name="1" x="-8.89" y="-3.175" drill="0.8"/>
+<pad name="2" x="-6.35" y="-1.905" drill="0.8"/>
+<pad name="3" x="-8.89" y="-0.635" drill="0.8"/>
+<pad name="4" x="-6.35" y="0.635" drill="0.8"/>
+<pad name="5" x="-8.89" y="1.905" drill="0.8"/>
+<pad name="6" x="-6.35" y="3.175" drill="0.8"/>
+<text x="-10.16" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-10.16" y="6.985" size="1.27" layer="25">&gt;NAME</text>
+<hole x="0" y="-5.08" drill="3.25"/>
+<hole x="0" y="5.08" drill="3.25"/>
+<wire x1="-7.874" y1="-3.175" x2="1.905" y2="-3.175" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.1524" layer="22"/>
+<wire x1="-5.207" y1="3.175" x2="1.905" y2="3.175" width="0.1524" layer="22"/>
+<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="22"/>
+<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="22"/>
+<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.1524" layer="22"/>
+<text x="4.572" y="-3.556" size="0.762" layer="22" rot="MR0">GND</text>
+<text x="3.556" y="-2.286" size="0.762" layer="22" rot="MR0">5V</text>
+<text x="3.048" y="-1.016" size="0.762" layer="22" rot="MR0">A</text>
+<text x="3.048" y="0.254" size="0.762" layer="22" rot="MR0">B</text>
+<text x="3.81" y="1.524" size="0.762" layer="22" rot="MR0">NC</text>
+<text x="4.572" y="2.794" size="0.762" layer="22" rot="MR0">GND</text>
 </package>
 <package name="1377G2">
 <pad name="BLK" x="-3.95" y="-7.1" drill="1.8" shape="long" rot="R90"/>
@@ -2729,7 +2791,7 @@ http://www.tycoelectronics.com</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="A-2004-1-4-LP-N-R" prefix="J">
+<deviceset name="OPENAG-I2C-RJ12" prefix="J">
 <description>&lt;strong&gt;Assmann WSW Components - A-2004-1-4-LP-N-R - RJ12 CONN MOD JACK 6P6C R/A UNSHLD&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
@@ -2773,7 +2835,7 @@ http://www.tycoelectronics.com</description>
 <gate name="G$1" symbol="RJ12" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="RJ12">
+<device name="" package="OPENAG-I2C-RJ12">
 <connects>
 <connect gate="G$1" pin="1" pad="1"/>
 <connect gate="G$1" pin="2" pad="2"/>
@@ -2784,10 +2846,67 @@ http://www.tycoelectronics.com</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="A-2004-1-4-LP-N-R" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MPN" value="A-2004-1-4-LP-N-R" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPENAG-RS485-RJ12" prefix="J">
+<description>&lt;strong&gt;Assmann WSW Components - A-2004-1-4-LP-N-R - RJ12 CONN MOD JACK 6P6C R/A UNSHLD&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Jack Modular Connector 6p6c (RJ11, RJ12, RJ14, RJ25) 90° Angle (Right) Unshielded&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Jack&lt;/li&gt;
+		&lt;li&gt;Number of Positions/Contacts: 6p6c (RJ11, RJ12, RJ14, RJ25)&lt;/li&gt;
+		&lt;li&gt;Number of Ports: 1&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Orientation: 90° Angle (Right)&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
+		&lt;li&gt;Features: Board Lock&lt;/li&gt;
+		&lt;li&gt;LED Color: Does Not Contain LED&lt;/li&gt;
+		&lt;li&gt;Tab Direction: Down&lt;/li&gt;
+		&lt;li&gt;Contact Material: Phosphor Bronze&lt;/li&gt;
+		&lt;li&gt;Contact Finish: Gold&lt;/li&gt;
+		&lt;li&gt;Contact Finish Thickness: 6µin (0.152µm)&lt;/li&gt;
+		&lt;li&gt;Housing Material: Polybutylene Terephthalate (PBT), Glass Filled&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7320_CO.pdf'&gt;A-2004-1-4-LP-N Drawing&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-1-4-LP-N-R/AE10383-ND/2183634'&gt;AE10383-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="RJ12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="OPENAG-RS485-RJ12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -8758,7 +8877,6 @@ Cambridge, MA</text>
 <library name="openag-pwm">
 <packages>
 <package name="TSSOP28">
-<circle x="-3.5756" y="-1.2192" radius="0.4572" width="0.1524" layer="21"/>
 <wire x1="-4.4646" y1="-2.2828" x2="4.4646" y2="-2.2828" width="0.1524" layer="51"/>
 <wire x1="4.4646" y1="2.2828" x2="4.4646" y2="-2.2828" width="0.1524" layer="21"/>
 <wire x1="4.4646" y1="2.2828" x2="-4.4646" y2="2.2828" width="0.1524" layer="51"/>
@@ -8821,6 +8939,7 @@ Cambridge, MA</text>
 <smd name="28" x="-4.225" y="2.9178" dx="0.3048" dy="0.9906" layer="1"/>
 <text x="-4.8456" y="-2.0828" size="0.4064" layer="25" rot="R90">&gt;NAME</text>
 <text x="5.0742" y="-2.0828" size="0.4064" layer="27" rot="R90">&gt;VALUE</text>
+<circle x="-5.461" y="-4.064" radius="0.40160625" width="0.762" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -9083,13 +9202,13 @@ Cambridge, MA</text>
 <part name="GND1" library="openag-supply" deviceset="GND" device=""/>
 <part name="FRAME1" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="AUTHOR" value="JR"/>
-<attribute name="DESCRIPTION" value=""/>
+<attribute name="DESCRIPTION" value="Controls 6 channels of 24V, 700mA for LED strings that can be interfaced via i2c, rs485, and/or wifi."/>
 <attribute name="TITLE" value="Light Controller"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/light_controller"/>
 <attribute name="VER" value="1.1"/>
 </part>
-<part name="J2" library="openag-connectors" deviceset="A-2004-1-4-LP-N-R" device="" value="A-2004-1-4-LP-N-R"/>
-<part name="J3" library="openag-connectors" deviceset="A-2004-1-4-LP-N-R" device="" value="A-2004-1-4-LP-N-R"/>
+<part name="J2" library="openag-connectors" deviceset="OPENAG-I2C-RJ12" device="" value="OPENAG-I2C-RJ12"/>
+<part name="J3" library="openag-connectors" deviceset="OPENAG-I2C-RJ12" device="" value="OPENAG-I2C-RJ12"/>
 <part name="J4" library="openag-connectors" deviceset="1377G2" device="1377G2" value="1377G2"/>
 <part name="GND10" library="openag-supply" deviceset="GND" device=""/>
 <part name="R6" library="openag-resistors" deviceset="1K-ERJ-PB3D1001V" device="" value="1K"/>
@@ -9099,7 +9218,7 @@ Cambridge, MA</text>
 <part name="R14" library="openag-resistors" deviceset="1K-ERJ-PB3D1001V" device="" value="1K"/>
 <part name="R26" library="openag-resistors" deviceset="1K-ERJ-PB3D1001V" device="" value="1K"/>
 <part name="+3V1" library="openag-supply" deviceset="+3V3" device=""/>
-<part name="J5" library="openag-connectors" deviceset="A-2004-1-4-LP-N-R" device="" value="A-2004-1-4-LP-N-R"/>
+<part name="J5" library="openag-connectors" deviceset="OPENAG-RS485-RJ12" device="" value="OPENAG-RS485-RJ12"/>
 <part name="D1" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
 <part name="R27" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
 <part name="GND14" library="openag-supply" deviceset="GND" device=""/>
@@ -9143,7 +9262,7 @@ Cambridge, MA</text>
 <part name="C21" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
 <part name="+3V10" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="+3V11" library="openag-supply" deviceset="+3V3" device=""/>
-<part name="J6" library="openag-connectors" deviceset="A-2004-1-4-LP-N-R" device="" value="A-2004-1-4-LP-N-R"/>
+<part name="J6" library="openag-connectors" deviceset="OPENAG-RS485-RJ12" device="" value="OPENAG-RS485-RJ12"/>
 <part name="R30" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
 <part name="R31" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
 <part name="R32" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
@@ -9410,11 +9529,9 @@ Powerpole Connector</text>
 </instance>
 <instance part="J2" gate="G$1" x="-17.78" y="591.82" smashed="yes">
 <attribute name="NAME" x="-27.432" y="601.472" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-22.86" y="574.548" size="1.27" layer="96"/>
 </instance>
 <instance part="J3" gate="G$1" x="-50.8" y="591.82" smashed="yes">
 <attribute name="NAME" x="-60.452" y="601.726" size="1.27" layer="95"/>
-<attribute name="VALUE" x="-55.88" y="574.548" size="1.27" layer="96"/>
 </instance>
 <instance part="J4" gate="G$1" x="271.78" y="586.74"/>
 <instance part="GND10" gate="1" x="259.08" y="579.12"/>
@@ -9427,7 +9544,6 @@ Powerpole Connector</text>
 <instance part="+3V1" gate="G$1" x="-48.26" y="388.62"/>
 <instance part="J5" gate="G$1" x="172.72" y="591.82" smashed="yes">
 <attribute name="NAME" x="162.814" y="601.726" size="1.27" layer="95"/>
-<attribute name="VALUE" x="167.64" y="574.04" size="1.27" layer="96"/>
 </instance>
 <instance part="D1" gate="G$1" x="106.68" y="393.7" rot="R270"/>
 <instance part="R27" gate="G$1" x="124.46" y="393.7"/>
@@ -9479,7 +9595,6 @@ Powerpole Connector</text>
 <instance part="+3V11" gate="G$1" x="-114.3" y="304.8"/>
 <instance part="J6" gate="G$1" x="139.7" y="591.82" smashed="yes">
 <attribute name="NAME" x="129.794" y="601.726" size="1.27" layer="95"/>
-<attribute name="VALUE" x="134.62" y="574.04" size="1.27" layer="96"/>
 </instance>
 <instance part="R30" gate="G$1" x="-213.36" y="548.64"/>
 <instance part="R31" gate="G$1" x="-213.36" y="568.96"/>
