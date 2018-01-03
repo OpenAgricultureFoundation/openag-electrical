@@ -1707,12 +1707,12 @@ https://www.digikey.com/products/en?keywords=36-633-ND</description>
 </pass>
 </autorouter>
 <elements>
-<element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="44.069" y="48.133" rot="MR0">
-<attribute name="AUTHOR" value="JR" x="44.069" y="48.133" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="DESCRIPTION" value="Top Brain for PFC-EDU" x="44.069" y="48.133" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="TITLE" value="EDU Brain" x="44.069" y="48.133" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/edu_brain" x="44.069" y="48.133" size="1.778" layer="28" rot="MR0" display="off"/>
-<attribute name="VER" value="1.0" x="44.069" y="48.133" size="1.778" layer="28" rot="MR0" display="off"/>
+<element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="44.069" y="73.533" rot="MR0">
+<attribute name="AUTHOR" value="JR" x="44.069" y="73.533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="DESCRIPTION" value="Fan + valve test for pfc edu brain" x="44.069" y="73.533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="TITLE" value="Air Valve Test" x="44.069" y="73.533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/air_valve_test" x="44.069" y="73.533" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VER" value="1.0" x="44.069" y="73.533" size="1.778" layer="28" rot="MR0" display="off"/>
 </element>
 <element name="U$1" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="3.81" y="3.81"/>
 <element name="U$2" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="3.81" y="135.89" rot="R270"/>
