@@ -1456,17 +1456,18 @@ Cambridge, MA</text>
 </library>
 <library name="openag-valves">
 <packages>
-<package name="UMBRELLA-VALVE-21.5MM">
+<package name="UM215.002-151.02">
 <description>As seen: http://www.minivalve.com/newsite/?option=com_minivalve&amp;product=54&amp;view=minivalve&amp;lang=en&amp;Itemid=52</description>
 <circle x="0" y="0" radius="10.75" width="0.127" layer="21"/>
 <hole x="-7" y="0" drill="6"/>
-<hole x="0" y="0" drill="4"/>
+<hole x="0" y="0" drill="3.81"/>
 <hole x="7" y="0" drill="6"/>
 <hole x="-3.5" y="6" drill="6"/>
 <hole x="3.5" y="6" drill="6"/>
 <hole x="-3.5" y="-6" drill="6"/>
 <hole x="3.5" y="-6" drill="6"/>
-<text x="-8.89" y="11.43" size="1.27" layer="21">21.5MM Umbrella Valve</text>
+<text x="-3.302" y="11.684" size="1.27" layer="25">&gt;NAME</text>
+<text x="-3.302" y="-12.954" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1718,7 +1719,6 @@ https://www.digikey.com/products/en?keywords=36-633-ND</description>
 <element name="U$2" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="3.81" y="135.89" rot="R270"/>
 <element name="U$3" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="46.99" y="135.89" rot="R180"/>
 <element name="U$4" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="46.99" y="3.81" rot="R90"/>
-<element name="U$5" library="openag-valves" package="UMBRELLA-VALVE-21.5MM" value="" x="25.4" y="25.4"/>
 <element name="FAN1" library="openag-fans" package="OD4020-24HSS" value="OD4020-24HSS" x="25.4" y="70.739" smashed="yes">
 <attribute name="MANUFACTURER" value="Orion Fans" x="25.4" y="70.739" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="OD4020-24HSS" x="25.4" y="70.739" size="1.778" layer="27" display="off"/>
@@ -1728,11 +1728,24 @@ https://www.digikey.com/products/en?keywords=36-633-ND</description>
 <attribute name="VENDOR-LINK" value="https://www.digikey.com/product-detail/en/orion-fans/OD4020-24HSS/1053-1220-ND/2621125" x="25.4" y="70.739" size="1.778" layer="27" display="off"/>
 <attribute name="VPN" value=" 1053-1220-ND " x="25.4" y="70.739" size="1.778" layer="27" display="off"/>
 </element>
-<element name="BRK2" library="openag-mounts" package="612" value="" x="41.402" y="63.881" rot="R180"/>
-<element name="BRK1" library="openag-mounts" package="612" value="" x="9.398" y="63.881" rot="R180"/>
-<element name="BRK3" library="openag-mounts" package="612" value="" x="9.398" y="77.597"/>
-<element name="BRK4" library="openag-mounts" package="612" value="" x="41.402" y="77.597"/>
-<element name="U$6" library="openag-valves" package="UMBRELLA-VALVE-21.5MM" value="" x="25.4" y="114.3"/>
+<element name="BRK2" library="openag-mounts" package="612" value="" x="41.402" y="63.881" smashed="yes" rot="R180">
+<attribute name="NAME" x="36.322" y="67.691" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="36.322" y="67.691" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="BRK1" library="openag-mounts" package="612" value="" x="9.398" y="63.881" smashed="yes" rot="R180">
+<attribute name="NAME" x="13.208" y="67.691" size="1.27" layer="25" rot="R270"/>
+<attribute name="VALUE" x="4.318" y="67.691" size="1.27" layer="27" rot="R270"/>
+</element>
+<element name="BRK3" library="openag-mounts" package="612" value="" x="9.398" y="77.597" smashed="yes">
+<attribute name="NAME" x="14.478" y="73.787" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="14.478" y="73.787" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="BRK4" library="openag-mounts" package="612" value="" x="41.402" y="77.597" smashed="yes">
+<attribute name="NAME" x="37.592" y="73.787" size="1.27" layer="25" rot="R90"/>
+<attribute name="VALUE" x="46.482" y="73.787" size="1.27" layer="27" rot="R90"/>
+</element>
+<element name="VLV1" library="openag-valves" package="UM215.002-151.02" value="" x="25.4" y="114.3"/>
+<element name="VLV2" library="openag-valves" package="UM215.002-151.02" value="" x="25.4" y="25.4"/>
 </elements>
 <signals>
 <signal name="GND">
