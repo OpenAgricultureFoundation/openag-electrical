@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.4.3">
+<eagle version="8.5.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -130,6 +130,12 @@
 <wire x1="21.08" y1="3.46" x2="21.08" y2="-11.08" width="0.127" layer="21" style="shortdash"/>
 <wire x1="21.08" y1="-11.08" x2="-3.3" y2="-11.08" width="0.127" layer="21" style="shortdash"/>
 <wire x1="-3.3" y1="-11.08" x2="-3.3" y2="3.46" width="0.127" layer="21" style="shortdash"/>
+<text x="1.27" y="0.254" size="0.762" layer="22" rot="MR180">+VIN</text>
+<text x="1.27" y="-2.286" size="0.762" layer="22" rot="MR180">DIM</text>
+<text x="1.27" y="-4.826" size="0.762" layer="22" rot="MR180">PWM</text>
+<text x="1.27" y="-7.366" size="0.762" layer="22" rot="MR180">GND</text>
+<text x="16.764" y="-0.508" size="0.762" layer="22" rot="MR0">+VOUT</text>
+<text x="16.764" y="-8.128" size="0.762" layer="22" rot="MR0">-VOUT</text>
 </package>
 <package name="SOT-23">
 <description>&lt;b&gt;Small Outline Transistor&lt;/b&gt;</description>
@@ -385,6 +391,39 @@
 <circle x="-1.524" y="2.032" radius="0.254" width="0.508" layer="21"/>
 <text x="-1.778" y="-2.794" size="0.762" layer="27">&gt;VALUE</text>
 </package>
+<package name="MP04A">
+<smd name="1" x="-3.2004" y="2.3" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="2" x="-3.2004" y="0" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="3" x="-3.2004" y="-2.3" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="4" x="3.2004" y="0" dx="1.6002" dy="3.0988" layer="1"/>
+<wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="2.6924" x2="-3.6576" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="2.6924" x2="-3.6322" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="1.905" x2="-1.8542" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-0.381" x2="-1.8542" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="0.4064" x2="-3.6576" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="0.4064" x2="-3.6322" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-0.381" x2="-1.8542" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-2.6924" x2="-1.8542" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-1.905" x2="-3.6322" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-1.905" x2="-3.6322" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-2.6924" x2="-1.8542" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="1.5494" x2="1.8542" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-1.5494" x2="3.6576" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="-1.5494" x2="3.6322" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6322" y1="1.5494" x2="1.8542" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.9812" y1="-3.4798" x2="1.9812" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="1.9812" y1="-3.4798" x2="1.9812" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="1.9812" y1="3.4798" x2="-1.9812" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-1.9812" y1="3.4798" x2="-1.9812" y2="-3.4798" width="0.1524" layer="21"/>
+<text x="-1.524" y="3.81" size="0.762" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<circle x="-3.048" y="4.318" radius="0.508" width="1.016" layer="21"/>
+<text x="-1.778" y="-4.572" size="0.762" layer="27" ratio="6">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RCD-24">
@@ -457,6 +496,18 @@
 <wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
 <text x="7.7216" y="6.0706" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="7.5946" y="-13.2334" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+</symbol>
+<symbol name="LM2937IMP-3_3">
+<pin name="IN" x="2.54" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="2.54" y="-2.54" length="middle" direction="pwr"/>
+<pin name="OUT" x="53.34" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="TAB" x="53.34" y="0" length="middle" direction="pwr" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="-7.62" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -803,6 +854,77 @@
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
 <attribute name="VALUE" value="RCD-24-0.70/VREF"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="REGNEW">
+<gates>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2937IMP-3.3/NOPB" prefix="U">
+<description>&lt;strong&gt;Texas Instruments - LM2937IMP-3.3/NOPB - IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 400mA SOT-223-4&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Output Configuration: Positive&lt;/li&gt;
+		&lt;li&gt;Output Type: Fixed&lt;/li&gt;
+		&lt;li&gt;Number of Regulators: 1&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Max): 26V&lt;/li&gt;
+		&lt;li&gt;Voltage - Output (Min/Fixed): 3.3V&lt;/li&gt;
+		&lt;li&gt;Voltage Dropout (Max): 1V @ 50mA&lt;/li&gt;
+		&lt;li&gt;Current - Output: 400mA&lt;/li&gt;
+		&lt;li&gt;Current - Quiescent (Iq): 2mA&lt;/li&gt;
+		&lt;li&gt;Current - Supply (Max): 1.25A&lt;/li&gt;
+		&lt;li&gt;Protection Features: Over Temperature, Reverse Polarity, Short Circuit&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: TO-261-4, TO-261AA&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: SOT-223-4&lt;/li&gt;
+		&lt;li&gt;Base Part Number: LM2937&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.ti.com/lit/ds/symlink/lm2937-2.5.pdf'&gt;LM2937-2.5, LM2937-3.3 Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#'&gt;LM2937IMP-3.3/NOPBCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="LM2937IMP-3_3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MP04A">
+<connects>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="TAB" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM2937IMP3.3NOPB" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>
