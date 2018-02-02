@@ -17706,19 +17706,17 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <sheets>
 <sheet>
 <plain>
-<text x="-94.488" y="-49.276" size="1.778" layer="94">10-30-2017</text>
 <text x="-50.8" y="38.1" size="1.778" layer="94">Original Board by Dan Poitrast</text>
-<text x="-129.54" y="35.56" size="1.778" layer="94">Change Log:
+<text x="-129.54" y="30.48" size="1.778" layer="94">Change Log:
 </text>
 <text x="-284.48" y="124.46" size="1.905" layer="94" align="top-left">I2C Pull-up Resistors</text>
 <text x="-173.99" y="220.98" size="2.54" layer="90">24V Input Power Conditioning</text>
 <text x="-504.19" y="548.64" size="7.62" layer="103">Connectors</text>
 <text x="-191.77" y="233.68" size="7.62" layer="103">Power Features</text>
 <text x="-199.39" y="142.24" size="7.62" layer="103">I2C Multiplexer</text>
-<text x="-200.66" y="5.08" size="1.778" layer="94">Released under the Creative Commons
+<text x="-132.08" y="2.54" size="1.778" layer="94">Released under the Creative Commons
 Attribution Share-Alike 4.0 License
 https://creativecommons.org/licenses/by-sa/4.0/</text>
-<wire x1="99.06" y1="5.08" x2="99.06" y2="157.48" width="0.254" layer="97" style="longdash"/>
 <text x="-106.68" y="134.62" size="1.905" layer="94" align="top-left">I2C Address Select IO Ext 1</text>
 <wire x1="-647.7" y1="541.02" x2="-480.06" y2="541.02" width="0.1524" layer="103" style="longdash"/>
 <wire x1="-480.06" y1="541.02" x2="-480.06" y2="414.02" width="0.1524" layer="103" style="longdash"/>

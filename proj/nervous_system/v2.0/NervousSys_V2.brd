@@ -7089,11 +7089,11 @@ design rules under a new name.</description>
 <attribute name="VALUE" x="139.78" y="35.991" size="1.27" layer="51" rot="R90" align="center"/>
 </element>
 <element name="U$1" library="PJ-036ah" package="PJ-036AH" value="PJ-036AH" x="128.27" y="11.176" rot="R90"/>
-<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="10K" x="1.27" y="-53.34">
-<attribute name="PROD_ID" value="RES-00824" x="1.27" y="-53.34" size="1.778" layer="27" display="off"/>
+<element name="R8" library="SparkFun-Resistors" package="0603-RES" value="10K" x="59.436" y="40.132">
+<attribute name="PROD_ID" value="RES-00824" x="59.436" y="40.132" size="1.778" layer="27" display="off"/>
 </element>
-<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="10K" x="1.27" y="-56.388">
-<attribute name="PROD_ID" value="RES-00824" x="1.27" y="-56.388" size="1.778" layer="27" display="off"/>
+<element name="R9" library="SparkFun-Resistors" package="0603-RES" value="10K" x="60.96" y="44.958">
+<attribute name="PROD_ID" value="RES-00824" x="60.96" y="44.958" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -7366,7 +7366,7 @@ design rules under a new name.</description>
 <wire x1="46.736" y1="51.308" x2="46.736" y2="52.197" width="0.3048" layer="1"/>
 <wire x1="82.55" y1="47.244" x2="79.248" y2="50.546" width="0.3048" layer="1"/>
 <contactref element="R9" pad="1"/>
-<wire x1="0.42" y1="-56.388" x2="47.498" y2="50.546" width="0" layer="19" extent="1-1"/>
+<wire x1="60.11" y1="44.958" x2="47.498" y2="50.546" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="SCL">
 <contactref element="U1" pad="22"/>
@@ -7389,7 +7389,7 @@ design rules under a new name.</description>
 <wire x1="46.736" y1="58.928" x2="46.736" y2="54.737" width="0.3048" layer="1"/>
 <wire x1="57.91946875" y1="59.944" x2="47.752" y2="59.944" width="0.3048" layer="1"/>
 <contactref element="R8" pad="1"/>
-<wire x1="0.42" y1="-53.34" x2="46.736" y2="54.737" width="0" layer="19" extent="1-1"/>
+<wire x1="58.586" y1="40.132" x2="46.736" y2="54.737" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="+3V3">
 <contactref element="R1" pad="2"/>
@@ -7615,8 +7615,8 @@ design rules under a new name.</description>
 <contactref element="R8" pad="2"/>
 <contactref element="R9" pad="2"/>
 <wire x1="26.416" y1="54.737" x2="26.416" y2="52.197" width="0" layer="19" extent="1-1"/>
-<wire x1="2.12" y1="-53.34" x2="26.416" y2="52.197" width="0" layer="19" extent="1-1"/>
-<wire x1="2.12" y1="-56.388" x2="2.12" y2="-53.34" width="0" layer="19" extent="1-1"/>
+<wire x1="60.286" y1="40.132" x2="26.416" y2="52.197" width="0" layer="19" extent="1-1"/>
+<wire x1="61.81" y1="44.958" x2="60.286" y2="40.132" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="RESET1">
 <contactref element="U1" pad="3"/>
