@@ -198,7 +198,7 @@
 <wire x1="0.635" y1="10.795" x2="0.635" y2="17.145" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="0.635" y1="17.145" x2="6.0325" y2="17.145" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="7.9375" y1="17.145" x2="18.415" y2="17.145" width="0.1524" layer="21" style="shortdash"/>
-<text x="0" y="18.288" size="0.762" layer="21">24V-to-5V@1A Switching Regulator w/Indicator LED + Enable</text>
+<text x="0" y="18.288" size="0.762" layer="21">24V-to-3V3@1A Switching Regulator w/Indicator LED + Enable</text>
 <text x="14.732" y="9.398" size="0.762" layer="21">Enable</text>
 <wire x1="14.224" y1="10.414" x2="18.288" y2="10.414" width="0.1524" layer="21"/>
 <wire x1="18.288" y1="10.414" x2="18.288" y2="9.144" width="0.1524" layer="21"/>
@@ -611,9 +611,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="17.9959" y="2.032" size="0.508" layer="27" ratio="6" rot="SR0"/>
 </element>
 <element name="R1" library="openag-resistors" package="RC0603N" value="3.01K" x="26.416" y="7.62" rot="R90"/>
-<element name="R2" library="openag-resistors" package="RC0603N" value="976 Ohm" x="26.416" y="4.572" smashed="yes" rot="R90">
+<element name="R2" library="openag-resistors" package="RC0603N" value="1.78K" x="26.416" y="4.572" smashed="yes" rot="R90">
 <attribute name="NAME" x="25.5905" y="3.4417" size="0.762" layer="25" ratio="6" rot="SR90"/>
-<attribute name="VALUE" value="976 Ohm" x="27.94" y="3.048" size="0.762" layer="27" ratio="6" rot="R90"/>
+<attribute name="VALUE" x="27.94" y="3.048" size="0.762" layer="27" ratio="6" rot="R90"/>
 </element>
 <element name="R3" library="openag-resistors" package="RC0603N" value="100 OHM" x="22.987" y="8.382" smashed="yes">
 <attribute name="NAME" x="22.1107" y="6.9215" size="0.762" layer="25" ratio="6" rot="SR0"/>

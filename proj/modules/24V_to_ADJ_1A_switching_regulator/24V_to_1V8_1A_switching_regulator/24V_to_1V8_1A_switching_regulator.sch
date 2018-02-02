@@ -856,17 +856,17 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="982OHM-RC0603FR-07976RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-07976RL - RES SMD 976 OHM 1% 1/10W 0603&lt;/strong&gt;
+<deviceset name="6.49K-RC0603FR-076K49L" prefix="R">
+<description>&lt;strong&gt;Yageo - RC0603FR-076K49L - RES SMD 6.49K OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
-		&lt;li&gt;976 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
+		&lt;li&gt;6.49 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
 	&lt;ul id='specs'&gt;
-		&lt;li&gt;Resistance: 976 Ohms&lt;/li&gt;
+		&lt;li&gt;Resistance: 6.49 kOhms&lt;/li&gt;
 		&lt;li&gt;Tolerance: ±1%&lt;/li&gt;
 		&lt;li&gt;Power (Watts): 0.1W, 1/10W&lt;/li&gt;
 		&lt;li&gt;Composition: Thick Film&lt;/li&gt;
@@ -890,7 +890,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250949870&amp;uq=636531835229553061'&gt;311-976HRCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250950869&amp;uq=636531835229563062'&gt;311-6.49KHRCT-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -904,7 +904,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="976 Ohm" constant="no"/>
+<attribute name="VALUE" value="6.49K" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1098,7 +1098,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <part name="L1" library="openag-inductors" deviceset="68UH-UP2B-680-R" device="" value="68uH"/>
 <part name="D1" library="openag-diodes" deviceset="B260A-13-F" device="" value="B260A-13-F"/>
 <part name="R1" library="openag-resistors" deviceset="3.01K-RC0603FR-073K01L" device="" value="3.01K"/>
-<part name="R2" library="openag-resistors" deviceset="982OHM-RC0603FR-07976RL" device="" value="976 Ohm"/>
+<part name="R2" library="openag-resistors" deviceset="6.49K-RC0603FR-076K49L" device="" value="6.49K"/>
 <part name="GND1" library="openag-supply" deviceset="GND" device=""/>
 <part name="P+1" library="openag-supply" deviceset="+24V" device=""/>
 <part name="P+2" library="openag-supply" deviceset="+5V" device=""/>
@@ -1109,7 +1109,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <sheets>
 <sheet>
 <plain>
-<text x="0" y="40.64" size="3.81" layer="97">24V to 5V@1A Switching Regulator
+<text x="0" y="40.64" size="3.81" layer="97">24V to 3V3@1A Switching Regulator
 w/Indicator LED + Enable</text>
 <wire x1="0" y1="38.1" x2="114.3" y2="38.1" width="0.254" layer="97"/>
 <wire x1="114.3" y1="38.1" x2="114.3" y2="0" width="0.254" layer="97"/>
