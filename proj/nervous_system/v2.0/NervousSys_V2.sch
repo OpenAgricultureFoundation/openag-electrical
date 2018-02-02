@@ -18537,6 +18537,7 @@ SD7 &amp; SC7</text>
 <wire x1="-25.4" y1="434.34" x2="-25.4" y2="312.42" width="0.1524" layer="103" style="longdash"/>
 <wire x1="-25.4" y1="312.42" x2="-96.52" y2="312.42" width="0.1524" layer="103" style="longdash"/>
 <wire x1="-96.52" y1="312.42" x2="-96.52" y2="434.34" width="0.1524" layer="103" style="longdash"/>
+<text x="-368.3" y="530.86" size="5.08" layer="103">USB header</text>
 </plain>
 <instances>
 <instance part="C11" gate="G$1" x="-142.24" y="487.68"/>
