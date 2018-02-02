@@ -10,18 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
-<layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
-<layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
-<layer number="5" name="Route5" color="4" fill="4" visible="no" active="yes"/>
-<layer number="6" name="Route6" color="1" fill="8" visible="no" active="yes"/>
-<layer number="7" name="Route7" color="4" fill="8" visible="no" active="yes"/>
-<layer number="8" name="Route8" color="1" fill="2" visible="no" active="yes"/>
-<layer number="9" name="Route9" color="4" fill="2" visible="no" active="yes"/>
-<layer number="10" name="Route10" color="1" fill="7" visible="no" active="yes"/>
-<layer number="11" name="Route11" color="4" fill="7" visible="no" active="yes"/>
-<layer number="12" name="Route12" color="1" fill="5" visible="no" active="yes"/>
-<layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
-<layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="yes" active="yes"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="yes" active="yes"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="yes" active="yes"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="yes" active="yes"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="yes" active="yes"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="yes" active="yes"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="yes" active="yes"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="yes" active="yes"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="yes" active="yes"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="yes" active="yes"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="yes" active="yes"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="yes" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -35,7 +35,7 @@
 <layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -56,7 +56,7 @@
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
 <layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
@@ -90,7 +90,7 @@
 <layer number="109" name="fp9" color="7" fill="1" visible="no" active="yes"/>
 <layer number="110" name="110" color="7" fill="1" visible="no" active="yes"/>
 <layer number="111" name="111" color="7" fill="1" visible="no" active="yes"/>
-<layer number="112" name="tSilk" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="112" name="tSilk" color="7" fill="1" visible="no" active="yes"/>
 <layer number="113" name="LOGO" color="7" fill="1" visible="no" active="yes"/>
 <layer number="114" name="Badge_Outline" color="7" fill="1" visible="no" active="yes"/>
 <layer number="115" name="ReferenceISLANDS" color="7" fill="1" visible="no" active="yes"/>
@@ -479,7 +479,7 @@ w/Optional I2C + RS485 Connections</text>
 <text x="55.626" y="81.915" size="0.762" layer="21" rot="R90">SCL2</text>
 <wire x1="50.8" y1="91.44" x2="50.8" y2="92.71" width="0.1524" layer="21" style="longdash"/>
 <wire x1="54.61" y1="72.39" x2="54.61" y2="71.12" width="0.1524" layer="21" style="longdash"/>
-<text x="101.727" y="124.079" size="0.762" layer="21">I3C Connect</text>
+<text x="101.727" y="124.079" size="0.762" layer="21">I2C Connect</text>
 <wire x1="101.092" y1="125.222" x2="101.092" y2="123.698" width="0.1524" layer="21"/>
 <wire x1="101.092" y1="123.698" x2="101.092" y2="120.142" width="0.1524" layer="21"/>
 <wire x1="101.092" y1="120.142" x2="107.95" y2="120.142" width="0.1524" layer="21"/>
@@ -556,7 +556,7 @@ Dual Channel I2C and/or RS485 Connections</text>
 <wire x1="106.045" y1="84.455" x2="106.045" y2="89.408" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="123.825" y1="86.995" x2="123.825" y2="85.471" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="121.285" y1="84.455" x2="120.015" y2="84.455" width="0.1524" layer="21" style="shortdash"/>
-<text x="105.41" y="103.505" size="0.762" layer="21">I2C Header</text>
+<text x="105.029" y="104.902" size="0.762" layer="21" rot="R90">I2C Header</text>
 <text x="60.706" y="46.99" size="0.762" layer="21">PCA9685: 16-Channel, 
 12-bit FM+ I2C PWM Driver</text>
 <text x="41.656" y="59.944" size="0.762" layer="21">PCA9685 Address Set</text>
@@ -596,63 +596,45 @@ interfaced via i2c, rs485, and/or wifi.</text>
 <text x="116.586" y="54.61" size="0.762" layer="21" rot="R90">Default</text>
 <wire x1="114.554" y1="52.578" x2="118.11" y2="52.578" width="0.1524" layer="21"/>
 <wire x1="118.11" y1="52.578" x2="122.174" y2="52.578" width="0.1524" layer="21"/>
-<wire x1="122.174" y1="52.578" x2="126.238" y2="52.578" width="0.1524" layer="21"/>
-<wire x1="126.238" y1="52.578" x2="126.238" y2="54.102" width="0.1524" layer="21"/>
-<wire x1="126.238" y1="54.102" x2="126.238" y2="58.42" width="0.1524" layer="21"/>
-<wire x1="126.238" y1="58.42" x2="126.238" y2="59.69" width="0.1524" layer="21"/>
-<wire x1="126.238" y1="59.69" x2="114.554" y2="59.69" width="0.1524" layer="21"/>
+<wire x1="122.174" y1="52.578" x2="126.492" y2="52.578" width="0.1524" layer="21"/>
+<wire x1="126.492" y1="52.578" x2="126.492" y2="54.102" width="0.1524" layer="21"/>
+<wire x1="126.492" y1="54.102" x2="126.492" y2="58.42" width="0.1524" layer="21"/>
+<wire x1="126.492" y1="58.42" x2="126.492" y2="59.69" width="0.1524" layer="21"/>
+<wire x1="126.492" y1="59.69" x2="114.554" y2="59.69" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="59.69" x2="114.554" y2="58.42" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="58.42" x2="114.554" y2="54.102" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="54.102" x2="114.554" y2="52.578" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="58.42" x2="118.11" y2="58.42" width="0.1524" layer="21"/>
 <wire x1="118.11" y1="58.42" x2="122.174" y2="58.42" width="0.1524" layer="21"/>
-<wire x1="122.174" y1="58.42" x2="126.238" y2="58.42" width="0.1524" layer="21"/>
+<wire x1="122.174" y1="58.42" x2="126.492" y2="58.42" width="0.1524" layer="21"/>
 <wire x1="118.11" y1="58.42" x2="118.11" y2="52.578" width="0.1524" layer="21"/>
 <wire x1="122.174" y1="58.42" x2="122.174" y2="52.578" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="54.102" x2="126.238" y2="54.102" width="0.1524" layer="21"/>
-<text x="77.216" y="51.562" size="0.762" layer="21">LDAC
-Enable</text>
-<wire x1="76.708" y1="48.768" x2="80.772" y2="48.768" width="0.1524" layer="21"/>
-<wire x1="80.772" y1="48.768" x2="80.772" y2="51.308" width="0.1524" layer="21"/>
-<wire x1="80.772" y1="51.308" x2="80.772" y2="53.848" width="0.1524" layer="21"/>
-<wire x1="80.772" y1="53.848" x2="76.708" y2="53.848" width="0.1524" layer="21"/>
-<wire x1="76.708" y1="53.848" x2="76.708" y2="51.308" width="0.1524" layer="21"/>
-<wire x1="76.708" y1="51.308" x2="76.708" y2="48.768" width="0.1524" layer="21"/>
-<wire x1="76.708" y1="51.308" x2="80.772" y2="51.308" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="54.102" x2="126.492" y2="54.102" width="0.1524" layer="21"/>
+<text x="76.962" y="51.816" size="0.762" layer="21">LDAC
+HW-EN</text>
+<wire x1="76.454" y1="48.768" x2="81.026" y2="48.768" width="0.1524" layer="21"/>
+<wire x1="81.026" y1="48.768" x2="81.026" y2="51.308" width="0.1524" layer="21"/>
+<wire x1="81.026" y1="51.308" x2="81.026" y2="54.102" width="0.1524" layer="21"/>
+<wire x1="81.026" y1="54.102" x2="76.454" y2="54.102" width="0.1524" layer="21"/>
+<wire x1="76.454" y1="54.102" x2="76.454" y2="51.308" width="0.1524" layer="21"/>
+<wire x1="76.454" y1="51.308" x2="76.454" y2="48.768" width="0.1524" layer="21"/>
+<wire x1="76.454" y1="51.308" x2="81.026" y2="51.308" width="0.1524" layer="21"/>
 <wire x1="17.78" y1="101.6" x2="16.51" y2="101.6" width="0.1524" layer="21"/>
 <text x="17.526" y="98.298" size="0.762" layer="21" rot="R90">LDAC</text>
 <wire x1="44.45" y1="72.39" x2="44.45" y2="71.12" width="0.1524" layer="21"/>
 <text x="44.958" y="71.374" size="0.762" layer="21">LDAC</text>
 <wire x1="64.77" y1="63.5" x2="64.77" y2="62.23" width="0.1524" layer="21"/>
 <text x="65.278" y="62.484" size="0.762" layer="21">LDAC</text>
-<text x="110.998" y="88.138" size="0.762" layer="21">Enable</text>
-<wire x1="110.744" y1="85.344" x2="110.744" y2="87.884" width="0.1524" layer="21"/>
-<wire x1="110.744" y1="87.884" x2="110.744" y2="89.154" width="0.1524" layer="21"/>
-<wire x1="110.744" y1="89.154" x2="114.554" y2="89.154" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="89.154" x2="114.554" y2="87.884" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="87.884" x2="114.554" y2="85.344" width="0.1524" layer="21"/>
+<text x="110.998" y="87.884" size="0.762" layer="21">Enable</text>
+<wire x1="110.744" y1="85.344" x2="110.744" y2="87.63" width="0.1524" layer="21"/>
+<wire x1="110.744" y1="87.63" x2="110.744" y2="88.9" width="0.1524" layer="21"/>
+<wire x1="110.744" y1="88.9" x2="114.554" y2="88.9" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="88.9" x2="114.554" y2="87.63" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="87.63" x2="114.554" y2="85.344" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="85.344" x2="110.744" y2="85.344" width="0.1524" layer="21"/>
-<wire x1="110.744" y1="87.884" x2="114.554" y2="87.884" width="0.1524" layer="21"/>
-<wire x1="123.19" y1="78.74" x2="102.87" y2="78.74" width="0.1524" layer="112"/>
-<wire x1="102.87" y1="78.74" x2="102.87" y2="68.58" width="0.1524" layer="112"/>
-<wire x1="102.87" y1="68.58" x2="123.19" y2="68.58" width="0.1524" layer="112"/>
-<wire x1="123.19" y1="68.58" x2="123.19" y2="78.74" width="0.1524" layer="112"/>
-<text x="104.902" y="72.39" size="0.762" layer="112">Fuse</text>
-<wire x1="104.14" y1="73.406" x2="104.14" y2="72.136" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="72.136" x2="104.14" y2="69.596" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="69.596" x2="108.204" y2="69.596" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="69.596" x2="108.204" y2="72.136" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="72.136" x2="108.204" y2="73.406" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="73.406" x2="104.14" y2="73.406" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="72.136" x2="108.204" y2="72.136" width="0.1524" layer="112"/>
-<text x="104.648" y="77.216" size="0.762" layer="112">Enable</text>
-<wire x1="104.14" y1="78.232" x2="104.14" y2="76.962" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="76.962" x2="104.14" y2="74.676" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="74.676" x2="108.204" y2="74.676" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="74.676" x2="108.204" y2="76.962" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="76.962" x2="108.204" y2="78.232" width="0.1524" layer="112"/>
-<wire x1="108.204" y1="78.232" x2="104.14" y2="78.232" width="0.1524" layer="112"/>
-<wire x1="104.14" y1="76.962" x2="108.204" y2="76.962" width="0.1524" layer="112"/>
+<wire x1="110.744" y1="87.63" x2="114.554" y2="87.63" width="0.1524" layer="21"/>
+<text x="104.902" y="72.39" size="0.762" layer="21">Fuse</text>
+<text x="104.648" y="77.216" size="0.762" layer="21">Enable</text>
 <wire x1="101.6" y1="80.01" x2="101.6" y2="74.93" width="0.1524" layer="21"/>
 <wire x1="101.6" y1="74.93" x2="101.6" y2="67.31" width="0.1524" layer="21"/>
 <wire x1="101.6" y1="67.31" x2="124.46" y2="67.31" width="0.1524" layer="21"/>
@@ -679,13 +661,39 @@ Enable</text>
 <text x="101.6" y="64.77" size="0.762" layer="21">24V-to-3.3V, 400mA Regulator 
 w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="110.744" y1="89.408" x2="114.554" y2="89.408" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="89.408" x2="114.554" y2="91.186" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="91.186" x2="114.554" y2="92.456" width="0.1524" layer="21"/>
-<wire x1="114.554" y1="92.456" x2="110.744" y2="92.456" width="0.1524" layer="21"/>
-<wire x1="110.744" y1="92.456" x2="110.744" y2="91.186" width="0.1524" layer="21"/>
-<text x="111.506" y="91.44" size="0.762" layer="21">Fuse</text>
-<wire x1="110.744" y1="91.186" x2="110.744" y2="89.408" width="0.1524" layer="21"/>
-<wire x1="110.744" y1="91.186" x2="114.554" y2="91.186" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="89.408" x2="114.554" y2="90.932" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="90.932" x2="114.554" y2="92.202" width="0.1524" layer="21"/>
+<wire x1="114.554" y1="92.202" x2="110.744" y2="92.202" width="0.1524" layer="21"/>
+<wire x1="110.744" y1="92.202" x2="110.744" y2="90.932" width="0.1524" layer="21"/>
+<text x="111.506" y="91.186" size="0.762" layer="21">Fuse</text>
+<wire x1="110.744" y1="90.932" x2="110.744" y2="89.408" width="0.1524" layer="21"/>
+<wire x1="110.744" y1="90.932" x2="114.554" y2="90.932" width="0.1524" layer="21"/>
+<wire x1="102.87" y1="78.74" x2="123.19" y2="78.74" width="0.1524" layer="21"/>
+<wire x1="123.19" y1="78.74" x2="123.19" y2="68.58" width="0.1524" layer="21"/>
+<wire x1="123.19" y1="68.58" x2="102.87" y2="68.58" width="0.1524" layer="21"/>
+<wire x1="102.87" y1="68.58" x2="102.87" y2="78.74" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="74.676" x2="108.204" y2="76.962" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="76.962" x2="108.204" y2="78.232" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="78.232" x2="104.394" y2="78.232" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="78.232" x2="104.394" y2="76.962" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="76.962" x2="104.394" y2="74.676" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="74.676" x2="108.204" y2="74.676" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="76.962" x2="108.204" y2="76.962" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="73.406" x2="104.394" y2="72.136" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="72.136" x2="104.394" y2="69.596" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="69.596" x2="108.204" y2="69.596" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="69.596" x2="108.204" y2="72.136" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="72.136" x2="108.204" y2="73.406" width="0.1524" layer="21"/>
+<wire x1="108.204" y1="73.406" x2="104.394" y2="73.406" width="0.1524" layer="21"/>
+<wire x1="104.394" y1="72.136" x2="108.204" y2="72.136" width="0.1524" layer="21"/>
+<text x="106.68" y="95.504" size="0.762" layer="21">I2C Iso Pass Thru</text>
+<wire x1="105.156" y1="96.774" x2="116.078" y2="96.774" width="0.1524" layer="21"/>
+<wire x1="116.078" y1="96.774" x2="116.078" y2="103.886" width="0.1524" layer="21"/>
+<wire x1="116.078" y1="103.886" x2="105.156" y2="103.886" width="0.1524" layer="21"/>
+<wire x1="105.156" y1="96.774" x2="105.156" y2="103.886" width="0.1524" layer="21"/>
+<wire x1="116.078" y1="96.774" x2="116.078" y2="94.996" width="0.1524" layer="21"/>
+<wire x1="116.078" y1="94.996" x2="105.156" y2="94.996" width="0.1524" layer="21"/>
+<wire x1="105.156" y1="94.996" x2="105.156" y2="96.774" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="openag-regulators">
@@ -823,8 +831,8 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-0.356" y1="-0.419" x2="0.356" y2="-0.419" width="0.1016" layer="51"/>
 <smd name="1" x="-0.85" y="0" dx="1.1" dy="1" layer="1"/>
 <smd name="2" x="0.85" y="0" dx="1.1" dy="1" layer="1"/>
-<text x="-0.635" y="0.635" size="0.889" layer="25">&gt;NAME</text>
-<text x="-0.635" y="-1.905" size="0.889" layer="27">&gt;VALUE</text>
+<text x="-1.397" y="0.635" size="0.762" layer="25">&gt;NAME</text>
+<text x="-1.397" y="-1.905" size="0.762" layer="27">&gt;VALUE</text>
 <rectangle x1="-0.8382" y1="-0.4699" x2="-0.3381" y2="0.4801" layer="51"/>
 <rectangle x1="0.3302" y1="-0.4699" x2="0.8303" y2="0.4801" layer="51"/>
 <rectangle x1="-0.1999" y1="-0.3" x2="0.1999" y2="0.3" layer="35"/>
@@ -839,8 +847,8 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="1.973" y1="0.983" x2="1.973" y2="-0.983" width="0.0508" layer="39"/>
 <smd name="1" x="-0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
 <smd name="2" x="0.95" y="0" dx="1.3" dy="1.5" layer="1"/>
-<text x="-1.27" y="1.27" size="1.27" layer="25">&gt;NAME</text>
-<text x="-1.27" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
+<text x="-2.032" y="1.27" size="0.762" layer="25">&gt;NAME</text>
+<text x="-2.032" y="-2.032" size="0.762" layer="27">&gt;VALUE</text>
 <rectangle x1="-1.0922" y1="-0.7239" x2="-0.3421" y2="0.7262" layer="51"/>
 <rectangle x1="0.3556" y1="-0.7239" x2="1.1057" y2="0.7262" layer="51"/>
 <rectangle x1="-0.1001" y1="-0.4001" x2="0.1001" y2="0.4001" layer="35"/>
@@ -1388,7 +1396,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
 <smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
 <text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="1.905" y="-1.27" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-2.413" y="-1.651" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
 <rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
 <rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
@@ -1399,7 +1407,14 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <rectangle x1="-0.275" y1="-0.575" x2="0.275" y2="-0.35" layer="51"/>
 <rectangle x1="-0.275" y1="-0.65" x2="-0.175" y2="-0.55" layer="51"/>
 <rectangle x1="0.175" y1="-0.65" x2="0.275" y2="-0.55" layer="51"/>
-<rectangle x1="-0.125" y1="0" x2="0.125" y2="0.25" layer="21"/>
+<wire x1="0.889" y1="0" x2="0.635" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.635" y1="-0.254" x2="0.762" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.762" y1="-0.254" x2="1.143" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="1.143" y1="-0.254" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="1.016" y1="-0.127" x2="0.889" y2="0" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.127" x2="1.016" y2="-0.127" width="0.127" layer="21"/>
+<wire x1="0.889" y1="-0.127" x2="0.762" y2="-0.254" width="0.127" layer="21"/>
+<wire x1="0.635" y1="0.127" x2="1.143" y2="0.127" width="0.127" layer="21"/>
 </package>
 </packages>
 </library>
@@ -1410,8 +1425,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="2" x="2.6289" y="0" dx="1.8034" dy="2.6416" layer="1"/>
 <wire x1="-1.4224" y1="-1.4478" x2="1.4224" y2="-1.4478" width="0.1524" layer="21"/>
 <wire x1="1.4224" y1="1.4478" x2="-1.4224" y2="1.4478" width="0.1524" layer="21"/>
-<wire x1="-4.2926" y1="0" x2="-4.445" y2="0" width="0.1524" layer="21" curve="-180"/>
-<wire x1="-4.445" y1="0" x2="-4.2926" y2="0" width="0.1524" layer="21" curve="-180"/>
 <wire x1="-1.7272" y1="-1.3208" x2="-1.7272" y2="1.3208" width="0.1524" layer="51"/>
 <wire x1="-1.7272" y1="1.3208" x2="-3.175" y2="1.3208" width="0.1524" layer="51"/>
 <wire x1="-3.175" y1="-1.3208" x2="-1.7272" y2="-1.3208" width="0.1524" layer="51"/>
@@ -1424,7 +1437,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <wire x1="-3.175" y1="1.3208" x2="-3.175" y2="-1.3208" width="0.1524" layer="51"/>
 <wire x1="-2.8448" y1="0" x2="-2.9972" y2="0" width="0" layer="51" curve="-180"/>
 <wire x1="-2.9972" y1="0" x2="-2.8448" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.2766" y="-0.635" size="1.27" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
 </package>
 <package name="0402">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -3368,13 +3382,13 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="C28" library="openag-capacitors" package="C0603" value="0.1uF" x="86.233" y="55.499" smashed="yes" rot="R90">
 <attribute name="NAME" x="85.344" y="54.61" size="0.762" layer="25" rot="R90"/>
 <attribute name="POPULATE" value="YES" x="86.233" y="55.499" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="87.63" y="54.356" size="0.762" layer="27" rot="R90"/>
+<attribute name="VALUE" x="84.328" y="54.356" size="0.762" layer="27" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="86.233" y="55.499" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C29" library="openag-capacitors" package="C0805" value="4.7uF" x="90.932" y="56.388" smashed="yes" rot="R180">
 <attribute name="NAME" x="90.043" y="57.658" size="0.762" layer="25"/>
 <attribute name="POPULATE" value="YES" x="90.932" y="56.388" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="89.916" y="54.864" size="0.762" layer="27"/>
+<attribute name="VALUE" x="90.17" y="58.674" size="0.762" layer="27"/>
 <attribute name="VERIFIED" value="NO" x="90.932" y="56.388" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U9" library="openag-microcontrollers" package="SSOP-28" value="CY8C4124PVI-432" x="32.893" y="81.788" smashed="yes" rot="R270">
@@ -3530,8 +3544,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J1" library="openag-connectors" package="22-23-2051" value="0022232051" x="20.955" y="82.423" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="88.773" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULATE" value="YES" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="19.177" y="79.121" size="1.016" layer="27" ratio="10" rot="R90"/>
 <attribute name="VALUE" value="0022232051" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="19.177" y="79.121" size="1.016" layer="27" ratio="10" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="61.214" y="86.995" smashed="yes">
@@ -3857,7 +3871,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VERIFIED" value="YES" x="106.172" y="70.358" size="0.762" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R36" library="openag-resistors" package="RC0603N" value="0 OHM" x="112.522" y="86.106" smashed="yes">
-<attribute name="NAME" x="111.3917" y="86.9315" size="0.762" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="111.3917" y="86.6775" size="0.762" layer="25" ratio="6" rot="SR0"/>
 <attribute name="POPULATE" value="YES" x="112.522" y="86.106" size="0.762" layer="27" display="off"/>
 <attribute name="VALUE" x="114.3" y="85.598" size="0.381" layer="27" ratio="6" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="112.522" y="86.106" size="0.762" layer="27" display="off"/>
@@ -4167,6 +4181,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="110.109" y1="76.823" x2="110.541" y2="76.823" width="0.4064" layer="1"/>
 <wire x1="110.541" y1="76.823" x2="112.522" y2="74.842" width="0.4064" layer="1"/>
 <via x="95.4278" y="52.578" extent="1-16" drill="0.35"/>
+<wire x1="64.8208" y1="58.5978" x2="64.527" y2="57.3754" width="0" layer="19" extent="1-1"/>
+<wire x1="107.315" y1="24.55" x2="99.06" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="90.805" y1="24.55" x2="82.55" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="74.295" y1="24.55" x2="66.04" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="57.785" y1="24.55" x2="49.53" y2="30.48" width="0" layer="19" extent="1-1"/>
+<wire x1="41.275" y1="24.55" x2="33.02" y2="30.48" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$2">
 <contactref element="U2" pad="1"/>
