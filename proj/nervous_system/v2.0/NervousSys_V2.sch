@@ -17533,14 +17533,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R17" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R18" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R19" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+2" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND11" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND12" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R20" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R21" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17553,14 +17553,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R25" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R26" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R27" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V13" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+3" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND14" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V15" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND16" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R28" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R29" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND17" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17573,14 +17573,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R41" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R42" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R43" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+5" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R44" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R45" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND25" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17593,14 +17593,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R33" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R34" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R35" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V22" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND18" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V23" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND20" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V24" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R36" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R37" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND21" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17613,14 +17613,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R50" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R51" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND26" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND27" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND28" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R52" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R53" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND29" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17633,14 +17633,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R57" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R58" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R59" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+7" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND30" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND31" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND32" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R60" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R61" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND33" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17653,14 +17653,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R65" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R66" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R67" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V42" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+8" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND34" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND35" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V43" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND36" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V44" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R68" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R69" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND37" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17673,14 +17673,14 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <part name="R73" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R74" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R75" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
-<part name="+3V46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V46" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V47" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+24V" device=""/>
 <part name="GND38" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
 <part name="GND39" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V48" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="GND40" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
-<part name="+3V49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
+<part name="+3V49" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="R76" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="R77" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2"/>
 <part name="GND41" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -17843,14 +17843,14 @@ SD7 &amp; SC7</text>
 <instance part="R17" gate="G$1" x="-510.54" y="480.06" rot="R90"/>
 <instance part="R18" gate="G$1" x="-510.54" y="464.82" rot="R90"/>
 <instance part="R19" gate="G$1" x="-533.4" y="467.36" rot="R90"/>
-<instance part="+3V11" gate="G$1" x="-551.18" y="497.84"/>
+<instance part="+3V11" gate="1" x="-551.18" y="497.84"/>
 <instance part="+3V12" gate="G$1" x="-599.44" y="497.84"/>
 <instance part="P+2" gate="1" x="-596.9" y="533.4"/>
 <instance part="GND10" gate="1" x="-601.98" y="469.9"/>
 <instance part="GND11" gate="1" x="-591.82" y="502.92"/>
-<instance part="+3V16" gate="G$1" x="-500.38" y="464.82"/>
+<instance part="+3V16" gate="1" x="-500.38" y="464.82"/>
 <instance part="GND12" gate="1" x="-500.38" y="495.3"/>
-<instance part="+3V17" gate="G$1" x="-533.4" y="480.06"/>
+<instance part="+3V17" gate="1" x="-533.4" y="480.06"/>
 <instance part="R20" gate="G$1" x="-533.4" y="436.88" rot="R90"/>
 <instance part="R21" gate="G$1" x="-533.4" y="452.12" rot="R90"/>
 <instance part="GND13" gate="1" x="-533.4" y="424.18"/>
@@ -17863,14 +17863,14 @@ SD7 &amp; SC7</text>
 <instance part="R25" gate="G$1" x="-337.82" y="480.06" rot="R90"/>
 <instance part="R26" gate="G$1" x="-337.82" y="464.82" rot="R90"/>
 <instance part="R27" gate="G$1" x="-360.68" y="467.36" rot="R90"/>
-<instance part="+3V13" gate="G$1" x="-378.46" y="497.84"/>
+<instance part="+3V13" gate="1" x="-378.46" y="497.84"/>
 <instance part="+3V14" gate="G$1" x="-426.72" y="497.84"/>
 <instance part="P+3" gate="1" x="-424.18" y="533.4"/>
 <instance part="GND14" gate="1" x="-429.26" y="469.9"/>
 <instance part="GND15" gate="1" x="-419.1" y="502.92"/>
-<instance part="+3V15" gate="G$1" x="-327.66" y="464.82"/>
+<instance part="+3V15" gate="1" x="-327.66" y="464.82"/>
 <instance part="GND16" gate="1" x="-327.66" y="495.3"/>
-<instance part="+3V18" gate="G$1" x="-360.68" y="480.06"/>
+<instance part="+3V18" gate="1" x="-360.68" y="480.06"/>
 <instance part="R28" gate="G$1" x="-360.68" y="436.88" rot="R90"/>
 <instance part="R29" gate="G$1" x="-360.68" y="452.12" rot="R90"/>
 <instance part="GND17" gate="1" x="-360.68" y="424.18"/>
@@ -17883,14 +17883,14 @@ SD7 &amp; SC7</text>
 <instance part="R41" gate="G$1" x="-510.54" y="347.98" rot="R90"/>
 <instance part="R42" gate="G$1" x="-510.54" y="332.74" rot="R90"/>
 <instance part="R43" gate="G$1" x="-533.4" y="335.28" rot="R90"/>
-<instance part="+3V26" gate="G$1" x="-551.18" y="365.76"/>
+<instance part="+3V26" gate="1" x="-551.18" y="365.76"/>
 <instance part="+3V27" gate="G$1" x="-599.44" y="365.76"/>
 <instance part="P+5" gate="1" x="-596.9" y="401.32"/>
 <instance part="GND22" gate="1" x="-601.98" y="337.82"/>
 <instance part="GND23" gate="1" x="-591.82" y="370.84"/>
-<instance part="+3V28" gate="G$1" x="-500.38" y="332.74"/>
+<instance part="+3V28" gate="1" x="-500.38" y="332.74"/>
 <instance part="GND24" gate="1" x="-500.38" y="363.22"/>
-<instance part="+3V29" gate="G$1" x="-533.4" y="347.98"/>
+<instance part="+3V29" gate="1" x="-533.4" y="347.98"/>
 <instance part="R44" gate="G$1" x="-533.4" y="304.8" rot="R90"/>
 <instance part="R45" gate="G$1" x="-533.4" y="320.04" rot="R90"/>
 <instance part="GND25" gate="1" x="-533.4" y="292.1"/>
@@ -17903,14 +17903,14 @@ SD7 &amp; SC7</text>
 <instance part="R33" gate="G$1" x="-337.82" y="347.98" rot="R90"/>
 <instance part="R34" gate="G$1" x="-337.82" y="332.74" rot="R90"/>
 <instance part="R35" gate="G$1" x="-360.68" y="335.28" rot="R90"/>
-<instance part="+3V21" gate="G$1" x="-378.46" y="365.76"/>
+<instance part="+3V21" gate="1" x="-378.46" y="365.76"/>
 <instance part="+3V22" gate="G$1" x="-426.72" y="365.76"/>
 <instance part="P+4" gate="1" x="-424.18" y="401.32"/>
 <instance part="GND18" gate="1" x="-429.26" y="337.82"/>
 <instance part="GND19" gate="1" x="-419.1" y="370.84"/>
-<instance part="+3V23" gate="G$1" x="-327.66" y="332.74"/>
+<instance part="+3V23" gate="1" x="-327.66" y="332.74"/>
 <instance part="GND20" gate="1" x="-327.66" y="363.22"/>
-<instance part="+3V24" gate="G$1" x="-360.68" y="347.98"/>
+<instance part="+3V24" gate="1" x="-360.68" y="347.98"/>
 <instance part="R36" gate="G$1" x="-360.68" y="304.8" rot="R90"/>
 <instance part="R37" gate="G$1" x="-360.68" y="320.04" rot="R90"/>
 <instance part="GND21" gate="1" x="-360.68" y="292.1"/>
@@ -17923,14 +17923,14 @@ SD7 &amp; SC7</text>
 <instance part="R49" gate="G$1" x="-510.54" y="215.9" rot="R90"/>
 <instance part="R50" gate="G$1" x="-510.54" y="200.66" rot="R90"/>
 <instance part="R51" gate="G$1" x="-533.4" y="203.2" rot="R90"/>
-<instance part="+3V31" gate="G$1" x="-551.18" y="233.68"/>
+<instance part="+3V31" gate="1" x="-551.18" y="233.68"/>
 <instance part="+3V32" gate="G$1" x="-599.44" y="233.68"/>
 <instance part="P+6" gate="1" x="-596.9" y="269.24"/>
 <instance part="GND26" gate="1" x="-601.98" y="205.74"/>
 <instance part="GND27" gate="1" x="-591.82" y="238.76"/>
-<instance part="+3V33" gate="G$1" x="-500.38" y="200.66"/>
+<instance part="+3V33" gate="1" x="-500.38" y="200.66"/>
 <instance part="GND28" gate="1" x="-500.38" y="231.14"/>
-<instance part="+3V34" gate="G$1" x="-533.4" y="215.9"/>
+<instance part="+3V34" gate="1" x="-533.4" y="215.9"/>
 <instance part="R52" gate="G$1" x="-533.4" y="172.72" rot="R90"/>
 <instance part="R53" gate="G$1" x="-533.4" y="187.96" rot="R90"/>
 <instance part="GND29" gate="1" x="-533.4" y="160.02"/>
@@ -17943,14 +17943,14 @@ SD7 &amp; SC7</text>
 <instance part="R57" gate="G$1" x="-337.82" y="215.9" rot="R90"/>
 <instance part="R58" gate="G$1" x="-337.82" y="200.66" rot="R90"/>
 <instance part="R59" gate="G$1" x="-360.68" y="203.2" rot="R90"/>
-<instance part="+3V36" gate="G$1" x="-378.46" y="233.68"/>
+<instance part="+3V36" gate="1" x="-378.46" y="233.68"/>
 <instance part="+3V37" gate="G$1" x="-426.72" y="233.68"/>
 <instance part="P+7" gate="1" x="-424.18" y="269.24"/>
 <instance part="GND30" gate="1" x="-429.26" y="205.74"/>
 <instance part="GND31" gate="1" x="-419.1" y="238.76"/>
-<instance part="+3V38" gate="G$1" x="-327.66" y="200.66"/>
+<instance part="+3V38" gate="1" x="-327.66" y="200.66"/>
 <instance part="GND32" gate="1" x="-327.66" y="231.14"/>
-<instance part="+3V39" gate="G$1" x="-360.68" y="215.9"/>
+<instance part="+3V39" gate="1" x="-360.68" y="215.9"/>
 <instance part="R60" gate="G$1" x="-360.68" y="172.72" rot="R90"/>
 <instance part="R61" gate="G$1" x="-360.68" y="187.96" rot="R90"/>
 <instance part="GND33" gate="1" x="-360.68" y="160.02"/>
@@ -17963,14 +17963,14 @@ SD7 &amp; SC7</text>
 <instance part="R65" gate="G$1" x="-510.54" y="83.82" rot="R90"/>
 <instance part="R66" gate="G$1" x="-510.54" y="68.58" rot="R90"/>
 <instance part="R67" gate="G$1" x="-533.4" y="71.12" rot="R90"/>
-<instance part="+3V41" gate="G$1" x="-551.18" y="101.6"/>
+<instance part="+3V41" gate="1" x="-551.18" y="101.6"/>
 <instance part="+3V42" gate="G$1" x="-599.44" y="101.6"/>
 <instance part="P+8" gate="1" x="-596.9" y="137.16"/>
 <instance part="GND34" gate="1" x="-601.98" y="73.66"/>
 <instance part="GND35" gate="1" x="-591.82" y="106.68"/>
-<instance part="+3V43" gate="G$1" x="-500.38" y="68.58"/>
+<instance part="+3V43" gate="1" x="-500.38" y="68.58"/>
 <instance part="GND36" gate="1" x="-500.38" y="99.06"/>
-<instance part="+3V44" gate="G$1" x="-533.4" y="83.82"/>
+<instance part="+3V44" gate="1" x="-533.4" y="83.82"/>
 <instance part="R68" gate="G$1" x="-533.4" y="40.64" rot="R90"/>
 <instance part="R69" gate="G$1" x="-533.4" y="55.88" rot="R90"/>
 <instance part="GND37" gate="1" x="-533.4" y="27.94"/>
@@ -17983,14 +17983,14 @@ SD7 &amp; SC7</text>
 <instance part="R73" gate="G$1" x="-337.82" y="83.82" rot="R90"/>
 <instance part="R74" gate="G$1" x="-337.82" y="68.58" rot="R90"/>
 <instance part="R75" gate="G$1" x="-360.68" y="71.12" rot="R90"/>
-<instance part="+3V46" gate="G$1" x="-378.46" y="101.6"/>
+<instance part="+3V46" gate="1" x="-378.46" y="101.6"/>
 <instance part="+3V47" gate="G$1" x="-426.72" y="101.6"/>
 <instance part="P+9" gate="1" x="-424.18" y="137.16"/>
 <instance part="GND38" gate="1" x="-429.26" y="73.66"/>
 <instance part="GND39" gate="1" x="-419.1" y="106.68"/>
-<instance part="+3V48" gate="G$1" x="-327.66" y="68.58"/>
+<instance part="+3V48" gate="1" x="-327.66" y="68.58"/>
 <instance part="GND40" gate="1" x="-327.66" y="99.06"/>
-<instance part="+3V49" gate="G$1" x="-360.68" y="83.82"/>
+<instance part="+3V49" gate="1" x="-360.68" y="83.82"/>
 <instance part="R76" gate="G$1" x="-360.68" y="40.64" rot="R90"/>
 <instance part="R77" gate="G$1" x="-360.68" y="55.88" rot="R90"/>
 <instance part="GND41" gate="1" x="-360.68" y="27.94"/>
@@ -18489,17 +18489,6 @@ SD7 &amp; SC7</text>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="R18" gate="G$1" pin="1"/>
-<pinref part="+3V16" gate="G$1" pin="+3V3"/>
-<wire x1="-510.54" y1="459.74" x2="-500.38" y2="459.74" width="0.1524" layer="91"/>
-<wire x1="-500.38" y1="459.74" x2="-500.38" y2="462.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V17" gate="G$1" pin="+3V3"/>
-<pinref part="R19" gate="G$1" pin="2"/>
-<wire x1="-533.4" y1="477.52" x2="-533.4" y2="472.44" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R23" gate="G$1" pin="2"/>
 <wire x1="-629.92" y1="500.38" x2="-629.92" y2="505.46" width="0.1524" layer="91"/>
 <wire x1="-629.92" y1="505.46" x2="-622.3" y2="505.46" width="0.1524" layer="91"/>
@@ -18511,27 +18500,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V20" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC2" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-556.26" y1="490.22" x2="-551.18" y2="490.22" width="0.1524" layer="91"/>
-<wire x1="-551.18" y1="490.22" x2="-551.18" y2="495.3" width="0.1524" layer="91"/>
-<pinref part="+3V11" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC2" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-591.82" y1="490.22" x2="-599.44" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-599.44" y1="490.22" x2="-599.44" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="+3V12" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R26" gate="G$1" pin="1"/>
-<pinref part="+3V15" gate="G$1" pin="+3V3"/>
-<wire x1="-337.82" y1="459.74" x2="-327.66" y2="459.74" width="0.1524" layer="91"/>
-<wire x1="-327.66" y1="459.74" x2="-327.66" y2="462.28" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V18" gate="G$1" pin="+3V3"/>
-<pinref part="R27" gate="G$1" pin="2"/>
-<wire x1="-360.68" y1="477.52" x2="-360.68" y2="472.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R31" gate="G$1" pin="2"/>
@@ -18545,27 +18517,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V19" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC3" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-383.54" y1="490.22" x2="-378.46" y2="490.22" width="0.1524" layer="91"/>
-<wire x1="-378.46" y1="490.22" x2="-378.46" y2="495.3" width="0.1524" layer="91"/>
-<pinref part="+3V13" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC3" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-419.1" y1="490.22" x2="-426.72" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-426.72" y1="490.22" x2="-426.72" y2="495.3" width="0.1524" layer="91"/>
 <pinref part="+3V14" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R42" gate="G$1" pin="1"/>
-<pinref part="+3V28" gate="G$1" pin="+3V3"/>
-<wire x1="-510.54" y1="327.66" x2="-500.38" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="-500.38" y1="327.66" x2="-500.38" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V29" gate="G$1" pin="+3V3"/>
-<pinref part="R43" gate="G$1" pin="2"/>
-<wire x1="-533.4" y1="345.44" x2="-533.4" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R47" gate="G$1" pin="2"/>
@@ -18579,27 +18534,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V30" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC5" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-556.26" y1="358.14" x2="-551.18" y2="358.14" width="0.1524" layer="91"/>
-<wire x1="-551.18" y1="358.14" x2="-551.18" y2="363.22" width="0.1524" layer="91"/>
-<pinref part="+3V26" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC5" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-591.82" y1="358.14" x2="-599.44" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="-599.44" y1="358.14" x2="-599.44" y2="363.22" width="0.1524" layer="91"/>
 <pinref part="+3V27" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R34" gate="G$1" pin="1"/>
-<pinref part="+3V23" gate="G$1" pin="+3V3"/>
-<wire x1="-337.82" y1="327.66" x2="-327.66" y2="327.66" width="0.1524" layer="91"/>
-<wire x1="-327.66" y1="327.66" x2="-327.66" y2="330.2" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V24" gate="G$1" pin="+3V3"/>
-<pinref part="R35" gate="G$1" pin="2"/>
-<wire x1="-360.68" y1="345.44" x2="-360.68" y2="340.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R39" gate="G$1" pin="2"/>
@@ -18613,27 +18551,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V25" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC4" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-383.54" y1="358.14" x2="-378.46" y2="358.14" width="0.1524" layer="91"/>
-<wire x1="-378.46" y1="358.14" x2="-378.46" y2="363.22" width="0.1524" layer="91"/>
-<pinref part="+3V21" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC4" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-419.1" y1="358.14" x2="-426.72" y2="358.14" width="0.1524" layer="91"/>
 <wire x1="-426.72" y1="358.14" x2="-426.72" y2="363.22" width="0.1524" layer="91"/>
 <pinref part="+3V22" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R50" gate="G$1" pin="1"/>
-<pinref part="+3V33" gate="G$1" pin="+3V3"/>
-<wire x1="-510.54" y1="195.58" x2="-500.38" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-500.38" y1="195.58" x2="-500.38" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V34" gate="G$1" pin="+3V3"/>
-<pinref part="R51" gate="G$1" pin="2"/>
-<wire x1="-533.4" y1="213.36" x2="-533.4" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R55" gate="G$1" pin="2"/>
@@ -18647,27 +18568,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V35" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC6" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-556.26" y1="226.06" x2="-551.18" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="-551.18" y1="226.06" x2="-551.18" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="+3V31" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC6" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-591.82" y1="226.06" x2="-599.44" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-599.44" y1="226.06" x2="-599.44" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="+3V32" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R58" gate="G$1" pin="1"/>
-<pinref part="+3V38" gate="G$1" pin="+3V3"/>
-<wire x1="-337.82" y1="195.58" x2="-327.66" y2="195.58" width="0.1524" layer="91"/>
-<wire x1="-327.66" y1="195.58" x2="-327.66" y2="198.12" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V39" gate="G$1" pin="+3V3"/>
-<pinref part="R59" gate="G$1" pin="2"/>
-<wire x1="-360.68" y1="213.36" x2="-360.68" y2="208.28" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R63" gate="G$1" pin="2"/>
@@ -18681,27 +18585,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V40" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC7" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-383.54" y1="226.06" x2="-378.46" y2="226.06" width="0.1524" layer="91"/>
-<wire x1="-378.46" y1="226.06" x2="-378.46" y2="231.14" width="0.1524" layer="91"/>
-<pinref part="+3V36" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC7" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-419.1" y1="226.06" x2="-426.72" y2="226.06" width="0.1524" layer="91"/>
 <wire x1="-426.72" y1="226.06" x2="-426.72" y2="231.14" width="0.1524" layer="91"/>
 <pinref part="+3V37" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R66" gate="G$1" pin="1"/>
-<pinref part="+3V43" gate="G$1" pin="+3V3"/>
-<wire x1="-510.54" y1="63.5" x2="-500.38" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-500.38" y1="63.5" x2="-500.38" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V44" gate="G$1" pin="+3V3"/>
-<pinref part="R67" gate="G$1" pin="2"/>
-<wire x1="-533.4" y1="81.28" x2="-533.4" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R71" gate="G$1" pin="2"/>
@@ -18715,27 +18602,10 @@ SD7 &amp; SC7</text>
 <pinref part="+3V45" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
-<pinref part="IC8" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-556.26" y1="93.98" x2="-551.18" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-551.18" y1="93.98" x2="-551.18" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="+3V41" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
 <pinref part="IC8" gate="G$1" pin="VDD_(A)"/>
 <wire x1="-591.82" y1="93.98" x2="-599.44" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-599.44" y1="93.98" x2="-599.44" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="+3V42" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="R74" gate="G$1" pin="1"/>
-<pinref part="+3V48" gate="G$1" pin="+3V3"/>
-<wire x1="-337.82" y1="63.5" x2="-327.66" y2="63.5" width="0.1524" layer="91"/>
-<wire x1="-327.66" y1="63.5" x2="-327.66" y2="66.04" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="+3V49" gate="G$1" pin="+3V3"/>
-<pinref part="R75" gate="G$1" pin="2"/>
-<wire x1="-360.68" y1="81.28" x2="-360.68" y2="76.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R79" gate="G$1" pin="2"/>
@@ -18747,12 +18617,6 @@ SD7 &amp; SC7</text>
 <wire x1="-449.58" y1="109.22" x2="-449.58" y2="114.3" width="0.1524" layer="91"/>
 <junction x="-449.58" y="109.22"/>
 <pinref part="+3V50" gate="G$1" pin="+3V3"/>
-</segment>
-<segment>
-<pinref part="IC9" gate="G$1" pin="VDD_(B)"/>
-<wire x1="-383.54" y1="93.98" x2="-378.46" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="-378.46" y1="93.98" x2="-378.46" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="+3V46" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
 <pinref part="IC9" gate="G$1" pin="VDD_(A)"/>
@@ -20262,6 +20126,149 @@ SD7 &amp; SC7</text>
 <wire x1="-175.26" y1="368.3" x2="-175.26" y2="383.54" width="0.1524" layer="91"/>
 <junction x="-175.26" y="368.3"/>
 <pinref part="P+11" gate="1" pin="+5V"/>
+</segment>
+<segment>
+<pinref part="R26" gate="G$1" pin="1"/>
+<wire x1="-337.82" y1="459.74" x2="-337.82" y2="454.66" width="0.1524" layer="91"/>
+<pinref part="+3V15" gate="1" pin="+5V"/>
+<wire x1="-337.82" y1="454.66" x2="-327.66" y2="454.66" width="0.1524" layer="91"/>
+<wire x1="-327.66" y1="454.66" x2="-327.66" y2="462.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC2" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-556.26" y1="490.22" x2="-551.18" y2="490.22" width="0.1524" layer="91"/>
+<pinref part="+3V11" gate="1" pin="+5V"/>
+<wire x1="-551.18" y1="490.22" x2="-551.18" y2="495.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R19" gate="G$1" pin="2"/>
+<pinref part="+3V17" gate="1" pin="+5V"/>
+<wire x1="-533.4" y1="472.44" x2="-533.4" y2="477.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R18" gate="G$1" pin="1"/>
+<wire x1="-510.54" y1="459.74" x2="-510.54" y2="454.66" width="0.1524" layer="91"/>
+<pinref part="+3V16" gate="1" pin="+5V"/>
+<wire x1="-510.54" y1="454.66" x2="-500.38" y2="454.66" width="0.1524" layer="91"/>
+<wire x1="-500.38" y1="454.66" x2="-500.38" y2="462.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC3" gate="G$1" pin="VDD_(B)"/>
+<pinref part="+3V13" gate="1" pin="+5V"/>
+<wire x1="-383.54" y1="490.22" x2="-378.46" y2="490.22" width="0.1524" layer="91"/>
+<wire x1="-378.46" y1="490.22" x2="-378.46" y2="495.3" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R27" gate="G$1" pin="2"/>
+<pinref part="+3V18" gate="1" pin="+5V"/>
+<wire x1="-360.68" y1="472.44" x2="-360.68" y2="477.52" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R34" gate="G$1" pin="1"/>
+<wire x1="-337.82" y1="327.66" x2="-337.82" y2="320.04" width="0.1524" layer="91"/>
+<pinref part="+3V23" gate="1" pin="+5V"/>
+<wire x1="-337.82" y1="320.04" x2="-327.66" y2="320.04" width="0.1524" layer="91"/>
+<wire x1="-327.66" y1="320.04" x2="-327.66" y2="330.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R35" gate="G$1" pin="2"/>
+<pinref part="+3V24" gate="1" pin="+5V"/>
+<wire x1="-360.68" y1="340.36" x2="-360.68" y2="345.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC4" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-383.54" y1="358.14" x2="-378.46" y2="358.14" width="0.1524" layer="91"/>
+<pinref part="+3V21" gate="1" pin="+5V"/>
+<wire x1="-378.46" y1="358.14" x2="-378.46" y2="363.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R42" gate="G$1" pin="1"/>
+<wire x1="-510.54" y1="327.66" x2="-510.54" y2="325.12" width="0.1524" layer="91"/>
+<pinref part="+3V28" gate="1" pin="+5V"/>
+<wire x1="-510.54" y1="325.12" x2="-500.38" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="-500.38" y1="325.12" x2="-500.38" y2="330.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R43" gate="G$1" pin="2"/>
+<pinref part="+3V29" gate="1" pin="+5V"/>
+<wire x1="-533.4" y1="340.36" x2="-533.4" y2="345.44" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC5" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-556.26" y1="358.14" x2="-551.18" y2="358.14" width="0.1524" layer="91"/>
+<pinref part="+3V26" gate="1" pin="+5V"/>
+<wire x1="-551.18" y1="358.14" x2="-551.18" y2="363.22" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC6" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-556.26" y1="226.06" x2="-551.18" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="+3V31" gate="1" pin="+5V"/>
+<wire x1="-551.18" y1="226.06" x2="-551.18" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V34" gate="1" pin="+5V"/>
+<pinref part="R51" gate="G$1" pin="2"/>
+<wire x1="-533.4" y1="213.36" x2="-533.4" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R50" gate="G$1" pin="1"/>
+<wire x1="-510.54" y1="195.58" x2="-510.54" y2="187.96" width="0.1524" layer="91"/>
+<wire x1="-510.54" y1="187.96" x2="-500.38" y2="187.96" width="0.1524" layer="91"/>
+<pinref part="+3V33" gate="1" pin="+5V"/>
+<wire x1="-500.38" y1="187.96" x2="-500.38" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC7" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-383.54" y1="226.06" x2="-378.46" y2="226.06" width="0.1524" layer="91"/>
+<pinref part="+3V36" gate="1" pin="+5V"/>
+<wire x1="-378.46" y1="226.06" x2="-378.46" y2="231.14" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V39" gate="1" pin="+5V"/>
+<pinref part="R59" gate="G$1" pin="2"/>
+<wire x1="-360.68" y1="213.36" x2="-360.68" y2="208.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R58" gate="G$1" pin="1"/>
+<wire x1="-337.82" y1="195.58" x2="-337.82" y2="190.5" width="0.1524" layer="91"/>
+<wire x1="-337.82" y1="190.5" x2="-327.66" y2="190.5" width="0.1524" layer="91"/>
+<pinref part="+3V38" gate="1" pin="+5V"/>
+<wire x1="-327.66" y1="190.5" x2="-327.66" y2="198.12" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC8" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-556.26" y1="93.98" x2="-551.18" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="+3V41" gate="1" pin="+5V"/>
+<wire x1="-551.18" y1="93.98" x2="-551.18" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R67" gate="G$1" pin="2"/>
+<pinref part="+3V44" gate="1" pin="+5V"/>
+<wire x1="-533.4" y1="76.2" x2="-533.4" y2="81.28" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R66" gate="G$1" pin="1"/>
+<pinref part="+3V43" gate="1" pin="+5V"/>
+<wire x1="-510.54" y1="63.5" x2="-500.38" y2="63.5" width="0.1524" layer="91"/>
+<wire x1="-500.38" y1="63.5" x2="-500.38" y2="66.04" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="IC9" gate="G$1" pin="VDD_(B)"/>
+<wire x1="-383.54" y1="93.98" x2="-378.46" y2="93.98" width="0.1524" layer="91"/>
+<pinref part="+3V46" gate="1" pin="+5V"/>
+<wire x1="-378.46" y1="93.98" x2="-378.46" y2="99.06" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="+3V49" gate="1" pin="+5V"/>
+<pinref part="R75" gate="G$1" pin="2"/>
+<wire x1="-360.68" y1="81.28" x2="-360.68" y2="76.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R74" gate="G$1" pin="1"/>
+<wire x1="-337.82" y1="63.5" x2="-337.82" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="-337.82" y1="55.88" x2="-327.66" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="+3V48" gate="1" pin="+5V"/>
+<wire x1="-327.66" y1="55.88" x2="-327.66" y2="66.04" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
