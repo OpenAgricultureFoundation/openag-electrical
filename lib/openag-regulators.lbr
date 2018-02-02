@@ -10,6 +10,18 @@
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
+<layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
+<layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
+<layer number="5" name="Route5" color="4" fill="4" visible="no" active="no"/>
+<layer number="6" name="Route6" color="1" fill="8" visible="no" active="no"/>
+<layer number="7" name="Route7" color="4" fill="8" visible="no" active="no"/>
+<layer number="8" name="Route8" color="1" fill="2" visible="no" active="no"/>
+<layer number="9" name="Route9" color="4" fill="2" visible="no" active="no"/>
+<layer number="10" name="Route10" color="1" fill="7" visible="no" active="no"/>
+<layer number="11" name="Route11" color="4" fill="7" visible="no" active="no"/>
+<layer number="12" name="Route12" color="1" fill="5" visible="no" active="no"/>
+<layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
+<layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
@@ -424,58 +436,34 @@
 <circle x="-3.048" y="4.318" radius="0.508" width="1.016" layer="21"/>
 <text x="-1.778" y="-4.572" size="0.762" layer="27" ratio="6">&gt;VALUE</text>
 </package>
-<package name="M08A">
-<smd name="1" x="-2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="2" x="-2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="3" x="-2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="4" x="-2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="5" x="2.4638" y="-1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="6" x="2.4638" y="-0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="7" x="2.4638" y="0.635" dx="1.9812" dy="0.5588" layer="1"/>
-<smd name="8" x="2.4638" y="1.905" dx="1.9812" dy="0.5588" layer="1"/>
-<wire x1="-1.9812" y1="1.651" x2="-2.0066" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="2.159" x2="-3.0988" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="2.159" x2="-3.0988" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="1.651" x2="-1.9812" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="0.381" x2="-2.0066" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-2.0066" y1="0.889" x2="-3.0988" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="0.889" x2="-3.0988" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="0.381" x2="-1.9812" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="-0.889" x2="-1.9812" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="-0.381" x2="-3.0988" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-0.381" x2="-3.0988" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-0.889" x2="-1.9812" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="-2.159" x2="-1.9812" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="-1.651" x2="-3.0988" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-1.651" x2="-3.0988" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="-3.0988" y1="-2.159" x2="-1.9812" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="-1.651" x2="2.0066" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="2.0066" y1="-2.159" x2="3.0988" y2="-2.159" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-2.159" x2="3.0988" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-1.651" x2="1.9812" y2="-1.651" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="-0.381" x2="1.9812" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="-0.889" x2="3.0988" y2="-0.889" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-0.889" x2="3.0988" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="-0.381" x2="1.9812" y2="-0.381" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="0.889" x2="1.9812" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="0.381" x2="3.0988" y2="0.381" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="0.381" x2="3.0988" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="0.889" x2="1.9812" y2="0.889" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="2.159" x2="1.9812" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="1.651" x2="3.0988" y2="1.651" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="1.651" x2="3.0988" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="3.0988" y1="2.159" x2="1.9812" y2="2.159" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="-2.4892" x2="1.9812" y2="-2.4892" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="-2.4892" x2="1.9812" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="1.9812" y1="2.4892" x2="-0.3048" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="-0.3048" y1="2.4892" x2="-1.9812" y2="2.4892" width="0.1524" layer="51"/>
-<wire x1="-1.9812" y1="2.4892" x2="-1.9812" y2="-2.4892" width="0.1524" layer="51"/>
-<wire x1="0.3048" y1="2.5146" x2="-0.3048" y2="2.4892" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-2.1336" y1="-2.6416" x2="2.1336" y2="-2.6416" width="0.1524" layer="21"/>
-<wire x1="2.1336" y1="2.6416" x2="-2.1336" y2="2.6416" width="0.1524" layer="21"/>
-<text x="-1.4986" y="2.921" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<circle x="-2.54" y="3.302" radius="0.254" width="0.508" layer="21"/>
-<text x="0.508" y="-2.286" size="0.762" layer="27" ratio="6" rot="R90">&gt;VALUE</text>
+<package name="SOIC8">
+<description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>
+<wire x1="2.4" y1="1.9" x2="2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.9" x2="-2.4" y2="-1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.9" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="-1.4" x2="-2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="-2.4" y1="1.9" x2="2.4" y2="1.9" width="0.2032" layer="51"/>
+<wire x1="2.4" y1="-1.4" x2="-2.4" y2="-1.4" width="0.2032" layer="51"/>
+<smd name="2" x="-0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="7" x="-0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="1" x="-1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="3" x="0.635" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="4" x="1.905" y="-2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="8" x="-1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="6" x="0.635" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<smd name="5" x="1.905" y="2.6" dx="0.6" dy="2.2" layer="1"/>
+<text x="-2.667" y="-1.397" size="0.762" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.905" y="-0.381" size="0.762" layer="27">&gt;VALUE</text>
+<rectangle x1="-2.15" y1="-3.1" x2="-1.66" y2="-2" layer="51"/>
+<rectangle x1="-0.88" y1="-3.1" x2="-0.39" y2="-2" layer="51"/>
+<rectangle x1="0.39" y1="-3.1" x2="0.88" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="-3.1" x2="2.15" y2="-2" layer="51"/>
+<rectangle x1="1.66" y1="2" x2="2.15" y2="3.1" layer="51"/>
+<rectangle x1="0.39" y1="2" x2="0.88" y2="3.1" layer="51"/>
+<rectangle x1="-0.88" y1="2" x2="-0.39" y2="3.1" layer="51"/>
+<rectangle x1="-2.15" y1="2" x2="-1.66" y2="3.1" layer="51"/>
+<circle x="-3.048" y="-2.286" radius="0.254" width="0.508" layer="21"/>
 </package>
 </packages>
 <symbols>
@@ -562,19 +550,18 @@
 <text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
 <text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
-<symbol name="LM2674M-5.0">
-<pin name="BOOST" x="12.7" y="25.4" length="middle" direction="pas" rot="R270"/>
-<pin name="FB" x="-10.16" y="25.4" length="middle" direction="pas" rot="R270"/>
-<pin name="ON/~OFF" x="12.7" y="-15.24" length="middle" direction="pas" rot="R90"/>
-<pin name="GND" x="-10.16" y="-15.24" length="middle" direction="pas" rot="R90"/>
-<pin name="VIN" x="-27.94" y="5.08" length="middle" direction="in"/>
-<pin name="SW" x="30.48" y="5.08" length="middle" direction="out" rot="R180"/>
-<wire x1="-22.86" y1="20.32" x2="-22.86" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="-22.86" y1="-10.16" x2="25.4" y2="-10.16" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="-10.16" x2="25.4" y2="20.32" width="0.1524" layer="94"/>
-<wire x1="25.4" y1="20.32" x2="-22.86" y2="20.32" width="0.1524" layer="94"/>
-<text x="-22.86" y="21.59" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
-<text x="-12.7" y="5.08" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
+<symbol name="MIC4680">
+<pin name="IN" x="-20.32" y="7.62" length="middle"/>
+<pin name="SHDN" x="-20.32" y="-2.54" length="middle"/>
+<pin name="GND" x="0" y="-12.7" length="middle" rot="R90"/>
+<pin name="FB" x="20.32" y="-2.54" length="middle" rot="R180"/>
+<pin name="SW" x="20.32" y="7.62" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="12.7" x2="15.24" y2="12.7" width="0.254" layer="94"/>
+<wire x1="15.24" y1="12.7" x2="15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="15.24" y1="-7.62" x2="-15.24" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-7.62" x2="-15.24" y2="12.7" width="0.254" layer="94"/>
+<text x="-15.24" y="13.97" size="1.778" layer="95">&gt;NAME</text>
+<text x="-7.62" y="2.54" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -998,64 +985,62 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="LM2674MX-5.0/NOPB" prefix="U">
-<description>&lt;strong&gt;Texas Instruments - LM2674MX-5.0/NOPB - IC REG BUCK 5V 0.5A 8SOIC&lt;/strong&gt;
+<deviceset name="MIC4680YM-TR" prefix="U">
+<description>&lt;strong&gt;Microchip Technology - MIC4680YM-TR - IC REG BUCK BOOST ADJ 1.3A 8SOIC&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
-		&lt;li&gt;Buck Switching Regulator IC Positive Fixed 5V 1 Output 500mA 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
+		&lt;li&gt;Buck, Buck-Boost Switching Regulator IC Positive Adjustable 1.23V 1 Output 1.3A 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
 	&lt;ul id='specs'&gt;
-		&lt;li&gt;Function: Step-Down&lt;/li&gt;
+		&lt;li&gt;Function: Step-Down, Step-Up/Step-Down&lt;/li&gt;
 		&lt;li&gt;Output Configuration: Positive&lt;/li&gt;
-		&lt;li&gt;Topology: Buck&lt;/li&gt;
-		&lt;li&gt;Output Type: Fixed&lt;/li&gt;
+		&lt;li&gt;Topology: Buck, Buck-Boost&lt;/li&gt;
+		&lt;li&gt;Output Type: Adjustable&lt;/li&gt;
 		&lt;li&gt;Number of Outputs: 1&lt;/li&gt;
-		&lt;li&gt;Voltage - Input (Min): 6.5V&lt;/li&gt;
-		&lt;li&gt;Voltage - Input (Max): 40V&lt;/li&gt;
-		&lt;li&gt;Voltage - Output (Min/Fixed): 5V&lt;/li&gt;
-		&lt;li&gt;Current - Output: 500mA&lt;/li&gt;
-		&lt;li&gt;Frequency - Switching: 260kHz&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Min): 4V&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Max): 34V&lt;/li&gt;
+		&lt;li&gt;Voltage - Output (Min/Fixed): 1.23V&lt;/li&gt;
+		&lt;li&gt;Voltage - Output (Max): 32.98V&lt;/li&gt;
+		&lt;li&gt;Current - Output: 1.3A&lt;/li&gt;
+		&lt;li&gt;Frequency - Switching: 200kHz&lt;/li&gt;
 		&lt;li&gt;Synchronous Rectifier: No&lt;/li&gt;
 		&lt;li&gt;Operating Temperature: -40°C ~ 125°C (TJ)&lt;/li&gt;
 		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
 		&lt;li&gt;Package / Case: 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
 		&lt;li&gt;Supplier Device Package: 8-SOIC&lt;/li&gt;
-		&lt;li&gt;Base Part Number: LM2674&lt;/li&gt;
+		&lt;li&gt;Base Part Number: MIC4680&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
 	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='http://www.ti.com/lit/ds/symlink/lm2674.pdf'&gt;LM2674&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.microchip.com/mymicrochip/filehandler.aspx?ddocname=en579250'&gt;MIC4680&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/texas-instruments/LM2674MX-5.0-NOPB/LM2674MX-5.0-NOPBCT-ND/3440118'&gt;LM2674MX-5.0/NOPBCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250950999&amp;uq=636531791983475304'&gt;576-1222-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="LM2674M-5.0" x="0" y="0"/>
+<gate name="G$1" symbol="MIC4680" x="0" y="0"/>
 </gates>
 <devices>
-<device name="" package="M08A">
+<device name="" package="SOIC8">
 <connects>
-<connect gate="A" pin="BOOST" pad="1"/>
-<connect gate="A" pin="FB" pad="4"/>
-<connect gate="A" pin="GND" pad="6"/>
-<connect gate="A" pin="ON/~OFF" pad="5"/>
-<connect gate="A" pin="SW" pad="8"/>
-<connect gate="A" pin="VIN" pad="7"/>
+<connect gate="G$1" pin="FB" pad="4"/>
+<connect gate="G$1" pin="GND" pad="5 6 7 8"/>
+<connect gate="G$1" pin="IN" pad="2"/>
+<connect gate="G$1" pin="SHDN" pad="1"/>
+<connect gate="G$1" pin="SW" pad="3"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="LM2674MX-5.0/NOPB" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VALUE" value="MIC4680YM-TR" constant="no"/>
 </technology>
 </technologies>
 </device>
