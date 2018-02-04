@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="1" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -658,7 +658,7 @@ HW-EN</text>
 <wire x1="112.268" y1="79.375" x2="117.602" y2="79.375" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="120.523" y1="79.375" x2="123.825" y2="79.375" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="123.825" y1="79.375" x2="123.825" y2="75.565" width="0.1524" layer="21" style="shortdash"/>
-<text x="101.6" y="64.77" size="0.762" layer="21">24V-to-3.3V, 400mA Regulator 
+<text x="101.6" y="64.77" size="0.762" layer="21">5-24V to 3.3V@400mA Regulator 
 w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="110.744" y1="89.408" x2="114.554" y2="89.408" width="0.1524" layer="21"/>
 <wire x1="114.554" y1="89.408" x2="114.554" y2="90.932" width="0.1524" layer="21"/>
@@ -3544,8 +3544,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="J1" library="openag-connectors" package="22-23-2051" value="0022232051" x="20.955" y="82.423" smashed="yes" rot="R270">
 <attribute name="NAME" x="24.765" y="88.773" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULATE" value="YES" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="0022232051" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="19.177" y="79.121" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" value="0022232051" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VERIFIED" value="NO" x="20.955" y="82.423" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="61.214" y="86.995" smashed="yes">

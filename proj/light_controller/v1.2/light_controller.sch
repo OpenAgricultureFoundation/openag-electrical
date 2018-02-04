@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9430,7 +9430,7 @@ w/3v3 Enable, Incdicator LED &amp; Fuse</text>
 <wire x1="190.5" y1="381" x2="190.5" y2="419.1" width="0.1524" layer="97"/>
 <wire x1="190.5" y1="419.1" x2="342.9" y2="419.1" width="0.1524" layer="97"/>
 <wire x1="342.9" y1="419.1" x2="342.9" y2="381" width="0.1524" layer="97"/>
-<text x="190.5" y="421.64" size="3.81" layer="97">24V-to-3.3V, 400mA Regulator 
+<text x="190.5" y="421.64" size="3.81" layer="97">5-24V to 3.3V@400mA Regulator 
 w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="190.5" y1="381" x2="190.5" y2="342.9" width="0.1524" layer="97"/>
 <wire x1="190.5" y1="342.9" x2="266.7" y2="342.9" width="0.1524" layer="97"/>

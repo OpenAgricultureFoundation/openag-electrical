@@ -1094,6 +1094,25 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="R0603" prefix="R">
+<description>Placeholder 0603 Resistor</description>
+<gates>
+<gate name="1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0603N">
+<connects>
+<connect gate="1" pin="1" pad="1"/>
+<connect gate="1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="NV" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
