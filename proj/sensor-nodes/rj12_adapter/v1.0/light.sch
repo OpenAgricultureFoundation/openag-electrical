@@ -7036,44 +7036,6 @@ Cambridge, MA</text>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 </package>
-<package name="OPENAG-I2C-RJ12">
-<description>&lt;B&gt;RJ12, RJ14, RJ25&lt;/B&gt;
-&lt;P&gt;RJ12, RJ14 and RJ22 jacks side mounted
-http://www.tycoelectronics.com</description>
-<wire x1="8.255" y1="6.985" x2="8.255" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="8.255" y1="-6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="7.62" y1="-6.985" x2="-10.795" y2="-6.985" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="-6.985" x2="-10.795" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-10.795" y1="6.985" x2="7.62" y2="6.985" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="8.255" y2="6.985" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.127" layer="21"/>
-<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.127" layer="21"/>
-<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="7.62" y2="-6.985" width="0.127" layer="21"/>
-<pad name="1" x="-8.89" y="-3.175" drill="0.8"/>
-<pad name="2" x="-6.35" y="-1.905" drill="0.8"/>
-<pad name="3" x="-8.89" y="-0.635" drill="0.8"/>
-<pad name="4" x="-6.35" y="0.635" drill="0.8"/>
-<pad name="5" x="-8.89" y="1.905" drill="0.8"/>
-<pad name="6" x="-6.35" y="3.175" drill="0.8"/>
-<text x="-10.16" y="-8.255" size="1.27" layer="27">&gt;VALUE</text>
-<text x="-10.16" y="6.985" size="1.27" layer="25">&gt;NAME</text>
-<hole x="0" y="-5.08" drill="3.25"/>
-<hole x="0" y="5.08" drill="3.25"/>
-<wire x1="-7.874" y1="-3.175" x2="1.905" y2="-3.175" width="0.1524" layer="22"/>
-<wire x1="-5.08" y1="-1.905" x2="1.905" y2="-1.905" width="0.1524" layer="22"/>
-<wire x1="-5.207" y1="3.175" x2="1.905" y2="3.175" width="0.1524" layer="22"/>
-<wire x1="-7.62" y1="1.905" x2="1.905" y2="1.905" width="0.1524" layer="22"/>
-<wire x1="-5.08" y1="0.635" x2="1.905" y2="0.635" width="0.1524" layer="22"/>
-<wire x1="-7.62" y1="-0.635" x2="1.905" y2="-0.635" width="0.1524" layer="22"/>
-<text x="4.572" y="-3.556" size="0.762" layer="22" rot="MR0">GND</text>
-<text x="3.556" y="-2.286" size="0.762" layer="22" rot="MR0">IO</text>
-<text x="4.064" y="-1.016" size="0.762" layer="22" rot="MR0">SCL</text>
-<text x="4.318" y="0.254" size="0.762" layer="22" rot="MR0">SDA</text>
-<text x="4.064" y="1.524" size="0.762" layer="22" rot="MR0">3V3</text>
-<text x="3.81" y="2.794" size="0.762" layer="22" rot="MR0">NC</text>
-</package>
 </packages>
 <symbols>
 <symbol name="SOLDERJUMPER">
@@ -7085,38 +7047,6 @@ http://www.tycoelectronics.com</description>
 <pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-<symbol name="RJ12">
-<wire x1="-5.08" y1="7.62" x2="-5.08" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-10.16" x2="2.54" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-10.16" x2="2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="5.08" y1="0" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<wire x1="5.08" y1="2.54" x2="2.54" y2="2.54" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="2.54" y1="5.08" x2="2.54" y2="7.62" width="0.254" layer="94"/>
-<wire x1="2.54" y1="7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="7.62" x2="-2.54" y2="5.08" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="10.16" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="-12.7" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-12.7" x2="7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="-7.62" y2="10.16" width="0.254" layer="94"/>
-<wire x1="2.54" y1="2.54" x2="5.08" y2="0" width="0.254" layer="94"/>
-<wire x1="7.62" y1="10.16" x2="10.16" y2="7.62" width="0.254" layer="94"/>
-<wire x1="10.16" y1="7.62" x2="10.16" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-15.24" x2="-5.08" y2="-15.24" width="0.254" layer="94"/>
-<wire x1="-5.08" y1="-15.24" x2="-7.62" y2="-12.7" width="0.254" layer="94"/>
-<wire x1="0" y1="5.08" x2="2.54" y2="5.08" width="0.254" layer="94"/>
-<pin name="1" x="-10.16" y="-7.62" length="middle"/>
-<pin name="2" x="-10.16" y="-5.08" length="middle"/>
-<pin name="3" x="-10.16" y="-2.54" length="middle"/>
-<pin name="4" x="-10.16" y="0" length="middle"/>
-<pin name="5" x="-10.16" y="2.54" length="middle"/>
-<pin name="6" x="-10.16" y="5.08" length="middle"/>
-<text x="-7.62" y="11.176" size="1.27" layer="95">&gt;NAME</text>
-<text x="-5.08" y="-17.78" size="1.27" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -7139,67 +7069,6 @@ http://www.tycoelectronics.com</description>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="OPENAG-I2C-RJ12" prefix="J">
-<description>&lt;strong&gt;Assmann WSW Components - A-2004-1-4-LP-N-R - RJ12 CONN MOD JACK 6P6C R/A UNSHLD&lt;/strong&gt;
-&lt;p&gt;Description:
-	&lt;ul&gt;
-		&lt;li&gt;Jack Modular Connector 6p6c (RJ11, RJ12, RJ14, RJ25) 90° Angle (Right) Unshielded&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-	&lt;ul id='specs'&gt;
-		&lt;li&gt;Connector Type: Jack&lt;/li&gt;
-		&lt;li&gt;Number of Positions/Contacts: 6p6c (RJ11, RJ12, RJ14, RJ25)&lt;/li&gt;
-		&lt;li&gt;Number of Ports: 1&lt;/li&gt;
-		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
-		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
-		&lt;li&gt;Orientation: 90° Angle (Right)&lt;/li&gt;
-		&lt;li&gt;Termination: Solder&lt;/li&gt;
-		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
-		&lt;li&gt;Features: Board Lock&lt;/li&gt;
-		&lt;li&gt;LED Color: Does Not Contain LED&lt;/li&gt;
-		&lt;li&gt;Tab Direction: Down&lt;/li&gt;
-		&lt;li&gt;Contact Material: Phosphor Bronze&lt;/li&gt;
-		&lt;li&gt;Contact Finish: Gold&lt;/li&gt;
-		&lt;li&gt;Contact Finish Thickness: 6µin (0.152µm)&lt;/li&gt;
-		&lt;li&gt;Housing Material: Polybutylene Terephthalate (PBT), Glass Filled&lt;/li&gt;
-		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='http://www.assmann-wsw.com/fileadmin/datasheets/ASS_7320_CO.pdf'&gt;A-2004-1-4-LP-N Drawing&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-1-4-LP-N-R/AE10383-ND/2183634'&gt;AE10383-ND&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="RJ12" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="OPENAG-I2C-RJ12">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-<connect gate="G$1" pin="4" pad="4"/>
-<connect gate="G$1" pin="5" pad="5"/>
-<connect gate="G$1" pin="6" pad="6"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MPN" value="A-2004-1-4-LP-N-R" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7627,6 +7496,186 @@ http://www.tycoelectronics.com</description>
 </deviceset>
 </devicesets>
 </library>
+<library name="openag-sensors">
+<packages>
+<package name="APDS-9250">
+<smd name="2" x="0" y="-0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="5" x="0" y="0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="4" x="0.65" y="0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="6" x="-0.65" y="0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="1" x="-0.65" y="-0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<smd name="3" x="0.65" y="-0.65" dx="0.9" dy="0.4" layer="1" rot="R90"/>
+<wire x1="-1" y1="1" x2="-0.95" y2="1" width="0.1524" layer="21"/>
+<wire x1="0.95" y1="-1" x2="1" y2="-1" width="0.1524" layer="21"/>
+<wire x1="1" y1="-1" x2="1" y2="1" width="0.1524" layer="21"/>
+<wire x1="1" y1="1" x2="0.95" y2="1" width="0.1524" layer="21"/>
+<wire x1="-1" y1="1" x2="-1" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-1" y1="-1" x2="-0.95" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="-1" x2="-0.3" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.3" y1="-1" x2="0.35" y2="-1" width="0.1524" layer="21"/>
+<wire x1="0.3" y1="1" x2="0.35" y2="1" width="0.1524" layer="21"/>
+<wire x1="-0.35" y1="1" x2="-0.3" y2="1" width="0.1524" layer="21"/>
+<text x="1.75" y="-1.15" size="0.508" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-1.25" y="-0.973" size="0.762" layer="25" rot="R90">&gt;NAME</text>
+<circle x="-1.1938" y="-1.2954" radius="0.05679375" width="0.254" layer="21"/>
+<circle x="-1.1938" y="-1.2954" radius="0.1626375" width="0.254" layer="21"/>
+</package>
+<package name="DFN6_TAOS">
+<wire x1="-1" y1="1" x2="1" y2="1" width="0.2032" layer="51"/>
+<wire x1="1" y1="1" x2="1" y2="-1" width="0.2032" layer="51"/>
+<wire x1="1" y1="-1" x2="-1" y2="-1" width="0.2032" layer="51"/>
+<wire x1="-1" y1="-1" x2="-1" y2="1" width="0.2032" layer="51"/>
+<smd name="1" x="-0.8" y="0.65" dx="1.3" dy="0.4" layer="1"/>
+<smd name="2" x="-0.8" y="0" dx="1.3" dy="0.4" layer="1"/>
+<smd name="3" x="-0.8" y="-0.65" dx="1.3" dy="0.4" layer="1"/>
+<smd name="4" x="0.8" y="-0.65" dx="1.3" dy="0.4" layer="1"/>
+<smd name="5" x="0.8" y="0" dx="1.3" dy="0.4" layer="1"/>
+<smd name="6" x="0.8" y="0.65" dx="1.3" dy="0.4" layer="1"/>
+<text x="-0.762" y="1.27" size="0.762" layer="25" ratio="18">&gt;NAME</text>
+<text x="-1.016" y="-1.778" size="0.508" layer="27" ratio="10">&gt;VALUE</text>
+<circle x="-1.524" y="1.778" radius="0.254" width="0.508" layer="21"/>
+</package>
+</packages>
+<symbols>
+<symbol name="APDS-9250">
+<pin name="SCL" x="-10.16" y="5.08" length="middle"/>
+<pin name="SDA" x="-10.16" y="0" length="middle"/>
+<pin name="INT" x="-10.16" y="-5.08" length="middle"/>
+<pin name="GND" x="15.24" y="-5.08" length="middle" direction="pwr" rot="R180"/>
+<pin name="VDD" x="15.24" y="5.08" length="middle" direction="pwr" rot="R180"/>
+<wire x1="-5.08" y1="-7.62" x2="-5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="-5.08" y1="7.62" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="-5.08" y2="-7.62" width="0.254" layer="94"/>
+<text x="-5.08" y="8.89" size="2.54" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-11.176" size="2.54" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="TSL2591">
+<wire x1="-7.62" y1="7.62" x2="5.08" y2="7.62" width="0.254" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="-10.16" x2="-7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="-10.16" x2="-7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="GND" x="-10.16" y="-7.62" length="short" direction="pwr"/>
+<pin name="INT" x="-10.16" y="0" length="short" direction="out"/>
+<pin name="NC" x="-10.16" y="-2.54" length="short" direction="nc"/>
+<pin name="SCL" x="-10.16" y="2.54" length="short"/>
+<pin name="SDA" x="-10.16" y="5.08" length="short"/>
+<pin name="VDD" x="-10.16" y="-5.08" length="short" direction="pwr"/>
+<text x="-7.62" y="8.636" size="1.27" layer="95">&gt;NAME</text>
+<text x="-7.62" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+</symbols>
+<devicesets>
+<deviceset name="APDS-9250" prefix="U">
+<description>&lt;strong&gt;Broadcom Limited - APDS-9250 - DIGITAL RGB, IR AND ALS&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Optical Sensor Ambient 550nm I²C 6-SMD Module&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Type: Ambient&lt;/li&gt;
+		&lt;li&gt;Wavelength: 550nm&lt;/li&gt;
+		&lt;li&gt;Proximity Detection: No&lt;/li&gt;
+		&lt;li&gt;Output Type: I²C&lt;/li&gt;
+		&lt;li&gt;Voltage - Supply: 1.7 V ~ 3.6 V&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: 6-SMD Module&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://docs.broadcom.com/docs/AV02-4733EN'&gt;APDS-9250&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/broadcom-limited/APDS-9250/516-3293-1-ND/5761192'&gt;516-3293-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="APDS-9250" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="APDS-9250">
+<connects>
+<connect gate="G$1" pin="GND" pad="6"/>
+<connect gate="G$1" pin="INT" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="2"/>
+<connect gate="G$1" pin="VDD" pad="3"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="APDS-9250" constant="no"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="TSL25911FN" prefix="U" uservalue="yes">
+<description>&lt;strong&gt;ams - TSL25911FN - IC LIGHT TO DGTL CONV 6-DFN&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Optical Sensor Ambient  I²C 6-WFDFN&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Type: Ambient&lt;/li&gt;
+		&lt;li&gt;Output Type: I²C&lt;/li&gt;
+		&lt;li&gt;Voltage - Supply: 2.7 V ~ 3.6 V&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -30°C ~ 70°C&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: 6-WFDFN&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: 6-DFN (2x2.2)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://ams.com/eng/content/download/389383/1251117/221135'&gt;TSl2591 Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/ams/TSL25911FN/TSL25911FNCT-ND/4211515'&gt;TSL25911FNCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="TSL2591" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="DFN6_TAOS">
+<connects>
+<connect gate="G$1" pin="GND" pad="3"/>
+<connect gate="G$1" pin="INT" pad="2"/>
+<connect gate="G$1" pin="NC" pad="4"/>
+<connect gate="G$1" pin="SCL" pad="1"/>
+<connect gate="G$1" pin="SDA" pad="6"/>
+<connect gate="G$1" pin="VDD" pad="5"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="TSL2591" constant="no"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+</devicesets>
+</library>
 </libraries>
 <attributes>
 </attributes>
@@ -7640,7 +7689,7 @@ http://www.tycoelectronics.com</description>
 <part name="FRAME1" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="AUTHOR" value="JR"/>
 <attribute name="DESCRIPTION" value=""/>
-<attribute name="TITLE" value="RJ12 Adapter"/>
+<attribute name="TITLE" value="Light Sensor Node"/>
 <attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/sensor-nodes"/>
 </part>
 <part name="D1" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
@@ -7703,16 +7752,22 @@ http://www.tycoelectronics.com</description>
 <part name="TP34" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP35" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="J1" library="openag_connector" deviceset="OPENAG-V1-RJ45" device="PTH" value="54602-908LF"/>
-<part name="J3" library="openag-connectors" deviceset="OPENAG-I2C-RJ12" device=""/>
-<part name="GND1" library="openag-supply" deviceset="GND" device=""/>
-<part name="+3V1" library="openag-supply" deviceset="+3V3" device=""/>
-<part name="J4" library="openag-connectors" deviceset="OPENAG-I2C-RJ12" device=""/>
-<part name="GND3" library="openag-supply" deviceset="GND" device=""/>
+<part name="U5" library="openag-sensors" deviceset="APDS-9250" device="" value="APDS-9250"/>
 <part name="+3V2" library="openag-supply" deviceset="+3V3" device=""/>
-<part name="TP1" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="TP3" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="TP5" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="TP2" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="GND3" library="openag-supply" deviceset="GND" device=""/>
+<part name="C2" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
+<part name="TP6" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP7" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP13" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP14" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="GND6" library="openag-supply" deviceset="GND" device=""/>
+<part name="+3V6" library="openag-supply" deviceset="+3V3" device=""/>
+<part name="U7" library="openag-sensors" deviceset="TSL25911FN" device="" value="TSL2591"/>
+<part name="C7" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
+<part name="TP19" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP20" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP21" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP22" library="openag-testpads" deviceset="TP" device="TP06R"/>
 </parts>
 <sheets>
 <sheet>
@@ -7752,11 +7807,20 @@ w/Indicator LED + Enable</text>
 <wire x1="-152.4" y1="111.76" x2="0" y2="111.76" width="0.254" layer="97" style="longdash"/>
 <text x="-119.38" y="48.26" size="3.81" layer="97">dI2C Buffer</text>
 <text x="-96.52" y="147.32" size="3.81" layer="97">RJ45 Connectors</text>
-<wire x1="76.2" y1="114.3" x2="152.4" y2="114.3" width="0.254" layer="97"/>
-<wire x1="152.4" y1="114.3" x2="152.4" y2="76.2" width="0.254" layer="97"/>
+<text x="76.2" y="78.74" size="3.048" layer="103">APDS-9250 Light Sensor</text>
+<text x="83.82" y="43.18" size="1.778" layer="97">Note:
+- I2C Addr is 0x52</text>
+<wire x1="76.2" y1="38.1" x2="152.4" y2="38.1" width="0.254" layer="97"/>
+<wire x1="152.4" y1="38.1" x2="152.4" y2="76.2" width="0.254" layer="97"/>
 <wire x1="152.4" y1="76.2" x2="76.2" y2="76.2" width="0.254" layer="97"/>
-<wire x1="76.2" y1="76.2" x2="76.2" y2="114.3" width="0.254" layer="97"/>
-<text x="76.2" y="116.84" size="3.81" layer="97">RJ12 Connectors Chainable</text>
+<wire x1="76.2" y1="76.2" x2="76.2" y2="38.1" width="0.254" layer="97"/>
+<text x="76.2" y="154.94" size="3.048" layer="103">TSL2591 Light Intensity Sensor</text>
+<text x="124.46" y="139.7" size="1.778" layer="97">Note
+-I2C Addr is 0x29</text>
+<wire x1="76.2" y1="114.3" x2="76.2" y2="152.4" width="0.254" layer="97"/>
+<wire x1="76.2" y1="152.4" x2="152.4" y2="152.4" width="0.254" layer="97"/>
+<wire x1="152.4" y1="152.4" x2="152.4" y2="114.3" width="0.254" layer="97"/>
+<wire x1="152.4" y1="114.3" x2="76.2" y2="114.3" width="0.254" layer="97"/>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="114.3" y="-114.3"/>
@@ -7847,22 +7911,24 @@ w/Indicator LED + Enable</text>
 <instance part="TP34" gate="G$1" x="-38.1" y="91.44" rot="R270"/>
 <instance part="TP35" gate="G$1" x="-134.62" y="134.62" rot="R180"/>
 <instance part="J1" gate="G$1" x="-116.84" y="127"/>
-<instance part="J3" gate="G$1" x="104.14" y="96.52"/>
-<instance part="GND1" gate="1" x="86.36" y="81.28" smashed="yes">
-<attribute name="VALUE" x="84.074" y="79.248" size="1.524" layer="96"/>
+<instance part="U5" gate="G$1" x="109.22" y="60.96"/>
+<instance part="+3V2" gate="G$1" x="127" y="73.66"/>
+<instance part="GND3" gate="1" x="127" y="50.8"/>
+<instance part="C2" gate="G$1" x="127" y="63.5"/>
+<instance part="TP6" gate="G$1" x="96.52" y="68.58"/>
+<instance part="TP7" gate="G$1" x="96.52" y="58.42" rot="R180"/>
+<instance part="TP13" gate="G$1" x="129.54" y="55.88" rot="R270"/>
+<instance part="TP14" gate="G$1" x="134.62" y="66.04" rot="R270"/>
+<instance part="GND6" gate="1" x="91.44" y="121.92"/>
+<instance part="+3V6" gate="G$1" x="91.44" y="137.16" smashed="yes">
+<attribute name="VALUE" x="88.9" y="134.62" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="+3V1" gate="G$1" x="88.9" y="104.14" smashed="yes">
-<attribute name="VALUE" x="86.36" y="106.68" size="1.778" layer="96"/>
-</instance>
-<instance part="J4" gate="G$1" x="139.7" y="96.52"/>
-<instance part="GND3" gate="1" x="124.46" y="86.36" smashed="yes">
-<attribute name="VALUE" x="122.174" y="84.328" size="1.524" layer="96"/>
-</instance>
-<instance part="+3V2" gate="G$1" x="124.46" y="104.14"/>
-<instance part="TP1" gate="G$1" x="91.44" y="101.6"/>
-<instance part="TP3" gate="G$1" x="83.82" y="91.44" rot="R180"/>
-<instance part="TP5" gate="G$1" x="91.44" y="86.36" rot="R180"/>
-<instance part="TP2" gate="G$1" x="83.82" y="99.06"/>
+<instance part="U7" gate="G$1" x="111.76" y="137.16"/>
+<instance part="C7" gate="G$1" x="91.44" y="129.54"/>
+<instance part="TP19" gate="G$1" x="99.06" y="144.78"/>
+<instance part="TP20" gate="G$1" x="99.06" y="137.16" rot="R180"/>
+<instance part="TP21" gate="G$1" x="88.9" y="132.08" rot="R90"/>
+<instance part="TP22" gate="G$1" x="88.9" y="124.46" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -7950,18 +8016,23 @@ w/Indicator LED + Enable</text>
 <wire x1="-58.42" y1="121.92" x2="-58.42" y2="119.38" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="1"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="124.46" y1="55.88" x2="127" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="58.42" width="0.1524" layer="91"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="129.54" y1="88.9" x2="124.46" y2="88.9" width="0.1524" layer="91"/>
+<wire x1="127" y1="55.88" x2="127" y2="53.34" width="0.1524" layer="91"/>
+<junction x="127" y="55.88"/>
+<pinref part="C2" gate="G$1" pin="2"/>
+<pinref part="TP13" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
-<wire x1="93.98" y1="88.9" x2="91.44" y2="88.9" width="0.1524" layer="91"/>
-<pinref part="TP5" gate="G$1" pin="TP"/>
-<pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="91.44" y1="88.9" x2="86.36" y2="88.9" width="0.1524" layer="91"/>
-<wire x1="86.36" y1="88.9" x2="86.36" y2="83.82" width="0.1524" layer="91"/>
-<junction x="91.44" y="88.9"/>
+<wire x1="91.44" y1="124.46" x2="101.6" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="124.46" x2="101.6" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="GND6" gate="1" pin="GND"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<pinref part="C7" gate="G$1" pin="2"/>
+<junction x="91.44" y="124.46"/>
+<pinref part="TP22" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -7976,15 +8047,16 @@ w/Indicator LED + Enable</text>
 <junction x="-134.62" y="76.2"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="3"/>
-<wire x1="93.98" y1="93.98" x2="83.82" y2="93.98" width="0.1524" layer="91"/>
-<label x="83.82" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP3" gate="G$1" pin="TP"/>
+<pinref part="U5" gate="G$1" pin="SCL"/>
+<wire x1="99.06" y1="66.04" x2="96.52" y2="66.04" width="0.1524" layer="91"/>
+<label x="96.52" y="66.04" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP6" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="3"/>
-<wire x1="129.54" y1="93.98" x2="127" y2="93.98" width="0.1524" layer="91"/>
-<label x="127" y="93.98" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="139.7" x2="99.06" y2="139.7" width="0.1524" layer="91"/>
+<label x="99.06" y="139.7" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U7" gate="G$1" pin="SCL"/>
+<pinref part="TP20" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -7999,15 +8071,16 @@ w/Indicator LED + Enable</text>
 <junction x="-121.92" y="81.28"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="4"/>
-<wire x1="93.98" y1="96.52" x2="83.82" y2="96.52" width="0.1524" layer="91"/>
-<label x="83.82" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
+<pinref part="U5" gate="G$1" pin="SDA"/>
+<wire x1="99.06" y1="60.96" x2="96.52" y2="60.96" width="0.1524" layer="91"/>
+<label x="96.52" y="60.96" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP7" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="4"/>
-<wire x1="129.54" y1="96.52" x2="127" y2="96.52" width="0.1524" layer="91"/>
-<label x="127" y="96.52" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="101.6" y1="142.24" x2="99.06" y2="142.24" width="0.1524" layer="91"/>
+<label x="99.06" y="142.24" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="U7" gate="G$1" pin="SDA"/>
+<pinref part="TP19" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -8039,19 +8112,23 @@ w/Indicator LED + Enable</text>
 <junction x="-111.76" y="83.82"/>
 </segment>
 <segment>
-<pinref part="J3" gate="G$1" pin="5"/>
-<pinref part="+3V1" gate="G$1" pin="+3V3"/>
-<wire x1="93.98" y1="99.06" x2="91.44" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="91.44" y1="99.06" x2="88.9" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="88.9" y1="99.06" x2="88.9" y2="101.6" width="0.1524" layer="91"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<junction x="91.44" y="99.06"/>
+<pinref part="U5" gate="G$1" pin="VDD"/>
+<wire x1="124.46" y1="66.04" x2="127" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="+3V2" gate="G$1" pin="+3V3"/>
+<pinref part="C2" gate="G$1" pin="1"/>
+<junction x="127" y="66.04"/>
+<wire x1="127" y1="66.04" x2="127" y2="71.12" width="0.1524" layer="91"/>
+<wire x1="127" y1="66.04" x2="132.08" y2="66.04" width="0.1524" layer="91"/>
+<pinref part="TP14" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="J4" gate="G$1" pin="5"/>
-<pinref part="+3V2" gate="G$1" pin="+3V3"/>
-<wire x1="129.54" y1="99.06" x2="124.46" y2="99.06" width="0.1524" layer="91"/>
-<wire x1="124.46" y1="99.06" x2="124.46" y2="101.6" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="132.08" x2="91.44" y2="132.08" width="0.1524" layer="91"/>
+<pinref part="+3V6" gate="G$1" pin="+3V3"/>
+<wire x1="91.44" y1="132.08" x2="91.44" y2="134.62" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VDD"/>
+<pinref part="C7" gate="G$1" pin="1"/>
+<junction x="91.44" y="132.08"/>
+<pinref part="TP21" gate="G$1" pin="TP"/>
 </segment>
 </net>
 <net name="+24V" class="0">
@@ -8316,13 +8393,6 @@ w/Indicator LED + Enable</text>
 <pinref part="J2" gate="G$1" pin="USBM"/>
 <wire x1="-27.94" y1="121.92" x2="-22.86" y2="121.92" width="0.1524" layer="91"/>
 <label x="-22.86" y="121.92" size="1.27" layer="95" xref="yes"/>
-</segment>
-</net>
-<net name="IO" class="0">
-<segment>
-<pinref part="J4" gate="G$1" pin="2"/>
-<wire x1="129.54" y1="91.44" x2="127" y2="91.44" width="0.1524" layer="91"/>
-<label x="127" y="91.44" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 </nets>
