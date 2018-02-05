@@ -4,7 +4,8 @@
 <designblock>
 <description>5-24V to 3.3V@400mA Linear Regulator.</description>
 <attributes>
-<attribute name="BOARDSIZE" value="926 x 618 mil"/>
+<attribute name="AIRWIRES" value="YES"/>
+<attribute name="BOARDSIZE" value="926 x 1058 mil"/>
 <attribute name="LAYERS" value="1: 1"/>
 </attributes>
 <drawings>
@@ -457,6 +458,53 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="0OHM-RC0603JR-070RL" prefix="R">
+<description>&lt;b&gt; Yageo - RC0603JR-070RL - RES SMD 0 OHM JUMPER 1/10W 0603&lt;/b&gt;
+&lt;p&gt;Description:
+&lt;ul&gt;
+&lt;li&gt;0 Ohms Jumper 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Resistance: 0 Ohms&lt;/li&gt;
+&lt;li&gt;Power: 0.1W, 1/10W&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
+&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf"&gt;RC Series, L Datasheet&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+&lt;ul&gt;
+&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/yageo/RC0603JR-070RL/311-0.0GRCT-ND/729622"&gt;311-0.0GRCT-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0603N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="0 OHM" constant="no"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="openag-regulators">
@@ -856,67 +904,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="openag-connectors">
-<packages>
-<package name="SOLDERJUMPER_REFLOW_NOPASTE">
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
-<text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="SOLDERJUMPER">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SOLDERJUMPER" prefix="SJ" uservalue="yes">
-<description>&lt;p&gt;&lt;b&gt;SMD Solder JUMPER&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Solder the two pads together to create a connection, or remove the solder to break it.&lt;/p&gt;
-&lt;b&gt;REFLOW&lt;/b&gt; - Use this footprint for solder paste and reflow ovens.&lt;br/&gt;
-&lt;b&gt;WAVE&lt;/b&gt; - Use this footprint for hand-soldering (larger pads).
-&lt;p&gt;&lt;b&gt;CLOSED&lt;/b&gt; - Has a trace between the two pads to ensure it is closed by default.  The trace needs to be cut to disable the jumper, and can be closed again by creating a solder bridge between the two pads.&lt;/p&gt;</description>
-<gates>
-<gate name="1" symbol="SOLDERJUMPER" x="0" y="0"/>
-</gates>
-<devices>
-<device name="REFLOW_NOPASTE" package="SOLDERJUMPER_REFLOW_NOPASTE">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -934,7 +921,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <part name="C1" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
 <part name="GND4" library="openag-supply" deviceset="GND" device=""/>
 <part name="C2" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
-<part name="SJ1" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
+<part name="R2" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
 <part name="F1" library="openag-fuses" deviceset="0438.375WR" device="" value="0448.400MR"/>
 <part name="+3V2" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="TP2" library="openag-testpads" deviceset="TP" device="TP06R"/>
@@ -957,7 +944,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="0" y1="38.1" x2="76.2" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="76.2" y1="38.1" x2="152.4" y2="38.1" width="0.1524" layer="97" style="longdash"/>
 <wire x1="76.2" y1="38.1" x2="76.2" y2="0" width="0.1524" layer="97" style="longdash"/>
-<text x="13.208" y="27.94" size="3.81" layer="103">3.3V Enable Jumper</text>
+<text x="13.208" y="27.94" size="3.81" layer="103">3.3V Enable Resistor</text>
 <text x="48.768" y="71.12" size="3.81" layer="103">3.3V, 400mA Regulator</text>
 </plain>
 <instances>
@@ -968,7 +955,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <instance part="C1" gate="G$1" x="38.1" y="53.34"/>
 <instance part="GND4" gate="1" x="48.26" y="43.18"/>
 <instance part="C2" gate="G$1" x="101.6" y="50.8"/>
-<instance part="SJ1" gate="1" x="35.56" y="12.7"/>
+<instance part="R2" gate="G$1" x="35.56" y="12.7"/>
 <instance part="F1" gate="A" x="111.76" y="53.34"/>
 <instance part="+3V2" gate="G$1" x="48.26" y="20.32"/>
 <instance part="TP2" gate="G$1" x="35.56" y="45.72" rot="R90"/>
@@ -1001,7 +988,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 </net>
 <net name="+3V3" class="0">
 <segment>
-<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="R2" gate="G$1" pin="2"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 <wire x1="40.64" y1="12.7" x2="48.26" y2="12.7" width="0.1524" layer="91" style="longdash"/>
 <wire x1="48.26" y1="12.7" x2="48.26" y2="17.78" width="0.1524" layer="91" style="longdash"/>
@@ -1019,7 +1006,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <net name="REG_3V3_400MA" class="0">
 <segment>
 <label x="25.4" y="12.7" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="SJ1" gate="1" pin="1"/>
+<pinref part="R2" gate="G$1" pin="1"/>
 <wire x1="25.4" y1="12.7" x2="30.48" y2="12.7" width="0.1524" layer="91"/>
 </segment>
 <segment>
@@ -1249,7 +1236,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="0.635" y1="12.065" x2="3.429" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="7.239" y1="12.065" x2="9.652" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="10.668" y1="12.065" x2="16.002" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="19.939" y1="12.065" x2="22.225" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="19.431" y1="12.065" x2="22.225" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="22.225" y1="12.065" x2="22.225" y2="8.255" width="0.1524" layer="21" style="shortdash"/>
 <text x="0" y="13.208" size="0.762" layer="21">5-26V to 3.3V@400mA Regulator
 w/3v3 Enable, Indicator LED &amp; Fuse</text>
@@ -1257,20 +1244,20 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="21.59" y1="11.43" x2="21.59" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="21.59" y1="1.27" x2="1.27" y2="1.27" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="1.27" x2="1.27" y2="11.43" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="6.604" x2="6.604" y2="9.652" width="0.1524" layer="21"/>
+<wire x1="6.604" y1="7.366" x2="6.604" y2="9.652" width="0.1524" layer="21"/>
 <wire x1="6.604" y1="9.652" x2="6.604" y2="10.922" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="10.922" x2="2.54" y2="10.922" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="10.922" x2="2.54" y2="9.652" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="9.652" x2="2.54" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.604" x2="6.604" y2="6.604" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="9.652" x2="6.604" y2="9.652" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="6.096" x2="2.54" y2="4.826" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="4.826" x2="2.54" y2="2.286" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.286" x2="6.604" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="6.604" y1="10.922" x2="2.794" y2="10.922" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="10.922" x2="2.794" y2="9.652" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="9.652" x2="2.794" y2="7.366" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="7.366" x2="6.604" y2="7.366" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="9.652" x2="6.604" y2="9.652" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="6.096" x2="2.794" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="4.826" x2="2.794" y2="2.286" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="2.286" x2="6.604" y2="2.286" width="0.1524" layer="21"/>
 <wire x1="6.604" y1="2.286" x2="6.604" y2="4.826" width="0.1524" layer="21"/>
 <wire x1="6.604" y1="4.826" x2="6.604" y2="6.096" width="0.1524" layer="21"/>
-<wire x1="6.604" y1="6.096" x2="2.54" y2="6.096" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="4.826" x2="6.604" y2="4.826" width="0.1524" layer="21"/>
+<wire x1="6.604" y1="6.096" x2="2.794" y2="6.096" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="4.826" x2="6.604" y2="4.826" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="openag-capacitors">
@@ -1427,29 +1414,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <description>&lt;b&gt;TEST PAD&lt;/b&gt;</description>
 <smd name="TP" x="0" y="0" dx="0.6" dy="0.6" layer="1" roundness="100" cream="no"/>
 <text x="0" y="-1.905" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
-</package>
-</packages>
-</library>
-<library name="openag-connectors">
-<packages>
-<package name="SOLDERJUMPER_REFLOW_NOPASTE">
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
-<text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1665,8 +1629,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="12.446" y="3.81" size="0.4572" layer="27" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="10.922" y="4.572" size="0.762" layer="27" rot="R90" display="off"/>
 </element>
-<element name="SJ1" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="4.572" y="8.128" smashed="yes">
+<element name="R2" library="openag-resistors" package="RC0603N" value="0 OHM" x="4.572" y="8.128" smashed="yes">
+<attribute name="NAME" x="3.4417" y="8.6995" size="0.762" layer="25" ratio="6" rot="SR0"/>
 <attribute name="POPULATE" value="YES" x="4.572" y="8.128" size="0.762" layer="27" display="off"/>
+<attribute name="VALUE" x="6.35" y="7.62" size="0.3556" layer="27" ratio="6" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="4.572" y="8.128" size="0.762" layer="27" display="off"/>
 </element>
 <element name="F1" library="openag-fuses" package="0603" value="0448.400MR" x="4.572" y="3.048" smashed="yes" rot="R180">
@@ -1678,11 +1644,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP2" library="openag-testpads" package="TP06R" value="TPTP06R" x="13.208" y="0.762">
 <attribute name="TP_SIGNAL_NAME" value="" x="13.208" y="0.762" size="0.762" layer="27" display="off"/>
 </element>
-<element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="19.05" y="12.192">
-<attribute name="TP_SIGNAL_NAME" value="" x="19.05" y="12.192" size="0.762" layer="27" display="off"/>
+<element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="1.27" y="-8.89">
+<attribute name="TP_SIGNAL_NAME" value="" x="1.27" y="-8.89" size="0.762" layer="27" display="off"/>
 </element>
-<element name="TP3" library="openag-testpads" package="TP06R" value="TPTP06R" x="6.604" y="12.192">
-<attribute name="TP_SIGNAL_NAME" value="" x="6.604" y="12.192" size="0.762" layer="27" display="off"/>
+<element name="TP3" library="openag-testpads" package="TP06R" value="TPTP06R" x="0.508" y="-10.414">
+<attribute name="TP_SIGNAL_NAME" value="" x="0.508" y="-10.414" size="0.762" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -1702,7 +1668,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="TP2" pad="TP"/>
 </signal>
 <signal name="+3V3">
-<contactref element="SJ1" pad="2"/>
+<contactref element="R2" pad="2"/>
 <polygon width="0.1524" layer="1">
 <vertex x="9.398" y="12.7"/>
 <vertex x="9.398" y="8.001"/>
@@ -1710,6 +1676,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <vertex x="0" y="12.7"/>
 </polygon>
 <contactref element="TP3" pad="TP"/>
+<wire x1="5.3498" y1="8.128" x2="0.508" y2="-10.414" width="0" layer="19" extent="1-1"/>
+</signal>
+<signal name="+24V">
+<polygon width="0.1524" layer="1">
+<vertex x="10.287" y="12.7"/>
+<vertex x="10.287" y="8.255"/>
+<vertex x="22.86" y="8.255"/>
+<vertex x="22.86" y="12.7"/>
+</polygon>
 </signal>
 <signal name="N$6">
 <contactref element="D2" pad="A"/>
@@ -1720,10 +1695,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="4"/>
 </signal>
 <signal name="REG_3V3_400MA">
-<contactref element="SJ1" pad="1"/>
+<contactref element="R2" pad="1"/>
 <contactref element="R1" pad="2"/>
 <contactref element="F1" pad="2"/>
-<wire x1="3.81" y1="8.128" x2="3.7942" y2="4.318" width="0.6096" layer="1"/>
+<wire x1="3.7942" y1="8.128" x2="3.7942" y2="4.318" width="0.6096" layer="1"/>
 <wire x1="3.7942" y1="4.318" x2="3.7942" y2="3.048" width="0.6096" layer="1"/>
 <wire x1="8.509" y1="3.7942" x2="8.1438" y2="3.7942" width="0.6096" layer="1"/>
 <wire x1="8.1438" y1="3.7942" x2="7.62" y2="4.318" width="0.6096" layer="1"/>
@@ -1744,12 +1719,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="U2" pad="1"/>
 <contactref element="C1" pad="1"/>
 <contactref element="TP1" pad="TP"/>
-<polygon width="0.1524" layer="1">
-<vertex x="10.287" y="12.7"/>
-<vertex x="10.287" y="8.255"/>
-<vertex x="22.86" y="8.255"/>
-<vertex x="22.86" y="12.7"/>
-</polygon>
+<wire x1="10.922" y1="9.232" x2="14.0716" y2="7.888" width="0" layer="19" extent="1-1"/>
+<wire x1="1.27" y1="-8.89" x2="10.922" y2="9.232" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>

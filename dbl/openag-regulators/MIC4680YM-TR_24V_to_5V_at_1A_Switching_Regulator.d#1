@@ -4,7 +4,8 @@
 <designblock>
 <description>24V to 5V@1A Switching Regulator.</description>
 <attributes>
-<attribute name="BOARDSIZE" value="1540 x 773 mil"/>
+<attribute name="AIRWIRES" value="YES"/>
+<attribute name="BOARDSIZE" value="1540 x 918 mil"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -1375,7 +1376,7 @@ w/Indicator LED + Enable</text>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1569,13 +1570,13 @@ w/Indicator LED + Enable</text>
 <wire x1="8.9535" y1="17.145" x2="18.415" y2="17.145" width="0.1524" layer="21" style="shortdash"/>
 <text x="0" y="18.288" size="0.762" layer="21">24V-to-5V@1A Switching Regulator w/Indicator LED + Enable</text>
 <text x="14.732" y="9.398" size="0.762" layer="21">Enable</text>
-<wire x1="13.97" y1="10.414" x2="18.542" y2="10.414" width="0.1524" layer="21"/>
-<wire x1="18.542" y1="10.414" x2="18.542" y2="9.144" width="0.1524" layer="21"/>
-<wire x1="18.542" y1="9.144" x2="18.542" y2="6.096" width="0.1524" layer="21"/>
-<wire x1="18.542" y1="6.096" x2="13.97" y2="6.096" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="6.096" x2="13.97" y2="9.144" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="9.144" x2="13.97" y2="10.414" width="0.1524" layer="21"/>
-<wire x1="13.97" y1="9.144" x2="18.542" y2="9.144" width="0.1524" layer="21"/>
+<wire x1="14.224" y1="10.414" x2="18.288" y2="10.414" width="0.1524" layer="21"/>
+<wire x1="18.288" y1="10.414" x2="18.288" y2="9.144" width="0.1524" layer="21"/>
+<wire x1="18.288" y1="9.144" x2="18.288" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="18.288" y1="6.604" x2="14.224" y2="6.604" width="0.1524" layer="21"/>
+<wire x1="14.224" y1="6.604" x2="14.224" y2="9.144" width="0.1524" layer="21"/>
+<wire x1="14.224" y1="9.144" x2="14.224" y2="10.414" width="0.1524" layer="21"/>
+<wire x1="14.224" y1="9.144" x2="18.288" y2="9.144" width="0.1524" layer="21"/>
 </plain>
 <libraries>
 <library name="openag-capacitors">
@@ -2008,7 +2009,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="7.874" y="7.112" size="1.27" layer="27" rot="R90"/>
 </element>
 <element name="D1" library="openag-diodes" package="SMA" value="B260A-13-F" x="19.8755" y="3.429" smashed="yes">
-<attribute name="NAME" x="23.876" y="2.286" size="0.762" layer="25" ratio="6" rot="SR90"/>
+<attribute name="NAME" x="17.018" y="5.334" size="0.762" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" x="17.9959" y="2.032" size="0.508" layer="27" ratio="6" rot="SR0"/>
 </element>
 <element name="R1" library="openag-resistors" package="RC0603N" value="3.01K" x="26.416" y="7.62" rot="R90"/>
@@ -2022,11 +2023,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VALUE" x="21.971" y="8.89" size="0.3556" layer="27" ratio="6"/>
 <attribute name="VERIFIED" value="NO" x="22.987" y="8.382" size="1.778" layer="27" display="off"/>
 </element>
-<element name="D2" library="openag-diodes" package="CHIPLED_0603" value="APT1608CGCK" x="20.1295" y="8.382" smashed="yes" rot="R90">
-<attribute name="NAME" x="19.7485" y="6.985" size="0.762" layer="25"/>
-<attribute name="POPULATE" value="YES" x="20.1295" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="19.1135" y="5.969" size="0.508" layer="27"/>
-<attribute name="VERIFIED" value="NO" x="20.1295" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
+<element name="D2" library="openag-diodes" package="CHIPLED_0603" value="APT1608CGCK" x="19.8755" y="8.382" smashed="yes" rot="R90">
+<attribute name="NAME" x="19.4945" y="6.985" size="0.762" layer="25"/>
+<attribute name="POPULATE" value="YES" x="19.8755" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="18.8595" y="5.969" size="0.508" layer="27"/>
+<attribute name="VERIFIED" value="NO" x="19.8755" y="8.382" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="8.128" y="17.272">
 <attribute name="TP_SIGNAL_NAME" value="" x="8.128" y="17.272" size="0.762" layer="27" display="off"/>
@@ -2040,10 +2041,10 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP4" library="openag-testpads" package="TP06R" value="TPTP06R" x="26.416" y="17.272">
 <attribute name="TP_SIGNAL_NAME" value="" x="26.416" y="17.272" size="0.762" layer="27" display="off"/>
 </element>
-<element name="SJ1" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="16.256" y="7.62" smashed="yes" rot="R180">
-<attribute name="POPULATE" value="YES" x="16.256" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="15.8559" y="7.62" size="0.02" layer="27" rot="R180"/>
-<attribute name="VERIFIED" value="NO" x="16.256" y="7.62" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="SJ1" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="16.51" y="-1.27" smashed="yes">
+<attribute name="POPULATE" value="YES" x="16.51" y="-1.27" size="1.778" layer="27" display="off"/>
+<attribute name="VALUE" x="16.9101" y="-1.27" size="0.02" layer="27"/>
+<attribute name="VERIFIED" value="NO" x="16.51" y="-1.27" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -2135,14 +2136,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </polygon>
 <contactref element="TP1" pad="TP"/>
 <contactref element="SJ1" pad="2"/>
-<wire x1="15.494" y1="7.62" x2="14.478" y2="7.62" width="0.6096" layer="1"/>
-<wire x1="14.478" y1="7.62" x2="13.462" y2="8.636" width="0.6096" layer="1"/>
-<wire x1="13.462" y1="8.636" x2="13.462" y2="10.668" width="0.6096" layer="1"/>
+<wire x1="17.272" y1="-1.27" x2="8.128" y2="17.272" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="N$5">
 <contactref element="R3" pad="1"/>
 <contactref element="D2" pad="A"/>
-<wire x1="22.2092" y1="8.382" x2="20.8795" y2="8.382" width="0.5588" layer="1"/>
+<wire x1="22.2092" y1="8.382" x2="20.6255" y2="8.382" width="0.5588" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="R1" pad="2"/>
@@ -2160,8 +2159,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="23.7648" y1="8.382" x2="23.7806" y2="8.3978" width="0.5588" layer="1"/>
 <wire x1="23.7806" y1="8.3978" x2="26.416" y2="8.3978" width="0.5588" layer="1"/>
 <contactref element="SJ1" pad="1"/>
-<wire x1="17.018" y1="7.62" x2="17.0338" y2="7.6358" width="0.6096" layer="1"/>
-<wire x1="17.0338" y1="7.6358" x2="17.0338" y2="9.8902" width="0.6096" layer="1"/>
+<wire x1="15.748" y1="-1.27" x2="7.366" y2="14.7447" width="0" layer="19" extent="1-1"/>
 </signal>
 </signals>
 </board>
