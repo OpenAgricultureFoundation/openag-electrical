@@ -170,6 +170,27 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <wire x1="-2.794" y1="1.4478" x2="-2.794" y2="-1.4478" width="0.1524" layer="51"/>
 <text x="-2.7686" y="1.905" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 </package>
+<package name="POWERDI123">
+<smd name="+" x="-1.3" y="0" dx="1.05" dy="1.5" layer="1"/>
+<smd name="-" x="1.05" y="0" dx="2.4" dy="1.5" layer="1"/>
+<wire x1="-1.25" y1="1" x2="1.75" y2="1" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="1" x2="1.75" y2="-1" width="0.1524" layer="21"/>
+<wire x1="1.75" y1="-1" x2="-1.25" y2="-1" width="0.1524" layer="21"/>
+<wire x1="-1.25" y1="-1" x2="-1.25" y2="1" width="0.1524" layer="21"/>
+<text x="-1.27" y="1.27" size="0.762" layer="21">&gt;NAME</text>
+<text x="-1.27" y="-1.778" size="0.508" layer="27">&gt;VALUE</text>
+<wire x1="2.794" y1="0.508" x2="2.794" y2="0.381" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="0.381" x2="2.794" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="2.794" y1="-0.508" x2="2.921" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-0.381" x2="3.302" y2="0" width="0.1524" layer="21"/>
+<wire x1="3.302" y1="0" x2="2.794" y2="0.508" width="0.1524" layer="21"/>
+<wire x1="3.429" y1="0.508" x2="3.429" y2="-0.508" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="0.254" x2="2.921" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="3.048" y1="0.127" x2="3.048" y2="-0.127" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="0" x2="2.921" y2="-0.254" width="0.1524" layer="21"/>
+<wire x1="2.921" y1="-0.254" x2="2.921" y2="-0.381" width="0.1524" layer="21"/>
+<wire x1="3.175" y1="0" x2="2.794" y2="0.381" width="0.1524" layer="21"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TVS-DIODE">
@@ -502,6 +523,58 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="VALUE" value="B260A-13-F" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SBR2A40P1-7" prefix="D">
+<description>&lt;strong&gt;Diodes Incorporated - SBR2A40P1-7 - DIODE SBR 40V 2A POWERDI123&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Diode Super Barrier 40V 2A Surface Mount PowerDI™ 123&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Diode Type: Super Barrier&lt;/li&gt;
+		&lt;li&gt;Voltage - DC Reverse (Vr) (Max): 40V&lt;/li&gt;
+		&lt;li&gt;Current - Average Rectified (Io): 2A&lt;/li&gt;
+		&lt;li&gt;Voltage - Forward (Vf) (Max) @ If: 500mV @ 2A&lt;/li&gt;
+		&lt;li&gt;Speed: Standard Recovery &gt;500ns, &gt; 200mA (Io)&lt;/li&gt;
+		&lt;li&gt;Current - Reverse Leakage @ Vr: 100µA @ 40V&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: POWERDI®123&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: PowerDI™ 123&lt;/li&gt;
+		&lt;li&gt;Operating Temperature - Junction: -65°C ~ 150°C&lt;/li&gt;
+		&lt;li&gt;Base Part Number: SBR2A40&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://www.diodes.com/assets/Datasheets/SBR2A40P1.pdf'&gt;SBR2A40P1&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825'&gt;SBR2A40P1DITR-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="DIODE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="POWERDI123">
+<connects>
+<connect gate="G$1" pin="12" pad="+"/>
+<connect gate="G$1" pin="21" pad="-"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="SBR2A40P1-7" constant="no"/>
 </technology>
 </technologies>
 </device>
