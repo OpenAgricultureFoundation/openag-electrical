@@ -784,6 +784,60 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="15UF-C2012X5R1V156M125AC" prefix="C">
+<description>&lt;strong&gt;TDK Corporation - C2012X5R1V156M125AC - CAP CER 15UF 35V X5R 0805&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;15µF ±20% 35V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Capacitance: 15µF&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 35V&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: X5R&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Features: Low ESL&lt;/li&gt;
+		&lt;li&gt;Applications: General Purpose&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount, MLCC&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0805 (2012 Metric)&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.079" L x 0.049" W (2.00mm x 1.25mm)&lt;/li&gt;
+		&lt;li&gt;Thickness (Max): 0.057" (1.45mm)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://product.tdk.com/info/en/catalog/datasheets/mlcc_commercial_general_en.pdf'&gt;C Series, General  Datasheet&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='https://product.tdk.com/en/products/common/pdf/mlcc_partnumber_description.pdf'&gt;MLCC Part Number Guide&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='https://product.tdk.com/info/en/catalog/spec/mlccspec_commercial_general_midvoltage_en.pdf'&gt;C Series, Gen Appl &amp; Mid-Voltage Spec&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1V156M125AC/445-14423-1-ND/3956089'&gt;445-14423-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0805">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="15uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>

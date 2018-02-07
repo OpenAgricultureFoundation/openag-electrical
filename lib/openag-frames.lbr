@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -6063,8 +6063,14 @@ Scaled from 300x75 pixel monochrome bmp</description>
 <hole x="0" y="0" drill="3.81"/>
 <wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.127" layer="49"/>
 <wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.127" layer="49"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="41"/>
-<circle x="0" y="0" radius="2.54" width="0.1524" layer="42"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.0254" layer="41"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="-3.81" x2="3.81" y2="3.81" width="0.0254" layer="42"/>
+<wire x1="3.81" y1="3.81" x2="-3.81" y2="3.81" width="0.0254" layer="42"/>
+<wire x1="-3.81" y1="3.81" x2="-3.81" y2="-3.81" width="0.0254" layer="42"/>
+<wire x1="-3.81" y1="-3.81" x2="3.81" y2="-3.81" width="0.0254" layer="42"/>
 </package>
 </packages>
 <symbols>
