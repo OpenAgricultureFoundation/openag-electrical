@@ -87,8 +87,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
 <smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.413" y="-1.651" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-0.508" y="1.397" size="0.762" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.651" size="0.635" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
 <rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
 <rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
@@ -365,7 +365,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="SMAJ26A-13-F" prefix="CR">
+<deviceset name="SMAJ26A-13-F" prefix="D">
 <description>&lt;b&gt; Diodes Incorporated - SMAJ26A-13-F - TVS DIODE 26VWM 42.1VC SMA&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
@@ -409,9 +409,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="SMAJ26A-13-F" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VALUE" value="SMAJ26A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -468,7 +466,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="APT1608CGCK" constant="no"/>
+<attribute name="VALUE" value="APT1608" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>

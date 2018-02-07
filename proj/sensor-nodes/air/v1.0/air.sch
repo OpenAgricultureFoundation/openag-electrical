@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -351,7 +351,7 @@
 <technologies>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="100 OHM" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>
@@ -415,20 +415,157 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="R0603" prefix="R">
-<description>Placeholder 0603 Resistor</description>
+<deviceset name="10K-ERJ-3EKF1002V" prefix="R">
+<description>&lt;b&gt; Panasonic - ERJ-3EKF1002V - RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
+&lt;p&gt;Description:
+&lt;ul&gt;
+&lt;li&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Resistance: 10kOhms&lt;/li&gt;
+&lt;li&gt;Tolerance: ±1%&lt;/li&gt;
+&lt;li&gt;Power: 0.1W, 1/10W&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
+&lt;li&gt;Package/Case: 0603 (1608 Metric)&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/precision-thick-film-chip-resistors/ERJ3EKF1002V"&gt;ERJ-3EKF1002V View All Specifications&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+&lt;ul&gt;
+&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102"&gt;P10.0KHCT-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="1" symbol="R-US" x="0" y="0"/>
+<gate name="A" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RC0603N">
 <connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="NV" constant="no"/>
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="10K"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="600OHM-RC0603FR-07604RL" prefix="R">
+<description>&lt;strong&gt;Yageo - RC0603FR-07604RL - RES SMD 604 OHM 1% 1/10W 0603&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;604 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Resistance: 604 Ohms&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±1%&lt;/li&gt;
+		&lt;li&gt;Power (Watts): 0.1W, 1/10W&lt;/li&gt;
+		&lt;li&gt;Composition: Thick Film&lt;/li&gt;
+		&lt;li&gt;Features: Moisture Resistant&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: ±100ppm/°C&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: 0603&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.063" L x 0.032" W (1.60mm x 0.80mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.022" (0.55mm)&lt;/li&gt;
+		&lt;li&gt;Number of Terminations: 2&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf'&gt;RC Series, L Datasheet&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf'&gt;Chip Resistor Marking&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276'&gt;311-604HRCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0603N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="600" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="120OHM-RC0603FR-07120RL">
+<description>&lt;strong&gt;Yageo - RC0603FR-07120RL - RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Resistance: 120 Ohms&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±1%&lt;/li&gt;
+		&lt;li&gt;Power (Watts): 0.1W, 1/10W&lt;/li&gt;
+		&lt;li&gt;Composition: Thick Film&lt;/li&gt;
+		&lt;li&gt;Features: Moisture Resistant&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: ±100ppm/°C&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: 0603&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.063" L x 0.032" W (1.60mm x 0.80mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.022" (0.55mm)&lt;/li&gt;
+		&lt;li&gt;Number of Terminations: 2&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf'&gt;RC Series, L Datasheet&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf'&gt;Chip Resistor Marking&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-07120RL/311-120HRCT-ND/729867'&gt;311-120HRCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="RC0603N">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="120" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8067,7 +8204,7 @@ Cambridge, MA</text>
 <attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/sensor-nodes"/>
 </part>
 <part name="D1" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
-<part name="R2" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
+<part name="R2" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND5" library="openag-supply" deviceset="GND" device=""/>
 <part name="U4" library="openag-regulators" deviceset="LM2937IMP-3.3/NOPB" device="" value="LM2937IMP3.3NOPB"/>
 <part name="C6" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
@@ -8081,20 +8218,20 @@ Cambridge, MA</text>
 <part name="TP30" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="P+1" library="openag-supply" deviceset="+5V" device=""/>
 <part name="U2" library="openag-buffers" deviceset="PCA9615DPJ" device="" value="PCA9615DPJ"/>
-<part name="R13" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
-<part name="R14" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
-<part name="R15" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
-<part name="R16" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
+<part name="R13" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
+<part name="R14" library="openag-resistors" deviceset="120OHM-RC0603FR-07120RL" device="" value="120"/>
+<part name="R15" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
+<part name="R16" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
 <part name="+3V4" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="P+8" library="openag-supply" deviceset="+24V" device=""/>
 <part name="GND9" library="openag-supply" deviceset="GND" device=""/>
 <part name="GND10" library="openag-supply" deviceset="GND" device=""/>
 <part name="GND15" library="openag-supply" deviceset="GND" device=""/>
-<part name="R17" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
-<part name="R19" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
+<part name="R17" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
+<part name="R19" library="openag-resistors" deviceset="120OHM-RC0603FR-07120RL" device="" value="120"/>
 <part name="GND17" library="openag-supply" deviceset="GND" device=""/>
-<part name="R20" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
-<part name="R21" library="openag-resistors" deviceset="R0603" device="" value="NV"/>
+<part name="R20" library="openag-resistors" deviceset="10K-ERJ-3EKF1002V" device="" value="10K"/>
+<part name="R21" library="openag-resistors" deviceset="10K-ERJ-3EKF1002V" device="" value="10K"/>
 <part name="+3V9" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="P+9" library="openag-supply" deviceset="+5V" device=""/>
 <part name="P+10" library="openag-supply" deviceset="+5V" device=""/>
@@ -8119,7 +8256,7 @@ Cambridge, MA</text>
 <part name="GND2" library="openag-supply" deviceset="GND" device=""/>
 <part name="P+4" library="openag-supply" deviceset="+24V" device=""/>
 <part name="P+5" library="openag-supply" deviceset="+5V" device=""/>
-<part name="R7" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
+<part name="R7" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="D5" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
 <part name="TP5" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP6" library="openag-testpads" deviceset="TP" device="TP06R"/>
@@ -8259,20 +8396,20 @@ w/Indicator LED + Enable</text>
 <instance part="TP30" gate="G$1" x="-101.6" y="-63.5" rot="R270"/>
 <instance part="P+1" gate="1" x="-121.92" y="-12.7"/>
 <instance part="U2" gate="G$1" x="-88.9" y="78.74"/>
-<instance part="R13" gate="1" x="-17.78" y="88.9" rot="R90"/>
-<instance part="R14" gate="1" x="-17.78" y="73.66" rot="R90"/>
-<instance part="R15" gate="1" x="-17.78" y="58.42" rot="R90"/>
-<instance part="R16" gate="1" x="-40.64" y="83.82" rot="R90"/>
+<instance part="R13" gate="G$1" x="-17.78" y="88.9" rot="R90"/>
+<instance part="R14" gate="G$1" x="-17.78" y="73.66" rot="R90"/>
+<instance part="R15" gate="G$1" x="-17.78" y="58.42" rot="R90"/>
+<instance part="R16" gate="G$1" x="-40.64" y="83.82" rot="R90"/>
 <instance part="+3V4" gate="G$1" x="-111.76" y="93.98"/>
 <instance part="P+8" gate="1" x="-134.62" y="142.24"/>
 <instance part="GND9" gate="1" x="-114.3" y="63.5"/>
 <instance part="GND10" gate="1" x="-129.54" y="116.84"/>
 <instance part="GND15" gate="1" x="-7.62" y="88.9"/>
-<instance part="R17" gate="1" x="-40.64" y="53.34" rot="R90"/>
-<instance part="R19" gate="1" x="-40.64" y="68.58" rot="R90"/>
+<instance part="R17" gate="G$1" x="-40.64" y="53.34" rot="R90"/>
+<instance part="R19" gate="G$1" x="-40.64" y="68.58" rot="R90"/>
 <instance part="GND17" gate="1" x="-40.64" y="43.18"/>
-<instance part="R20" gate="1" x="-124.46" y="88.9" rot="R90"/>
-<instance part="R21" gate="1" x="-137.16" y="88.9" rot="R90"/>
+<instance part="R20" gate="A" x="-124.46" y="88.9" rot="R90"/>
+<instance part="R21" gate="A" x="-137.16" y="88.9" rot="R90"/>
 <instance part="+3V9" gate="G$1" x="-129.54" y="106.68"/>
 <instance part="P+9" gate="1" x="-66.04" y="91.44"/>
 <instance part="P+10" gate="1" x="-40.64" y="96.52"/>
@@ -8409,14 +8546,14 @@ w/Indicator LED + Enable</text>
 <junction x="-114.3" y="-30.48"/>
 </segment>
 <segment>
-<pinref part="R13" gate="1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="93.98" x2="-17.78" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="99.06" x2="-7.62" y2="99.06" width="0.1524" layer="91"/>
 <pinref part="GND15" gate="1" pin="GND"/>
 <wire x1="-7.62" y1="99.06" x2="-7.62" y2="91.44" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R17" gate="1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="1"/>
 <pinref part="GND17" gate="1" pin="GND"/>
 <wire x1="-40.64" y1="48.26" x2="-40.64" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -8503,7 +8640,7 @@ w/Indicator LED + Enable</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="SCL"/>
-<pinref part="R21" gate="1" pin="1"/>
+<pinref part="R21" gate="A" pin="1"/>
 <wire x1="-106.68" y1="76.2" x2="-134.62" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-134.62" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="76.2" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
@@ -8539,7 +8676,7 @@ w/Indicator LED + Enable</text>
 <pinref part="TP25" gate="G$1" pin="TP"/>
 </segment>
 <segment>
-<pinref part="R20" gate="1" pin="1"/>
+<pinref part="R20" gate="A" pin="1"/>
 <wire x1="-124.46" y1="83.82" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
 <wire x1="-124.46" y1="81.28" x2="-121.92" y2="81.28" width="0.1524" layer="91"/>
@@ -8607,10 +8744,10 @@ w/Indicator LED + Enable</text>
 <junction x="-104.14" y="-63.5"/>
 </segment>
 <segment>
-<pinref part="R21" gate="1" pin="2"/>
+<pinref part="R21" gate="A" pin="2"/>
 <wire x1="-137.16" y1="93.98" x2="-137.16" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="99.06" x2="-129.54" y2="99.06" width="0.1524" layer="91"/>
-<pinref part="R20" gate="1" pin="2"/>
+<pinref part="R20" gate="A" pin="2"/>
 <wire x1="-129.54" y1="99.06" x2="-124.46" y2="99.06" width="0.1524" layer="91"/>
 <wire x1="-124.46" y1="99.06" x2="-124.46" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="-129.54" y1="99.06" x2="-129.54" y2="104.14" width="0.1524" layer="91"/>
@@ -8670,7 +8807,7 @@ w/Indicator LED + Enable</text>
 <wire x1="-66.04" y1="83.82" x2="-66.04" y2="88.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="R16" gate="1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="93.98" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <pinref part="TP34" gate="G$1" pin="TP"/>
@@ -8678,7 +8815,7 @@ w/Indicator LED + Enable</text>
 <junction x="-40.64" y="91.44"/>
 </segment>
 <segment>
-<pinref part="R15" gate="1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="-17.78" y1="53.34" x2="-7.62" y2="53.34" width="0.1524" layer="91"/>
 <wire x1="-7.62" y1="53.34" x2="-7.62" y2="55.88" width="0.1524" layer="91"/>
 <pinref part="P+12" gate="1" pin="+5V"/>
@@ -8745,8 +8882,8 @@ w/Indicator LED + Enable</text>
 </net>
 <net name="DSDAM" class="0">
 <segment>
-<pinref part="R13" gate="1" pin="1"/>
-<pinref part="R14" gate="1" pin="2"/>
+<pinref part="R13" gate="G$1" pin="1"/>
+<pinref part="R14" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="78.74" x2="-17.78" y2="81.28" width="0.1524" layer="91"/>
 <label x="-17.78" y="81.28" size="1.27" layer="95" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="DSDAM"/>
@@ -8771,8 +8908,8 @@ w/Indicator LED + Enable</text>
 </net>
 <net name="DSDAP" class="0">
 <segment>
-<pinref part="R14" gate="1" pin="1"/>
-<pinref part="R15" gate="1" pin="2"/>
+<pinref part="R14" gate="G$1" pin="1"/>
+<pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="68.58" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
 <wire x1="-17.78" y1="66.04" x2="-17.78" y2="63.5" width="0.1524" layer="91"/>
 <wire x1="-30.48" y1="66.04" x2="-17.78" y2="66.04" width="0.1524" layer="91"/>
@@ -8797,8 +8934,8 @@ w/Indicator LED + Enable</text>
 </net>
 <net name="DSCLP" class="0">
 <segment>
-<pinref part="R16" gate="1" pin="1"/>
-<pinref part="R19" gate="1" pin="2"/>
+<pinref part="R16" gate="G$1" pin="1"/>
+<pinref part="R19" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="78.74" x2="-40.64" y2="76.2" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="DSCLP"/>
 <wire x1="-40.64" y1="76.2" x2="-40.64" y2="73.66" width="0.1524" layer="91"/>
@@ -8819,8 +8956,8 @@ w/Indicator LED + Enable</text>
 </net>
 <net name="DSCLM" class="0">
 <segment>
-<pinref part="R19" gate="1" pin="1"/>
-<pinref part="R17" gate="1" pin="2"/>
+<pinref part="R19" gate="G$1" pin="1"/>
+<pinref part="R17" gate="G$1" pin="2"/>
 <wire x1="-40.64" y1="63.5" x2="-40.64" y2="60.96" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="DSCLM"/>
 <wire x1="-40.64" y1="60.96" x2="-40.64" y2="58.42" width="0.1524" layer="91"/>
