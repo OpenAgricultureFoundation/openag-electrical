@@ -3109,6 +3109,12 @@ Source: AVX .. aphvc.pdf</description>
 <text x="-2.54" y="-2.54" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="GND" x="0" y="2.54" visible="off" length="short" direction="sup" rot="R270"/>
 </symbol>
+<symbol name="+5V">
+<wire x1="1.27" y1="-1.905" x2="0" y2="0" width="0.254" layer="94"/>
+<wire x1="0" y1="0" x2="-1.27" y2="-1.905" width="0.254" layer="94"/>
+<text x="-2.54" y="-5.08" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
+<pin name="+5V" x="0" y="-2.54" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="+24V" prefix="P+">
@@ -3150,6 +3156,19 @@ Source: AVX .. aphvc.pdf</description>
 </device>
 </devices>
 </deviceset>
+<deviceset name="+5V" prefix="P+">
+<description>&lt;b&gt;SUPPLY SYMBOL&lt;/b&gt;</description>
+<gates>
+<gate name="1" symbol="+5V" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 <library name="openag-fuses">
@@ -3173,6 +3192,22 @@ Source: AVX .. aphvc.pdf</description>
 <wire x1="-2.9972" y1="0" x2="-2.8448" y2="0" width="0" layer="51" curve="-180"/>
 <text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
+</package>
+<package name="0603">
+<smd name="1" x="-0.7778" y="0" dx="0.7556" dy="0.799996875" layer="1"/>
+<smd name="2" x="0.7778" y="0" dx="0.7556" dy="0.799996875" layer="1"/>
+<wire x1="-0.4064" y1="-0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="0.4064" x2="-0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="-0.4064" x2="-0.4064" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="-0.4064" x2="0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="0.4064" x2="0.4064" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.4064" y1="-0.4064" x2="0.4064" y2="-0.4064" width="0.1524" layer="51"/>
+<wire x1="0.7874" y1="-0.4064" x2="0.7874" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="0.4064" y1="0.4064" x2="-0.4064" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-0.7874" y1="0.4064" x2="-0.7874" y2="-0.4064" width="0.1524" layer="51"/>
+<text x="-1.016" y="0.762" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-1.016" y="-1.524" size="0.762" layer="27" ratio="6">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -3229,6 +3264,62 @@ Source: AVX .. aphvc.pdf</description>
 <attribute name="POPULATE" value="YES" constant="no"/>
 <attribute name="VALUE" value="SST 7" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0438.375WR" prefix="F">
+<description>&lt;strong&gt;Littelfuse Inc. - 0448.400MR - FUSE BOARD MNT 400MA 125VAC/VDC&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;FUSE BOARD MNT 400MA 125VAC/VDC&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
+		&lt;li&gt;Current Rating: 400mA&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - AC: 125V&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - DC: 125V&lt;/li&gt;
+		&lt;li&gt;Response Time: Fast&lt;/li&gt;
+		&lt;li&gt;Package / Case: 2-SMD, Square End Block&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Breaking Capacity @ Rated Voltage: 50A&lt;/li&gt;
+		&lt;li&gt;Melting I²t: 0.0416&lt;/li&gt;
+		&lt;li&gt;Approvals: CSA, UL&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.240" L x 0.106" W x 0.106" H (6.10mm x 2.69mm x 2.69mm)&lt;/li&gt;
+		&lt;li&gt;DC Cold Resistance: 0.4895 Ohms&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_448_datasheet.pdf.pdf'&gt;448 Series Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934'&gt;F5573CT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="0448.400MR" constant="no"/>
+<attribute name="VERIFIED" value="YES" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -14897,21 +14988,6 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-3.81" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-<symbol name="R-US@4">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 <text x="-1.27" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
 <text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
@@ -14984,7 +15060,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <technologies>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="100 OHM" constant="no"/>
+<attribute name="VALUE" value="100" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>
@@ -15030,7 +15106,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="R-US@4" x="0" y="0"/>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="R1206">
@@ -15173,7 +15249,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="R-US@1" x="0" y="0"/>
+<gate name="A" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RC0603N">
@@ -15745,6 +15821,39 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <text x="16.764" y="-0.508" size="0.762" layer="22" rot="MR0">+VOUT</text>
 <text x="16.764" y="-8.128" size="0.762" layer="22" rot="MR0">-VOUT</text>
 </package>
+<package name="MP04A">
+<smd name="1" x="-3.2004" y="2.3" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="2" x="-3.2004" y="0" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="3" x="-3.2004" y="-2.3" dx="1.6002" dy="0.8382" layer="1"/>
+<smd name="4" x="3.2004" y="0" dx="1.6002" dy="3.0988" layer="1"/>
+<wire x1="-1.8542" y1="1.905" x2="-1.8542" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="2.6924" x2="-3.6576" y2="2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="2.6924" x2="-3.6322" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="1.905" x2="-1.8542" y2="1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-0.381" x2="-1.8542" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="0.4064" x2="-3.6576" y2="0.4064" width="0.1524" layer="51"/>
+<wire x1="-3.6576" y1="0.4064" x2="-3.6322" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-0.381" x2="-1.8542" y2="-0.381" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-2.6924" x2="-1.8542" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-1.905" x2="-3.6322" y2="-1.905" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-1.905" x2="-3.6322" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="-3.6322" y1="-2.6924" x2="-1.8542" y2="-2.6924" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="1.5494" x2="1.8542" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-1.5494" x2="3.6576" y2="-1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6576" y1="-1.5494" x2="3.6322" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="3.6322" y1="1.5494" x2="1.8542" y2="1.5494" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="-3.3528" x2="1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="-3.3528" x2="1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="1.8542" y1="3.3528" x2="-1.8542" y2="3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.8542" y1="3.3528" x2="-1.8542" y2="-3.3528" width="0.1524" layer="51"/>
+<wire x1="-1.9812" y1="-3.4798" x2="1.9812" y2="-3.4798" width="0.1524" layer="21"/>
+<wire x1="1.9812" y1="-3.4798" x2="1.9812" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="1.9812" y1="3.4798" x2="-1.9812" y2="3.4798" width="0.1524" layer="21"/>
+<wire x1="-1.9812" y1="3.4798" x2="-1.9812" y2="-3.4798" width="0.1524" layer="21"/>
+<text x="-1.524" y="3.81" size="0.762" layer="25" ratio="6" rot="SR0">&gt;Name</text>
+<circle x="-3.048" y="4.318" radius="0.508" width="1.016" layer="21"/>
+<text x="-1.778" y="-4.572" size="0.762" layer="27" ratio="6">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RCD-24">
@@ -15760,6 +15869,18 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <wire x1="-20.32" y1="10.16" x2="-20.32" y2="-10.16" width="0.254" layer="94"/>
 <text x="-20.32" y="10.16" size="1.27" layer="95">&gt;NAME</text>
 <text x="-20.32" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="LM2937IMP-3_3">
+<pin name="IN" x="2.54" y="0" length="middle" direction="pwr"/>
+<pin name="GND" x="2.54" y="-2.54" length="middle" direction="pwr"/>
+<pin name="OUT" x="53.34" y="-2.54" length="middle" direction="pwr" rot="R180"/>
+<pin name="TAB" x="53.34" y="0" length="middle" direction="pwr" rot="R180"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="7.62" y1="-7.62" x2="48.26" y2="-7.62" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="-7.62" x2="48.26" y2="5.08" width="0.1524" layer="94"/>
+<wire x1="48.26" y1="5.08" x2="7.62" y2="5.08" width="0.1524" layer="94"/>
+<text x="23.2156" y="9.1186" size="2.0828" layer="95" ratio="6" rot="SR0">&gt;Name</text>
+<text x="22.5806" y="6.5786" size="2.0828" layer="96" ratio="6" rot="SR0">&gt;Value</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -15821,6 +15942,66 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
 <attribute name="VALUE" value="RCD-24-0.70/VREF"/>
+<attribute name="VERIFIED" value="NO" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="LM2937IMP-3.3/NOPB" prefix="U">
+<description>&lt;strong&gt;Texas Instruments - LM2937IMP-3.3/NOPB - IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 400mA SOT-223-4&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Output Configuration: Positive&lt;/li&gt;
+		&lt;li&gt;Output Type: Fixed&lt;/li&gt;
+		&lt;li&gt;Number of Regulators: 1&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Max): 26V&lt;/li&gt;
+		&lt;li&gt;Voltage - Output (Min/Fixed): 3.3V&lt;/li&gt;
+		&lt;li&gt;Voltage Dropout (Max): 1V @ 50mA&lt;/li&gt;
+		&lt;li&gt;Current - Output: 400mA&lt;/li&gt;
+		&lt;li&gt;Current - Quiescent (Iq): 2mA&lt;/li&gt;
+		&lt;li&gt;Current - Supply (Max): 1.25A&lt;/li&gt;
+		&lt;li&gt;Protection Features: Over Temperature, Reverse Polarity, Short Circuit&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: TO-261-4, TO-261AA&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: SOT-223-4&lt;/li&gt;
+		&lt;li&gt;Base Part Number: LM2937&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.ti.com/lit/ds/symlink/lm2937-2.5.pdf'&gt;LM2937-2.5, LM2937-3.3 Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#'&gt;LM2937IMP-3.3/NOPBCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="LM2937IMP-3_3" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="MP04A">
+<connects>
+<connect gate="A" pin="GND" pad="2"/>
+<connect gate="A" pin="IN" pad="1"/>
+<connect gate="A" pin="OUT" pad="3"/>
+<connect gate="A" pin="TAB" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="VALUE" value="LM2937IMP3.3NOPB" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>
@@ -16424,10 +16605,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="F12" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="ATTRIBUTES" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="AUTHOR" value="DP"/>
-<attribute name="DESCRIPTION" value="Nervous System"/>
-<attribute name="TITLE" value="Nervous System"/>
+<attribute name="DESCRIPTION" value="PFC EDU"/>
+<attribute name="TITLE" value="PFC EDU"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/"/>
-<attribute name="VER" value="2.0"/>
 </part>
 <part name="U1" library="OpenAG_I2C" deviceset="TCA9548APWR" device="PW24-M"/>
 <part name="GND1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="GND" device=""/>
@@ -16504,14 +16684,14 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="R9" library="SparkFun-Resistors" deviceset="10KOHM-1/10W-1%(0603)" device="0603" value="10K"/>
 <part name="+3V8" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="D2" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
-<part name="R10" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
+<part name="R10" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND7" library="openag-supply" deviceset="GND" device=""/>
 <part name="D3" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
-<part name="R11" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
+<part name="R11" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND8" library="openag-supply" deviceset="GND" device=""/>
 <part name="+3V10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="D4" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
-<part name="R12" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100 OHM"/>
+<part name="R12" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND9" library="openag-supply" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+12" library="openag-supply" deviceset="+24V" device=""/>
@@ -16685,6 +16865,21 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="CH5-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
 <part name="CH5-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
 <part name="CH5-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="D8" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
+<part name="R44" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
+<part name="GND41" library="openag-supply" deviceset="GND" device=""/>
+<part name="U17" library="openag-regulators" deviceset="LM2937IMP-3.3/NOPB" device="" value="LM2937IMP3.3NOPB"/>
+<part name="C21" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
+<part name="GND47" library="openag-supply" deviceset="GND" device=""/>
+<part name="C22" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
+<part name="SJ1" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
+<part name="F1" library="openag-fuses" deviceset="0438.375WR" device="" value="0448.400MR"/>
+<part name="+3V40" library="openag-supply" deviceset="+3V3" device=""/>
+<part name="TP61" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP62" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="TP63" library="openag-testpads" deviceset="TP" device="TP06R"/>
+<part name="P+16" library="openag-supply" deviceset="+5V" device=""/>
+<part name="GND54" library="openag-supply" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
@@ -16805,6 +17000,29 @@ SD1 &amp; SC1</text>
 <wire x1="-177.8" y1="406.4" x2="-299.72" y2="406.4" width="0.1524" layer="95" style="longdash"/>
 <wire x1="-299.72" y1="406.4" x2="-299.72" y2="325.12" width="0.1524" layer="95" style="longdash"/>
 <text x="-292.1" y="396.24" size="5.08" layer="95">6 Channel 4 LED Series</text>
+<wire x1="-299.72" y1="523.24" x2="-299.72" y2="495.3" width="0.1524" layer="94"/>
+<wire x1="-299.72" y1="495.3" x2="-271.78" y2="495.3" width="0.1524" layer="94"/>
+<wire x1="-271.78" y1="495.3" x2="-271.78" y2="523.24" width="0.1524" layer="94"/>
+<wire x1="-271.78" y1="523.24" x2="-299.72" y2="523.24" width="0.1524" layer="94"/>
+<wire x1="-299.72" y1="480.06" x2="-269.24" y2="480.06" width="0.1524" layer="94"/>
+<wire x1="-269.24" y1="480.06" x2="-269.24" y2="452.12" width="0.1524" layer="94"/>
+<wire x1="-269.24" y1="452.12" x2="-299.72" y2="452.12" width="0.1524" layer="94"/>
+<wire x1="-299.72" y1="452.12" x2="-299.72" y2="480.06" width="0.1524" layer="94"/>
+<text x="-75.692" y="347.98" size="3.81" layer="103">3.3V Indicator LED</text>
+<wire x1="-167.64" y1="358.14" x2="-167.64" y2="396.24" width="0.1524" layer="97"/>
+<wire x1="-167.64" y1="396.24" x2="-15.24" y2="396.24" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="396.24" x2="-15.24" y2="358.14" width="0.1524" layer="97"/>
+<text x="-167.64" y="398.78" size="3.81" layer="97">5-26V to 3.3V@400mA Regulator 
+w/3v3 Enable, Indicator LED &amp; Fuse</text>
+<wire x1="-167.64" y1="358.14" x2="-167.64" y2="320.04" width="0.1524" layer="97"/>
+<wire x1="-167.64" y1="320.04" x2="-91.44" y2="320.04" width="0.1524" layer="97"/>
+<wire x1="-91.44" y1="320.04" x2="-15.24" y2="320.04" width="0.1524" layer="97"/>
+<wire x1="-15.24" y1="320.04" x2="-15.24" y2="358.14" width="0.1524" layer="97"/>
+<wire x1="-167.64" y1="358.14" x2="-91.44" y2="358.14" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-91.44" y1="358.14" x2="-15.24" y2="358.14" width="0.1524" layer="97" style="longdash"/>
+<wire x1="-91.44" y1="358.14" x2="-91.44" y2="320.04" width="0.1524" layer="97" style="longdash"/>
+<text x="-154.432" y="347.98" size="3.81" layer="103">3.3V Enable Jumper</text>
+<text x="-118.872" y="391.16" size="3.81" layer="103">3.3V@400mA Regulator</text>
 </plain>
 <instances>
 <instance part="C11" gate="G$1" x="-185.42" y="469.9"/>
@@ -17184,6 +17402,21 @@ SD1 &amp; SC1</text>
 <attribute name="NAME" x="-291.592" y="346.964" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-291.592" y="344.424" size="1.778" layer="96"/>
 </instance>
+<instance part="D8" gate="G$1" x="-71.12" y="332.74" rot="R270"/>
+<instance part="R44" gate="G$1" x="-53.34" y="332.74"/>
+<instance part="GND41" gate="1" x="-81.28" y="327.66"/>
+<instance part="U17" gate="A" x="-121.92" y="375.92"/>
+<instance part="C21" gate="G$1" x="-129.54" y="373.38"/>
+<instance part="GND47" gate="1" x="-119.38" y="363.22"/>
+<instance part="C22" gate="G$1" x="-66.04" y="370.84"/>
+<instance part="SJ1" gate="1" x="-132.08" y="332.74"/>
+<instance part="F1" gate="A" x="-55.88" y="373.38"/>
+<instance part="+3V40" gate="G$1" x="-119.38" y="340.36"/>
+<instance part="TP61" gate="G$1" x="-132.08" y="365.76" rot="R90"/>
+<instance part="TP62" gate="G$1" x="-129.54" y="378.46"/>
+<instance part="TP63" gate="G$1" x="-116.84" y="332.74" rot="R270"/>
+<instance part="P+16" gate="1" x="-137.16" y="383.54"/>
+<instance part="GND54" gate="1" x="-63.5" y="378.46"/>
 </instances>
 <busses>
 </busses>
@@ -17616,6 +17849,32 @@ SD1 &amp; SC1</text>
 <wire x1="-480.06" y1="190.5" x2="-480.06" y2="193.04" width="0.1524" layer="91"/>
 <wire x1="-480.06" y1="193.04" x2="-477.52" y2="193.04" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="D8" gate="G$1" pin="C"/>
+<pinref part="GND41" gate="1" pin="GND"/>
+<wire x1="-76.2" y1="332.74" x2="-81.28" y2="332.74" width="0.1524" layer="91"/>
+<wire x1="-81.28" y1="332.74" x2="-81.28" y2="330.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="C21" gate="G$1" pin="2"/>
+<pinref part="GND47" gate="1" pin="GND"/>
+<wire x1="-129.54" y1="368.3" x2="-129.54" y2="365.76" width="0.1524" layer="91"/>
+<wire x1="-129.54" y1="365.76" x2="-119.38" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="U17" gate="A" pin="GND"/>
+<wire x1="-119.38" y1="365.76" x2="-119.38" y2="373.38" width="0.1524" layer="91"/>
+<junction x="-119.38" y="365.76"/>
+<pinref part="C22" gate="G$1" pin="2"/>
+<wire x1="-119.38" y1="365.76" x2="-66.04" y2="365.76" width="0.1524" layer="91"/>
+<pinref part="TP61" gate="G$1" pin="TP"/>
+<junction x="-129.54" y="365.76"/>
+</segment>
+<segment>
+<pinref part="U17" gate="A" pin="TAB"/>
+<wire x1="-68.58" y1="375.92" x2="-68.58" y2="383.54" width="0.1524" layer="91"/>
+<wire x1="-68.58" y1="383.54" x2="-63.5" y2="383.54" width="0.1524" layer="91"/>
+<pinref part="GND54" gate="1" pin="GND"/>
+<wire x1="-63.5" y1="383.54" x2="-63.5" y2="381" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="24V_IN" class="0">
 <segment>
@@ -18036,6 +18295,14 @@ SD1 &amp; SC1</text>
 <pinref part="+3V46" gate="G$1" pin="+3V3"/>
 <wire x1="-477.52" y1="200.66" x2="-480.06" y2="200.66" width="0.1524" layer="91"/>
 <wire x1="-480.06" y1="200.66" x2="-480.06" y2="203.2" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="SJ1" gate="1" pin="2"/>
+<pinref part="+3V40" gate="G$1" pin="+3V3"/>
+<wire x1="-127" y1="332.74" x2="-119.38" y2="332.74" width="0.1524" layer="91" style="longdash"/>
+<wire x1="-119.38" y1="332.74" x2="-119.38" y2="337.82" width="0.1524" layer="91" style="longdash"/>
+<pinref part="TP63" gate="G$1" pin="TP"/>
+<junction x="-119.38" y="332.74"/>
 </segment>
 </net>
 <net name="RESET1" class="0">
@@ -19014,6 +19281,17 @@ SD1 &amp; SC1</text>
 <wire x1="-50.8" y1="462.28" x2="-40.64" y2="462.28" width="0.1524" layer="91"/>
 <wire x1="-40.64" y1="462.28" x2="-40.64" y2="467.36" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="U17" gate="A" pin="IN"/>
+<pinref part="C21" gate="G$1" pin="1"/>
+<wire x1="-119.38" y1="375.92" x2="-129.54" y2="375.92" width="0.1524" layer="91"/>
+<junction x="-129.54" y="375.92"/>
+<wire x1="-129.54" y1="375.92" x2="-134.62" y2="375.92" width="0.1524" layer="91" style="longdash"/>
+<pinref part="TP62" gate="G$1" pin="TP"/>
+<pinref part="P+16" gate="1" pin="+5V"/>
+<wire x1="-134.62" y1="375.92" x2="-137.16" y2="375.92" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="375.92" x2="-137.16" y2="381" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="N$12" class="0">
 <segment>
@@ -19904,6 +20182,40 @@ SD1 &amp; SC1</text>
 <junction x="-204.47" y="370.84"/>
 <wire x1="-241.3" y1="353.06" x2="-241.3" y2="370.84" width="0.1524" layer="91"/>
 <junction x="-241.3" y="370.84"/>
+</segment>
+</net>
+<net name="N$179" class="0">
+<segment>
+<pinref part="D8" gate="G$1" pin="A"/>
+<wire x1="-58.42" y1="332.74" x2="-68.58" y2="332.74" width="0.1524" layer="91"/>
+<pinref part="R44" gate="G$1" pin="1"/>
+</segment>
+</net>
+<net name="REG_3V3_400MA" class="0">
+<segment>
+<label x="-142.24" y="332.74" size="1.778" layer="95" rot="R180" xref="yes"/>
+<pinref part="SJ1" gate="1" pin="1"/>
+<wire x1="-142.24" y1="332.74" x2="-137.16" y2="332.74" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="R44" gate="G$1" pin="2"/>
+<wire x1="-48.26" y1="332.74" x2="-43.18" y2="332.74" width="0.1524" layer="91"/>
+<label x="-43.18" y="332.74" size="1.778" layer="95" xref="yes"/>
+</segment>
+<segment>
+<pinref part="F1" gate="A" pin="2"/>
+<label x="-40.64" y="373.38" size="1.778" layer="95" xref="yes"/>
+<wire x1="-45.72" y1="373.38" x2="-40.64" y2="373.38" width="0.1524" layer="91" style="longdash"/>
+</segment>
+</net>
+<net name="N$180" class="0">
+<segment>
+<pinref part="U17" gate="A" pin="OUT"/>
+<pinref part="C22" gate="G$1" pin="1"/>
+<wire x1="-68.58" y1="373.38" x2="-66.04" y2="373.38" width="0.1524" layer="91" style="longdash"/>
+<pinref part="F1" gate="A" pin="1"/>
+<wire x1="-66.04" y1="373.38" x2="-55.88" y2="373.38" width="0.1524" layer="91" style="longdash"/>
+<junction x="-66.04" y="373.38"/>
 </segment>
 </net>
 </nets>
