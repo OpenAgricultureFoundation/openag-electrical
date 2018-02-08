@@ -206,129 +206,134 @@
 </class>
 </classes>
 <parts>
-<part name="LED3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED5" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED10" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED11" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED12" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED13" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED14" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED15" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED16" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED17" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED18" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED19" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED20" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED21" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED22" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED23" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="LED24" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH2-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH2-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH2-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH2-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH4-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH4-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH4-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH4-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH6-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH6-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH6-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH6-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH1-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH1-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH1-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH1-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH3-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH3-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH3-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH3-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH5-4" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH5-3" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH5-2" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH5-1" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
+<wire x1="-43.18" y1="10.16" x2="78.74" y2="10.16" width="0.1524" layer="95" style="longdash"/>
+<wire x1="78.74" y1="10.16" x2="78.74" y2="91.44" width="0.1524" layer="95" style="longdash"/>
+<wire x1="78.74" y1="91.44" x2="-43.18" y2="91.44" width="0.1524" layer="95" style="longdash"/>
+<wire x1="-43.18" y1="91.44" x2="-43.18" y2="10.16" width="0.1524" layer="95" style="longdash"/>
+<text x="-35.56" y="81.28" size="5.08" layer="95">6 Channel 4 LED Series</text>
 </plain>
 <instances>
-<instance part="LED3" gate="G$1" x="66.04" y="58.42" smashed="yes" rot="R270">
+<instance part="CH2-4" gate="G$1" x="66.04" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.468" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.468" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED2" gate="G$1" x="53.34" y="58.42" smashed="yes" rot="R270">
+<instance part="CH2-3" gate="G$1" x="53.34" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.768" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.768" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED1" gate="G$1" x="40.64" y="58.42" smashed="yes" rot="R270">
+<instance part="CH2-2" gate="G$1" x="40.64" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.068" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.068" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED4" gate="G$1" x="27.94" y="58.42" smashed="yes" rot="R270">
+<instance part="CH2-1" gate="G$1" x="27.94" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.368" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="23.368" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED5" gate="G$1" x="66.04" y="40.64" smashed="yes" rot="R270">
+<instance part="CH4-4" gate="G$1" x="66.04" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.468" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.468" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED6" gate="G$1" x="53.34" y="40.64" smashed="yes" rot="R270">
+<instance part="CH4-3" gate="G$1" x="53.34" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.768" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.768" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED7" gate="G$1" x="40.64" y="40.64" smashed="yes" rot="R270">
+<instance part="CH4-2" gate="G$1" x="40.64" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.068" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.068" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED8" gate="G$1" x="27.94" y="40.64" smashed="yes" rot="R270">
+<instance part="CH4-1" gate="G$1" x="27.94" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.368" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="23.368" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED9" gate="G$1" x="66.04" y="25.4" smashed="yes" rot="R270">
+<instance part="CH6-4" gate="G$1" x="66.04" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="61.468" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="61.468" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED10" gate="G$1" x="53.34" y="25.4" smashed="yes" rot="R270">
+<instance part="CH6-3" gate="G$1" x="53.34" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="48.768" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="48.768" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED11" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="R270">
+<instance part="CH6-2" gate="G$1" x="40.64" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="36.068" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="36.068" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED12" gate="G$1" x="27.94" y="25.4" smashed="yes" rot="R270">
+<instance part="CH6-1" gate="G$1" x="27.94" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="23.368" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="23.368" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED13" gate="G$1" x="7.62" y="58.42" smashed="yes" rot="R270">
+<instance part="CH1-4" gate="G$1" x="7.62" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.048" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED14" gate="G$1" x="-5.08" y="58.42" smashed="yes" rot="R270">
+<instance part="CH1-3" gate="G$1" x="-5.08" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.652" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-9.652" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED15" gate="G$1" x="-17.78" y="58.42" smashed="yes" rot="R270">
+<instance part="CH1-2" gate="G$1" x="-17.78" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="-22.352" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.352" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED16" gate="G$1" x="-30.48" y="58.42" smashed="yes" rot="R270">
+<instance part="CH1-1" gate="G$1" x="-30.48" y="58.42" smashed="yes" rot="R270">
 <attribute name="NAME" x="-35.052" y="65.024" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-35.052" y="62.484" size="1.778" layer="96"/>
 </instance>
-<instance part="LED17" gate="G$1" x="7.62" y="40.64" smashed="yes" rot="R270">
+<instance part="CH3-4" gate="G$1" x="7.62" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.048" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED18" gate="G$1" x="-5.08" y="40.64" smashed="yes" rot="R270">
+<instance part="CH3-3" gate="G$1" x="-5.08" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.652" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-9.652" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED19" gate="G$1" x="-17.78" y="40.64" smashed="yes" rot="R270">
+<instance part="CH3-2" gate="G$1" x="-17.78" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="-22.352" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.352" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED20" gate="G$1" x="-30.48" y="40.64" smashed="yes" rot="R270">
+<instance part="CH3-1" gate="G$1" x="-30.48" y="40.64" smashed="yes" rot="R270">
 <attribute name="NAME" x="-35.052" y="47.244" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-35.052" y="44.704" size="1.778" layer="96"/>
 </instance>
-<instance part="LED21" gate="G$1" x="7.62" y="25.4" smashed="yes" rot="R270">
+<instance part="CH5-4" gate="G$1" x="7.62" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="3.048" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="3.048" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED22" gate="G$1" x="-5.08" y="25.4" smashed="yes" rot="R270">
+<instance part="CH5-3" gate="G$1" x="-5.08" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-9.652" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-9.652" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED23" gate="G$1" x="-17.78" y="25.4" smashed="yes" rot="R270">
+<instance part="CH5-2" gate="G$1" x="-17.78" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-22.352" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-22.352" y="29.464" size="1.778" layer="96"/>
 </instance>
-<instance part="LED24" gate="G$1" x="-30.48" y="25.4" smashed="yes" rot="R270">
+<instance part="CH5-1" gate="G$1" x="-30.48" y="25.4" smashed="yes" rot="R270">
 <attribute name="NAME" x="-35.052" y="32.004" size="1.778" layer="95"/>
 <attribute name="VALUE" x="-35.052" y="29.464" size="1.778" layer="96"/>
 </instance>
@@ -338,128 +343,203 @@
 <nets>
 <net name="N$1" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="LED4" gate="G$1" pin="A"/>
+<pinref part="CH2-2" gate="G$1" pin="C"/>
+<pinref part="CH2-1" gate="G$1" pin="A"/>
 <wire x1="30.48" y1="58.42" x2="35.56" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$2" class="0">
 <segment>
-<pinref part="LED1" gate="G$1" pin="A"/>
-<pinref part="LED2" gate="G$1" pin="C"/>
+<pinref part="CH2-2" gate="G$1" pin="A"/>
+<pinref part="CH2-3" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="58.42" x2="43.18" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$3" class="0">
 <segment>
-<pinref part="LED2" gate="G$1" pin="A"/>
-<pinref part="LED3" gate="G$1" pin="C"/>
+<pinref part="CH2-3" gate="G$1" pin="A"/>
+<pinref part="CH2-4" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="58.42" x2="55.88" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="LED7" gate="G$1" pin="C"/>
-<pinref part="LED8" gate="G$1" pin="A"/>
+<pinref part="CH4-2" gate="G$1" pin="C"/>
+<pinref part="CH4-1" gate="G$1" pin="A"/>
 <wire x1="30.48" y1="40.64" x2="35.56" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$5" class="0">
 <segment>
-<pinref part="LED7" gate="G$1" pin="A"/>
-<pinref part="LED6" gate="G$1" pin="C"/>
+<pinref part="CH4-2" gate="G$1" pin="A"/>
+<pinref part="CH4-3" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="40.64" x2="43.18" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
-<pinref part="LED6" gate="G$1" pin="A"/>
-<pinref part="LED5" gate="G$1" pin="C"/>
+<pinref part="CH4-3" gate="G$1" pin="A"/>
+<pinref part="CH4-4" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="40.64" x2="55.88" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$7" class="0">
 <segment>
-<pinref part="LED11" gate="G$1" pin="C"/>
-<pinref part="LED12" gate="G$1" pin="A"/>
+<pinref part="CH6-2" gate="G$1" pin="C"/>
+<pinref part="CH6-1" gate="G$1" pin="A"/>
 <wire x1="30.48" y1="25.4" x2="35.56" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$8" class="0">
 <segment>
-<pinref part="LED11" gate="G$1" pin="A"/>
-<pinref part="LED10" gate="G$1" pin="C"/>
+<pinref part="CH6-2" gate="G$1" pin="A"/>
+<pinref part="CH6-3" gate="G$1" pin="C"/>
 <wire x1="48.26" y1="25.4" x2="43.18" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$9" class="0">
 <segment>
-<pinref part="LED10" gate="G$1" pin="A"/>
-<pinref part="LED9" gate="G$1" pin="C"/>
+<pinref part="CH6-3" gate="G$1" pin="A"/>
+<pinref part="CH6-4" gate="G$1" pin="C"/>
 <wire x1="60.96" y1="25.4" x2="55.88" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
-<pinref part="LED15" gate="G$1" pin="C"/>
-<pinref part="LED16" gate="G$1" pin="A"/>
+<pinref part="CH1-2" gate="G$1" pin="C"/>
+<pinref part="CH1-1" gate="G$1" pin="A"/>
 <wire x1="-27.94" y1="58.42" x2="-22.86" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$11" class="0">
 <segment>
-<pinref part="LED15" gate="G$1" pin="A"/>
-<pinref part="LED14" gate="G$1" pin="C"/>
+<pinref part="CH1-2" gate="G$1" pin="A"/>
+<pinref part="CH1-3" gate="G$1" pin="C"/>
 <wire x1="-10.16" y1="58.42" x2="-15.24" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
 <segment>
-<pinref part="LED14" gate="G$1" pin="A"/>
-<pinref part="LED13" gate="G$1" pin="C"/>
+<pinref part="CH1-3" gate="G$1" pin="A"/>
+<pinref part="CH1-4" gate="G$1" pin="C"/>
 <wire x1="2.54" y1="58.42" x2="-2.54" y2="58.42" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$13" class="0">
 <segment>
-<pinref part="LED19" gate="G$1" pin="C"/>
-<pinref part="LED20" gate="G$1" pin="A"/>
+<pinref part="CH3-2" gate="G$1" pin="C"/>
+<pinref part="CH3-1" gate="G$1" pin="A"/>
 <wire x1="-27.94" y1="40.64" x2="-22.86" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$14" class="0">
 <segment>
-<pinref part="LED19" gate="G$1" pin="A"/>
-<pinref part="LED18" gate="G$1" pin="C"/>
+<pinref part="CH3-2" gate="G$1" pin="A"/>
+<pinref part="CH3-3" gate="G$1" pin="C"/>
 <wire x1="-10.16" y1="40.64" x2="-15.24" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$15" class="0">
 <segment>
-<pinref part="LED18" gate="G$1" pin="A"/>
-<pinref part="LED17" gate="G$1" pin="C"/>
+<pinref part="CH3-3" gate="G$1" pin="A"/>
+<pinref part="CH3-4" gate="G$1" pin="C"/>
 <wire x1="2.54" y1="40.64" x2="-2.54" y2="40.64" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$16" class="0">
 <segment>
-<pinref part="LED23" gate="G$1" pin="C"/>
-<pinref part="LED24" gate="G$1" pin="A"/>
+<pinref part="CH5-2" gate="G$1" pin="C"/>
+<pinref part="CH5-1" gate="G$1" pin="A"/>
 <wire x1="-27.94" y1="25.4" x2="-22.86" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$17" class="0">
 <segment>
-<pinref part="LED23" gate="G$1" pin="A"/>
-<pinref part="LED22" gate="G$1" pin="C"/>
+<pinref part="CH5-2" gate="G$1" pin="A"/>
+<pinref part="CH5-3" gate="G$1" pin="C"/>
 <wire x1="-10.16" y1="25.4" x2="-15.24" y2="25.4" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$18" class="0">
 <segment>
-<pinref part="LED22" gate="G$1" pin="A"/>
-<pinref part="LED21" gate="G$1" pin="C"/>
+<pinref part="CH5-3" gate="G$1" pin="A"/>
+<pinref part="CH5-4" gate="G$1" pin="C"/>
 <wire x1="2.54" y1="25.4" x2="-2.54" y2="25.4" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="T" class="0">
+<segment>
+<pinref part="CH5-1" gate="G$1" pin="THERM"/>
+<pinref part="CH5-2" gate="G$1" pin="THERM"/>
+<wire x1="-31.75" y1="22.86" x2="-19.05" y2="22.86" width="0.1524" layer="91"/>
+<pinref part="CH5-3" gate="G$1" pin="THERM"/>
+<wire x1="-19.05" y1="22.86" x2="-6.35" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-19.05" y="22.86"/>
+<pinref part="CH5-4" gate="G$1" pin="THERM"/>
+<wire x1="-6.35" y1="22.86" x2="6.35" y2="22.86" width="0.1524" layer="91"/>
+<junction x="-6.35" y="22.86"/>
+<pinref part="CH6-1" gate="G$1" pin="THERM"/>
+<wire x1="6.35" y1="22.86" x2="15.24" y2="22.86" width="0.1524" layer="91"/>
+<junction x="6.35" y="22.86"/>
+<pinref part="CH6-2" gate="G$1" pin="THERM"/>
+<wire x1="15.24" y1="22.86" x2="26.67" y2="22.86" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="22.86" x2="39.37" y2="22.86" width="0.1524" layer="91"/>
+<junction x="26.67" y="22.86"/>
+<pinref part="CH6-3" gate="G$1" pin="THERM"/>
+<wire x1="39.37" y1="22.86" x2="52.07" y2="22.86" width="0.1524" layer="91"/>
+<junction x="39.37" y="22.86"/>
+<pinref part="CH6-4" gate="G$1" pin="THERM"/>
+<wire x1="52.07" y1="22.86" x2="64.77" y2="22.86" width="0.1524" layer="91"/>
+<junction x="52.07" y="22.86"/>
+<pinref part="CH3-1" gate="G$1" pin="THERM"/>
+<pinref part="CH3-2" gate="G$1" pin="THERM"/>
+<wire x1="-31.75" y1="38.1" x2="-19.05" y2="38.1" width="0.1524" layer="91"/>
+<pinref part="CH3-3" gate="G$1" pin="THERM"/>
+<wire x1="-19.05" y1="38.1" x2="-6.35" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-19.05" y="38.1"/>
+<pinref part="CH3-4" gate="G$1" pin="THERM"/>
+<wire x1="-6.35" y1="38.1" x2="6.35" y2="38.1" width="0.1524" layer="91"/>
+<junction x="-6.35" y="38.1"/>
+<pinref part="CH4-1" gate="G$1" pin="THERM"/>
+<wire x1="6.35" y1="38.1" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<junction x="6.35" y="38.1"/>
+<pinref part="CH4-2" gate="G$1" pin="THERM"/>
+<wire x1="15.24" y1="38.1" x2="26.67" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="38.1" x2="39.37" y2="38.1" width="0.1524" layer="91"/>
+<junction x="26.67" y="38.1"/>
+<pinref part="CH4-3" gate="G$1" pin="THERM"/>
+<pinref part="CH4-4" gate="G$1" pin="THERM"/>
+<wire x1="64.77" y1="38.1" x2="52.07" y2="38.1" width="0.1524" layer="91"/>
+<wire x1="39.37" y1="38.1" x2="52.07" y2="38.1" width="0.1524" layer="91"/>
+<junction x="39.37" y="38.1"/>
+<junction x="52.07" y="38.1"/>
+<wire x1="15.24" y1="22.86" x2="15.24" y2="38.1" width="0.1524" layer="91"/>
+<junction x="15.24" y="22.86"/>
+<junction x="15.24" y="38.1"/>
+<pinref part="CH1-1" gate="G$1" pin="THERM"/>
+<pinref part="CH1-2" gate="G$1" pin="THERM"/>
+<wire x1="-31.75" y1="55.88" x2="-19.05" y2="55.88" width="0.1524" layer="91"/>
+<pinref part="CH1-3" gate="G$1" pin="THERM"/>
+<wire x1="-19.05" y1="55.88" x2="-6.35" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-19.05" y="55.88"/>
+<pinref part="CH1-4" gate="G$1" pin="THERM"/>
+<wire x1="-6.35" y1="55.88" x2="6.35" y2="55.88" width="0.1524" layer="91"/>
+<junction x="-6.35" y="55.88"/>
+<pinref part="CH2-1" gate="G$1" pin="THERM"/>
+<wire x1="6.35" y1="55.88" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<junction x="6.35" y="55.88"/>
+<pinref part="CH2-2" gate="G$1" pin="THERM"/>
+<wire x1="15.24" y1="55.88" x2="26.67" y2="55.88" width="0.1524" layer="91"/>
+<wire x1="26.67" y1="55.88" x2="39.37" y2="55.88" width="0.1524" layer="91"/>
+<junction x="26.67" y="55.88"/>
+<pinref part="CH2-3" gate="G$1" pin="THERM"/>
+<wire x1="39.37" y1="55.88" x2="52.07" y2="55.88" width="0.1524" layer="91"/>
+<junction x="39.37" y="55.88"/>
+<pinref part="CH2-4" gate="G$1" pin="THERM"/>
+<wire x1="52.07" y1="55.88" x2="64.77" y2="55.88" width="0.1524" layer="91"/>
+<junction x="52.07" y="55.88"/>
+<wire x1="15.24" y1="38.1" x2="15.24" y2="55.88" width="0.1524" layer="91"/>
+<junction x="15.24" y="55.88"/>
 </segment>
 </net>
 </nets>
