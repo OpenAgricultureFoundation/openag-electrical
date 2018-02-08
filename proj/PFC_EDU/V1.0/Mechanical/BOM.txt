@@ -1,0 +1,9 @@
+3DX_CUI_Supplier:
+     CUI, Inc
+
+3DX_CUI_Description:
+     2.0 mm Center Pin, 5.0 A, Right Angle, Surface Mount (SMT), Dc Power Jack Connector
+
+3DX_CUI_Model Number:
+     PJ-036AH-SMT-TR
+
