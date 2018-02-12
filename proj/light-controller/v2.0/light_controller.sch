@@ -1119,29 +1119,45 @@
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="120UH-74404064121" prefix="L">
-<description>&lt;b&gt; Wurth Electronics - 74404064121 - FIXED IND 120UH 790MA 520 MOHM&lt;/b&gt;
+<deviceset name="120UH-ASPI-6045S-121M-TCT-ND" prefix="L">
+<description>&lt;strong&gt;Abracon LLC - ASPI-6045S-121M-T - FIXED IND 120UH 700MA 484 MOHM&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;120µH Shielded Wirewound Inductor 700mA 484 mOhm Nonstandard&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Inductance: 120uH&lt;/li&gt;
-&lt;li&gt;Rated Current: 790mA&lt;/li&gt;
-&lt;li&gt;Saturation Current: 980mA&lt;/li&gt;
-&lt;li&gt;DC Resistance: 520m&amp;#8486;&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -40&amp;deg; C to 125&amp;deg;C&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Type: Wirewound&lt;/li&gt;
+		&lt;li&gt;Material - Core: Ferrite&lt;/li&gt;
+		&lt;li&gt;Inductance: 120µH&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
+		&lt;li&gt;Current Rating: 700mA&lt;/li&gt;
+		&lt;li&gt;Current - Saturation: 850mA&lt;/li&gt;
+		&lt;li&gt;Shielding: Shielded&lt;/li&gt;
+		&lt;li&gt;DC Resistance (DCR): 484 mOhm&lt;/li&gt;
+		&lt;li&gt;Frequency - Self Resonant: 4.2MHz&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Frequency - Test: 100kHz&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: Nonstandard&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.236" L x 0.236" W (6.00mm x 6.00mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.177" (4.50mm)&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://katalog.we-online.de/pbs/datasheet/74404064121.pdf"&gt;74404064121 Drawing&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.abracon.com/Magnetics/power/ASPI-6045S.pdf'&gt;ASPI-6045S Series Datasheet&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.abracon.com/Support/PackageDrawing/Magnetics/ASPI-6045S.PDF'&gt;ASPI-6045S Drawing&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
-&lt;p&gt;Vendors:
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/wurth-electronics-inc/74404064121/732-7258-1-ND/5353238"&gt;732-7258-1-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/products/en?keywords=ASPI-6045S-121M-TCT-ND%09'&gt;ASPI-6045S-121M-TCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
@@ -1154,9 +1170,9 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MF" value="Abracon LLC" constant="no"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" constant="no"/>
 <attribute name="VALUE" value="120uH"/>
-<attribute name="VERIFIED" value="NO"/>
 </technology>
 </technologies>
 </device>
@@ -1296,7 +1312,7 @@
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 <text x="-1.27" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -9588,7 +9604,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C1" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C2" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C3" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L1" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L1" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND2" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH1+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH1-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
@@ -9597,7 +9613,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C4" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C5" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C6" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L2" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L2" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND3" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH2+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH2-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
@@ -9606,7 +9622,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C7" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C8" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C9" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L3" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L3" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND4" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH3+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH3-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
@@ -9615,7 +9631,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C10" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C11" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C12" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L4" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L4" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND5" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH4+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH4-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
@@ -9624,7 +9640,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C13" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C14" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C15" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L5" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L5" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND6" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH5+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH5-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
@@ -9633,7 +9649,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="C16" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C17" library="openag-capacitors" deviceset="10NF-C0603C103K5RACTU" device="" value="10nF"/>
 <part name="C18" library="openag-capacitors" deviceset="100UF-EEE-1HA101UP" device="" value="100uF"/>
-<part name="L6" library="openag-inductors" deviceset="120UH-74404064121" device="" value="120uH"/>
+<part name="L6" library="openag-inductors" deviceset="120UH-ASPI-6045S-121M-TCT-ND" device="" value="120uH"/>
 <part name="GND7" library="openag-supply" deviceset="GND" device=""/>
 <part name="CH6+" library="openag-wirepads" deviceset="3,17/1,3" device=""/>
 <part name="CH6-" library="openag-wirepads" deviceset="3,17/1,3" device=""/>

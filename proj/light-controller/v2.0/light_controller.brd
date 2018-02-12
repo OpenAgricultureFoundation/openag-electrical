@@ -5145,9 +5145,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="20.447" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L1" library="openag-inductors" package="74404064121" value="120uH" x="28.575" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="28.575" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="28.575" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="25.527" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="28.575" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="28.575" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH1+" library="openag-wirepads" package="3,17/1,3" value="" x="28.575" y="5.08" rot="R90"/>
 <element name="CH1-" library="openag-wirepads" package="3,17/1,3" value="" x="19.685" y="5.08" rot="R90"/>
@@ -5172,9 +5172,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="36.957" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L2" library="openag-inductors" package="74404064121" value="120uH" x="45.085" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="45.085" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="45.085" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="42.037" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="45.085" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="45.085" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH2+" library="openag-wirepads" package="3,17/1,3" value="" x="45.085" y="5.08" rot="R90"/>
 <element name="CH2-" library="openag-wirepads" package="3,17/1,3" value="" x="36.195" y="5.08" rot="R90"/>
@@ -5199,9 +5199,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="53.467" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L3" library="openag-inductors" package="74404064121" value="120uH" x="61.595" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="61.595" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="61.595" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="58.547" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="61.595" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="61.595" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH3+" library="openag-wirepads" package="3,17/1,3" value="" x="61.595" y="5.08" rot="R90"/>
 <element name="CH3-" library="openag-wirepads" package="3,17/1,3" value="" x="52.705" y="5.08" rot="R90"/>
@@ -5226,9 +5226,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="69.977" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L4" library="openag-inductors" package="74404064121" value="120uH" x="78.105" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="78.105" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="78.105" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.057" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="78.105" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="78.105" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH4+" library="openag-wirepads" package="3,17/1,3" value="" x="78.105" y="5.08" rot="R90"/>
 <element name="CH4-" library="openag-wirepads" package="3,17/1,3" value="" x="69.215" y="5.08" rot="R90"/>
@@ -5253,9 +5253,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="86.487" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L5" library="openag-inductors" package="74404064121" value="120uH" x="94.615" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="94.615" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="94.615" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="91.567" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="94.615" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="94.615" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH5+" library="openag-wirepads" package="3,17/1,3" value="" x="94.615" y="5.08" rot="R90"/>
 <element name="CH5-" library="openag-wirepads" package="3,17/1,3" value="" x="85.725" y="5.08" rot="R90"/>
@@ -5280,9 +5280,9 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VERIFIED" value="NO" x="102.997" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L6" library="openag-inductors" package="74404064121" value="120uH" x="111.125" y="39.37" smashed="yes" rot="R270">
+<attribute name="MF" value="Abracon LLC" x="111.125" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="ASPI-6045S-121M-T" x="111.125" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="108.077" y="42.926" size="1.27" layer="25"/>
-<attribute name="POPULATE" value="YES" x="111.125" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="111.125" y="39.37" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="CH6+" library="openag-wirepads" package="3,17/1,3" value="" x="111.125" y="5.08" rot="R90"/>
 <element name="CH6-" library="openag-wirepads" package="3,17/1,3" value="" x="102.235" y="5.08" rot="R90"/>
@@ -5343,8 +5343,8 @@ grid 15mm, 19649 Wickmann</description>
 <element name="J1" library="openag-connectors" package="22-23-2051" value="0022232051" x="15.875" y="74.803" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.685" y="81.153" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULATE" value="YES" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="0022232051" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="14.097" y="71.501" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" value="0022232051" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VERIFIED" value="NO" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="87.376" y="34.925" smashed="yes" rot="MR0">
