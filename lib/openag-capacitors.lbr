@@ -838,6 +838,60 @@
 </device>
 </devices>
 </deviceset>
+<deviceset name="2.2UF-GRM188R6YA225KA12D" prefix="C">
+<description>&lt;strong&gt;Murata Electronics North America - GRM188R6YA225KA12D - CAP CER 2.2UF 35V X5R 0603&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;2.2µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Capacitance: 2.2µF&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±10%&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 35V&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: X5R&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Applications: General Purpose&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount, MLCC&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.063" L x 0.032" W (1.60mm x 0.80mm)&lt;/li&gt;
+		&lt;li&gt;Thickness (Max): 0.035" (0.90mm)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://www.murata.com/~/media/webrenewal/support/library/catalog/products/capacitor/mlcc/c02e.ashx'&gt;Chip Monolithic Ceramic Caps Catalog&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='https://search.murata.co.jp/Ceramy/image/img/A01X/partnumbering_e_01.pdf'&gt;Chip Monolithic Ceramic Caps Part Numbering&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://search.murata.co.jp/Ceramy/image/img/A01X/C1606E.pdf'&gt;Specifications and Test Methods 3p&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://search.murata.co.jp/Ceramy/image/img/A01X/G101/ENG/GRM188R6YA225KA12-01.pdf'&gt;GRM188R6YA225KA12 Ref Sheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R6YA225KA12D/490-7204-1-ND/3900456'&gt;490-7204-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="C-EU" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="C0603">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="VALUE" value="2.2uF" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
 </devicesets>
 </library>
 </drawing>
