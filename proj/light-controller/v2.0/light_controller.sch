@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9704,12 +9704,6 @@ grid 15mm, 19649 Wickmann</description>
 <part name="+3V11" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="J6" library="openag-connectors" deviceset="OPENAG-RS485-RJ12" device="" value="OPENAG-RS485-RJ12"/>
 <part name="J7" library="openag-connectors" deviceset="OPENAG-I2C-HEADER" device="" value="OPENAG-I2C-HEADER"/>
-<part name="SJ_A6" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="SJ_A7" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="SJ_A8" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="SJ_A9" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="SJ_A10" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
-<part name="SJ_A11" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
 <part name="R28" library="openag-resistors" deviceset="1K-ERJ-PB3D1001V" device="" value="1K"/>
 <part name="R29" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
 <part name="SJ_A16" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
@@ -10089,12 +10083,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <attribute name="NAME" x="241.3" y="603.25" size="2.54" layer="95"/>
 <attribute name="VALUE" x="241.3" y="577.596" size="2.54" layer="96"/>
 </instance>
-<instance part="SJ_A6" gate="1" x="-307.34" y="457.2" rot="R180"/>
-<instance part="SJ_A7" gate="1" x="-307.34" y="419.1" rot="R180"/>
-<instance part="SJ_A8" gate="1" x="-307.34" y="381" rot="R180"/>
-<instance part="SJ_A9" gate="1" x="-307.34" y="342.9" rot="R180"/>
-<instance part="SJ_A10" gate="1" x="-307.34" y="304.8" rot="R180"/>
-<instance part="SJ_A11" gate="1" x="-307.34" y="266.7" rot="R180"/>
 <instance part="R28" gate="A" x="-86.36" y="358.14" rot="R270"/>
 <instance part="R29" gate="G$1" x="-157.48" y="396.24"/>
 <instance part="SJ_A16" gate="1" x="-175.26" y="408.94"/>
@@ -10236,82 +10224,58 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <nets>
 <net name="+24V" class="0">
 <segment>
-<wire x1="-320.04" y1="454.66" x2="-320.04" y2="457.2" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="457.2" x2="-320.04" y2="462.28" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="454.66" x2="-320.04" y2="462.28" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="462.28" x2="-312.42" y2="462.28" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="462.28" x2="-322.58" y2="462.28" width="0.1524" layer="91"/>
 <junction x="-320.04" y="462.28"/>
 <pinref part="P+1" gate="1" pin="+24V"/>
 <pinref part="C3" gate="G$1" pin="1(+)"/>
 <pinref part="L1" gate="G$1" pin="1"/>
-<pinref part="SJ_A6" gate="1" pin="2"/>
-<wire x1="-312.42" y1="457.2" x2="-320.04" y2="457.2" width="0.1524" layer="91"/>
-<junction x="-320.04" y="457.2"/>
 </segment>
 <segment>
-<wire x1="-320.04" y1="416.56" x2="-320.04" y2="419.1" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="419.1" x2="-320.04" y2="424.18" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="416.56" x2="-320.04" y2="424.18" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="424.18" x2="-312.42" y2="424.18" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="424.18" x2="-322.58" y2="424.18" width="0.1524" layer="91"/>
 <junction x="-320.04" y="424.18"/>
 <pinref part="P+2" gate="1" pin="+24V"/>
 <pinref part="C6" gate="G$1" pin="1(+)"/>
 <pinref part="L2" gate="G$1" pin="1"/>
-<pinref part="SJ_A7" gate="1" pin="2"/>
-<wire x1="-312.42" y1="419.1" x2="-320.04" y2="419.1" width="0.1524" layer="91"/>
-<junction x="-320.04" y="419.1"/>
 </segment>
 <segment>
-<wire x1="-320.04" y1="378.46" x2="-320.04" y2="381" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="381" x2="-320.04" y2="386.08" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="378.46" x2="-320.04" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="386.08" x2="-312.42" y2="386.08" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="386.08" x2="-322.58" y2="386.08" width="0.1524" layer="91"/>
 <junction x="-320.04" y="386.08"/>
 <pinref part="P+3" gate="1" pin="+24V"/>
 <pinref part="C9" gate="G$1" pin="1(+)"/>
 <pinref part="L3" gate="G$1" pin="1"/>
-<pinref part="SJ_A8" gate="1" pin="2"/>
-<wire x1="-312.42" y1="381" x2="-320.04" y2="381" width="0.1524" layer="91"/>
-<junction x="-320.04" y="381"/>
 </segment>
 <segment>
-<wire x1="-320.04" y1="340.36" x2="-320.04" y2="342.9" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="342.9" x2="-320.04" y2="347.98" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="340.36" x2="-320.04" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="347.98" x2="-312.42" y2="347.98" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="347.98" x2="-322.58" y2="347.98" width="0.1524" layer="91"/>
 <junction x="-320.04" y="347.98"/>
 <pinref part="P+5" gate="1" pin="+24V"/>
 <pinref part="C12" gate="G$1" pin="1(+)"/>
 <pinref part="L4" gate="G$1" pin="1"/>
-<pinref part="SJ_A9" gate="1" pin="2"/>
-<wire x1="-312.42" y1="342.9" x2="-320.04" y2="342.9" width="0.1524" layer="91"/>
-<junction x="-320.04" y="342.9"/>
 </segment>
 <segment>
-<wire x1="-320.04" y1="302.26" x2="-320.04" y2="304.8" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="304.8" x2="-320.04" y2="309.88" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="302.26" x2="-320.04" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="309.88" x2="-312.42" y2="309.88" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="309.88" x2="-322.58" y2="309.88" width="0.1524" layer="91"/>
 <junction x="-320.04" y="309.88"/>
 <pinref part="P+6" gate="1" pin="+24V"/>
 <pinref part="C15" gate="G$1" pin="1(+)"/>
 <pinref part="L5" gate="G$1" pin="1"/>
-<pinref part="SJ_A10" gate="1" pin="2"/>
-<wire x1="-312.42" y1="304.8" x2="-320.04" y2="304.8" width="0.1524" layer="91"/>
-<junction x="-320.04" y="304.8"/>
 </segment>
 <segment>
-<wire x1="-320.04" y1="264.16" x2="-320.04" y2="266.7" width="0.1524" layer="91"/>
-<wire x1="-320.04" y1="266.7" x2="-320.04" y2="271.78" width="0.1524" layer="91"/>
+<wire x1="-320.04" y1="264.16" x2="-320.04" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="271.78" x2="-312.42" y2="271.78" width="0.1524" layer="91"/>
 <wire x1="-320.04" y1="271.78" x2="-322.58" y2="271.78" width="0.1524" layer="91"/>
 <junction x="-320.04" y="271.78"/>
 <pinref part="P+7" gate="1" pin="+24V"/>
 <pinref part="C18" gate="G$1" pin="1(+)"/>
 <pinref part="L6" gate="G$1" pin="1"/>
-<pinref part="SJ_A11" gate="1" pin="2"/>
-<wire x1="-312.42" y1="266.7" x2="-320.04" y2="266.7" width="0.1524" layer="91"/>
-<junction x="-320.04" y="266.7"/>
 </segment>
 <segment>
 <wire x1="-86.36" y1="556.26" x2="-86.36" y2="553.72" width="0.1524" layer="91"/>
@@ -10365,8 +10329,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="462.28"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<pinref part="SJ_A6" gate="1" pin="1"/>
-<wire x1="-302.26" y1="457.2" x2="-297.18" y2="457.2" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="457.2" x2="-297.18" y2="456.946" width="0.1524" layer="91"/>
 <junction x="-297.18" y="456.946"/>
 </segment>
@@ -10766,8 +10728,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="424.18"/>
 <pinref part="C4" gate="G$1" pin="1"/>
 <pinref part="L2" gate="G$1" pin="2"/>
-<pinref part="SJ_A7" gate="1" pin="1"/>
-<wire x1="-302.26" y1="419.1" x2="-297.18" y2="419.1" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="419.1" x2="-297.18" y2="418.846" width="0.1524" layer="91"/>
 <junction x="-297.18" y="418.846"/>
 </segment>
@@ -10824,8 +10784,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="386.08"/>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="L3" gate="G$1" pin="2"/>
-<pinref part="SJ_A8" gate="1" pin="1"/>
-<wire x1="-302.26" y1="381" x2="-297.18" y2="381" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="381" x2="-297.18" y2="380.746" width="0.1524" layer="91"/>
 <junction x="-297.18" y="380.746"/>
 </segment>
@@ -10882,8 +10840,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="347.98"/>
 <pinref part="C10" gate="G$1" pin="1"/>
 <pinref part="L4" gate="G$1" pin="2"/>
-<pinref part="SJ_A9" gate="1" pin="1"/>
-<wire x1="-302.26" y1="342.9" x2="-297.18" y2="342.9" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="342.9" x2="-297.18" y2="342.646" width="0.1524" layer="91"/>
 <junction x="-297.18" y="342.646"/>
 </segment>
@@ -10940,8 +10896,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="309.88"/>
 <pinref part="C13" gate="G$1" pin="1"/>
 <pinref part="L5" gate="G$1" pin="2"/>
-<pinref part="SJ_A10" gate="1" pin="1"/>
-<wire x1="-302.26" y1="304.8" x2="-297.18" y2="304.8" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="304.8" x2="-297.18" y2="304.546" width="0.1524" layer="91"/>
 <junction x="-297.18" y="304.546"/>
 </segment>
@@ -10998,8 +10952,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-297.18" y="271.78"/>
 <pinref part="C16" gate="G$1" pin="1"/>
 <pinref part="L6" gate="G$1" pin="2"/>
-<pinref part="SJ_A11" gate="1" pin="1"/>
-<wire x1="-302.26" y1="266.7" x2="-297.18" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-297.18" y1="266.7" x2="-297.18" y2="266.446" width="0.1524" layer="91"/>
 <junction x="-297.18" y="266.446"/>
 </segment>
