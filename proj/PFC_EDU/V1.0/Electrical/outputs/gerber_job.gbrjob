@@ -1,0 +1,13 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,8.6.1*%
+%TF.CreationDate,2018-02-09T18:52:31Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Dan Poitrast <dpoitrast@leddynamics.com>*%
+%TJ.B_ID,PFCEDU_V1*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+%TJ.B_Size_X,284.734000*%
+%TJ.B_Size_Y,284.790741*%
+M02*
