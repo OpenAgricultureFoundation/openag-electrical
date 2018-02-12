@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="12.5" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -6000,7 +6000,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="82.7434" y1="52.791" x2="82.7786" y2="52.7558" width="0.3048" layer="1"/>
 <via x="52.1208" y="58.5978" extent="1-16" drill="0.35"/>
 <via x="58.3438" y="50.292" extent="1-16" drill="0.35"/>
-<via x="74.8538" y="57.912" extent="1-16" drill="0.35"/>
+<via x="76.6318" y="57.912" extent="1-16" drill="0.35"/>
 <via x="72.136" y="49.2252" extent="1-16" drill="0.35"/>
 <contactref element="R29" pad="1"/>
 <contactref element="SJ_A17" pad="1"/>
@@ -6101,7 +6101,7 @@ grid 15mm, 19649 Wickmann</description>
 <vertex x="117.475" y="68.2625"/>
 </polygon>
 <via x="118.491" y="67.2465" extent="1-16" drill="0.35"/>
-<via x="120.142" y="70.8025" extent="1-16" drill="0.35"/>
+<via x="120.396" y="70.8025" extent="1-16" drill="0.35"/>
 <via x="114.6175" y="66.802" extent="1-16" drill="0.35"/>
 <via x="86.9315" y="71.374" extent="1-16" drill="0.35"/>
 <via x="114.808" y="78.105" extent="1-16" drill="0.35"/>
@@ -6541,7 +6541,8 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="47.5676" y1="58.4134" x2="47.5742" y2="58.42" width="0.4064" layer="1"/>
 <via x="47.5742" y="58.42" extent="1-16" drill="0.35"/>
 <wire x1="49.5808" y1="58.42" x2="47.5742" y2="58.42" width="0.3048" layer="1"/>
-<wire x1="73.533" y1="54.649" x2="71.1844" y2="54.649" width="0.3556" layer="1"/>
+<wire x1="73.533" y1="54.649" x2="73.152" y2="54.649" width="0.3556" layer="1"/>
+<wire x1="73.152" y1="54.649" x2="71.1844" y2="54.649" width="0.3556" layer="1"/>
 <wire x1="71.1844" y1="54.649" x2="71.1708" y2="54.6354" width="0.3556" layer="1"/>
 <via x="71.1708" y="54.6354" extent="1-16" drill="0.35"/>
 <wire x1="47.5742" y1="58.42" x2="51.3588" y2="54.6354" width="0.3048" layer="16"/>
@@ -6563,12 +6564,7 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="71.1708" y1="54.6354" x2="71.1708" y2="56.134" width="0.4064" layer="16"/>
 <contactref element="U7" pad="8"/>
 <wire x1="71.1708" y1="56.134" x2="71.1708" y2="61.4172" width="0.4064" layer="16"/>
-<wire x1="75.434" y1="52.791" x2="73.955" y2="52.791" width="0.3048" layer="1"/>
-<wire x1="73.533" y1="53.213" x2="73.533" y2="54.649" width="0.3048" layer="1"/>
-<wire x1="73.955" y1="52.791" x2="73.533" y2="53.213" width="0.3048" layer="1"/>
-<wire x1="74.157" y1="49.541" x2="75.434" y2="49.541" width="0.3048" layer="1"/>
-<wire x1="73.533" y1="53.213" x2="73.533" y2="50.165" width="0.3048" layer="1"/>
-<wire x1="73.533" y1="50.165" x2="74.157" y2="49.541" width="0.3048" layer="1"/>
+<wire x1="75.434" y1="49.541" x2="74.157" y2="49.541" width="0.3048" layer="1"/>
 <contactref element="R28" pad="1"/>
 <wire x1="71.1708" y1="54.6354" x2="71.1708" y2="53.305" width="0.3048" layer="1"/>
 <wire x1="71.1708" y1="53.305" x2="71.3898" y2="53.086" width="0.3048" layer="1"/>
@@ -6656,6 +6652,12 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="71.151" y1="56.1538" x2="71.1708" y2="56.134" width="0.3048" layer="16"/>
 <wire x1="28.848" y1="70.5866" x2="28.8584" y2="70.5762" width="0.4064" layer="1"/>
 <wire x1="28.8584" y1="70.5762" x2="28.8584" y2="68.9316" width="0.4064" layer="1"/>
+<wire x1="73.152" y1="50.546" x2="73.152" y2="52.07" width="0.3048" layer="1"/>
+<wire x1="73.152" y1="52.07" x2="73.152" y2="54.649" width="0.3048" layer="1"/>
+<wire x1="74.157" y1="49.541" x2="73.152" y2="50.546" width="0.3048" layer="1"/>
+<wire x1="75.434" y1="52.791" x2="74.635" y2="52.791" width="0.3048" layer="1"/>
+<wire x1="73.914" y1="52.07" x2="73.152" y2="52.07" width="0.3048" layer="1"/>
+<wire x1="74.635" y1="52.791" x2="73.914" y2="52.07" width="0.3048" layer="1"/>
 </signal>
 <signal name="PHOTON_SCL1">
 </signal>
@@ -7298,14 +7300,11 @@ grid 15mm, 19649 Wickmann</description>
 <signal name="!LDAC!">
 <contactref element="U7" pad="1"/>
 <contactref element="R29" pad="2"/>
-<wire x1="75.434" y1="54.091" x2="75.434" y2="56.384" width="0.3048" layer="1"/>
-<wire x1="75.434" y1="56.384" x2="75.438" y2="56.388" width="0.3048" layer="1"/>
-<via x="75.438" y="56.388" extent="1-16" drill="0.35"/>
-<wire x1="69.596" y1="50.546" x2="68.834" y2="50.546" width="0.3048" layer="16"/>
+<wire x1="75.438" y1="57.15" x2="75.434" y2="56.384" width="0.3048" layer="1"/>
+<via x="75.438" y="57.15" extent="1-16" drill="0.35"/>
+<wire x1="68.834" y1="50.546" x2="69.596" y2="50.546" width="0.3048" layer="16"/>
 <via x="68.834" y="50.546" extent="1-16" drill="0.35"/>
 <wire x1="68.834" y1="50.546" x2="66.8178" y2="50.546" width="0.3048" layer="1"/>
-<wire x1="75.438" y1="56.388" x2="74.93" y2="55.88" width="0.3048" layer="16"/>
-<wire x1="74.93" y1="55.88" x2="69.596" y2="50.546" width="0.3048" layer="16"/>
 <wire x1="66.8178" y1="50.546" x2="66.1988" y2="51.165" width="0.3048" layer="1"/>
 <wire x1="66.1988" y1="51.165" x2="66.1988" y2="51.1774625" width="0.3048" layer="1"/>
 <wire x1="57.9402625" y1="59.436" x2="57.912" y2="59.436" width="0.3048" layer="1"/>
@@ -7327,8 +7326,7 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="R1" pad="2"/>
 <contactref element="U9" pad="24"/>
 <contactref element="TP23" pad="1"/>
-<wire x1="27.166709375" y1="71.893290625" x2="27.293709375" y2="72.020290625" width="0.3048" layer="1"/>
-<wire x1="27.293709375" y1="72.020290625" x2="27.76501875" y2="72.4916" width="0.3048" layer="1"/>
+<wire x1="26.898" y1="71.62458125" x2="27.76501875" y2="72.4916" width="0.3048" layer="1"/>
 <wire x1="35.1312" y1="72.06338125" x2="35.1312" y2="72.0568" width="0.3048" layer="1"/>
 <wire x1="27.76501875" y1="72.4916" x2="34.70298125" y2="72.4916" width="0.3048" layer="1"/>
 <wire x1="34.70298125" y1="72.4916" x2="35.1312" y2="72.06338125" width="0.3048" layer="1"/>
@@ -7341,26 +7339,34 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="68.834" y1="58.6898" x2="72.1202" y2="58.6898" width="0.3048" layer="1"/>
 <wire x1="72.1202" y1="58.6898" x2="72.1325625" y2="58.6774375" width="0.3048" layer="1"/>
 <via x="72.1325625" y="58.6774375" extent="1-16" drill="0.35"/>
-<wire x1="72.1325625" y1="58.6774375" x2="74.93" y2="55.88" width="0.3048" layer="16"/>
+<wire x1="72.1325625" y1="58.6774375" x2="73.66" y2="57.15" width="0.3048" layer="16"/>
 <wire x1="52.324" y1="63.246" x2="52.324" y2="61.8716" width="0.3048" layer="1"/>
 <wire x1="51.562" y1="64.008" x2="52.324" y2="63.246" width="0.3048" layer="1"/>
 <wire x1="26.898" y1="70.5866" x2="26.898" y2="71.62458125" width="0.3048" layer="1"/>
-<wire x1="26.898" y1="71.62458125" x2="27.166709375" y2="71.893290625" width="0.3048" layer="1"/>
+<wire x1="75.434" y1="56.384" x2="75.434" y2="54.091" width="0.3048" layer="1"/>
+<wire x1="69.596" y1="50.546" x2="72.39" y2="53.34" width="0.3048" layer="16"/>
+<wire x1="72.39" y1="53.34" x2="72.39" y2="55.88" width="0.3048" layer="16"/>
+<wire x1="72.39" y1="55.88" x2="73.66" y2="57.15" width="0.3048" layer="16"/>
+<wire x1="73.66" y1="57.15" x2="75.438" y2="57.15" width="0.3048" layer="16"/>
 </signal>
 <signal name="ADDR0">
 <contactref element="U7" pad="2"/>
 <contactref element="SJ_A16" pad="2"/>
 <contactref element="SJ_A17" pad="2"/>
 <wire x1="107.442" y1="56.896" x2="111.76" y2="56.896" width="0.4064" layer="1"/>
-<wire x1="75.434" y1="53.441" x2="74.168" y2="53.441" width="0.3048" layer="1"/>
-<wire x1="74.168" y1="53.441" x2="74.168" y2="53.594" width="0.3048" layer="1"/>
-<via x="74.168" y="53.594" extent="1-16" drill="0.35"/>
 <via x="101.092" y="56.896" extent="1-16" drill="0.35"/>
-<wire x1="84.54203125" y1="56.896" x2="101.092" y2="56.896" width="0.3048" layer="16"/>
-<wire x1="74.168" y1="53.594" x2="77.8228" y2="57.2488" width="0.3048" layer="16"/>
-<wire x1="77.8228" y1="57.2488" x2="84.18923125" y2="57.2488" width="0.3048" layer="16"/>
-<wire x1="84.18923125" y1="57.2488" x2="84.54203125" y2="56.896" width="0.3048" layer="16"/>
 <wire x1="101.092" y1="56.896" x2="107.442" y2="56.896" width="0.3048" layer="1"/>
+<wire x1="75.434" y1="53.441" x2="74.211325" y2="53.441" width="0.3048" layer="1"/>
+<wire x1="74.211325" y1="53.441" x2="74.1391625" y2="53.3688375" width="0.3048" layer="1"/>
+<via x="74.1391625" y="53.3688375" extent="1-16" drill="0.35"/>
+<wire x1="74.1391625" y1="53.3688375" x2="73.6311625" y2="53.3688375" width="0.3048" layer="16"/>
+<wire x1="73.6311625" y1="53.3688375" x2="73.406" y2="53.594" width="0.3048" layer="16"/>
+<wire x1="99.568" y1="58.42" x2="101.092" y2="56.896" width="0.3048" layer="16"/>
+<wire x1="73.406" y1="53.594" x2="73.406" y2="54.61" width="0.3048" layer="16"/>
+<wire x1="75.1868" y1="56.3908" x2="76.184275" y2="56.3908" width="0.3048" layer="16"/>
+<wire x1="76.184275" y1="56.3908" x2="78.213475" y2="58.42" width="0.3048" layer="16"/>
+<wire x1="73.406" y1="54.61" x2="75.1868" y2="56.3908" width="0.3048" layer="16"/>
+<wire x1="78.213475" y1="58.42" x2="99.568" y2="58.42" width="0.3048" layer="16"/>
 </signal>
 <signal name="SDA4">
 </signal>
