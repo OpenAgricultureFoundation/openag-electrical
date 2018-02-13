@@ -5343,8 +5343,8 @@ grid 15mm, 19649 Wickmann</description>
 <element name="J1" library="openag-connectors" package="22-23-2051" value="0022232051" x="15.875" y="74.803" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.685" y="81.153" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULATE" value="YES" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="14.097" y="71.501" size="1.016" layer="27" ratio="10" rot="R90"/>
 <attribute name="VALUE" value="0022232051" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" x="14.097" y="71.501" size="1.016" layer="27" ratio="10" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="87.376" y="34.925" smashed="yes" rot="MR0">

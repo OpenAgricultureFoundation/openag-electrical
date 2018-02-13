@@ -8006,7 +8006,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="0" y1="111.76" x2="0" y2="38.1" width="0.254" layer="97"/>
 <wire x1="0" y1="38.1" x2="-152.4" y2="38.1" width="0.254" layer="97"/>
 <wire x1="-152.4" y1="111.76" x2="0" y2="111.76" width="0.254" layer="97" style="longdash"/>
-<text x="-119.38" y="48.26" size="3.81" layer="97">dI2C Buffer</text>
+<text x="-101.6" y="101.6" size="3.81" layer="97">dI2C Buffer</text>
 <text x="-96.52" y="147.32" size="3.81" layer="97">RJ45 Connectors</text>
 <text x="38.1" y="-35.56" size="3.81" layer="97">24V to 5V@1A Switching Regulator
 w/Indicator LED + Enable</text>
@@ -8024,6 +8024,7 @@ w/Indicator LED + Enable</text>
 <wire x1="152.4" y1="114.3" x2="152.4" y2="38.1" width="0.254" layer="97" style="longdash"/>
 <text x="73.66" y="106.68" size="3.302" layer="97">AMG8833 Sensor</text>
 <text x="162.56" y="93.98" size="3.302" layer="97">Testpads</text>
+<text x="-190.5" y="195.58" size="7.62" layer="97">AMG8833 Sensor Node</text>
 </plain>
 <instances>
 <instance part="FRAME1" gate="G$1" x="190.5" y="-114.3"/>
@@ -8037,9 +8038,9 @@ w/Indicator LED + Enable</text>
 <instance part="SJ3" gate="1" x="-116.84" y="-63.5"/>
 <instance part="F2" gate="A" x="-40.64" y="-22.86"/>
 <instance part="+3V3" gate="G$1" x="-104.14" y="-55.88"/>
-<instance part="TP4" gate="G$1" x="-116.84" y="-30.48" rot="R90"/>
-<instance part="TP29" gate="G$1" x="-114.3" y="-17.78"/>
-<instance part="TP30" gate="G$1" x="-101.6" y="-63.5" rot="R270"/>
+<instance part="TP4" gate="G$1" x="-114.3" y="-30.48" rot="R90"/>
+<instance part="TP29" gate="G$1" x="-114.3" y="-20.32" rot="R270"/>
+<instance part="TP30" gate="G$1" x="-104.14" y="-63.5" rot="R180"/>
 <instance part="P+1" gate="1" x="-121.92" y="-12.7"/>
 <instance part="U2" gate="G$1" x="-88.9" y="78.74"/>
 <instance part="R13" gate="G$1" x="-17.78" y="88.9" rot="R90"/>
@@ -8063,12 +8064,12 @@ w/Indicator LED + Enable</text>
 <instance part="J2" gate="G$1" x="-45.72" y="127"/>
 <instance part="P+13" gate="1" x="-63.5" y="142.24"/>
 <instance part="GND18" gate="1" x="-58.42" y="116.84"/>
-<instance part="TP8" gate="G$1" x="-134.62" y="73.66" rot="R180"/>
-<instance part="TP9" gate="G$1" x="-121.92" y="78.74" rot="R180"/>
-<instance part="TP32" gate="G$1" x="-114.3" y="83.82" rot="R90"/>
-<instance part="TP33" gate="G$1" x="-116.84" y="68.58" rot="R90"/>
-<instance part="TP34" gate="G$1" x="-38.1" y="91.44" rot="R270"/>
-<instance part="TP35" gate="G$1" x="-134.62" y="134.62" rot="R180"/>
+<instance part="TP8" gate="G$1" x="-134.62" y="76.2" rot="R90"/>
+<instance part="TP9" gate="G$1" x="-121.92" y="81.28" rot="R90"/>
+<instance part="TP32" gate="G$1" x="-111.76" y="83.82"/>
+<instance part="TP33" gate="G$1" x="-114.3" y="68.58"/>
+<instance part="TP34" gate="G$1" x="-40.64" y="91.44" rot="R180"/>
+<instance part="TP35" gate="G$1" x="-134.62" y="137.16" rot="R90"/>
 <instance part="J1" gate="G$1" x="-116.84" y="127"/>
 <instance part="C4" gate="G$1" x="43.18" y="-50.8"/>
 <instance part="C5" gate="G$1" x="116.84" y="-58.42"/>
@@ -8100,14 +8101,14 @@ w/Indicator LED + Enable</text>
 <attribute name="NAME" x="133.096" y="-70.612" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.255" y="-70.612" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="TP5" gate="G$1" x="144.78" y="-50.8" rot="R180"/>
-<instance part="TP6" gate="G$1" x="40.64" y="-63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.37" y="-64.77" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="41.91" y="-62.23" size="1.778" layer="97" rot="R90"/>
+<instance part="TP5" gate="G$1" x="144.78" y="-48.26" rot="R90"/>
+<instance part="TP6" gate="G$1" x="43.18" y="-63.5" smashed="yes" rot="R180">
+<attribute name="NAME" x="44.45" y="-67.31" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="41.91" y="-62.23" size="1.778" layer="97" rot="R180"/>
 </instance>
-<instance part="TP7" gate="G$1" x="40.64" y="-48.26" smashed="yes" rot="R90">
-<attribute name="NAME" x="41.91" y="-46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="41.91" y="-46.99" size="1.778" layer="97" rot="R90"/>
+<instance part="TP7" gate="G$1" x="43.18" y="-48.26" smashed="yes">
+<attribute name="NAME" x="39.37" y="-46.99" size="1.778" layer="95"/>
+<attribute name="TP_SIGNAL_NAME" x="44.45" y="-49.53" size="1.778" layer="97"/>
 </instance>
 <instance part="SJ2" gate="1" x="137.16" y="-48.26"/>
 <instance part="GND1" gate="1" x="-48.26" y="-17.78"/>
@@ -8148,15 +8149,15 @@ w/Indicator LED + Enable</text>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="-114.3" y1="-27.94" x2="-116.84" y2="-30.48" width="0.1524" layer="91"/>
-<wire x1="-116.84" y1="-30.48" x2="-104.14" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-27.94" x2="-114.3" y2="-30.48" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="-30.48" x2="-104.14" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="GND"/>
 <wire x1="-104.14" y1="-30.48" x2="-104.14" y2="-22.86" width="0.1524" layer="91"/>
 <junction x="-104.14" y="-30.48"/>
 <pinref part="C9" gate="G$1" pin="2"/>
 <wire x1="-104.14" y1="-30.48" x2="-50.8" y2="-30.48" width="0.1524" layer="91"/>
 <pinref part="TP4" gate="G$1" pin="TP"/>
-<junction x="-116.84" y="-30.48"/>
+<junction x="-114.3" y="-30.48"/>
 </segment>
 <segment>
 <pinref part="R13" gate="G$1" pin="2"/>
@@ -8173,11 +8174,11 @@ w/Indicator LED + Enable</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="VSS"/>
 <wire x1="-106.68" y1="73.66" x2="-114.3" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="73.66" x2="-116.84" y2="68.58" width="0.1524" layer="91"/>
+<wire x1="-114.3" y1="73.66" x2="-114.3" y2="68.58" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
 <pinref part="TP33" gate="G$1" pin="TP"/>
-<wire x1="-116.84" y1="68.58" x2="-114.3" y2="66.04" width="0.1524" layer="91"/>
-<junction x="-116.84" y="68.58"/>
+<wire x1="-114.3" y1="68.58" x2="-114.3" y2="66.04" width="0.1524" layer="91"/>
+<junction x="-114.3" y="68.58"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
@@ -8194,10 +8195,10 @@ w/Indicator LED + Enable</text>
 <pinref part="U3" gate="G$1" pin="SHDN"/>
 <wire x1="43.18" y1="-55.88" x2="43.18" y2="-58.42" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-58.42" x2="48.26" y2="-58.42" width="0.1524" layer="91"/>
-<wire x1="43.18" y1="-58.42" x2="40.64" y2="-63.5" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-58.42" x2="43.18" y2="-63.5" width="0.1524" layer="91"/>
 <junction x="43.18" y="-58.42"/>
 <pinref part="U3" gate="G$1" pin="GND"/>
-<wire x1="40.64" y1="-63.5" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-63.5" x2="43.18" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="43.18" y1="-71.12" x2="68.58" y2="-71.12" width="0.1524" layer="91"/>
 <wire x1="68.58" y1="-71.12" x2="68.58" y2="-68.58" width="0.1524" layer="91"/>
 <pinref part="D4" gate="G$1" pin="21"/>
@@ -8215,7 +8216,7 @@ w/Indicator LED + Enable</text>
 <wire x1="116.84" y1="-71.12" x2="129.54" y2="-71.12" width="0.1524" layer="91"/>
 <junction x="116.84" y="-71.12"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
-<junction x="40.64" y="-63.5"/>
+<junction x="43.18" y="-63.5"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="TAB"/>
@@ -8265,12 +8266,12 @@ w/Indicator LED + Enable</text>
 <segment>
 <pinref part="U2" gate="G$1" pin="SCL"/>
 <pinref part="R21" gate="A" pin="1"/>
-<wire x1="-106.68" y1="76.2" x2="-134.62" y2="73.66" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="73.66" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="76.2" x2="-134.62" y2="76.2" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="76.2" x2="-137.16" y2="76.2" width="0.1524" layer="91"/>
 <wire x1="-137.16" y1="76.2" x2="-137.16" y2="83.82" width="0.1524" layer="91"/>
 <label x="-137.16" y="76.2" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP8" gate="G$1" pin="TP"/>
-<junction x="-134.62" y="73.66"/>
+<junction x="-134.62" y="76.2"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SCL"/>
@@ -8288,11 +8289,11 @@ w/Indicator LED + Enable</text>
 <pinref part="R20" gate="A" pin="1"/>
 <wire x1="-124.46" y1="83.82" x2="-124.46" y2="81.28" width="0.1524" layer="91"/>
 <pinref part="U2" gate="G$1" pin="SDA"/>
-<wire x1="-124.46" y1="81.28" x2="-121.92" y2="78.74" width="0.1524" layer="91"/>
+<wire x1="-124.46" y1="81.28" x2="-121.92" y2="81.28" width="0.1524" layer="91"/>
 <label x="-124.46" y="81.28" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP9" gate="G$1" pin="TP"/>
-<wire x1="-121.92" y1="78.74" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
-<junction x="-121.92" y="78.74"/>
+<wire x1="-121.92" y1="81.28" x2="-106.68" y2="81.28" width="0.1524" layer="91"/>
+<junction x="-121.92" y="81.28"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="SDA"/>
@@ -8309,10 +8310,10 @@ w/Indicator LED + Enable</text>
 <segment>
 <pinref part="SJ3" gate="1" pin="2"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
-<wire x1="-111.76" y1="-63.5" x2="-101.6" y2="-63.5" width="0.1524" layer="91" style="longdash"/>
-<wire x1="-101.6" y1="-63.5" x2="-104.14" y2="-58.42" width="0.1524" layer="91" style="longdash"/>
+<wire x1="-111.76" y1="-63.5" x2="-104.14" y2="-63.5" width="0.1524" layer="91" style="longdash"/>
+<wire x1="-104.14" y1="-63.5" x2="-104.14" y2="-58.42" width="0.1524" layer="91" style="longdash"/>
 <pinref part="TP30" gate="G$1" pin="TP"/>
-<junction x="-101.6" y="-63.5"/>
+<junction x="-104.14" y="-63.5"/>
 </segment>
 <segment>
 <pinref part="R21" gate="A" pin="2"/>
@@ -8327,11 +8328,11 @@ w/Indicator LED + Enable</text>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD_(A)"/>
-<wire x1="-106.68" y1="83.82" x2="-114.3" y2="83.82" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="83.82" x2="-111.76" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-106.68" y1="83.82" x2="-111.76" y2="83.82" width="0.1524" layer="91"/>
+<wire x1="-111.76" y1="83.82" x2="-111.76" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="+3V4" gate="G$1" pin="+3V3"/>
 <pinref part="TP32" gate="G$1" pin="TP"/>
-<junction x="-114.3" y="83.82"/>
+<junction x="-111.76" y="83.82"/>
 </segment>
 <segment>
 <pinref part="R3" gate="A" pin="2"/>
@@ -8371,10 +8372,10 @@ w/Indicator LED + Enable</text>
 <net name="+24V" class="0">
 <segment>
 <pinref part="P+8" gate="1" pin="+24V"/>
-<wire x1="-134.62" y1="139.7" x2="-134.62" y2="134.62" width="0.1524" layer="91"/>
-<wire x1="-134.62" y1="134.62" x2="-129.54" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="139.7" x2="-134.62" y2="137.16" width="0.1524" layer="91"/>
+<wire x1="-134.62" y1="137.16" x2="-129.54" y2="137.16" width="0.1524" layer="91"/>
 <pinref part="TP35" gate="G$1" pin="TP"/>
-<junction x="-134.62" y="134.62"/>
+<junction x="-134.62" y="137.16"/>
 <pinref part="J1" gate="G$1" pin="+24V"/>
 </segment>
 <segment>
@@ -8386,26 +8387,24 @@ w/Indicator LED + Enable</text>
 <segment>
 <pinref part="U3" gate="G$1" pin="IN"/>
 <pinref part="C4" gate="G$1" pin="1"/>
-<wire x1="48.26" y1="-48.26" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
-<junction x="40.64" y="-48.26"/>
+<wire x1="48.26" y1="-48.26" x2="43.18" y2="-48.26" width="0.1524" layer="91"/>
+<junction x="43.18" y="-48.26"/>
 <pinref part="P+4" gate="1" pin="+24V"/>
-<wire x1="40.64" y1="-48.26" x2="43.18" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="43.18" y1="-48.26" x2="43.18" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="43.18" y1="-48.26" x2="40.64" y2="-48.26" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="+5V" class="0">
 <segment>
 <pinref part="U4" gate="A" pin="IN"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="-104.14" y1="-20.32" x2="-114.3" y2="-17.78" width="0.1524" layer="91"/>
-<junction x="-114.3" y="-17.78"/>
-<wire x1="-114.3" y1="-17.78" x2="-119.38" y2="-20.32" width="0.1524" layer="91" style="longdash"/>
+<wire x1="-104.14" y1="-20.32" x2="-114.3" y2="-20.32" width="0.1524" layer="91"/>
+<junction x="-114.3" y="-20.32"/>
+<wire x1="-114.3" y1="-20.32" x2="-119.38" y2="-20.32" width="0.1524" layer="91" style="longdash"/>
 <pinref part="TP29" gate="G$1" pin="TP"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
 <wire x1="-119.38" y1="-20.32" x2="-121.92" y2="-20.32" width="0.1524" layer="91"/>
 <wire x1="-121.92" y1="-20.32" x2="-121.92" y2="-15.24" width="0.1524" layer="91"/>
-<wire x1="-114.3" y1="-20.32" x2="-114.3" y2="-17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U2" gate="G$1" pin="VDD_(B)"/>
@@ -8415,11 +8414,11 @@ w/Indicator LED + Enable</text>
 </segment>
 <segment>
 <pinref part="R16" gate="G$1" pin="2"/>
-<wire x1="-40.64" y1="93.98" x2="-38.1" y2="91.44" width="0.1524" layer="91"/>
+<wire x1="-40.64" y1="93.98" x2="-40.64" y2="91.44" width="0.1524" layer="91"/>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <pinref part="TP34" gate="G$1" pin="TP"/>
-<wire x1="-38.1" y1="91.44" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
-<junction x="-38.1" y="91.44"/>
+<wire x1="-40.64" y1="91.44" x2="-40.64" y2="88.9" width="0.1524" layer="91"/>
+<junction x="-40.64" y="91.44"/>
 </segment>
 <segment>
 <pinref part="R15" gate="G$1" pin="1"/>
@@ -8429,10 +8428,10 @@ w/Indicator LED + Enable</text>
 </segment>
 <segment>
 <pinref part="P+5" gate="1" pin="+5V"/>
-<wire x1="142.24" y1="-48.26" x2="144.78" y2="-50.8" width="0.1524" layer="91"/>
-<wire x1="144.78" y1="-50.8" x2="144.78" y2="-45.72" width="0.1524" layer="91"/>
+<wire x1="142.24" y1="-48.26" x2="144.78" y2="-48.26" width="0.1524" layer="91"/>
+<wire x1="144.78" y1="-48.26" x2="144.78" y2="-45.72" width="0.1524" layer="91"/>
 <pinref part="TP5" gate="G$1" pin="TP"/>
-<junction x="144.78" y="-50.8"/>
+<junction x="144.78" y="-48.26"/>
 <pinref part="SJ2" gate="1" pin="2"/>
 </segment>
 </net>
