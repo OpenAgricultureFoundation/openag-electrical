@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -396,7 +396,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 </symbols>
 <devicesets>
 <deviceset name="ISO1540DR" prefix="U">
-<description>&lt;b&gt; Texas Instruments - ISO1540DR - DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
+<description>&lt;b&gt; DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;I²C Digital Isolator 2500Vrms 2 Channel 1Mbps 25kV/µs CMTI 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
@@ -446,9 +446,12 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="ISO1540DR" constant="no"/>
 <attribute name="VALUE" value="ISO1540" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" constant="no"/>
+<attribute name="VPN" value=" 296-34871-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -515,7 +518,7 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 </devices>
 </deviceset>
 <deviceset name="RM3.33.3S" prefix="U">
-<description>&lt;strong&gt;Recom Power - RM-3.33.3S - CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
+<description>&lt;strong&gt;CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Isolated Module DC DC Converter 1 Output 3.3V    76mA 3V - 3.6V Input&lt;/li&gt;
@@ -566,7 +569,13 @@ Source: http://www.lsicsi.com/pdfs/Drawings/SOIC%20Outline%20Dwgs.pdf</descripti
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Recom Power" constant="no"/>
+<attribute name="MPN" value="RM-3.33.3S" constant="no"/>
 <attribute name="VALUE" value="RM-3.33.3S" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" constant="no"/>
+<attribute name="VPN" value="
+945-1212-ND " constant="no"/>
 </technology>
 </technologies>
 </device>

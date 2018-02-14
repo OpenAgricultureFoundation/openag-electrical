@@ -5857,9 +5857,9 @@ Cambridge, MA</text>
 <technologies>
 <technology name="">
 <attribute name="AUTHOR" value="XX" constant="no"/>
-<attribute name="DESCRIPTION" value="Template for starting new designs." constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="TITLE" value="Example Template" constant="no"/>
-<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle_template" constant="no"/>
+<attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/" constant="no"/>
 <attribute name="VER" value="1.0" constant="no"/>
 </technology>
 </technologies>
@@ -5901,7 +5901,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="0.1UF-C0603C104K5RACTU" prefix="C">
-<description>&lt;b&gt; Kemet - C0603C104K5RACTU - CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/li&gt;
@@ -5941,9 +5941,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MPN" value="C0603C104K5RACTU" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" constant="no"/>
+<attribute name="VPN" value=" 399-5089-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6034,7 +6037,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="1K-ERJ-PB3D1001V" prefix="R">
-<description>&lt;b&gt; Panasonic - P20283CT-ND - RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
+<description>&lt;b&gt;RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;1 kOhms ±0.5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film&lt;/li&gt;
@@ -6073,9 +6076,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="P20283CT-ND" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" constant="no"/>
+<attribute name="VPN" value=" P20283CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6213,7 +6219,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="RM3.33.3S" prefix="U">
-<description>&lt;strong&gt;Recom Power - RM-3.33.3S - CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
+<description>&lt;strong&gt;CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Isolated Module DC DC Converter 1 Output 3.3V    76mA 3V - 3.6V Input&lt;/li&gt;
@@ -6264,14 +6270,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Recom Power" constant="no"/>
+<attribute name="MPN" value="RM-3.33.3S" constant="no"/>
 <attribute name="VALUE" value="RM-3.33.3S" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" constant="no"/>
+<attribute name="VPN" value=" 945-1212-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="ISO1540DR" prefix="U">
-<description>&lt;b&gt; Texas Instruments - ISO1540DR - DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
+<description>&lt;b&gt; DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;I²C Digital Isolator 2500Vrms 2 Channel 1Mbps 25kV/µs CMTI 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
@@ -6321,9 +6332,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="ISO1540DR" constant="no"/>
 <attribute name="VALUE" value="ISO1540" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" constant="no"/>
+<attribute name="VPN" value=" 296-34871-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6521,7 +6535,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="BNC-5227161-9" prefix="J">
-<description>&lt;strong&gt;TE Connectivity AMP Connectors - 5227161-9 - CONN BNC JACK R/A 50 OHM PCB&lt;/strong&gt;
+<description>&lt;strong&gt;CONN BNC JACK R/A 50 OHM PCB&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;BNC Connector Jack, Female Socket 50 Ohm Panel Mount, Through Hole, Right Angle Solder&lt;/li&gt;
@@ -6575,7 +6589,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" constant="no"/>
+<attribute name="MPN" value="5227161-9" constant="no"/>
 <attribute name="VALUE" value="5227161-9" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" constant="no"/>
+<attribute name="VPN" value="A32261-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6597,7 +6616,6 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="N/A" constant="no"/>
 <attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="VALUE" value="Atlas Stamp" constant="no"/>
 </technology>
@@ -6606,7 +6624,7 @@ Cambridge, MA</text>
 </devices>
 </deviceset>
 <deviceset name="OPENAG-I2C-HEADER" prefix="J">
-<description>Fits standard 100 mil header footprint</description>
+<description>100 MIL HEADER I2C CONNECTIONS</description>
 <gates>
 <gate name="G$1" symbol="OPENAG-I2C-HEADER" x="0" y="0"/>
 </gates>
@@ -6620,9 +6638,8 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="NO" constant="no"/>
-<attribute name="VALUE" value="OPENAG-I2C-HEADER" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
+<attribute name="VALUE" value="I2C-HEADER" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6642,7 +6659,6 @@ Cambridge, MA</text>
 <parts>
 <part name="FRAME1" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="AUTHOR" value="JR"/>
-<attribute name="DESCRIPTION" value=""/>
 <attribute name="TITLE" value="Atlas Port Double"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/atlas-double"/>
 </part>

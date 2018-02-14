@@ -528,7 +528,7 @@
 </devices>
 </deviceset>
 <deviceset name="0.1UF-C0603C104K5RACTU" prefix="C">
-<description>&lt;b&gt; Kemet - C0603C104K5RACTU - CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/li&gt;
@@ -568,9 +568,13 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MPN" value="C0603C104K5RACTU" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" constant="no"/>
+<attribute name="VPN" value="
+399-5089-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

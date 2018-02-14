@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -267,7 +267,7 @@
 </devices>
 </deviceset>
 <deviceset name="1K-ERJ-PB3D1001V" prefix="R">
-<description>&lt;b&gt; Panasonic - P20283CT-ND - RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
+<description>&lt;b&gt;RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;1 kOhms ±0.5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film&lt;/li&gt;
@@ -306,9 +306,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="P20283CT-ND" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" constant="no"/>
+<attribute name="VPN" value=" P20283CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
