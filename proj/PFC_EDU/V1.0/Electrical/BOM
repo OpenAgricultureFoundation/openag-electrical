@@ -1,0 +1,229 @@
+Partlist
+
+Exported from PFCEDU_V1.brd at 2/13/2018 8:56 AM
+
+EAGLE Version 8.6.1 Copyright (c) 1988-2018 Autodesk, Inc.
+
+Assembly variant: 
+
+Part     Value                  Package                     Library            Position (mil)        Orientation
+
+C1       4.7uF                  CAP_C1206                   openag-capacitors  (2292.70005 10953.4001) R90
+C2\2     4.7uF                  C0805                       openag-capacitors  (1994.5999 4089.70005) R270
+C3       .1uF                   C0603@1                     rcl                (1429.70005 8730.4001) R90
+C5       .1uF                   C0603@1                     rcl                (1750 7970)           R90
+C9       10uF                   C1206                       openag-capacitors  (2182.70005 10953.4001) R90
+C11      .1uF                   C0603@1                     rcl                (2082.70005 10933.4001) R90
+C13      0.1uF                  C0603                       openag-capacitors  (1719.5999 4229.70005) R90
+C14      0.1uF                  C0603                       openag-capacitors  (1914.5999 4809.70005) R0
+C15      0.1uF                  C0603                       openag-capacitors  (1874.5999 3289.70005) R180
+C16      0.1uF                  C0603                       openag-capacitors  (2509.29995 5487.5999) R90
+C21      0.1uF                  C0603                       openag-capacitors  (1730 9860)           R180
+C22      10uF                   C0805                       openag-capacitors  (1580 9860)           R0
+C44      10nF                   C0603                       openag-capacitors  (9386 7139)           R180
+C45      10nF                   C0603                       openag-capacitors  (9051 7464)           R0
+C46      100uF                  EEE-1HA101UP                openag-capacitors  (9936 7459)           R90
+C47      10nF                   C0603                       openag-capacitors  (9386 6489)           R180
+C48      10nF                   C0603                       openag-capacitors  (9051 6814)           R0
+C49      100uF                  EEE-1HA101UP                openag-capacitors  (9936 6809)           R90
+C50      10nF                   C0603                       openag-capacitors  (9386 5839)           R180
+C51      10nF                   C0603                       openag-capacitors  (9051 6164)           R0
+C52      100uF                  EEE-1HA101UP                openag-capacitors  (9936 6159)           R90
+C53      10nF                   C0603                       openag-capacitors  (9386 5189)           R180
+C54      10nF                   C0603                       openag-capacitors  (9051 5514)           R0
+C55      100uF                  EEE-1HA101UP                openag-capacitors  (9936 5509)           R90
+C56      10nF                   C0603                       openag-capacitors  (9386 4539)           R180
+C57      10nF                   C0603                       openag-capacitors  (9051 4864)           R0
+C58      100uF                  EEE-1HA101UP                openag-capacitors  (9936 4859)           R90
+C59      10nF                   C0603                       openag-capacitors  (9386 3889)           R180
+C60      10nF                   C0603                       openag-capacitors  (9051 4214)           R0
+C61      100uF                  EEE-1HA101UP                openag-capacitors  (9936 4209)           R90
+C64      0.1uF                  C0603                       openag-capacitors  (10571 5369)          R0
+C65      4.7uF                  C0805                       openag-capacitors  (10606 5184)          R90
+C71      10uF                   C0805                       openag-capacitors  (10761 6369)          R90
+CH1+1                           3,17/1,3                    openag-wirepads    (8586 7139)           R0
+CH1-1                           3,17/1,3                    openag-wirepads    (8586 7489)           R0
+CH1-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 6156)           MR90
+CH1-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 3956)           MR90
+CH1-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 8356)           MR90
+CH1-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 2856)           MR90
+CH2+1                           3,17/1,3                    openag-wirepads    (8586 6489)           R0
+CH2-1                           3,17/1,3                    openag-wirepads    (8586 6839)           R0
+CH2-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 7256)           MR90
+CH2-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 2856)           MR90
+CH2-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 6156)           MR90
+CH2-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 5056)           MR90
+CH3+1                           3,17/1,3                    openag-wirepads    (8586 5839)           R0
+CH3-1                           3,17/1,3                    openag-wirepads    (8586 6189)           R0
+CH3-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 2856)           MR90
+CH3-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 7256)           MR90
+CH3-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 5056)           MR90
+CH3-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 7256)           MR90
+CH4+1                           3,17/1,3                    openag-wirepads    (8586 5189)           R0
+CH4-1                           3,17/1,3                    openag-wirepads    (8586 5539)           R0
+CH4-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 8356)           MR90
+CH4-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 5056)           MR90
+CH4-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 7256)           MR90
+CH4-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 3956)           MR90
+CH5+1                           3,17/1,3                    openag-wirepads    (8586 4539)           R0
+CH5-1                           3,17/1,3                    openag-wirepads    (8586 4889)           R0
+CH5-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 5056)           MR90
+CH5-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 8356)           MR90
+CH5-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 3956)           MR90
+CH5-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 6156)           MR90
+CH6+1                           3,17/1,3                    openag-wirepads    (8586 3889)           R0
+CH6-1                           3,17/1,3                    openag-wirepads    (8586 4239)           R0
+CH6-6    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (7255 3956)           MR90
+CH6-7    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (6155 6156)           MR90
+CH6-8    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (5055 2856)           MR90
+CH6-9    XP-E                   CREE-XLAMP-XP-E             Tomaszewski        (3955 8356)           MR90
+D1       SMAJ14A                DO-214AC                    openag-diodes      (2422.70005 10973.4001) R90
+D2       APT1608CGCK            CHIPLED_0603                openag-diodes      (900.4001 9450.29995) R180
+D3       APT1608CGCK            CHIPLED_0603                openag-diodes      (1030.4001 9450.29995) R180
+D4       APT1608CGCK            CHIPLED_0603                openag-diodes      (1160.4001 9460.29995) R180
+D8       APT1608CGCK            CHIPLED_0603                openag-diodes      (1695 9955)           R270
+F1       0448.400MR             0603                        openag-fuses       (1520 10110)          R90
+F11      SST 7                  SS                          openag-fuses       (2682.70005 10863.4001) R180
+F12                             GSH15                       fuse               (2682.70005 10603.4001) R180
+IC2      PCA9615DP              SOP50P490X110-10N           PCA9615DP          (6279.5999 10476.70005) R180
+IC3      PCA9615DP              SOP50P490X110-10N           PCA9615DP          (7109.5999 10476.70005) R180
+J2       54602-908LF            OPENAG-V1-RJ45              openag_connector   (6309.5999 11081.70005) R180
+J3       54602-908LF            OPENAG-V1-RJ45              openag_connector   (7139.5999 11081.70005) R180
+L7       120uH                  74404064121                 openag-inductors   (9936 7139)           R180
+L9       120uH                  74404064121                 openag-inductors   (9936 6489)           R180
+L10      120uH                  74404064121                 openag-inductors   (9936 5839)           R180
+L11      120uH                  74404064121                 openag-inductors   (9936 5189)           R180
+L12      120uH                  74404064121                 openag-inductors   (9936 4539)           R180
+L13      120uH                  74404064121                 openag-inductors   (9936 3889)           R180
+PAD1     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (5870 9320)           R0
+PAD2     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (5870 9660)           R0
+PAD3     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (330 1930)            R180
+PAD4     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (330 2240)            R180
+PAD5     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (5500 1130)           R0
+PAD6     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (5190 1140)           R0
+PAD7     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (4140 350)            R0
+PAD8     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (4330 350)            R0
+PAD9     WIREPAD3,81/1,3        3,81/1,3                    wirepad            (4990 360)            R0
+PAD10    WIREPAD3,81/1,3        3,81/1,3                    wirepad            (5270 360)            R0
+PAD11                           SMD1,27-2,54                wirepad            (650 8540)            R90
+PAD12                           SMD1,27-2,54                wirepad            (650 8400)            R90
+PAD13                           SMD1,27-2,54                wirepad            (650 8260)            R90
+PAD14                           SMD1,27-2,54                wirepad            (650 8120)            R90
+Q1       MMBT2222A              SOT23-BEC                   transistor-npn     (800 2450)            R180
+Q2       MMBT2222A              SOT23-BEC                   transistor-npn     (5530 9770)           R180
+Q3       MMBT2222A              SOT23-BEC                   transistor-npn     (4740 1040)           R0
+R1       10K                    R0603                       rcl                (1824.70005 8845.4001) R0
+R2       10K                    0603-RES                    SparkFun-Resistors (1896.70792 8557.40797) R180
+R3       10K                    0603-RES                    SparkFun-Resistors (2014.70005 8557.40797) R180
+R4       10K                    0603-RES                    SparkFun-Resistors (1897.69218 8736.38435) R180
+R5       10K                    0603-RES                    SparkFun-Resistors (2014.70005 8736.38435) R180
+R6       10K                    0603-RES                    SparkFun-Resistors (1896.70792 8647.40797) R180
+R7       10K                    0603-RES                    SparkFun-Resistors (2014.70005 8647.40797) R180
+R8       10K                    0603-RES                    SparkFun-Resistors (1760.4001 8330.29995) R270
+R9       10K                    0603-RES                    SparkFun-Resistors (1839.70005 8330.4001) R270
+R10      100                    RC0603N                     openag-resistors   (900.4001 9720.29995) R90
+R11      100                    RC0603N                     openag-resistors   (1030.4001 9720.29995) R90
+R12      100                    RC0603N                     openag-resistors   (1160.4001 9720.29995) R90
+R13                             R0805W                      rcl                (600 2370)            R180
+R14      10K                    0603-RES                    SparkFun-Resistors (2160 8060)           R270
+R15      10K                    0603-RES                    SparkFun-Resistors (2080 8060)           R270
+R16      600                    R0603                       rcl                (6319.5999 10346.70005) R0
+R17      120                    R0603                       rcl                (6199.5999 10346.70005) R0
+R18      600                    R0603                       rcl                (6079.5999 10346.70005) R0
+R19      600                    R0603                       rcl                (6059.5999 10446.70005) R270
+R20      600                    R0603                       rcl                (6159.5999 10601.70005) R180
+R21      120                    R0603                       rcl                (6059.5999 10566.70005) R270
+R22      10K                    R0603                       rcl                (6474.5999 10461.70005) R270
+R23      10K                    R0603                       rcl                (6584.5999 10461.70005) R270
+R24      600                    R0603                       rcl                (7149.5999 10346.70005) R0
+R25      120                    R0603                       rcl                (7029.5999 10346.70005) R0
+R26      600                    R0603                       rcl                (6909.5999 10346.70005) R0
+R27      600                    R0603                       rcl                (6889.5999 10446.70005) R270
+R28      600                    R0603                       rcl                (6989.5999 10601.70005) R180
+R29      120                    R0603                       rcl                (6889.5999 10566.70005) R270
+R30      10K                    R0603                       rcl                (7304.5999 10461.70005) R270
+R31      10K                    R0603                       rcl                (7414.5999 10461.70005) R270
+R32      10K                    0603-RES                    SparkFun-Resistors (2080 8180)           R270
+R33      10K                    0603-RES                    SparkFun-Resistors (2160 8180)           R270
+R34                             R0805W                      rcl                (5680 9770)           R90
+R35                             R0805W                      rcl                (5340 9840)           R270
+R36                             R0805W                      rcl                (830 2680)            R90
+R37      10K                    0603-RES                    SparkFun-Resistors (1860 7960)           R90
+R38                             R0805W                      rcl                (4900 1130)           R90
+R39      10K                    0603-RES                    SparkFun-Resistors (2000 7960)           R90
+R40      10K                    0603-RES                    SparkFun-Resistors (1930 7960)           R90
+R41                             R0805W                      rcl                (4520 950)            R180
+R42      4.7K                   R1206                       openag-resistors   (1719.5999 4014.70005) R270
+R44      100                    RC0603N                     openag-resistors   (1580 9955)           R180
+R94      1K                     RC0603N                     openag-resistors   (10536 4354)          R180
+R95      1K                     RC0603N                     openag-resistors   (10536 4454)          R180
+R96      1K                     RC0603N                     openag-resistors   (10536 4554)          R180
+R97      1K                     RC0603N                     openag-resistors   (10536 4654)          R180
+R98      1K                     RC0603N                     openag-resistors   (10536 4754)          R180
+R99      1K                     RC0603N                     openag-resistors   (10536 4854)          R180
+R100     10K                    RC0603N                     openag-resistors   (10461.37008 7199)    R0
+R101     10K                    RC0603N                     openag-resistors   (10461.37008 7099)    R0
+R102     10K                    RC0603N                     openag-resistors   (10461.37008 6999)    R0
+R103     10K                    RC0603N                     openag-resistors   (10462.62992 6899)    R0
+R104     10K                    RC0603N                     openag-resistors   (10462.62992 6799)    R0
+R105     10K                    RC0603N                     openag-resistors   (10462.62992 6699)    R0
+R106     10K                    RC0603N                     openag-resistors   (10710 6141.5)        R270
+R109     1K                     RC0603N                     openag-resistors   (10476 5484)          R90
+R110     0 OHM                  RC0603N                     openag-resistors   (10376 5664)          R270
+SJ1                             SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (1720 10110)          R270
+SJ_A18                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 6699)    R180
+SJ_A19                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 6799)    R180
+SJ_A20                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 6899)    R180
+SJ_A21                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 6999)    R180
+SJ_A22                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 7099)    R180
+SJ_A23                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10655.74016 7199)    R180
+SJ_A24                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9931 7144)           R270
+SJ_A25                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9926 6494)           R270
+SJ_A26                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9926 5844)           R270
+SJ_A27                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9926 5194)           R270
+SJ_A28                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9926 4544)           R270
+SJ_A29                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (9926 3894)           R270
+SJ_A34                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10596 4034)          R0
+SJ_A35                          SOLDERJUMPER_REFLOW_NOPASTE openag-connectors  (10596 3864)          R0
+T1       R-78E5.0-1.0           R-78E5.0-1.0                R-78E5.0-1.0       (2132.70005 10773.4001) R180
+T2       R-78E12.0-1.0          R-78E5.0-1.0                R-78E5.0-1.0       (1610 10770)          R180
+TP1      TPTP06R                TP06R                       openag-testpads    (2094.5999 4249.70005) R180
+TP2      TPTP06R                TP06R                       openag-testpads    (2094.5999 4199.70005) R180
+TP3      TPTP06R                TP06R                       openag-testpads    (1644.5999 4019.70005) R180
+TP5      TPTP06R                TP06R                       openag-testpads    (2094.5999 3939.70005) R180
+TP6      TPTP06R                TP06R                       openag-testpads    (1934.5999 4539.70005) R90
+TP7      TPTP06R                TP06R                       openag-testpads    (1894.5999 4539.70005) R90
+TP36     TPTP06R                TP06R                       openag-testpads    (1634.5999 4649.70005) R90
+TP37     TPTP06R                TP06R                       openag-testpads    (1824.5999 4889.70005) R90
+TP38     TPTP06R                TP06R                       openag-testpads    (2084.5999 3199.70005) R90
+TP39     TPTP06R                TP06R                       openag-testpads    (2044.5999 3189.70005) R90
+TP40     TPTP06R                TP06R                       openag-testpads    (1834.5999 3589.70005) R90
+TP41     TPTP06R                TP06R                       openag-testpads    (1884.5999 3189.70005) R90
+TP42     TPTP06R                TP06R                       openag-testpads    (2609.29995 5247.5999) R180
+TP43     TPTP06R                TP06R                       openag-testpads    (2609.29995 5287.5999) R180
+TP44     TPTP06R                TP06R                       openag-testpads    (2609.29995 5437.5999) R180
+TP45     TPTP06R                TP06R                       openag-testpads    (1809.29995 5887.5999) R180
+TP61     TPTP06R                TP06R                       openag-testpads    (1430 9770)           R270
+TP62     TPTP06R                TP06R                       openag-testpads    (1880 9540)           R270
+TP63     TPTP06R                TP06R                       openag-testpads    (1880 10030)          R270
+U$1      PJ-036AH               PJ-036AH                    PJ-036ah           (4359.5999 10979.70005) R270
+U$2      BEAGLE_BONE_BLACK_CAPE BEAGLE_BONE_BLACK_CAPE      SparkFun-Boards    (8039.5999 11428.70005) R270
+U$3      PJ-036AH               PJ-036AH                    PJ-036ah           (5377.5999 10971.70005) R270
+U1       TCA9548APWRPW24-M      PW24-M                      OpenAG_I2C         (1639.70005 8650.4001) R270
+U2       STD12NF06LT4           DPAK                        OpenAG_I2C         (5560 9360)           R180
+U3       STD12NF06LT4           DPAK                        OpenAG_I2C         (720 1980)            R180
+U4       PCF8574APWRPW20-M      PW20-M                      IO_Expander        (1540 7930)           R180
+U5       STD12NF06LT4           DPAK                        OpenAG_I2C         (5210 830)            R270
+U9       CCS811                 CCS811                      openag-sensors     (1864.5999 4169.70005) R0
+U10      HPP845E034R5           HTU20D(F)                   openag-sensors     (1914.5999 4679.70005) R90
+U11      SHT25                  SHT2X                       openag-sensors     (1874.5999 3419.70005) R270
+U12      T6713-5K               T6713                       openag-sensors     (2439.29995 5207.5999) R180
+U17      LM2937IMP3.3NOPB       MP04A                       openag-regulators  (1620 9610)           R270
+U20      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 7164)           R180
+U21      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 6514)           R180
+U22      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 5864)           R180
+U23      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 5214)           R180
+U24      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 4564)           R180
+U25      RCD-24-0.70/VREF       RCD-24-PINNED               openag-regulators  (9586 3914)           R180
+U27      DAC5578SPW             TSSOP16                     openag-dacs        (10426 5179)          R180
+U30      PCA9685                TSSOP28                     openag-pwm         (10530 6134)          R270
