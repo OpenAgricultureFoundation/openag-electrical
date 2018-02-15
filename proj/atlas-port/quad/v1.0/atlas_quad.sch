@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -5857,9 +5857,9 @@ Cambridge, MA</text>
 <technologies>
 <technology name="">
 <attribute name="AUTHOR" value="XX" constant="no"/>
-<attribute name="DESCRIPTION" value="Template for starting new designs." constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="TITLE" value="Example Template" constant="no"/>
-<attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle_template" constant="no"/>
+<attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/" constant="no"/>
 <attribute name="VER" value="1.0" constant="no"/>
 </technology>
 </technologies>
@@ -5946,7 +5946,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="0.1UF-C0603C104K5RACTU" prefix="C">
-<description>&lt;b&gt; Kemet - C0603C104K5RACTU - CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 0.1UF 50V X7R 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;0.1µF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/li&gt;
@@ -5986,16 +5986,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Kemet" constant="no"/>
+<attribute name="MPN" value="C0603C104K5RACTU" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" constant="no"/>
+<attribute name="VPN" value=" 399-5089-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="10UF-GMK212BBJ106KG-T" prefix="C">
-<description>&lt;b&gt; Taiyo Yuden - GMK212BBJ106KG-T - CAP CER 10UF 35V X5R 0805&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 10UF 35V X5R 0805&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;10µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -6035,16 +6038,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" constant="no"/>
+<attribute name="VPN" value="587-4893-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="15UF-C2012X5R1V156M125AC" prefix="C">
-<description>&lt;strong&gt;TDK Corporation - C2012X5R1V156M125AC - CAP CER 15UF 35V X5R 0805&lt;/strong&gt;
+<description>&lt;strong&gt; CAP CER 15UF 35V X5R 0805&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;15µF ±20% 35V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -6091,14 +6097,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="C2012X5R1V156M125AC" constant="no"/>
 <attribute name="VALUE" value="15uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1V156M125AC/445-14423-1-ND/3956089" constant="no"/>
+<attribute name="VPN" value="445-14423-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="220UF-TPSY227K010R0100" prefix="C">
-<description>&lt;strong&gt;AVX Corporation - TPSY227K010R0100 - CAP TANT 220UF 10V 10% 2917&lt;/strong&gt;
+<description>&lt;strong&gt; CAP TANT 220UF 10V 10% 2917&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;220µF Molded Tantalum Capacitors 10V 2917 (7343 Metric) 100 mOhm&lt;/li&gt;
@@ -6130,7 +6141,7 @@ Cambridge, MA</text>
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250948888&amp;uq=636531796868737363'&gt;478-5408-1-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712'&gt;478-5408-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -6144,14 +6155,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="MPN" value="TPSY227K010R0100" constant="no"/>
 <attribute name="VALUE" value="220uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712" constant="no"/>
+<attribute name="VPN" value=" 478-5408-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="4.7UF-CL21A475KBQNNNE" prefix="C">
-<description>&lt;b&gt; Samsung - CL21A475KBQNNNE - CAP CER 4.7UF 50V X5R 0805&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 4.7UF 50V X5R 0805&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;4.7µF ±10% 50V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -6191,9 +6207,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21A475KBQNNNE" constant="no"/>
 <attribute name="VALUE" value="4.7uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334" constant="no"/>
+<attribute name="VPN" value=" 1276-1248-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6306,21 +6325,6 @@ Cambridge, MA</text>
 </package>
 </packages>
 <symbols>
-<symbol name="R-US@1">
-<wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-1.524" y1="-1.016" x2="-0.889" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="-0.889" y1="1.016" x2="-0.254" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="-0.254" y1="-1.016" x2="0.381" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="0.381" y1="1.016" x2="1.016" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="1.016" y1="-1.016" x2="1.651" y2="1.016" width="0.2032" layer="94"/>
-<wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
-<wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
-<text x="-1.27" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-</symbol>
 <symbol name="R-US">
 <wire x1="-2.54" y1="0" x2="-2.159" y2="1.016" width="0.2032" layer="94"/>
 <wire x1="-2.159" y1="1.016" x2="-1.524" y2="-1.016" width="0.2032" layer="94"/>
@@ -6339,7 +6343,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="1K-ERJ-PB3D1001V" prefix="R">
-<description>&lt;b&gt; Panasonic - P20283CT-ND - RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
+<description>&lt;b&gt;RES SMD 1K OHM 0.5% 1/5W 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;1 kOhms ±0.5% 0.2W, 1/5W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200, Pulse Withstanding Thick Film&lt;/li&gt;
@@ -6368,7 +6372,7 @@ Cambridge, MA</text>
 &lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="R-US@1" x="0" y="0"/>
+<gate name="A" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RC0603N">
@@ -6378,16 +6382,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="P20283CT-ND" constant="no"/>
 <attribute name="VALUE" value="1K" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" constant="no"/>
+<attribute name="VPN" value=" P20283CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="100OHM-RC0603JR-07100RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603JR-07100RL - RES SMD 100 OHM 5% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt; RES SMD 100 OHM 5% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -6435,16 +6442,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603JR-07100RL" constant="no"/>
 <attribute name="VALUE" value="100" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" constant="no"/>
+<attribute name="VPN" value="311-100GRCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="3.01K-RC0603FR-073K01L" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-073K01L - RES SMD 3.01K OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 3.01K OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;3.01 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -6477,7 +6487,7 @@ Cambridge, MA</text>
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250949714&amp;uq=636531832410541188'&gt;311-3.01KHRCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-073K01L/311-3.01KHRCT-ND/730068'&gt;311-3.01KHRCT-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -6491,14 +6501,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-073K01L" constant="no"/>
 <attribute name="VALUE" value="3.01K" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-073K01L/311-3.01KHRCT-ND/730068" constant="no"/>
+<attribute name="VPN" value="311-3.01KHRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="982OHM-RC0603FR-07976RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-07976RL - RES SMD 976 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 976 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;976 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -6531,7 +6546,7 @@ Cambridge, MA</text>
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250949870&amp;uq=636531835229553061'&gt;311-976HRCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-07976RL/311-976HRCT-ND/730388'&gt;311-976HRCT-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -6545,14 +6560,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07976RL" constant="no"/>
 <attribute name="VALUE" value="976 Ohm" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07976RL/311-976HRCT-ND/730388" constant="no"/>
+<attribute name="VPN" value="311-976HRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="10K-ERJ-3EKF1002V" prefix="R">
-<description>&lt;b&gt; Panasonic - ERJ-3EKF1002V - RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
+<description>&lt;b&gt; RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/li&gt;
@@ -6591,16 +6611,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" constant="no"/>
 <attribute name="VALUE" value="10K"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102" constant="no"/>
+<attribute name="VPN" value="P10.0KHCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="600OHM-RC0603FR-07604RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-07604RL - RES SMD 604 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 604 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;604 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -6647,14 +6670,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07604RL" constant="no"/>
 <attribute name="VALUE" value="600" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" constant="no"/>
+<attribute name="VPN" value="311-604HRCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="120OHM-RC0603FR-07120RL">
-<description>&lt;strong&gt;Yageo - RC0603FR-07120RL - RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -6701,7 +6729,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07120RL" constant="no"/>
 <attribute name="VALUE" value="120" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07120RL/311-120HRCT-ND/729867" constant="no"/>
+<attribute name="VPN" value="311-120HRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6839,7 +6872,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="RM3.33.3S" prefix="U">
-<description>&lt;strong&gt;Recom Power - RM-3.33.3S - CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
+<description>&lt;strong&gt;CONV DC/DC 0.25W SGL 3.3VOUT SIP&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Isolated Module DC DC Converter 1 Output 3.3V    76mA 3V - 3.6V Input&lt;/li&gt;
@@ -6890,14 +6923,19 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Recom Power" constant="no"/>
+<attribute name="MPN" value="RM-3.33.3S" constant="no"/>
 <attribute name="VALUE" value="RM-3.33.3S" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" constant="no"/>
+<attribute name="VPN" value=" 945-1212-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="ISO1540DR" prefix="U">
-<description>&lt;b&gt; Texas Instruments - ISO1540DR - DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
+<description>&lt;b&gt; DGTL ISO 2.5KV 2CH I2C 8SOIC&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;I²C Digital Isolator 2500Vrms 2 Channel 1Mbps 25kV/µs CMTI 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
@@ -6947,9 +6985,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="Texas Instruments" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="ISO1540DR" constant="no"/>
 <attribute name="VALUE" value="ISO1540" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" constant="no"/>
+<attribute name="VPN" value=" 296-34871-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7119,11 +7160,11 @@ Cambridge, MA</text>
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.4732" y1="-0.9144" x2="1.4732" y2="0.9144" layer="29"/>
 </package>
 <package name="PJ-036AH">
 <wire x1="0" y1="4.5" x2="-13.55" y2="4.5" width="0.127" layer="22"/>
@@ -7139,6 +7180,43 @@ Cambridge, MA</text>
 <wire x1="-13.5636" y1="-4.4704" x2="0" y2="-4.4704" width="0.1524" layer="21"/>
 <wire x1="0" y1="-4.4704" x2="0" y2="4.4958" width="0.1524" layer="21"/>
 <wire x1="0" y1="4.4958" x2="-13.5382" y2="4.4958" width="0.1524" layer="21"/>
+</package>
+<package name="OPENAG-V1-RJ45">
+<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
+<pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
+<pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
+<pad name="DSCLP(4)" x="-0.635" y="8.89" drill="1"/>
+<pad name="DSCLM(5)" x="0.635" y="6.35" drill="1"/>
+<pad name="24V(6)" x="1.905" y="8.89" drill="1"/>
+<pad name="USBP(7)" x="3.175" y="6.35" drill="1"/>
+<pad name="USBM(8)" x="4.445" y="8.89" drill="1"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+<wire x1="1.905" y1="7.9375" x2="1.905" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="3.175" y1="5.3975" x2="3.175" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="4.445" y1="7.9375" x2="4.445" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-4.445" y1="5.3975" x2="-4.445" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-3.175" y1="7.9375" x2="-3.175" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-1.905" y1="5.3975" x2="-1.905" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-0.635" y1="7.9375" x2="-0.635" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="0.635" y1="5.3975" x2="0.635" y2="4.7625" width="0.1524" layer="22"/>
+<text x="-1.5875" y="4.445" size="0.762" layer="22" rot="MR270">GND</text>
+<text x="2.2225" y="4.445" size="0.762" layer="22" rot="MR270">24V</text>
+<text x="-4.1275" y="4.445" size="0.762" layer="22" rot="MR270">SDAP</text>
+<text x="-2.8575" y="4.445" size="0.762" layer="22" rot="MR270">SDAM</text>
+<text x="-0.3175" y="4.445" size="0.762" layer="22" rot="MR270">SCLP</text>
+<text x="0.9525" y="4.445" size="0.762" layer="22" rot="MR270">SCLM</text>
+<text x="3.4925" y="4.445" size="0.762" layer="22" rot="MR270">USBP</text>
+<text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
+<text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -7221,10 +7299,26 @@ Cambridge, MA</text>
 <text x="-17.78" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="10.16" y1="8.89" x2="7.62" y2="8.89" width="0.254" layer="94"/>
 </symbol>
+<symbol name="OPENAG-V1-RJ45">
+<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="12.7" y1="-7.62" x2="12.7" y2="12.7" width="0.254" layer="94"/>
+<wire x1="12.7" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
+<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
+<pin name="+24V" x="-12.7" y="10.16" visible="pin" length="middle"/>
+<pin name="DSDAP" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
+<pin name="DSDAM" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
+<pin name="DSCLP" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="DSCLM" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="USBP" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
+<pin name="USBM" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
+<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="middle"/>
+<text x="-7.62" y="13.208" size="1.778" layer="95">&gt;Name</text>
+<text x="-7.62" y="-10.16" size="1.778" layer="95">&gt;Value</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="BNC-5227161-9" prefix="J">
-<description>&lt;strong&gt;TE Connectivity AMP Connectors - 5227161-9 - CONN BNC JACK R/A 50 OHM PCB&lt;/strong&gt;
+<description>&lt;strong&gt;CONN BNC JACK R/A 50 OHM PCB&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;BNC Connector Jack, Female Socket 50 Ohm Panel Mount, Through Hole, Right Angle Solder&lt;/li&gt;
@@ -7278,7 +7372,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" constant="no"/>
+<attribute name="MPN" value="5227161-9" constant="no"/>
 <attribute name="VALUE" value="5227161-9" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" constant="no"/>
+<attribute name="VPN" value="A32261-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7300,7 +7399,6 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MF" value="N/A" constant="no"/>
 <attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="VALUE" value="Atlas Stamp" constant="no"/>
 </technology>
@@ -7309,7 +7407,7 @@ Cambridge, MA</text>
 </devices>
 </deviceset>
 <deviceset name="OPENAG-I2C-HEADER" prefix="J">
-<description>Fits standard 100 mil header footprint</description>
+<description>100 MIL HEADER I2C CONNECTIONS</description>
 <gates>
 <gate name="G$1" symbol="OPENAG-I2C-HEADER" x="0" y="0"/>
 </gates>
@@ -7323,9 +7421,8 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="NO" constant="no"/>
-<attribute name="VALUE" value="OPENAG-I2C-HEADER" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
+<attribute name="VALUE" value="I2C-HEADER" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7348,15 +7445,14 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="PJ-036AH-SMT-TR" prefix="J">
-<description>&lt;strong&gt;CUI Inc. - PJ-036AH-SMT-TR - CONN PWR JACK 2X5.5MM SOLDER&lt;/strong&gt;
+<description>&lt;strong&gt;CONN PWR JACK 2X5.5MM SOLDER&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Surface Mount, Right Angle&lt;/li&gt;
@@ -7408,7 +7504,81 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="CUI Inc." constant="no"/>
+<attribute name="MPN" value="PJ-036AH-SMT-TR" constant="no"/>
 <attribute name="VALUE" value="PJ-036AH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" constant="no"/>
+<attribute name="VPN" value="CP-036AHPJCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="OPENAG-V1-RJ45" prefix="J">
+<description>&lt;strong&gt;CONN MOD JACK 8P8C R/A UNSHLD&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded Cat3&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Jack&lt;/li&gt;
+		&lt;li&gt;Number of Positions/Contacts: 8p8c (RJ45, Ethernet)&lt;/li&gt;
+		&lt;li&gt;Number of Ports: 1&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Orientation: 90° Angle (Right)&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
+		&lt;li&gt;Ratings: Cat3&lt;/li&gt;
+		&lt;li&gt;Features: Board Lock&lt;/li&gt;
+		&lt;li&gt;LED Color: Does Not Contain LED&lt;/li&gt;
+		&lt;li&gt;Tab Direction: Down&lt;/li&gt;
+		&lt;li&gt;Contact Material: Copper Alloy&lt;/li&gt;
+		&lt;li&gt;Contact Finish: Gold&lt;/li&gt;
+		&lt;li&gt;Contact Finish Thickness: 15µin (0.38µm)&lt;/li&gt;
+		&lt;li&gt;Housing Material: Polyester, Glass Filled&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 70°C&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf'&gt;54601-x04(zzz)WPLF Drawing&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360'&gt;609-1046-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="OPENAG-V1-RJ45" x="0" y="0"/>
+</gates>
+<devices>
+<device name="PTH" package="OPENAG-V1-RJ45">
+<connects>
+<connect gate="G$1" pin="+24V" pad="24V(6)"/>
+<connect gate="G$1" pin="DSCLM" pad="DSCLM(5)"/>
+<connect gate="G$1" pin="DSCLP" pad="DSCLP(4)"/>
+<connect gate="G$1" pin="DSDAM" pad="DSDAM(2)"/>
+<connect gate="G$1" pin="DSDAP" pad="DSDAP(1)"/>
+<connect gate="G$1" pin="GND" pad="GND(3)"/>
+<connect gate="G$1" pin="USBM" pad="USBM(8)"/>
+<connect gate="G$1" pin="USBP" pad="USBP(7)"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Amphenol FCI" constant="no"/>
+<attribute name="MPN" value="54602-908LF" constant="no"/>
+<attribute name="VALUE" value="54602-908LF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" constant="no"/>
+<attribute name="VPN" value="609-1046-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7464,7 +7634,7 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7474,7 +7644,7 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7484,7 +7654,7 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7493,7 +7663,9 @@ Cambridge, MA</text>
 <connect gate="G$1" pin="TP" pad="1"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="N/A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -7594,7 +7766,7 @@ Cambridge, MA</text>
 </symbols>
 <devicesets>
 <deviceset name="LM2937IMP-3.3/NOPB" prefix="U">
-<description>&lt;strong&gt;Texas Instruments - LM2937IMP-3.3/NOPB - IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
+<description>&lt;strong&gt;IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 400mA SOT-223-4&lt;/li&gt;
@@ -7645,16 +7817,18 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="LM2937IMP3.3NOPB" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM2937IMP-3.3/NOPB" constant="no"/>
+<attribute name="VALUE" value="LM2937" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" constant="no"/>
+<attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MIC4680YM-TR" prefix="U">
-<description>&lt;strong&gt;Microchip Technology - MIC4680YM-TR - IC REG BUCK BOOST ADJ 1.3A 8SOIC&lt;/strong&gt;
+<description>&lt;strong&gt;IC REG BUCK BOOST ADJ 1.3A 8SOIC&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Buck, Buck-Boost Switching Regulator IC Positive Adjustable 1.23V 1 Output 1.3A 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
@@ -7691,7 +7865,7 @@ Cambridge, MA</text>
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250950999&amp;uq=636531791983475304'&gt;576-1222-1-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/microchip-technology/MIC4680YM-TR/576-1222-1-ND/771874'&gt;576-1222-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -7708,7 +7882,12 @@ Cambridge, MA</text>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="MIC4680YM-TR" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MIC4680YM-TR" constant="no"/>
+<attribute name="VALUE" value="MIC4680" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/MIC4680YM-TR/576-1222-1-ND/771874" constant="no"/>
+<attribute name="VPN" value="576-1222-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -7889,7 +8068,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="APT1608CGCK" prefix="D">
-<description>&lt;strong&gt;Kingbright - APT1608CGCK - LED GREEN CLEAR 0603 SMD&lt;/strong&gt;
+<description>&lt;strong&gt;LED GREEN CLEAR 0603 SMD&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Green 570nm LED Indication - Discrete 2.1V 0603 (1608 Metric)&lt;/li&gt;
@@ -7938,16 +8117,19 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Kingbright" constant="no"/>
+<attribute name="MPN" value="APT1608CGCK" constant="no"/>
 <attribute name="VALUE" value="APT1608" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" constant="no"/>
+<attribute name="VPN" value="754-1116-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="SBR2A40P1-7" prefix="D">
-<description>&lt;strong&gt;Diodes Incorporated - SBR2A40P1-7 - DIODE SBR 40V 2A POWERDI123&lt;/strong&gt;
+<description>&lt;strong&gt;DIODE SBR 40V 2A POWERDI123&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Diode Super Barrier 40V 2A Surface Mount PowerDI™ 123&lt;/li&gt;
@@ -7992,14 +8174,19 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="SBR2A40P1-7" constant="no"/>
 <attribute name="VALUE" value="SBR2A40P1-7" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" constant="no"/>
+<attribute name="VPN" value="SBR2A40P1DITR-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="SMAJ26A-13-F" prefix="D">
-<description>&lt;b&gt; Diodes Incorporated - SMAJ26A-13-F - TVS DIODE 26VWM 42.1VC SMA&lt;/b&gt;
+<description>&lt;b&gt;TVS DIODE 26VWM 42.1VC SMA&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;TVS DIODE 26VWM 42.1VC SMA&lt;/li&gt;
@@ -8042,7 +8229,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Diodes Incorporated" constant="no"/>
+<attribute name="MPN" value="SMAJ26A-13-F" constant="no"/>
 <attribute name="VALUE" value="SMAJ26A" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SMAJ26A-13-F/SMAJ26A-FDICT-ND/806583" constant="no"/>
+<attribute name="VPN" value="SMAJ26A-FDICT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8088,226 +8280,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
 </package>
-</packages>
-<symbols>
-<symbol name="FUSE">
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
-<text x="-0.3302" y="-2.8956" size="1.778" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-0.2794" y="1.4224" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="0438.375WR" prefix="F">
-<description>&lt;strong&gt;Littelfuse Inc. - 0448.400MR - FUSE BOARD MNT 400MA 125VAC/VDC&lt;/strong&gt;
-&lt;p&gt;Description:
-	&lt;ul&gt;
-		&lt;li&gt;FUSE BOARD MNT 400MA 125VAC/VDC&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-	&lt;ul id='specs'&gt;
-		&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
-		&lt;li&gt;Current Rating: 400mA&lt;/li&gt;
-		&lt;li&gt;Voltage Rating - AC: 125V&lt;/li&gt;
-		&lt;li&gt;Voltage Rating - DC: 125V&lt;/li&gt;
-		&lt;li&gt;Response Time: Fast&lt;/li&gt;
-		&lt;li&gt;Package / Case: 2-SMD, Square End Block&lt;/li&gt;
-		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
-		&lt;li&gt;Breaking Capacity @ Rated Voltage: 50A&lt;/li&gt;
-		&lt;li&gt;Melting I²t: 0.0416&lt;/li&gt;
-		&lt;li&gt;Approvals: CSA, UL&lt;/li&gt;
-		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
-		&lt;li&gt;Size / Dimension: 0.240" L x 0.106" W x 0.106" H (6.10mm x 2.69mm x 2.69mm)&lt;/li&gt;
-		&lt;li&gt;DC Cold Resistance: 0.4895 Ohms&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_448_datasheet.pdf.pdf'&gt;448 Series Datasheet&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934'&gt;F5573CT-ND&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="0603">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="0448.400MR" constant="no"/>
-<attribute name="VERIFIED" value="YES" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-<deviceset name="SST_7" prefix="F">
-<description>&lt;b&gt; Bel Fuse - SST7 - FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/b&gt;
-&lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Current Rating: 7A&lt;/li&gt;
-&lt;li&gt;Voltage Rating: 125V&lt;/li&gt;
-&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
-&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://belfuse.com/resources/StewartConnector/SST.pdf"&gt;SST Type&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026"&gt;507-1072-1-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SS">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="SST 7" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="openag-inductors">
-<packages>
-<package name="UP2B">
-<smd name="1" x="-5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
-<smd name="2" x="5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
-<wire x1="-1.524" y1="5.334" x2="1.524" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="5.334" x2="4.3688" y2="3.3274" width="0.1524" layer="21"/>
-<wire x1="4.3688" y1="-3.3274" x2="1.524" y2="-5.334" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-5.334" x2="-1.524" y2="-5.334" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-5.334" x2="-4.3688" y2="-3.3274" width="0.1524" layer="21"/>
-<wire x1="-4.3688" y1="3.3274" x2="-1.524" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="5.207" x2="1.397" y2="5.207" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="5.207" x2="6.985" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="6.985" y1="1.27" x2="6.985" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="6.985" y1="-1.27" x2="1.397" y2="-5.207" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-5.207" x2="-1.397" y2="-5.207" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-5.207" x2="-6.985" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-6.985" y1="1.27" x2="-1.397" y2="5.207" width="0.1524" layer="51"/>
-<text x="-1.4986" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-1.778" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-<symbols>
-<symbol name="INDUCTOR">
-<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
-<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
-<text x="-6.35" y="2.032" size="1.778" layer="95">&gt;NAME</text>
-<text x="-6.35" y="-2.794" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="68UH-UP2B-680-R" prefix="L">
-<description>&lt;strong&gt;Eaton - UP2B-680-R - FIXED IND 68UH 1.5A 178.7 MOHM&lt;/strong&gt;
-&lt;p&gt;Description:
-	&lt;ul&gt;
-		&lt;li&gt;68µH Unshielded Wirewound Inductor 1.5A 178.7 mOhm Max Nonstandard&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-	&lt;ul id='specs'&gt;
-		&lt;li&gt;Type: Wirewound&lt;/li&gt;
-		&lt;li&gt;Material - Core: Ferrite&lt;/li&gt;
-		&lt;li&gt;Inductance: 68µH&lt;/li&gt;
-		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
-		&lt;li&gt;Current Rating: 1.5A&lt;/li&gt;
-		&lt;li&gt;Current - Saturation: 1.2A&lt;/li&gt;
-		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
-		&lt;li&gt;DC Resistance (DCR): 178.7 mOhm Max&lt;/li&gt;
-		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
-		&lt;li&gt;Frequency - Test: 100kHz&lt;/li&gt;
-		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
-		&lt;li&gt;Package / Case: Nonstandard&lt;/li&gt;
-		&lt;li&gt;Size / Dimension: 0.550" L x 0.410" W (13.97mm x 10.41mm)&lt;/li&gt;
-		&lt;li&gt;Height - Seated (Max): 0.236" (6.00mm)&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/BUS_Elx_PM_4308_UNI_PAC_Power_Inductors.pdf'&gt;UNI-PAC (-R)&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250945518&amp;uq=636531821133403587'&gt;513-1083-1-ND&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="UP2B">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="68uH" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
-<library name="fuse" urn="urn:adsk.eagle:library:233">
-<description>&lt;b&gt;Fuses and Fuse Holders&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="GSH15" urn="urn:adsk.eagle:footprint:14041/1" library_version="1">
+<package name="GSH15">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 grid 15mm, 19649 Wickmann</description>
 <wire x1="-12.573" y1="-4.572" x2="-12.573" y2="4.572" width="0.1524" layer="21"/>
@@ -8387,14 +8360,16 @@ grid 15mm, 19649 Wickmann</description>
 <hole x="0" y="0" drill="2.794"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="GSH15" urn="urn:adsk.eagle:package:14065/1" type="box" library_version="1">
-<description>FUSE HOLDER
-grid 15mm, 19649 Wickmann</description>
-</package3d>
-</packages3d>
 <symbols>
-<symbol name="FUSE" urn="urn:adsk.eagle:symbol:14027/1" library_version="1">
+<symbol name="FUSE">
+<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
+<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
+<text x="-0.3302" y="-2.8956" size="1.778" layer="96" ratio="10" rot="SR0">&gt;Value</text>
+<text x="-0.2794" y="1.4224" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+</symbol>
+<symbol name="FUSE-1">
 <wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
@@ -8407,11 +8382,154 @@ grid 15mm, 19649 Wickmann</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="GSH15" urn="urn:adsk.eagle:component:14090/1" prefix="F" uservalue="yes" library_version="1">
-<description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
-grid 15mm, 19649 Wickmann</description>
+<deviceset name="0438.375WR" prefix="F">
+<description>&lt;strong&gt;FUSE BOARD MNT 400MA 125VAC/VDC&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;FUSE BOARD MNT 400MA 125VAC/VDC&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
+		&lt;li&gt;Current Rating: 400mA&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - AC: 125V&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - DC: 125V&lt;/li&gt;
+		&lt;li&gt;Response Time: Fast&lt;/li&gt;
+		&lt;li&gt;Package / Case: 2-SMD, Square End Block&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Breaking Capacity @ Rated Voltage: 50A&lt;/li&gt;
+		&lt;li&gt;Melting I²t: 0.0416&lt;/li&gt;
+		&lt;li&gt;Approvals: CSA, UL&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.240" L x 0.106" W x 0.106" H (6.10mm x 2.69mm x 2.69mm)&lt;/li&gt;
+		&lt;li&gt;DC Cold Resistance: 0.4895 Ohms&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_448_datasheet.pdf.pdf'&gt;448 Series Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934'&gt;F5573CT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
 <gates>
-<gate name="1" symbol="FUSE" x="0" y="0"/>
+<gate name="A" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="0603">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Littlefuse Inc." constant="no"/>
+<attribute name="MPN" value="0448.400MR" constant="no"/>
+<attribute name="VALUE" value="0448.400MR" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934" constant="no"/>
+<attribute name="VPN" value="F5573CT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SST_7" prefix="F">
+<description>&lt;b&gt; FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/b&gt;
+&lt;p&gt;Description:
+&lt;ul&gt;
+&lt;li&gt;FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+&lt;ul&gt;
+&lt;li&gt;Current Rating: 7A&lt;/li&gt;
+&lt;li&gt;Voltage Rating: 125V&lt;/li&gt;
+&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
+&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+&lt;ul&gt;
+&lt;li&gt;&lt;a href="https://belfuse.com/resources/StewartConnector/SST.pdf"&gt;SST Type&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+&lt;ul&gt;
+&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026"&gt;507-1072-1-ND&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Bel Fuse" constant="no"/>
+<attribute name="MPN" value="SST7" constant="no"/>
+<attribute name="VALUE" value="SST7" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026" constant="no"/>
+<attribute name="VPN" value=" 507-1072-1-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="GSH15" prefix="F" uservalue="yes">
+<description>&lt;strong&gt;FUSE BLOCK CART 250V 6.3A PCB&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Fuse Block 6.3A 250V 1 Circuit Cartridge PCB&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Fuseholder Type: Block&lt;/li&gt;
+		&lt;li&gt;Fuse Type: Cartridge&lt;/li&gt;
+		&lt;li&gt;For Use With/Related Products: 5mm x 20mm&lt;/li&gt;
+		&lt;li&gt;Fuse Size: 5mm x 20mm&lt;/li&gt;
+		&lt;li&gt;Number of Circuits: 1&lt;/li&gt;
+		&lt;li&gt;Voltage: 250V&lt;/li&gt;
+		&lt;li&gt;Current Rating: 6.3A&lt;/li&gt;
+		&lt;li&gt;Mounting Type: PCB&lt;/li&gt;
+		&lt;li&gt;Orientation: Horizontal&lt;/li&gt;
+		&lt;li&gt;Termination Style: PC Pin&lt;/li&gt;
+		&lt;li&gt;Contact Material: Copper Alloy&lt;/li&gt;
+		&lt;li&gt;Contact Finish: Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.littelfuse.com/~/media/electronics/datasheets/fuse_blocks/littelfuse_fuse_block_649_datasheet.pdf.pdf'&gt;649 Series&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470'&gt;WK0011-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="1" symbol="FUSE-1" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GSH15">
@@ -8419,15 +8537,13 @@ grid 15mm, 19649 Wickmann</description>
 <connect gate="1" pin="1" pad="1"/>
 <connect gate="1" pin="2" pad="2"/>
 </connects>
-<package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:14065/1"/>
-</package3dinstances>
 <technologies>
 <technology name="">
-<attribute name="MF" value="" constant="no"/>
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
 <attribute name="MPN" value="64900001039" constant="no"/>
-<attribute name="OC_FARNELL" value="1271673" constant="no"/>
-<attribute name="OC_NEWARK" value="02P0318" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" constant="no"/>
+<attribute name="VPN" value="WK0011-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8435,126 +8551,101 @@ grid 15mm, 19649 Wickmann</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="openag_connector">
+<library name="openag-inductors">
 <packages>
-<package name="OPENAG-V1-RJ45">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
-<pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
-<pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
-<pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
-<pad name="DSCLP(4)" x="-0.635" y="8.89" drill="1"/>
-<pad name="DSCLM(5)" x="0.635" y="6.35" drill="1"/>
-<pad name="24V(6)" x="1.905" y="8.89" drill="1"/>
-<pad name="USBP(7)" x="3.175" y="6.35" drill="1"/>
-<pad name="USBM(8)" x="4.445" y="8.89" drill="1"/>
-<hole x="-5.715" y="0" drill="3.2"/>
-<hole x="5.715" y="0" drill="3.2"/>
-<wire x1="1.905" y1="7.9375" x2="1.905" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="3.175" y1="5.3975" x2="3.175" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="4.445" y1="7.9375" x2="4.445" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-4.445" y1="5.3975" x2="-4.445" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-3.175" y1="7.9375" x2="-3.175" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-1.905" y1="5.3975" x2="-1.905" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-0.635" y1="7.9375" x2="-0.635" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="0.635" y1="5.3975" x2="0.635" y2="4.7625" width="0.1524" layer="22"/>
-<text x="-1.5875" y="4.445" size="0.762" layer="22" rot="MR270">GND</text>
-<text x="2.2225" y="4.445" size="0.762" layer="22" rot="MR270">24V</text>
-<text x="-4.1275" y="4.445" size="0.762" layer="22" rot="MR270">SDAP</text>
-<text x="-2.8575" y="4.445" size="0.762" layer="22" rot="MR270">SDAM</text>
-<text x="-0.3175" y="4.445" size="0.762" layer="22" rot="MR270">SCLP</text>
-<text x="0.9525" y="4.445" size="0.762" layer="22" rot="MR270">SCLM</text>
-<text x="3.4925" y="4.445" size="0.762" layer="22" rot="MR270">USBP</text>
-<text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
-<text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<package name="UP2B">
+<smd name="1" x="-5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
+<smd name="2" x="5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
+<wire x1="-1.524" y1="5.334" x2="1.524" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="5.334" x2="4.3688" y2="3.3274" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-3.3274" x2="1.524" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-5.334" x2="-1.524" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-5.334" x2="-4.3688" y2="-3.3274" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="3.3274" x2="-1.524" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="5.207" x2="1.397" y2="5.207" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="5.207" x2="6.985" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="6.985" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.985" y1="-1.27" x2="1.397" y2="-5.207" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="-5.207" x2="-1.397" y2="-5.207" width="0.1524" layer="51"/>
+<wire x1="-1.397" y1="-5.207" x2="-6.985" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-6.985" y1="1.27" x2="-1.397" y2="5.207" width="0.1524" layer="51"/>
+<text x="-1.4986" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-1.778" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
-<symbol name="OPENAG-V1-RJ45">
-<wire x1="-7.62" y1="-7.62" x2="12.7" y2="-7.62" width="0.254" layer="94"/>
-<wire x1="12.7" y1="-7.62" x2="12.7" y2="12.7" width="0.254" layer="94"/>
-<wire x1="12.7" y1="12.7" x2="-7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="-7.62" y1="12.7" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
-<pin name="+24V" x="-12.7" y="10.16" visible="pin" length="middle"/>
-<pin name="DSDAP" x="17.78" y="10.16" visible="pin" length="middle" rot="R180"/>
-<pin name="DSDAM" x="17.78" y="7.62" visible="pin" length="middle" rot="R180"/>
-<pin name="DSCLP" x="17.78" y="5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="DSCLM" x="17.78" y="2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="USBP" x="17.78" y="-2.54" visible="pin" length="middle" rot="R180"/>
-<pin name="USBM" x="17.78" y="-5.08" visible="pin" length="middle" rot="R180"/>
-<pin name="GND" x="-12.7" y="-5.08" visible="pin" length="middle"/>
-<text x="-7.62" y="13.208" size="1.778" layer="95">&gt;Name</text>
-<text x="-7.62" y="-10.16" size="1.778" layer="95">&gt;Value</text>
+<symbol name="INDUCTOR">
+<wire x1="-5.08" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="-2.54" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="0" y1="0" x2="-1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="0" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="1.27" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<wire x1="2.54" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="-90" cap="flat"/>
+<wire x1="5.08" y1="0" x2="3.81" y2="1.27" width="0.254" layer="94" curve="90" cap="flat"/>
+<text x="-6.35" y="2.032" size="1.778" layer="95">&gt;NAME</text>
+<text x="-6.35" y="-2.794" size="1.778" layer="96">&gt;VALUE</text>
+<pin name="1" x="-7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="2" x="7.62" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="OPENAG-V1-RJ45" prefix="J">
-<description>&lt;strong&gt;Amphenol FCI - 54602-908LF - CONN MOD JACK 8P8C R/A UNSHLD&lt;/strong&gt;
+<deviceset name="68UH-UP2B-680-R" prefix="L">
+<description>&lt;strong&gt;FIXED IND 68UH 1.5A 178.7 MOHM&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
-		&lt;li&gt;Jack Modular Connector 8p8c (RJ45, Ethernet) 90� Angle (Right) Unshielded Cat3&lt;/li&gt;
+		&lt;li&gt;68µH Unshielded Wirewound Inductor 1.5A 178.7 mOhm Max Nonstandard&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
 	&lt;ul id='specs'&gt;
-		&lt;li&gt;Connector Type: Jack&lt;/li&gt;
-		&lt;li&gt;Number of Positions/Contacts: 8p8c (RJ45, Ethernet)&lt;/li&gt;
-		&lt;li&gt;Number of Ports: 1&lt;/li&gt;
-		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
-		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
-		&lt;li&gt;Orientation: 90� Angle (Right)&lt;/li&gt;
-		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Type: Wirewound&lt;/li&gt;
+		&lt;li&gt;Material - Core: Ferrite&lt;/li&gt;
+		&lt;li&gt;Inductance: 68µH&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
+		&lt;li&gt;Current Rating: 1.5A&lt;/li&gt;
+		&lt;li&gt;Current - Saturation: 1.2A&lt;/li&gt;
 		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
-		&lt;li&gt;Ratings: Cat3&lt;/li&gt;
-		&lt;li&gt;Features: Board Lock&lt;/li&gt;
-		&lt;li&gt;LED Color: Does Not Contain LED&lt;/li&gt;
-		&lt;li&gt;Tab Direction: Down&lt;/li&gt;
-		&lt;li&gt;Contact Material: Copper Alloy&lt;/li&gt;
-		&lt;li&gt;Contact Finish: Gold&lt;/li&gt;
-		&lt;li&gt;Contact Finish Thickness: 15�in (0.38�m)&lt;/li&gt;
-		&lt;li&gt;Housing Material: Polyester, Glass Filled&lt;/li&gt;
-		&lt;li&gt;Operating Temperature: -40�C ~ 70�C&lt;/li&gt;
+		&lt;li&gt;DC Resistance (DCR): 178.7 mOhm Max&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Frequency - Test: 100kHz&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: Nonstandard&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.550" L x 0.410" W (13.97mm x 10.41mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.236" (6.00mm)&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
 	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='http://cdn.amphenol-icc.com/media/wysiwyg/files/drawing/c-bmj-0102.pdf'&gt;54601-x04(zzz)WPLF Drawing&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.cooperindustries.com/content/dam/public/bussmann/Electronics/Resources/product-datasheets/BUS_Elx_PM_4308_UNI_PAC_Power_Inductors.pdf'&gt;UNI-PAC (-R)&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360'&gt;609-1046-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/UP2B-680-R/513-1083-1-ND/695364'&gt;513-1083-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="G$1" symbol="OPENAG-V1-RJ45" x="0" y="0"/>
+<gate name="A" symbol="INDUCTOR" x="0" y="0"/>
 </gates>
 <devices>
-<device name="PTH" package="OPENAG-V1-RJ45">
+<device name="" package="UP2B">
 <connects>
-<connect gate="G$1" pin="+24V" pad="24V(6)"/>
-<connect gate="G$1" pin="DSCLM" pad="DSCLM(5)"/>
-<connect gate="G$1" pin="DSCLP" pad="DSCLP(4)"/>
-<connect gate="G$1" pin="DSDAM" pad="DSDAM(2)"/>
-<connect gate="G$1" pin="DSDAP" pad="DSDAP(1)"/>
-<connect gate="G$1" pin="GND" pad="GND(3)"/>
-<connect gate="G$1" pin="USBM" pad="USBM(8)"/>
-<connect gate="G$1" pin="USBP" pad="USBP(7)"/>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="54602-908LF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MANUFACTURER" value="Eaton" constant="no"/>
+<attribute name="MPN" value="UP2B-680-R" constant="no"/>
+<attribute name="VALUE" value="68uH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/UP2B-680-R/513-1083-1-ND/695364" constant="no"/>
+<attribute name="VPN" value=" 513-1083-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8607,7 +8698,7 @@ grid 15mm, 19649 Wickmann</description>
 </symbols>
 <devicesets>
 <deviceset name="PCA9615DPJ" prefix="U">
-<description>&lt;strong&gt;NXP USA Inc. - PCA9615DPJ - IC REDRIVER I2C 2CH 10TSSOP&lt;/strong&gt;
+<description>&lt;strong&gt;IC REDRIVER I2C 2CH 10TSSOP&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Buffer, ReDriver 2 Channel 400kHz 10-TSSOP&lt;/li&gt;
@@ -8662,7 +8753,12 @@ grid 15mm, 19649 Wickmann</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="PCA9615DPJ" constant="no"/>
+<attribute name="MANUFACTURER" value="NXP USA Inc." constant="no"/>
+<attribute name="MPN" value="PCA9615DPJ " constant="no"/>
+<attribute name="VALUE" value="PCA9615" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA9615DPJ/568-11484-1-ND/4864508" constant="no"/>
+<attribute name="VPN" value="568-11484-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -8682,7 +8778,6 @@ grid 15mm, 19649 Wickmann</description>
 <parts>
 <part name="FRAME1" library="openag-frames" deviceset="DOCFIELD" device="">
 <attribute name="AUTHOR" value="JR"/>
-<attribute name="DESCRIPTION" value=""/>
 <attribute name="TITLE" value="Atlas Port Quad"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/atlas-port"/>
 </part>
@@ -8765,7 +8860,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="D2" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608"/>
 <part name="R30" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND26" library="openag-supply" deviceset="GND" device=""/>
-<part name="U8" library="openag-regulators" deviceset="LM2937IMP-3.3/NOPB" device="" value="LM2937IMP3.3NOPB"/>
+<part name="U8" library="openag-regulators" deviceset="LM2937IMP-3.3/NOPB" device="" value="LM2937"/>
 <part name="C16" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
 <part name="GND27" library="openag-supply" deviceset="GND" device=""/>
 <part name="C21" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
@@ -8778,7 +8873,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="P+11" library="openag-supply" deviceset="+5V" device=""/>
 <part name="C22" library="openag-capacitors" deviceset="15UF-C2012X5R1V156M125AC" device="" value="15uF"/>
 <part name="C23" library="openag-capacitors" deviceset="220UF-TPSY227K010R0100" device="" value="220uF"/>
-<part name="U11" library="openag-regulators" deviceset="MIC4680YM-TR" device="" value="MIC4680YM-TR"/>
+<part name="U11" library="openag-regulators" deviceset="MIC4680YM-TR" device="" value="MIC4680"/>
 <part name="L2" library="openag-inductors" deviceset="68UH-UP2B-680-R" device="" value="68uH"/>
 <part name="D6" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
 <part name="R31" library="openag-resistors" deviceset="3.01K-RC0603FR-073K01L" device="" value="3.01K"/>
@@ -8793,9 +8888,9 @@ grid 15mm, 19649 Wickmann</description>
 <part name="TP10" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="SJ4" library="openag-connectors" deviceset="SOLDERJUMPER" device="REFLOW_NOPASTE"/>
 <part name="GND29" library="openag-supply" deviceset="GND" device=""/>
-<part name="F5" library="openag-fuses" deviceset="SST_7" device="" value="SST 7"/>
+<part name="F5" library="openag-fuses" deviceset="SST_7" device="" value="SST7"/>
 <part name="P+14" library="openag-supply" deviceset="+24V" device=""/>
-<part name="F6" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
+<part name="F6" library="openag-fuses" deviceset="GSH15" device=""/>
 <part name="GND30" library="openag-supply" deviceset="GND" device=""/>
 <part name="GND31" library="openag-supply" deviceset="GND" device=""/>
 <part name="GND32" library="openag-supply" deviceset="GND" device=""/>
@@ -8811,7 +8906,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="TP11" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP12" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="D10" library="openag-diodes" deviceset="SMAJ26A-13-F" device="" value="SMAJ26A"/>
-<part name="U12" library="openag-buffers" deviceset="PCA9615DPJ" device="" value="PCA9615DPJ"/>
+<part name="U12" library="openag-buffers" deviceset="PCA9615DPJ" device="" value="PCA9615"/>
 <part name="R35" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
 <part name="R36" library="openag-resistors" deviceset="120OHM-RC0603FR-07120RL" device="" value="120"/>
 <part name="R37" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
@@ -8829,7 +8924,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="P+16" library="openag-supply" deviceset="+5V" device=""/>
 <part name="P+17" library="openag-supply" deviceset="+5V" device=""/>
 <part name="P+18" library="openag-supply" deviceset="+5V" device=""/>
-<part name="J16" library="openag_connector" deviceset="OPENAG-V1-RJ45" device="PTH" value="54602-908LF"/>
+<part name="J16" library="openag-connectors" deviceset="OPENAG-V1-RJ45" device="PTH" value="54602-908LF"/>
 <part name="GND38" library="openag-supply" deviceset="GND" device=""/>
 <part name="TP13" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP14" library="openag-testpads" deviceset="TP" device="TP06R"/>
@@ -8837,7 +8932,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="TP16" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP17" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP18" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="J17" library="openag_connector" deviceset="OPENAG-V1-RJ45" device="PTH" value="54602-908LF"/>
+<part name="J17" library="openag-connectors" deviceset="OPENAG-V1-RJ45" device="PTH" value="54602-908LF"/>
 <part name="P+19" library="openag-supply" deviceset="+24V" device=""/>
 <part name="P+20" library="openag-supply" deviceset="+24V" device=""/>
 </parts>
@@ -9133,11 +9228,9 @@ w/Indicator LED + Enable</text>
 <instance part="TP8" gate="G$1" x="373.38" y="-124.46" rot="R180"/>
 <instance part="TP9" gate="G$1" x="271.78" y="-139.7" smashed="yes">
 <attribute name="NAME" x="267.97" y="-140.97" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="273.05" y="-140.97" size="1.778" layer="97"/>
 </instance>
 <instance part="TP10" gate="G$1" x="271.78" y="-124.46" smashed="yes">
 <attribute name="NAME" x="270.51" y="-123.19" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="273.05" y="-125.73" size="1.778" layer="97"/>
 </instance>
 <instance part="SJ4" gate="1" x="365.76" y="-124.46"/>
 <instance part="GND29" gate="1" x="370.84" y="96.52"/>
@@ -10507,21 +10600,6 @@ w/Indicator LED + Enable</text>
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

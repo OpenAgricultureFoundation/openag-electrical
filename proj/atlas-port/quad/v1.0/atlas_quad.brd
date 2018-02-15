@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -2747,11 +2747,11 @@ Cambridge, MA</text>
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.4732" y1="-0.9144" x2="1.4732" y2="0.9144" layer="29"/>
 </package>
 <package name="PJ-036AH">
 <wire x1="0" y1="4.5" x2="-13.55" y2="4.5" width="0.127" layer="22"/>
@@ -2767,6 +2767,43 @@ Cambridge, MA</text>
 <wire x1="-13.5636" y1="-4.4704" x2="0" y2="-4.4704" width="0.1524" layer="21"/>
 <wire x1="0" y1="-4.4704" x2="0" y2="4.4958" width="0.1524" layer="21"/>
 <wire x1="0" y1="4.4958" x2="-13.5382" y2="4.4958" width="0.1524" layer="21"/>
+</package>
+<package name="OPENAG-V1-RJ45">
+<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
+<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
+<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
+<pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
+<pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
+<pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
+<pad name="DSCLP(4)" x="-0.635" y="8.89" drill="1"/>
+<pad name="DSCLM(5)" x="0.635" y="6.35" drill="1"/>
+<pad name="24V(6)" x="1.905" y="8.89" drill="1"/>
+<pad name="USBP(7)" x="3.175" y="6.35" drill="1"/>
+<pad name="USBM(8)" x="4.445" y="8.89" drill="1"/>
+<hole x="-5.715" y="0" drill="3.2"/>
+<hole x="5.715" y="0" drill="3.2"/>
+<wire x1="1.905" y1="7.9375" x2="1.905" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="3.175" y1="5.3975" x2="3.175" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="4.445" y1="7.9375" x2="4.445" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-4.445" y1="5.3975" x2="-4.445" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-3.175" y1="7.9375" x2="-3.175" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-1.905" y1="5.3975" x2="-1.905" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="-0.635" y1="7.9375" x2="-0.635" y2="4.7625" width="0.1524" layer="22"/>
+<wire x1="0.635" y1="5.3975" x2="0.635" y2="4.7625" width="0.1524" layer="22"/>
+<text x="-1.5875" y="4.445" size="0.762" layer="22" rot="MR270">GND</text>
+<text x="2.2225" y="4.445" size="0.762" layer="22" rot="MR270">24V</text>
+<text x="-4.1275" y="4.445" size="0.762" layer="22" rot="MR270">SDAP</text>
+<text x="-2.8575" y="4.445" size="0.762" layer="22" rot="MR270">SDAM</text>
+<text x="-0.3175" y="4.445" size="0.762" layer="22" rot="MR270">SCLP</text>
+<text x="0.9525" y="4.445" size="0.762" layer="22" rot="MR270">SCLM</text>
+<text x="3.4925" y="4.445" size="0.762" layer="22" rot="MR270">USBP</text>
+<text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
+<text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
+<text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -3001,37 +3038,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
 </package>
-</packages>
-</library>
-<library name="openag-inductors">
-<packages>
-<package name="UP2B">
-<smd name="1" x="-5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
-<smd name="2" x="5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
-<wire x1="-1.524" y1="5.334" x2="1.524" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="5.334" x2="4.3688" y2="3.3274" width="0.1524" layer="21"/>
-<wire x1="4.3688" y1="-3.3274" x2="1.524" y2="-5.334" width="0.1524" layer="21"/>
-<wire x1="1.524" y1="-5.334" x2="-1.524" y2="-5.334" width="0.1524" layer="21"/>
-<wire x1="-1.524" y1="-5.334" x2="-4.3688" y2="-3.3274" width="0.1524" layer="21"/>
-<wire x1="-4.3688" y1="3.3274" x2="-1.524" y2="5.334" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="5.207" x2="1.397" y2="5.207" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="5.207" x2="6.985" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="6.985" y1="1.27" x2="6.985" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="6.985" y1="-1.27" x2="1.397" y2="-5.207" width="0.1524" layer="51"/>
-<wire x1="1.397" y1="-5.207" x2="-1.397" y2="-5.207" width="0.1524" layer="51"/>
-<wire x1="-1.397" y1="-5.207" x2="-6.985" y2="-1.27" width="0.1524" layer="51"/>
-<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="1.27" width="0.1524" layer="51"/>
-<wire x1="-6.985" y1="1.27" x2="-1.397" y2="5.207" width="0.1524" layer="51"/>
-<text x="-1.4986" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-1.778" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
-</package>
-</packages>
-</library>
-<library name="fuse" urn="urn:adsk.eagle:library:233">
-<description>&lt;b&gt;Fuses and Fuse Holders&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="GSH15" urn="urn:adsk.eagle:footprint:14041/1" library_version="1">
+<package name="GSH15">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 grid 15mm, 19649 Wickmann</description>
 <wire x1="-12.573" y1="-4.572" x2="-12.573" y2="4.572" width="0.1524" layer="21"/>
@@ -3111,51 +3118,28 @@ grid 15mm, 19649 Wickmann</description>
 <hole x="0" y="0" drill="2.794"/>
 </package>
 </packages>
-<packages3d>
-<package3d name="GSH15" urn="urn:adsk.eagle:package:14065/1" type="box" library_version="1">
-<description>FUSE HOLDER
-grid 15mm, 19649 Wickmann</description>
-</package3d>
-</packages3d>
 </library>
-<library name="openag_connector">
+<library name="openag-inductors">
 <packages>
-<package name="OPENAG-V1-RJ45">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="10" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-3" width="0.2032" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.2032" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.2032" layer="51"/>
-<pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
-<pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
-<pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
-<pad name="DSCLP(4)" x="-0.635" y="8.89" drill="1"/>
-<pad name="DSCLM(5)" x="0.635" y="6.35" drill="1"/>
-<pad name="24V(6)" x="1.905" y="8.89" drill="1"/>
-<pad name="USBP(7)" x="3.175" y="6.35" drill="1"/>
-<pad name="USBM(8)" x="4.445" y="8.89" drill="1"/>
-<hole x="-5.715" y="0" drill="3.2"/>
-<hole x="5.715" y="0" drill="3.2"/>
-<wire x1="1.905" y1="7.9375" x2="1.905" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="3.175" y1="5.3975" x2="3.175" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="4.445" y1="7.9375" x2="4.445" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-4.445" y1="5.3975" x2="-4.445" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-3.175" y1="7.9375" x2="-3.175" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-1.905" y1="5.3975" x2="-1.905" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="-0.635" y1="7.9375" x2="-0.635" y2="4.7625" width="0.1524" layer="22"/>
-<wire x1="0.635" y1="5.3975" x2="0.635" y2="4.7625" width="0.1524" layer="22"/>
-<text x="-1.5875" y="4.445" size="0.762" layer="22" rot="MR270">GND</text>
-<text x="2.2225" y="4.445" size="0.762" layer="22" rot="MR270">24V</text>
-<text x="-4.1275" y="4.445" size="0.762" layer="22" rot="MR270">SDAP</text>
-<text x="-2.8575" y="4.445" size="0.762" layer="22" rot="MR270">SDAM</text>
-<text x="-0.3175" y="4.445" size="0.762" layer="22" rot="MR270">SCLP</text>
-<text x="0.9525" y="4.445" size="0.762" layer="22" rot="MR270">SCLM</text>
-<text x="3.4925" y="4.445" size="0.762" layer="22" rot="MR270">USBP</text>
-<text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
-<text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
-<text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<package name="UP2B">
+<smd name="1" x="-5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
+<smd name="2" x="5.8547" y="0" dx="2.3114" dy="7.2898" layer="1"/>
+<wire x1="-1.524" y1="5.334" x2="1.524" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="5.334" x2="4.3688" y2="3.3274" width="0.1524" layer="21"/>
+<wire x1="4.3688" y1="-3.3274" x2="1.524" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="1.524" y1="-5.334" x2="-1.524" y2="-5.334" width="0.1524" layer="21"/>
+<wire x1="-1.524" y1="-5.334" x2="-4.3688" y2="-3.3274" width="0.1524" layer="21"/>
+<wire x1="-4.3688" y1="3.3274" x2="-1.524" y2="5.334" width="0.1524" layer="21"/>
+<wire x1="-1.397" y1="5.207" x2="1.397" y2="5.207" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="5.207" x2="6.985" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="6.985" y1="1.27" x2="6.985" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="6.985" y1="-1.27" x2="1.397" y2="-5.207" width="0.1524" layer="51"/>
+<wire x1="1.397" y1="-5.207" x2="-1.397" y2="-5.207" width="0.1524" layer="51"/>
+<wire x1="-1.397" y1="-5.207" x2="-6.985" y2="-1.27" width="0.1524" layer="51"/>
+<wire x1="-6.985" y1="-1.27" x2="-6.985" y2="1.27" width="0.1524" layer="51"/>
+<wire x1="-6.985" y1="1.27" x2="-1.397" y2="5.207" width="0.1524" layer="51"/>
+<text x="-1.4986" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-1.778" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -3370,527 +3354,805 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="U$5" library="openag-frames" package="OPENAG-LOGO-750-MIL" value="" x="10.414" y="2.286"/>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="52.832" y="49.53" rot="MR90">
 <attribute name="AUTHOR" value="JR" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
-<attribute name="DESCRIPTION" value="" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
+<attribute name="MPN" value="N/A" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="TITLE" value="Atlas Port Quad" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/openag_eagle/proj/atlas-port" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
 <attribute name="VER" value="1.0" x="52.832" y="49.53" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
 <element name="C5" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="15.494" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="13.843" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.227" y="14.097" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="15.494" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C6" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="20.574" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="18.669" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.973" y="19.177" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="20.574" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C7" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="12.446" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.447" y="11.811" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.749" y="11.049" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="12.446" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C8" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="21.336" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.701" y="20.955" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.749" y="19.939" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="21.336" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R5" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="16.256" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="15.8115" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="14.478" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="16.256" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R6" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="14.986" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="14.5415" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="14.986" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R7" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="18.796" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="18.3515" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="17.272" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="18.796" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R8" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="17.526" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="17.0815" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="17.526" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U3" library="openag-isolators" package="SIP4" value="RM-3.33.3S" x="41.91" y="13.335" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Recom Power" x="41.91" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RM-3.33.3S" x="41.91" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.1" y="9.779" size="0.762" layer="25"/>
 <attribute name="VALUE" x="39.624" y="12.319" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="41.91" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" x="41.91" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 945-1212-ND " x="41.91" y="13.335" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U4" library="openag-isolators" package="D8" value="ISO1540" x="26.924" y="17.526" rot="R90">
-<attribute name="MF" value="Texas Instruments" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ISO1540DR" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 296-34871-1-ND" x="26.924" y="17.526" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J4" library="openag-connectors" package="BNC" value="5227161-9" x="2.54" y="17.145" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="2.54" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="5227161-9" x="2.54" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.795" y="24.13" size="0.762" layer="25"/>
 <attribute name="VALUE" x="-0.508" y="13.589" size="0.762" layer="27" rot="SR90"/>
+<attribute name="VENDOR" value="Digikey" x="2.54" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" x="2.54" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="A32261-ND " x="2.54" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J5" library="openag-connectors" package="ATLAS-STAMP" value="Atlas Stamp" x="24.13" y="17.145" smashed="yes" rot="R180">
-<attribute name="MF" value="N/A" x="24.13" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="N/A" x="24.13" y="17.145" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.319" y="10.16" size="0.762" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.306" y="11.176" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="12.954" y="23.368" size="0.762" layer="28" rot="MR180"/>
 </element>
 <element name="J6" library="openag-connectors" package="OPENAG-I2C-HEADER" value="I2C-HEADER" x="46.99" y="17.145" smashed="yes" rot="R90">
+<attribute name="MPN" value="N/A" x="46.99" y="17.145" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.45" y="11.049" size="0.762" layer="25" ratio="10"/>
-<attribute name="POPULATE" value="NO" x="46.99" y="17.145" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="44.3865" y="12.065" size="0.762" layer="27" ratio="10" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="46.99" y="17.145" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="I2C-HEADER" x="44.3865" y="12.065" size="0.762" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C9" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="35.814" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="34.163" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.227" y="34.417" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="35.814" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C10" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="40.894" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="38.989" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.973" y="39.497" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="40.894" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C11" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="32.766" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.447" y="32.131" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.749" y="31.369" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="32.766" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C12" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="41.656" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.701" y="41.275" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.749" y="40.259" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="41.656" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R9" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="36.576" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="36.1315" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="34.798" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="36.576" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R10" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="35.306" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="34.8615" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="35.306" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R11" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="39.116" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="38.6715" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="37.592" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="39.116" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R12" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="37.846" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="37.4015" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="37.846" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U5" library="openag-isolators" package="SIP4" value="RM-3.33.3S" x="41.91" y="33.655" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Recom Power" x="41.91" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RM-3.33.3S" x="41.91" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.1" y="30.099" size="0.762" layer="25"/>
 <attribute name="VALUE" x="39.624" y="32.639" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="41.91" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" x="41.91" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 945-1212-ND " x="41.91" y="33.655" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U6" library="openag-isolators" package="D8" value="ISO1540" x="26.924" y="37.846" rot="R90">
-<attribute name="MF" value="Texas Instruments" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ISO1540DR" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 296-34871-1-ND" x="26.924" y="37.846" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J7" library="openag-connectors" package="BNC" value="5227161-9" x="2.54" y="37.465" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="2.54" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="5227161-9" x="2.54" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.795" y="44.45" size="0.762" layer="25"/>
 <attribute name="VALUE" x="-0.508" y="33.909" size="0.762" layer="27" rot="SR90"/>
+<attribute name="VENDOR" value="Digikey" x="2.54" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" x="2.54" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="A32261-ND " x="2.54" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J8" library="openag-connectors" package="ATLAS-STAMP" value="Atlas Stamp" x="24.13" y="37.465" smashed="yes" rot="R180">
-<attribute name="MF" value="N/A" x="24.13" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="N/A" x="24.13" y="37.465" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.319" y="30.48" size="0.762" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.306" y="31.496" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="12.954" y="43.688" size="0.762" layer="28" rot="MR180"/>
 </element>
 <element name="J9" library="openag-connectors" package="OPENAG-I2C-HEADER" value="I2C-HEADER" x="46.99" y="37.465" smashed="yes" rot="R90">
+<attribute name="MPN" value="N/A" x="46.99" y="37.465" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.45" y="31.369" size="0.762" layer="25" ratio="10"/>
-<attribute name="POPULATE" value="NO" x="46.99" y="37.465" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="44.3865" y="32.385" size="0.762" layer="27" ratio="10" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="46.99" y="37.465" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="I2C-HEADER" x="44.3865" y="32.385" size="0.762" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C17" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="56.134" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="54.483" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.227" y="54.737" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="56.134" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C18" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="61.214" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="59.309" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.973" y="59.817" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="61.214" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C19" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="53.086" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.447" y="52.451" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.749" y="51.689" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="53.086" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C20" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="61.976" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.701" y="61.595" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.749" y="60.579" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="61.976" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R17" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="56.896" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="56.4515" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="55.118" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="56.896" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R18" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="55.626" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="55.1815" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="55.626" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R19" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="59.436" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="58.9915" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="57.912" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="59.436" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R20" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="58.166" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="57.7215" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="58.166" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U9" library="openag-isolators" package="SIP4" value="RM-3.33.3S" x="41.91" y="53.975" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Recom Power" x="41.91" y="53.975" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RM-3.33.3S" x="41.91" y="53.975" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.1" y="50.419" size="0.762" layer="25"/>
 <attribute name="VALUE" x="39.624" y="52.959" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="41.91" y="53.975" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" x="41.91" y="53.975" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 945-1212-ND " x="41.91" y="53.975" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U10" library="openag-isolators" package="D8" value="ISO1540" x="26.924" y="58.166" rot="R90">
-<attribute name="MF" value="Texas Instruments" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ISO1540DR" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 296-34871-1-ND" x="26.924" y="58.166" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J13" library="openag-connectors" package="BNC" value="5227161-9" x="2.54" y="57.785" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="2.54" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="5227161-9" x="2.54" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.795" y="64.77" size="0.762" layer="25"/>
 <attribute name="VALUE" x="-0.508" y="54.229" size="0.762" layer="27" rot="SR90"/>
+<attribute name="VENDOR" value="Digikey" x="2.54" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" x="2.54" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="A32261-ND " x="2.54" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J14" library="openag-connectors" package="ATLAS-STAMP" value="Atlas Stamp" x="24.13" y="57.785" smashed="yes" rot="R180">
-<attribute name="MF" value="N/A" x="24.13" y="57.785" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="N/A" x="24.13" y="57.785" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.319" y="50.8" size="0.762" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.306" y="51.816" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="12.954" y="64.008" size="0.762" layer="28" rot="MR180"/>
 </element>
 <element name="J15" library="openag-connectors" package="OPENAG-I2C-HEADER" value="I2C-HEADER" x="46.99" y="57.785" smashed="yes" rot="R90">
+<attribute name="MPN" value="N/A" x="46.99" y="57.785" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.45" y="51.689" size="0.762" layer="25" ratio="10"/>
-<attribute name="POPULATE" value="NO" x="46.99" y="57.785" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="44.3865" y="52.705" size="0.762" layer="27" ratio="10" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="46.99" y="57.785" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="I2C-HEADER" x="44.3865" y="52.705" size="0.762" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="C25" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="76.454" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="74.803" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="38.227" y="75.057" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="76.454" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C26" library="openag-capacitors" package="C0603" value="0.1uF" x="36.83" y="81.534" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="37.465" y="79.629" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="37.973" y="80.137" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="36.83" y="81.534" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C27" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="73.406" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="20.447" y="72.771" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="23.749" y="72.009" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="73.406" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C28" library="openag-capacitors" package="C0603" value="0.1uF" x="21.844" y="82.296" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Kemet" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="20.701" y="81.915" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="23.749" y="80.899" size="0.762" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="21.844" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R25" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="77.216" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="76.7715" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="75.438" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="77.216" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R26" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="75.946" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="75.5015" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="75.946" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R27" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="79.756" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="79.3115" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="1K" x="18.288" y="78.232" size="0.762" layer="27" ratio="6" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="79.756" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R28" library="openag-resistors" package="RC0603N" value="1K" x="21.336" y="78.486" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="P20283CT-ND" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="18.6817" y="78.0415" size="0.762" layer="25" ratio="6" rot="SR0"/>
-<attribute name="POPULATE" value="YES" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-PB3D1001V/P20283CT-ND/6214538" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" P20283CT-ND" x="21.336" y="78.486" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="U13" library="openag-isolators" package="SIP4" value="RM-3.33.3S" x="41.91" y="74.295" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Recom Power" x="41.91" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RM-3.33.3S" x="41.91" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="38.1" y="70.739" size="0.762" layer="25"/>
 <attribute name="VALUE" x="39.624" y="73.279" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="41.91" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/RM-3.33.3S/945-1212-ND/2256392" x="41.91" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 945-1212-ND " x="41.91" y="74.295" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U14" library="openag-isolators" package="D8" value="ISO1540" x="26.924" y="78.486" rot="R90">
-<attribute name="MF" value="Texas Instruments" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="ISO1540DR" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/ISO1540DR/296-34871-1-ND/3587214" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value=" 296-34871-1-ND" x="26.924" y="78.486" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J19" library="openag-connectors" package="BNC" value="5227161-9" x="2.54" y="78.105" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="TE Connectivity AMP Connectors" x="2.54" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="5227161-9" x="2.54" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="10.795" y="85.09" size="0.762" layer="25"/>
 <attribute name="VALUE" x="-0.508" y="74.549" size="0.762" layer="27" rot="SR90"/>
+<attribute name="VENDOR" value="Digikey" x="2.54" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/te-connectivity-amp-connectors/5227161-9/A32261-ND/811159" x="2.54" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="A32261-ND " x="2.54" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="J20" library="openag-connectors" package="ATLAS-STAMP" value="Atlas Stamp" x="24.13" y="78.105" smashed="yes" rot="R180">
-<attribute name="MF" value="N/A" x="24.13" y="78.105" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="N/A" x="24.13" y="78.105" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="12.319" y="71.12" size="0.762" layer="25" ratio="10" rot="R180"/>
 <attribute name="VALUE" x="35.306" y="72.136" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="12.954" y="84.328" size="0.762" layer="28" rot="MR180"/>
 </element>
 <element name="J21" library="openag-connectors" package="OPENAG-I2C-HEADER" value="I2C-HEADER" x="46.99" y="78.105" smashed="yes" rot="R90">
+<attribute name="MPN" value="N/A" x="46.99" y="78.105" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="44.45" y="72.009" size="0.762" layer="25" ratio="10"/>
-<attribute name="POPULATE" value="NO" x="46.99" y="78.105" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="44.3865" y="73.025" size="0.762" layer="27" ratio="10" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="46.99" y="78.105" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="I2C-HEADER" x="44.3865" y="73.025" size="0.762" layer="27" ratio="10" rot="R90"/>
 </element>
 <element name="U$1" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="3.81" y="91.44" rot="R270"/>
 <element name="U$2" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="3.81" y="3.81"/>
 <element name="U$3" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="100.33" y="3.81" rot="R90"/>
 <element name="U$4" library="openag-frames" package="OPENAG-CORNER-MOUNTING-HOLE" value="" x="100.33" y="91.44" rot="R180"/>
 <element name="D2" library="openag-diodes" package="CHIPLED_0603" value="APT1608" x="63.373" y="70.231" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kingbright" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608CGCK" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="64.77" y="70.866" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="754-1116-1-ND" x="63.373" y="70.231" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R30" library="openag-resistors" package="RC0603N" value="100" x="59.182" y="70.231" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Yageo" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603JR-07100RL" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="57.2135" y="70.7263" size="0.762" layer="25" ratio="6" rot="SR270"/>
-<attribute name="POPULATE" value="YES" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="311-100GRCT-ND" x="59.182" y="70.231" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="U8" library="openag-regulators" package="MP04A" value="LM2937IMP3.3NOPB" x="60.198" y="61.468" smashed="yes" rot="R270">
+<element name="U8" library="openag-regulators" package="MP04A" value="LM2937" x="60.198" y="61.468" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Texas Instruments" x="60.198" y="61.468" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="LM2937IMP-3.3/NOPB" x="60.198" y="61.468" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="64.008" y="62.992" size="0.762" layer="25" ratio="6" rot="SR270"/>
-<attribute name="POPULATE" value="YES" x="60.198" y="61.468" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" x="57.15" y="61.214" size="0.4572" layer="27" ratio="6"/>
-<attribute name="VERIFIED" value="NO" x="60.198" y="61.468" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="VALUE" value="LM2937" x="57.15" y="61.214" size="0.4572" layer="27" ratio="6"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" x="60.198" y="61.468" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" x="60.198" y="61.468" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C16" library="openag-capacitors" package="C0603" value="0.1uF" x="62.992" y="67.818" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Kemet" x="62.992" y="67.818" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="62.992" y="67.818" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="64.643" y="68.707" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="62.992" y="67.818" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" x="62.103" y="66.675" size="0.4572" layer="27"/>
-<attribute name="VERIFIED" value="NO" x="62.992" y="67.818" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="62.992" y="67.818" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="62.992" y="67.818" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="62.992" y="67.818" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="C21" library="openag-capacitors" package="C0805" value="10uF" x="59.182" y="67.818" smashed="yes">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="59.182" y="67.818" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" x="59.182" y="67.818" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="56.642" y="68.834" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="59.182" y="67.818" size="0.762" layer="27" display="off"/>
 <attribute name="VALUE" x="58.42" y="66.294" size="0.4572" layer="27"/>
-<attribute name="VERIFIED" value="NO" x="59.182" y="67.818" size="0.762" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="59.182" y="67.818" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="59.182" y="67.818" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="587-4893-1-ND" x="59.182" y="67.818" size="1.778" layer="27" display="off"/>
 </element>
 <element name="SJ1" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="62.738" y="74.168" smashed="yes" rot="R270">
-<attribute name="POPULATE" value="YES" x="62.738" y="74.168" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="62.738" y="74.168" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="62.738" y="74.168" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="F4" library="openag-fuses" package="0603" value="0448.400MR" x="57.658" y="74.168" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Littlefuse Inc." x="57.658" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="0448.400MR" x="57.658" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="58.42" y="74.676" size="0.762" layer="25" ratio="6" rot="SR270"/>
-<attribute name="POPULATE" value="YES" x="57.658" y="74.168" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="57.15" y="72.39" size="0.254" layer="27" ratio="6"/>
-<attribute name="VERIFIED" value="YES" x="57.658" y="74.168" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="57.658" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934" x="57.658" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="F5573CT-ND" x="57.658" y="74.168" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="55.372" y="65.532" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="55.372" y="65.532" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="55.372" y="65.532" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP2" library="openag-testpads" package="TP06R" value="TPTP06R" x="66.802" y="59.69" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="66.802" y="59.69" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="66.802" y="59.69" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP3" library="openag-testpads" package="TP06R" value="TPTP06R" x="66.802" y="72.136" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="66.802" y="72.136" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="66.802" y="72.136" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C22" library="openag-capacitors" package="C0805" value="15uF" x="63.5" y="14.224" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="TDK Corporation" x="63.5" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="C2012X5R1V156M125AC" x="63.5" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="64.8335" y="14.986" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" x="61.976" y="15.24" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="63.5" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1V156M125AC/445-14423-1-ND/3956089" x="63.5" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="445-14423-1-ND " x="63.5" y="14.224" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="C23" library="openag-capacitors" package="CT7343" value="220uF" x="65.278" y="21.844" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="AVX Corporation" x="65.278" y="21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="TPSY227K010R0100" x="65.278" y="21.844" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="61.7855" y="19.558" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" x="64.77" y="23.368" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="65.278" y="21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712" x="65.278" y="21.844" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 478-5408-1-ND " x="65.278" y="21.844" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U11" library="openag-regulators" package="SOIC8" value="MIC4680YM-TR" x="58.166" y="14.732" smashed="yes" rot="R180">
+<element name="U11" library="openag-regulators" package="SOIC8" value="MIC4680" x="58.166" y="14.732" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Microchip Technology" x="58.166" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="MIC4680YM-TR" x="58.166" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="60.833" y="16.129" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="54.991" y="17.145" size="0.508" layer="27" rot="R270"/>
+<attribute name="VALUE" value="MIC4680" x="54.991" y="17.145" size="0.508" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="58.166" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/MIC4680YM-TR/576-1222-1-ND/771874" x="58.166" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="576-1222-1-ND" x="58.166" y="14.732" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="L2" library="openag-inductors" package="UP2B" value="68uH" x="60.96" y="34.544" smashed="yes">
+<attribute name="MANUFACTURER" value="Eaton" x="60.96" y="34.544" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="UP2B-680-R" x="60.96" y="34.544" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="57.277" y="29.2989" size="0.762" layer="25" ratio="6" rot="SR90"/>
 <attribute name="VALUE" x="59.182" y="34.036" size="1.27" layer="27"/>
+<attribute name="VENDOR" value="Digikey" x="60.96" y="34.544" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/UP2B-680-R/513-1083-1-ND/695364" x="60.96" y="34.544" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value=" 513-1083-1-ND " x="60.96" y="34.544" size="1.778" layer="27" display="off"/>
 </element>
 <element name="D6" library="openag-diodes" package="POWERDI123" value="SBR2A40P1-7" x="54.991" y="26.6065" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="54.991" y="26.6065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SBR2A40P1-7" x="54.991" y="26.6065" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="56.9595" y="26.67" size="0.762" layer="25" ratio="6" rot="SR90"/>
 <attribute name="VALUE" value="SBR2A40P1-7" x="53.975" y="24.2189" size="0.508" layer="27" ratio="6" rot="SR90"/>
+<attribute name="VENDOR" value="Digikey" x="54.991" y="26.6065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="54.991" y="26.6065" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="SBR2A40P1DITR-ND" x="54.991" y="26.6065" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R31" library="openag-resistors" package="RC0603N" value="3.01K" x="59.69" y="20.574"/>
+<element name="R31" library="openag-resistors" package="RC0603N" value="3.01K" x="59.69" y="20.574">
+<attribute name="MANUFACTURER" value="Yageo" x="59.69" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-073K01L" x="59.69" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="59.69" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-073K01L/311-3.01KHRCT-ND/730068" x="59.69" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="311-3.01KHRCT-ND " x="59.69" y="20.574" size="1.778" layer="27" display="off"/>
+</element>
 <element name="R32" library="openag-resistors" package="RC0603N" value="976 Ohm" x="56.642" y="20.574" smashed="yes">
+<attribute name="MANUFACTURER" value="Yageo" x="56.642" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603FR-07976RL" x="56.642" y="20.574" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="55.5117" y="21.3995" size="0.762" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" value="976 Ohm" x="53.848" y="19.05" size="0.762" layer="27" ratio="6"/>
+<attribute name="VENDOR" value="Digikey" x="56.642" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07976RL/311-976HRCT-ND/730388" x="56.642" y="20.574" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="311-976HRCT-ND " x="56.642" y="20.574" size="1.778" layer="27" display="off"/>
 </element>
 <element name="R33" library="openag-resistors" package="RC0603N" value="100" x="60.452" y="24.003" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Yageo" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603JR-07100RL" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="59.7535" y="23.6982" size="0.762" layer="25" ratio="6" rot="SR90"/>
-<attribute name="POPULATE" value="YES" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" value="100" x="60.96" y="25.019" size="0.3556" layer="27" ratio="6" rot="R270"/>
-<attribute name="VERIFIED" value="NO" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="311-100GRCT-ND" x="60.452" y="24.003" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="D8" library="openag-diodes" package="CHIPLED_0603" value="APT1608" x="60.452" y="26.8605" smashed="yes">
+<attribute name="MANUFACTURER" value="Kingbright" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="APT1608CGCK" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="59.055" y="27.2415" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" value="APT1608" x="58.039" y="27.8765" size="0.508" layer="27" rot="R270"/>
-<attribute name="VERIFIED" value="NO" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="754-1116-1-ND" x="60.452" y="26.8605" size="1.778" layer="27" display="off"/>
 </element>
 <element name="TP8" library="openag-testpads" package="TP06R" value="TPTP06R" x="69.088" y="45.466" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="69.088" y="45.466" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="69.088" y="45.466" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP9" library="openag-testpads" package="TP06R" value="TPTP06R" x="69.342" y="17.399" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="69.342" y="17.399" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="69.342" y="17.399" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="TP10" library="openag-testpads" package="TP06R" value="TPTP06R" x="68.326" y="9.398" rot="R270">
-<attribute name="TP_SIGNAL_NAME" value="" x="68.326" y="9.398" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="N/A" x="68.326" y="9.398" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="SJ4" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="65.024" y="42.672" smashed="yes" rot="R90">
-<attribute name="POPULATE" value="YES" x="65.024" y="42.672" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="N/A" x="65.024" y="42.672" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="65.024" y="43.0721" size="0.02" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="65.024" y="42.672" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="F5" library="openag-fuses" package="SS" value="SST 7" x="82.55" y="19.558" smashed="yes" rot="R180">
+<element name="F5" library="openag-fuses" package="SS" value="SST7" x="82.55" y="19.558" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Bel Fuse" x="82.55" y="19.558" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="SST7" x="82.55" y="19.558" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="77.851" y="20.8026" size="0.8128" layer="25" ratio="6" rot="SR270"/>
-<attribute name="POPULATE" value="YES" x="102.87" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VERIFIED" value="NO" x="102.87" y="9.398" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="82.55" y="19.558" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026" x="82.55" y="19.558" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value=" 507-1072-1-ND" x="82.55" y="19.558" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="F6" library="fuse" library_urn="urn:adsk.eagle:library:233" package="GSH15" package3d_urn="urn:adsk.eagle:package:14065/1" value="" x="80.01" y="34.29" smashed="yes" rot="R270">
-<attribute name="MF" value="" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<element name="F6" library="openag-fuses" package="GSH15" value="" x="80.01" y="34.29" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Littelfuse Inc." x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="64900001039" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="76.6572" y="33.1724" size="0.8128" layer="25" ratio="10" rot="R90"/>
-<attribute name="OC_FARNELL" value="1271673" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="OC_NEWARK" value="02P0318" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="74.549" y="38.7096" size="1.778" layer="27" ratio="10" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="WK0011-ND" x="80.01" y="34.29" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C24" library="openag-capacitors" package="C0805" value="10uF" x="80.01" y="15.24" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="80.518" y="12.954" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="80.264" y="11.938" size="0.635" layer="27" rot="R180"/>
-<attribute name="VERIFIED" value="NO" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="587-4893-1-ND" x="80.01" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C29" library="openag-capacitors" package="C0805" value="4.7uF" x="82.296" y="15.24" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Samsung" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="CL21A475KBQNNNE" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="82.804" y="12.954" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="82.7405" y="11.938" size="0.635" layer="27" rot="R180"/>
-<attribute name="VERIFIED" value="NO" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 1276-1248-1-ND" x="82.296" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C30" library="openag-capacitors" package="C0603" value="0.1uF" x="84.582" y="15.24" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kemet" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="C0603C104K5RACTU" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="85.217" y="13.335" size="0.762" layer="25" rot="R180"/>
-<attribute name="POPULATE" value="YES" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="85.6615" y="12.3825" size="0.635" layer="27" rot="R180"/>
-<attribute name="VERIFIED" value="NO" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value=" 399-5089-1-ND" x="84.582" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="J11" library="openag-connectors" package="PJ-036AH" value="PJ-036AH" x="92.456" y="39.37" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="CUI Inc." x="92.456" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="PJ-036AH-SMT-TR" x="92.456" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="91.948" y="34.798" size="0.762" layer="21" rot="R90"/>
 <attribute name="VALUE" x="99.06" y="41.656" size="0.762" layer="21" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="92.456" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" x="92.456" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="CP-036AHPJCT-ND" x="92.456" y="39.37" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="J12" library="openag-connectors" package="PJ-036AH" value="PJ-036AH" x="92.456" y="19.05" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="CUI Inc." x="92.456" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="PJ-036AH-SMT-TR" x="92.456" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="91.948" y="14.478" size="0.762" layer="21" rot="R90"/>
 <attribute name="VALUE" x="99.314" y="21.336" size="0.762" layer="21" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="92.456" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" x="92.456" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="CP-036AHPJCT-ND" x="92.456" y="19.05" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R34" library="openag-resistors" package="RC0603N" value="100" x="86.868" y="15.24" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Yageo" x="86.868" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603JR-07100RL" x="86.868" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="87.2363" y="13.6525" size="0.762" layer="25" ratio="6" rot="SR180"/>
-<attribute name="POPULATE" value="YES" x="86.868" y="15.24" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" value="100" x="87.63" y="12.7" size="0.635" layer="27" ratio="6" rot="R180"/>
-<attribute name="VERIFIED" value="NO" x="86.868" y="15.24" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="86.868" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" x="86.868" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="311-100GRCT-ND" x="86.868" y="15.24" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D9" library="openag-diodes" package="CHIPLED_0603" value="APT1608" x="88.9" y="13.716" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Kingbright" x="88.9" y="13.716" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="APT1608CGCK" x="88.9" y="13.716" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="88.265" y="11.557" size="0.762" layer="25"/>
-<attribute name="POPULATE" value="YES" x="88.9" y="13.716" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="APT1608" x="90.043" y="12.573" size="0.508" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="88.9" y="13.716" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="88.9" y="13.716" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" x="88.9" y="13.716" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="754-1116-1-ND" x="88.9" y="13.716" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP11" library="openag-testpads" package="TP06R" value="TPTP06R" x="74.168" y="42.418" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="74.168" y="42.418" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="N/A" x="74.168" y="42.418" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP12" library="openag-testpads" package="TP06R" value="TPTP06R" x="74.168" y="22.86" rot="R90">
-<attribute name="TP_SIGNAL_NAME" value="" x="74.168" y="22.86" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="N/A" x="74.168" y="22.86" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="D10" library="openag-diodes" package="SMA" value="SMAJ26A" x="76.962" y="15.24" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Diodes Incorporated" x="76.962" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="SMAJ26A-13-F" x="76.962" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="76.2254" y="11.303" size="0.762" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VALUE" value="SMAJ26A" x="75.819" y="16.9926" size="0.635" layer="27" ratio="6" rot="SR270"/>
+<attribute name="VENDOR" value="Digikey" x="76.962" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SMAJ26A-13-F/SMAJ26A-FDICT-ND/806583" x="76.962" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="SMAJ26A-FDICT-ND" x="76.962" y="15.24" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="U12" library="openag-buffers" package="SOP50P490X110-10N" value="PCA9615DPJ" x="79.883" y="79.248" smashed="yes" rot="R90">
+<element name="U12" library="openag-buffers" package="SOP50P490X110-10N" value="PCA9615" x="79.883" y="79.248" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="NXP USA Inc." x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="PCA9615DPJ " x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="82.169" y="79.756" size="0.762" layer="25" rot="R90" align="center"/>
-<attribute name="VALUE" value="PCA9615DPJ" x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="PCA9615" x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/nxp-usa-inc/PCA9615DPJ/568-11484-1-ND/4864508" x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="568-11484-1-ND" x="79.883" y="79.248" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R35" library="openag-resistors" package="RC0603N" value="600" x="76.581" y="78.232" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Yageo" x="76.581" y="78.232" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07604RL" x="76.581" y="78.232" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.184" y="78.867" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" value="600" x="77.216" y="78.867" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="76.581" y="78.232" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" x="76.581" y="78.232" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="311-604HRCT-ND" x="76.581" y="78.232" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R36" library="openag-resistors" package="RC0603N" value="120" x="76.581" y="81.28" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Yageo" x="76.581" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07120RL" x="76.581" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.184" y="81.915" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" value="120" x="77.216" y="81.915" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="76.581" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07120RL/311-120HRCT-ND/729867" x="76.581" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="311-120HRCT-ND " x="76.581" y="81.28" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R37" library="openag-resistors" package="RC0603N" value="600" x="76.581" y="84.328" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Yageo" x="76.581" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="RC0603FR-07604RL" x="76.581" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="75.184" y="84.963" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" value="600" x="77.216" y="84.963" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="76.581" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" x="76.581" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="311-604HRCT-ND" x="76.581" y="84.328" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="R38" library="openag-resistors" package="RC0603N" value="600" x="79.121" y="84.836" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Yageo" x="79.121" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603FR-07604RL" x="79.121" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="78.486" y="85.471" size="0.762" layer="25"/>
 <attribute name="VALUE" value="600" x="78.486" y="83.439" size="0.762" layer="27"/>
+<attribute name="VENDOR" value="Digikey" x="79.121" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" x="79.121" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="311-604HRCT-ND" x="79.121" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R39" library="openag-resistors" package="RC0603N" value="600" x="83.058" y="82.296" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Yageo" x="83.058" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="RC0603FR-07604RL" x="83.058" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="83.693" y="83.439" size="0.762" layer="25" rot="R270"/>
 <attribute name="VALUE" value="600" x="81.661" y="82.931" size="0.762" layer="27" rot="R270"/>
+<attribute name="VENDOR" value="Digikey" x="83.058" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" x="83.058" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="311-604HRCT-ND" x="83.058" y="82.296" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="R40" library="openag-resistors" package="RC0603N" value="120" x="82.169" y="84.836" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Yageo" x="82.169" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="RC0603FR-07120RL" x="82.169" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="81.28" y="85.471" size="0.762" layer="25"/>
 <attribute name="VALUE" value="120" x="81.534" y="83.439" size="0.762" layer="27"/>
+<attribute name="VENDOR" value="Digikey" x="82.169" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07120RL/311-120HRCT-ND/729867" x="82.169" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="311-120HRCT-ND " x="82.169" y="84.836" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R41" library="openag-resistors" package="RC0603N" value="10K" x="79.502" y="74.295" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.772" y="74.803" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10K" x="77.47" y="75.057" size="0.762" layer="27" rot="R270"/>
-<attribute name="VERIFIED" value="NO" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="P10.0KHCT-ND" x="79.502" y="74.295" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="R42" library="openag-resistors" package="RC0603N" value="10K" x="79.502" y="71.501" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Panasonic" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.772" y="72.263" size="0.762" layer="25" rot="R270"/>
-<attribute name="POPULATE" value="YES" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VALUE" value="10K" x="77.47" y="72.263" size="0.762" layer="27" rot="R270"/>
-<attribute name="VERIFIED" value="NO" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="P10.0KHCT-ND" x="79.502" y="71.501" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J16" library="openag_connector" package="OPENAG-V1-RJ45" value="54602-908LF" x="95.25" y="60.96" smashed="yes" rot="R90">
+<element name="J16" library="openag-connectors" package="OPENAG-V1-RJ45" value="54602-908LF" x="95.25" y="60.96" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Amphenol FCI" x="95.25" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="54602-908LF" x="95.25" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="84.7725" y="53.34" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="66.04" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="102.87" y="56.515" size="1.27" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="66.04" y="35.56" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="95.25" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="95.25" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="609-1046-ND" x="95.25" y="60.96" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="TP13" library="openag-testpads" package="TP06R" value="TPTP06R" x="73.152" y="73.406" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="73.152" y="73.406" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="73.152" y="73.406" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP14" library="openag-testpads" package="TP06R" value="TPTP06R" x="73.152" y="72.39" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="73.152" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="73.152" y="72.39" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP15" library="openag-testpads" package="TP06R" value="TPTP06R" x="74.422" y="75.438" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="74.422" y="75.438" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="74.422" y="75.438" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP16" library="openag-testpads" package="TP06R" value="TPTP06R" x="87.884" y="51.308" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="87.884" y="51.308" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="87.884" y="51.308" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP17" library="openag-testpads" package="TP06R" value="TPTP06R" x="74.422" y="79.502" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="74.422" y="79.502" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="74.422" y="79.502" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP18" library="openag-testpads" package="TP06R" value="TPTP06R" x="74.422" y="85.852" rot="R180">
-<attribute name="TP_SIGNAL_NAME" value="" x="74.422" y="85.852" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="N/A" x="74.422" y="85.852" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="J17" library="openag_connector" package="OPENAG-V1-RJ45" value="54602-908LF" x="95.25" y="77.47" smashed="yes" rot="R90">
+<element name="J17" library="openag-connectors" package="OPENAG-V1-RJ45" value="54602-908LF" x="95.25" y="77.47" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Amphenol FCI" x="95.25" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="54602-908LF" x="95.25" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="84.7725" y="69.85" size="0.762" layer="25" rot="R90"/>
-<attribute name="POPULATE" value="YES" x="95.25" y="77.47" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VALUE" x="102.87" y="73.025" size="1.27" layer="27" rot="R90"/>
-<attribute name="VERIFIED" value="NO" x="95.25" y="77.47" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="95.25" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="95.25" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="609-1046-ND" x="95.25" y="77.47" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
 <signals>
@@ -5387,21 +5649,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <note version="6.3" minversion="6.2.2" severity="warning">
 Since Version 6.2.2 text objects can contain more than one line,
 which will not be processed correctly with this version.
-</note>
-<note version="8.2" severity="warning">
-Since Version 8.2, EAGLE supports online libraries. The ids
-of those online libraries will not be understood (or retained)
-with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports URNs for individual library
-assets (packages, symbols, and devices). The URNs of those assets
-will not be understood (or retained) with this version.
-</note>
-<note version="8.3" severity="warning">
-Since Version 8.3, EAGLE supports the association of 3D packages
-with devices in libraries, schematics, and board files. Those 3D
-packages will not be understood (or retained) with this version.
 </note>
 </compatibility>
 </eagle>

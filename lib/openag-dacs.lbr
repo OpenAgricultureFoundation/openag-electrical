@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -145,35 +145,44 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </symbols>
 <devicesets>
 <deviceset name="DAC5578SPW" prefix="U" uservalue="yes">
-<description>&lt;b&gt; Texas Instruments - DAC5578SPW &lt;/b&gt;
+<description>&lt;strong&gt; IC DAC 8BIT I2C OCTAL 16TSSOP&lt;/strong&gt;
 &lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;8 Bit Digital to Analog Converter 8 16-TSSOP&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;8 Bit Digital to Analog Converter 8 16-TSSOP&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Number of Bits: 8-bit&lt;/li&gt;
-&lt;li&gt;Number of D/A Converters: 8&lt;/li&gt;
-&lt;li&gt;Settling Time: 12us&lt;/li&gt;
-&lt;li&gt;Operating Voltage: 2.7V - 5.5V&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -40&amp;deg; C to 125&amp;deg;C&lt;/li&gt;
-&lt;li&gt;Max I&lt;sub&gt;DD&lt;/sub&gt; (Normal Mode): 1.4mA&lt;/li&gt;
-&lt;li&gt;Output Short Circuit Current (Individual): 25mA&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Number of Bits: 8&lt;/li&gt;
+		&lt;li&gt;Number of D/A Converters: 8&lt;/li&gt;
+		&lt;li&gt;Settling Time: 12µs (Typ)&lt;/li&gt;
+		&lt;li&gt;Output Type: Voltage - Buffered&lt;/li&gt;
+		&lt;li&gt;Differential Output: No&lt;/li&gt;
+		&lt;li&gt;Data Interface: I²C&lt;/li&gt;
+		&lt;li&gt;Reference Type: External&lt;/li&gt;
+		&lt;li&gt;Voltage - Supply, Analog: 2.7 V ~ 5.5 V&lt;/li&gt;
+		&lt;li&gt;Voltage - Supply, Digital: 2.7 V ~ 5.5 V&lt;/li&gt;
+		&lt;li&gt;INL/DNL (LSB): ±0.01, ±0.01&lt;/li&gt;
+		&lt;li&gt;Architecture: String DAC&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Package / Case: 16-TSSOP (0.173", 4.40mm Width)&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: 16-TSSOP&lt;/li&gt;
+		&lt;li&gt;Base Part Number: DAC5578&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.ti.com/lit/ds/symlink/dac5578.pdf"&gt;DAC5578,6578,7578&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.ti.com/lit/ds/symlink/dac5578.pdf'&gt;DAC5578,6578,7578&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.ti.com/lit/pdf/slyb174'&gt;Analog Signal Chain Guide&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/texas-instruments/DAC5578SPW/296-27736-5-ND/2360827"&gt;296-27736-5-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/texas-instruments/DAC5578SPW/296-27736-5-ND/2360827'&gt;296-27736-5-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="DAC5578" x="-2.54" y="2.54"/>
@@ -200,9 +209,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="DAC5578SPW"/>
-<attribute name="VERIFIED" value="NO"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="DAC5578SPW" constant="no"/>
+<attribute name="VALUE" value="DAC5578"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/DAC5578SPW/296-27736-5-ND/2360827" constant="no"/>
+<attribute name="VPN" value="296-27736-5-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

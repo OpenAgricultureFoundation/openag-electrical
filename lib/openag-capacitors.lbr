@@ -279,7 +279,7 @@
 </devices>
 </deviceset>
 <deviceset name="4.7UF-CL21A475KBQNNNE" prefix="C">
-<description>&lt;b&gt; Samsung - CL21A475KBQNNNE - CAP CER 4.7UF 50V X5R 0805&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 4.7UF 50V X5R 0805&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;4.7µF ±10% 50V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -319,9 +319,13 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung" constant="no"/>
+<attribute name="MPN" value="CL21A475KBQNNNE" constant="no"/>
 <attribute name="VALUE" value="4.7uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334" constant="no"/>
+<attribute name="VPN" value="
+1276-1248-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -573,15 +577,14 @@
 <attribute name="VALUE" value="0.1uF" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C104K5RACTU/399-5089-1-ND/1465623" constant="no"/>
-<attribute name="VPN" value="
-399-5089-1-ND" constant="no"/>
+<attribute name="VPN" value=" 399-5089-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="10UF-GMK212BBJ106KG-T" prefix="C">
-<description>&lt;b&gt; Taiyo Yuden - GMK212BBJ106KG-T - CAP CER 10UF 35V X5R 0805&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 10UF 35V X5R 0805&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;10µF ±10% 35V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -621,9 +624,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Taiyo Yuden" constant="no"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" constant="no"/>
 <attribute name="VALUE" value="10uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" constant="no"/>
+<attribute name="VPN" value="587-4893-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -736,7 +742,7 @@
 </devices>
 </deviceset>
 <deviceset name="220UF-TPSY227K010R0100" prefix="C">
-<description>&lt;strong&gt;AVX Corporation - TPSY227K010R0100 - CAP TANT 220UF 10V 10% 2917&lt;/strong&gt;
+<description>&lt;strong&gt; CAP TANT 220UF 10V 10% 2917&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;220µF Molded Tantalum Capacitors 10V 2917 (7343 Metric) 100 mOhm&lt;/li&gt;
@@ -768,7 +774,7 @@
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250948888&amp;uq=636531796868737363'&gt;478-5408-1-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712'&gt;478-5408-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -782,14 +788,20 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="MPN" value="TPSY227K010R0100" constant="no"/>
 <attribute name="VALUE" value="220uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712" constant="no"/>
+<attribute name="VPN" value="
+478-5408-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="15UF-C2012X5R1V156M125AC" prefix="C">
-<description>&lt;strong&gt;TDK Corporation - C2012X5R1V156M125AC - CAP CER 15UF 35V X5R 0805&lt;/strong&gt;
+<description>&lt;strong&gt; CAP CER 15UF 35V X5R 0805&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;15µF ±20% 35V Ceramic Capacitor X5R 0805 (2012 Metric)&lt;/li&gt;
@@ -836,7 +848,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="TDK Corporation" constant="no"/>
+<attribute name="MPN" value="C2012X5R1V156M125AC" constant="no"/>
 <attribute name="VALUE" value="15uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/tdk-corporation/C2012X5R1V156M125AC/445-14423-1-ND/3956089" constant="no"/>
+<attribute name="VPN" value="445-14423-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>

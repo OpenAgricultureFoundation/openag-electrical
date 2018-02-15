@@ -149,7 +149,7 @@
 </devices>
 </deviceset>
 <deviceset name="68UH-UP2B-680-R" prefix="L">
-<description>&lt;strong&gt;Eaton - UP2B-680-R - FIXED IND 68UH 1.5A 178.7 MOHM&lt;/strong&gt;
+<description>&lt;strong&gt;FIXED IND 68UH 1.5A 178.7 MOHM&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;68µH Unshielded Wirewound Inductor 1.5A 178.7 mOhm Max Nonstandard&lt;/li&gt;
@@ -183,7 +183,7 @@
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250945518&amp;uq=636531821133403587'&gt;513-1083-1-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/UP2B-680-R/513-1083-1-ND/695364'&gt;513-1083-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -197,7 +197,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Eaton" constant="no"/>
+<attribute name="MPN" value="UP2B-680-R" constant="no"/>
 <attribute name="VALUE" value="68uH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/UP2B-680-R/513-1083-1-ND/695364" constant="no"/>
+<attribute name="VPN" value=" 513-1083-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>

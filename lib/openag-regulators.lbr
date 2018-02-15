@@ -926,7 +926,7 @@
 </devices>
 </deviceset>
 <deviceset name="LM2937IMP-3.3/NOPB" prefix="U">
-<description>&lt;strong&gt;Texas Instruments - LM2937IMP-3.3/NOPB - IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
+<description>&lt;strong&gt;IC REG LIN 3.3V 400MA SOT223-4&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Linear Voltage Regulator IC Positive Fixed 1 Output 3.3V 400mA SOT-223-4&lt;/li&gt;
@@ -977,16 +977,18 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="LM2937IMP3.3NOPB" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
+<attribute name="MPN" value="LM2937IMP-3.3/NOPB" constant="no"/>
+<attribute name="VALUE" value="LM2937" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" constant="no"/>
+<attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="MIC4680YM-TR" prefix="U">
-<description>&lt;strong&gt;Microchip Technology - MIC4680YM-TR - IC REG BUCK BOOST ADJ 1.3A 8SOIC&lt;/strong&gt;
+<description>&lt;strong&gt;IC REG BUCK BOOST ADJ 1.3A 8SOIC&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Buck, Buck-Boost Switching Regulator IC Positive Adjustable 1.23V 1 Output 1.3A 8-SOIC (0.154", 3.90mm Width)&lt;/li&gt;
@@ -1023,7 +1025,7 @@
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250950999&amp;uq=636531791983475304'&gt;576-1222-1-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/microchip-technology/MIC4680YM-TR/576-1222-1-ND/771874'&gt;576-1222-1-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -1040,7 +1042,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="VALUE" value="MIC4680YM-TR" constant="no"/>
+<attribute name="MANUFACTURER" value="Microchip Technology" constant="no"/>
+<attribute name="MPN" value="MIC4680YM-TR" constant="no"/>
+<attribute name="VALUE" value="MIC4680" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/microchip-technology/MIC4680YM-TR/576-1222-1-ND/771874" constant="no"/>
+<attribute name="VPN" value="576-1222-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

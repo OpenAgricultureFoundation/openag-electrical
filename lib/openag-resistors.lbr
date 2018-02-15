@@ -219,7 +219,7 @@
 </symbols>
 <devicesets>
 <deviceset name="10K-ERJ-3EKF1002V" prefix="R">
-<description>&lt;b&gt; Panasonic - ERJ-3EKF1002V - RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
+<description>&lt;b&gt; RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/li&gt;
@@ -258,9 +258,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
+<attribute name="MPN" value="ERJ-3EKF1002V" constant="no"/>
 <attribute name="VALUE" value="10K"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102" constant="no"/>
+<attribute name="VPN" value="P10.0KHCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -768,7 +771,7 @@
 </devices>
 </deviceset>
 <deviceset name="100OHM-RC0603JR-07100RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603JR-07100RL - RES SMD 100 OHM 5% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt; RES SMD 100 OHM 5% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;100 Ohms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -816,9 +819,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603JR-07100RL" constant="no"/>
 <attribute name="VALUE" value="100" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" constant="no"/>
+<attribute name="VPN" value="311-100GRCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -882,7 +888,7 @@
 </devices>
 </deviceset>
 <deviceset name="3.01K-RC0603FR-073K01L" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-073K01L - RES SMD 3.01K OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 3.01K OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;3.01 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -915,7 +921,7 @@
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250949714&amp;uq=636531832410541188'&gt;311-3.01KHRCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-073K01L/311-3.01KHRCT-ND/730068'&gt;311-3.01KHRCT-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -929,14 +935,19 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-073K01L" constant="no"/>
 <attribute name="VALUE" value="3.01K" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-073K01L/311-3.01KHRCT-ND/730068" constant="no"/>
+<attribute name="VPN" value="311-3.01KHRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="982OHM-RC0603FR-07976RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-07976RL - RES SMD 976 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 976 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;976 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -969,7 +980,7 @@
 
 &lt;p&gt;Vendor(s):
 	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250949870&amp;uq=636531835229553061'&gt;311-976HRCT-ND&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603FR-07976RL/311-976HRCT-ND/730388'&gt;311-976HRCT-ND&lt;/a&gt;&lt;/li&gt;
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
@@ -983,7 +994,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07976RL" constant="no"/>
 <attribute name="VALUE" value="976 Ohm" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07976RL/311-976HRCT-ND/730388" constant="no"/>
+<attribute name="VPN" value="311-976HRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1117,7 +1133,7 @@
 </devices>
 </deviceset>
 <deviceset name="600OHM-RC0603FR-07604RL" prefix="R">
-<description>&lt;strong&gt;Yageo - RC0603FR-07604RL - RES SMD 604 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 604 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;604 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -1164,14 +1180,19 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07604RL" constant="no"/>
 <attribute name="VALUE" value="600" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07604RL/311-604HRCT-ND/730276" constant="no"/>
+<attribute name="VPN" value="311-604HRCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="120OHM-RC0603FR-07120RL">
-<description>&lt;strong&gt;Yageo - RC0603FR-07120RL - RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
+<description>&lt;strong&gt;RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;120 Ohms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
@@ -1218,7 +1239,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603FR-07120RL" constant="no"/>
 <attribute name="VALUE" value="120" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603FR-07120RL/311-120HRCT-ND/729867" constant="no"/>
+<attribute name="VPN" value="311-120HRCT-ND " constant="no"/>
 </technology>
 </technologies>
 </device>

@@ -1033,8 +1033,7 @@ http://www.tycoelectronics.com</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="MPN" value="N/A" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1181,7 +1180,7 @@ http://www.tycoelectronics.com</description>
 </devices>
 </deviceset>
 <deviceset name="OPENAG-V1-RJ45" prefix="J">
-<description>&lt;strong&gt;Amphenol FCI - 54602-908LF - CONN MOD JACK 8P8C R/A UNSHLD&lt;/strong&gt;
+<description>&lt;strong&gt;CONN MOD JACK 8P8C R/A UNSHLD&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Jack Modular Connector 8p8c (RJ45, Ethernet) 90° Angle (Right) Unshielded Cat3&lt;/li&gt;
@@ -1238,9 +1237,12 @@ http://www.tycoelectronics.com</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Amphenol FCI" constant="no"/>
+<attribute name="MPN" value="54602-908LF" constant="no"/>
 <attribute name="VALUE" value="54602-908LF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" constant="no"/>
+<attribute name="VPN" value="609-1046-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -1280,13 +1282,15 @@ http://www.tycoelectronics.com</description>
 <connect gate="G$1" pin="3" pad="3"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="MPN" value="N/A" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="PJ-036AH-SMT-TR" prefix="J">
-<description>&lt;strong&gt;CUI Inc. - PJ-036AH-SMT-TR - CONN PWR JACK 2X5.5MM SOLDER&lt;/strong&gt;
+<description>&lt;strong&gt;CONN PWR JACK 2X5.5MM SOLDER&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Surface Mount, Right Angle&lt;/li&gt;
@@ -1338,7 +1342,12 @@ http://www.tycoelectronics.com</description>
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="CUI Inc." constant="no"/>
+<attribute name="MPN" value="PJ-036AH-SMT-TR" constant="no"/>
 <attribute name="VALUE" value="PJ-036AH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" constant="no"/>
+<attribute name="VPN" value="CP-036AHPJCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
