@@ -433,8 +433,8 @@
 <wire x1="1.9812" y1="3.4798" x2="-1.9812" y2="3.4798" width="0.1524" layer="21"/>
 <wire x1="-1.9812" y1="3.4798" x2="-1.9812" y2="-3.4798" width="0.1524" layer="21"/>
 <text x="-1.524" y="3.81" size="0.762" layer="25" ratio="6" rot="SR0">&gt;Name</text>
-<circle x="-3.048" y="4.318" radius="0.508" width="1.016" layer="21"/>
 <text x="-1.778" y="-4.572" size="0.762" layer="27" ratio="6">&gt;VALUE</text>
+<circle x="-2.794" y="3.556" radius="0.254" width="0.508" layer="21"/>
 </package>
 <package name="SOIC8">
 <description>&lt;b&gt;Small Outline IC&lt;/b&gt;</description>

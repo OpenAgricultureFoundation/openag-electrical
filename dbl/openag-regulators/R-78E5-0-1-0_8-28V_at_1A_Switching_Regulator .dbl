@@ -4,8 +4,7 @@
 <designblock>
 <description></description>
 <attributes>
-<attribute name="AIRWIRES" value="YES"/>
-<attribute name="BOARDSIZE" value="1480 x 1620 mil"/>
+<attribute name="BOARDSIZE" value="824 x 1500 mil"/>
 <attribute name="LAYERS" value="2: 1, 16"/>
 </attributes>
 <drawings>
@@ -1153,44 +1152,44 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </layers>
 <board>
 <plain>
-<wire x1="57.15" y1="-27.94" x2="44.45" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="44.45" y1="-27.94" x2="38.1" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-27.94" x2="35.56" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="35.56" y1="-27.94" x2="35.56" y2="-15.24" width="0.1524" layer="21"/>
-<wire x1="35.56" y1="-15.24" x2="38.1" y2="-15.24" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-15.24" x2="57.15" y2="-15.24" width="0.1524" layer="21"/>
-<wire x1="57.15" y1="-15.24" x2="57.15" y2="-22.86" width="0.1524" layer="21"/>
-<wire x1="57.15" y1="-22.86" x2="57.15" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="58.42" y1="-29.21" x2="58.42" y2="-22.86" width="0.1524" layer="21"/>
-<wire x1="58.42" y1="-22.86" x2="58.42" y2="-13.97" width="0.1524" layer="21"/>
-<wire x1="58.42" y1="-13.97" x2="38.1" y2="-13.97" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-13.97" x2="34.29" y2="-13.97" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="-13.97" x2="34.29" y2="-29.21" width="0.1524" layer="21"/>
-<wire x1="34.29" y1="-29.21" x2="38.1" y2="-29.21" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-29.21" x2="44.45" y2="-29.21" width="0.1524" layer="21"/>
-<wire x1="44.45" y1="-29.21" x2="58.42" y2="-29.21" width="0.1524" layer="21"/>
-<wire x1="44.45" y1="-29.21" x2="44.45" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-29.21" x2="38.1" y2="-27.94" width="0.1524" layer="21"/>
-<wire x1="38.1" y1="-15.24" x2="38.1" y2="-13.97" width="0.1524" layer="21"/>
-<text x="53.086" y="-28.194" size="0.762" layer="21" rot="R180">5V</text>
-<text x="42.418" y="-28.194" size="0.762" layer="21" rot="R180">GND</text>
-<text x="34.544" y="-20.066" size="0.762" layer="21" rot="R270">24V</text>
-<wire x1="58.42" y1="-22.86" x2="57.15" y2="-22.86" width="0.1524" layer="21"/>
-<text x="49.53" y="-14.224" size="0.762" layer="21" rot="R180">GND</text>
-<wire x1="37.465" y1="-28.575" x2="34.925" y2="-28.575" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="34.925" y1="-28.575" x2="34.925" y2="-23.495" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="34.925" y1="-19.685" x2="34.925" y2="-14.605" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="34.925" y1="-14.605" x2="37.465" y2="-14.605" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="38.735" y1="-14.605" x2="46.863" y2="-14.605" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="50.165" y1="-14.605" x2="57.785" y2="-14.605" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="57.785" y1="-14.605" x2="57.785" y2="-22.225" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="57.785" y1="-23.495" x2="57.785" y2="-28.575" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="57.785" y1="-28.575" x2="53.4035" y2="-28.575" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="50.7365" y1="-28.575" x2="45.085" y2="-28.575" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="39.624" y1="-16.764" x2="40.64" y2="-16.764" width="0.1524" layer="41" style="shortdash"/>
-<wire x1="39.624" y1="-23.876" x2="40.64" y2="-23.876" width="0.1524" layer="41" style="shortdash"/>
-<text x="34.29" y="-31.496" size="0.762" layer="21">8-28V to 5V@1A Switching Regulator
-with Class B EMI Filter + Indicator LED</text>
+<wire x1="50.8" y1="31.75" x2="50.8" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="50.8" y1="19.05" x2="50.8" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="50.8" y1="12.7" x2="50.8" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="50.8" y1="10.16" x2="38.1" y2="10.16" width="0.1524" layer="21"/>
+<wire x1="38.1" y1="10.16" x2="38.1" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="38.1" y1="12.7" x2="38.1" y2="31.75" width="0.1524" layer="21"/>
+<wire x1="38.1" y1="31.75" x2="45.72" y2="31.75" width="0.1524" layer="21"/>
+<wire x1="45.72" y1="31.75" x2="50.8" y2="31.75" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="33.02" x2="45.72" y2="33.02" width="0.1524" layer="21"/>
+<wire x1="45.72" y1="33.02" x2="36.83" y2="33.02" width="0.1524" layer="21"/>
+<wire x1="36.83" y1="33.02" x2="36.83" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="36.83" y1="12.7" x2="36.83" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="36.83" y1="8.89" x2="52.07" y2="8.89" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="8.89" x2="52.07" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="12.7" x2="52.07" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="19.05" x2="52.07" y2="33.02" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="19.05" x2="50.8" y2="19.05" width="0.1524" layer="21"/>
+<wire x1="52.07" y1="12.7" x2="50.8" y2="12.7" width="0.1524" layer="21"/>
+<wire x1="38.1" y1="12.7" x2="36.83" y2="12.7" width="0.1524" layer="21"/>
+<text x="51.054" y="27.686" size="0.762" layer="21" rot="R270">5V</text>
+<text x="51.054" y="17.018" size="0.762" layer="21" rot="R270">GND</text>
+<text x="42.926" y="9.144" size="0.762" layer="21">24V</text>
+<wire x1="45.72" y1="33.02" x2="45.72" y2="31.75" width="0.1524" layer="21"/>
+<text x="37.084" y="24.13" size="0.762" layer="21" rot="R270">GND</text>
+<wire x1="51.435" y1="12.065" x2="51.435" y2="9.525" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="51.435" y1="9.525" x2="46.355" y2="9.525" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="42.545" y1="9.525" x2="37.465" y2="9.525" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="37.465" y1="9.525" x2="37.465" y2="12.065" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="37.465" y1="13.335" x2="37.465" y2="21.463" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="37.465" y1="24.765" x2="37.465" y2="32.385" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="37.465" y1="32.385" x2="45.085" y2="32.385" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="46.355" y1="32.385" x2="51.435" y2="32.385" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="51.435" y1="32.385" x2="51.435" y2="28.0035" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="51.435" y1="25.3365" x2="51.435" y2="19.685" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="39.624" y1="14.224" x2="39.624" y2="15.24" width="0.1524" layer="41" style="shortdash"/>
+<wire x1="46.736" y1="14.224" x2="46.736" y2="15.24" width="0.1524" layer="41" style="shortdash"/>
+<text x="36.83" y="6.35" size="0.762" layer="21">8-28V to 5V@1A Switching 
+Regulator w/EMI Filter + Indicator LED</text>
 </plain>
 <libraries>
 <library name="openag-resistors">
@@ -1494,81 +1493,82 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </pass>
 </autorouter>
 <elements>
-<element name="C1" library="openag-capacitors" package="C0805" value="10uF" x="45.466" y="-18.034" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="45.466" y="-18.034" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GMK212BBJ106KG-T" x="45.466" y="-18.034" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.482" y="-17.526" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="44.45" y="-16.256" size="0.762" layer="27"/>
-<attribute name="VENDOR" value="Digikey" x="45.466" y="-18.034" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="45.466" y="-18.034" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VPN" value="587-4893-1-ND" x="45.466" y="-18.034" size="0.762" layer="27" rot="R90" display="off"/>
+<element name="C1" library="openag-capacitors" package="C0805" value="10uF" x="40.894" y="20.066" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="40.894" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" x="40.894" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="40.386" y="21.082" size="0.762" layer="25"/>
+<attribute name="VALUE" x="39.116" y="19.05" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="40.894" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="40.894" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="587-4893-1-ND" x="40.894" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C2" library="openag-capacitors" package="C0805" value="10uF" x="45.466" y="-22.352" smashed="yes" rot="R90">
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="45.466" y="-22.352" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="MPN" value="GMK212BBJ106KG-T" x="45.466" y="-22.352" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="NAME" x="46.482" y="-21.59" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="44.45" y="-20.574" size="0.762" layer="27"/>
-<attribute name="VENDOR" value="Digikey" x="45.466" y="-22.352" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="45.466" y="-22.352" size="0.762" layer="27" rot="R90" display="off"/>
-<attribute name="VPN" value="587-4893-1-ND" x="45.466" y="-22.352" size="0.762" layer="27" rot="R90" display="off"/>
+<element name="C2" library="openag-capacitors" package="C0805" value="10uF" x="45.212" y="20.066" smashed="yes" rot="R180">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="45.212" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" x="45.212" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="NAME" x="44.45" y="21.082" size="0.762" layer="25"/>
+<attribute name="VALUE" x="43.434" y="19.05" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="45.212" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="45.212" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
+<attribute name="VPN" value="587-4893-1-ND" x="45.212" y="20.066" size="0.762" layer="27" rot="R180" display="off"/>
 </element>
-<element name="C3" library="openag-capacitors" package="C0805" value="10uF" x="38.1" y="-25.9715" smashed="yes">
-<attribute name="MANUFACTURER" value="Taiyo Yuden" x="38.1" y="-25.9715" size="0.762" layer="27" display="off"/>
-<attribute name="MPN" value="GMK212BBJ106KG-T" x="38.1" y="-25.9715" size="0.762" layer="27" display="off"/>
-<attribute name="NAME" x="40.005" y="-25.3365" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="37.084" y="-27.7495" size="0.762" layer="27"/>
-<attribute name="VENDOR" value="Digikey" x="38.1" y="-25.9715" size="0.762" layer="27" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="38.1" y="-25.9715" size="0.762" layer="27" display="off"/>
-<attribute name="VPN" value="587-4893-1-ND" x="38.1" y="-25.9715" size="0.762" layer="27" display="off"/>
+<element name="C3" library="openag-capacitors" package="C0805" value="10uF" x="48.8315" y="12.7" smashed="yes" rot="R90">
+<attribute name="MANUFACTURER" value="Taiyo Yuden" x="48.8315" y="12.7" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="GMK212BBJ106KG-T" x="48.8315" y="12.7" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="NAME" x="48.1965" y="14.605" size="0.762" layer="25"/>
+<attribute name="VALUE" x="50.6095" y="11.684" size="0.762" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="48.8315" y="12.7" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/taiyo-yuden/GMK212BBJ106KG-T/587-4893-1-ND/6563736" x="48.8315" y="12.7" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="587-4893-1-ND" x="48.8315" y="12.7" size="0.762" layer="27" rot="R90" display="off"/>
 </element>
-<element name="L1" library="openag-inductors" package="29333C" value="33uH" x="40.132" y="-20.32">
-<attribute name="MANUFACTURER" value="Murata Power Solutions Inc." x="40.132" y="-20.32" size="0.762" layer="27" display="off"/>
-<attribute name="MPN" value="29333C" x="40.132" y="-20.32" size="0.762" layer="27" display="off"/>
-<attribute name="VALUE" value="33uH" x="40.132" y="-20.32" size="1.778" layer="27" display="off"/>
-<attribute name="VENDOR" value="Digikey" x="40.132" y="-20.32" size="0.762" layer="27" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/murata-power-solutions-inc/29333C/811-1138-1-ND/1924860" x="40.132" y="-20.32" size="0.762" layer="27" display="off"/>
-<attribute name="VPN" value="811-1138-1-ND" x="40.132" y="-20.32" size="0.762" layer="27" display="off"/>
+<element name="L1" library="openag-inductors" package="29333C" value="33uH" x="43.18" y="14.732" rot="R90">
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc." x="43.18" y="14.732" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="MPN" value="29333C" x="43.18" y="14.732" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" value="33uH" x="43.18" y="14.732" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="43.18" y="14.732" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/murata-power-solutions-inc/29333C/811-1138-1-ND/1924860" x="43.18" y="14.732" size="0.762" layer="27" rot="R90" display="off"/>
+<attribute name="VPN" value="811-1138-1-ND" x="43.18" y="14.732" size="0.762" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U1" library="openag-regulators" package="R-78E5.0-1.0" value="R-78E5.0-1.0" x="49.53" y="-21.59" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Recom Power" x="49.53" y="-21.59" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="R-78E5.0-1.0" x="49.53" y="-21.59" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="56.134" y="-15.875" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="52.832" y="-18.796" size="0.762" layer="21" rot="R270"/>
-<attribute name="VALUE" x="52.832" y="-19.05" size="0.762" layer="27" rot="R270"/>
-<attribute name="VENDOR" value="Digikey" x="49.53" y="-21.59" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="49.53" y="-21.59" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VPN" value="945-2201-ND " x="49.53" y="-21.59" size="0.762" layer="27" rot="R270" display="off"/>
+<element name="U1" library="openag-regulators" package="R-78E5.0-1.0" value="R-78E5.0-1.0" x="44.45" y="24.13" smashed="yes">
+<attribute name="MANUFACTURER" value="Recom Power" x="44.45" y="24.13" size="0.762" layer="27" display="off"/>
+<attribute name="MPN" value="R-78E5.0-1.0" x="44.45" y="24.13" size="0.762" layer="27" display="off"/>
+<attribute name="NAME" x="38.735" y="30.734" size="0.762" layer="25"/>
+<attribute name="VALUE" x="41.91" y="27.432" size="0.762" layer="21"/>
+<attribute name="VALUE" x="41.91" y="27.432" size="0.762" layer="27"/>
+<attribute name="VENDOR" value="Digikey" x="44.45" y="24.13" size="0.762" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="44.45" y="24.13" size="0.762" layer="27" display="off"/>
+<attribute name="VPN" value="945-2201-ND " x="44.45" y="24.13" size="0.762" layer="27" display="off"/>
 </element>
-<element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="35.052" y="-22.606" rot="R180">
-<attribute name="MPN" value="N/A" x="35.052" y="-22.606" size="0.762" layer="27" rot="R180" display="off"/>
+<element name="TP1" library="openag-testpads" package="TP06R" value="TPTP06R" x="45.466" y="9.652" rot="R270">
+<attribute name="MPN" value="N/A" x="45.466" y="9.652" size="0.762" layer="27" rot="R270" display="off"/>
 </element>
-<element name="TP2" library="openag-testpads" package="TP06R" value="TPTP06R" x="39.37" y="-28.702" rot="R180">
-<attribute name="MPN" value="N/A" x="39.37" y="-28.702" size="0.762" layer="27" rot="R180" display="off"/>
+<element name="TP2" library="openag-testpads" package="TP06R" value="TPTP06R" x="51.562" y="13.97" rot="R270">
+<attribute name="MPN" value="N/A" x="51.562" y="13.97" size="0.762" layer="27" rot="R270" display="off"/>
 </element>
-<element name="TP3" library="openag-testpads" package="TP06R" value="TPTP06R" x="51.308" y="-28.702" rot="R180">
-<attribute name="MPN" value="N/A" x="51.308" y="-28.702" size="0.762" layer="27" rot="R180" display="off"/>
+<element name="TP3" library="openag-testpads" package="TP06R" value="TPTP06R" x="51.562" y="25.908" rot="R270">
+<attribute name="MPN" value="N/A" x="51.562" y="25.908" size="0.762" layer="27" rot="R270" display="off"/>
 </element>
-<element name="D2" library="openag-diodes" package="CHIPLED_0603" value="APT1608" x="42.672" y="-25.908" smashed="yes" rot="R180">
-<attribute name="MANUFACTURER" value="Kingbright" x="42.672" y="-25.908" size="0.762" layer="27" rot="R180" display="off"/>
-<attribute name="MPN" value="APT1608CGCK" x="42.672" y="-25.908" size="0.762" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="43.434" y="-25.3365" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="40.513" y="-27.813" size="0.635" layer="27"/>
-<attribute name="VENDOR" value="Digikey" x="42.672" y="-25.908" size="0.762" layer="27" rot="R180" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" x="42.672" y="-25.908" size="0.762" layer="27" rot="R180" display="off"/>
-<attribute name="VPN" value="754-1116-1-ND" x="42.672" y="-25.908" size="0.762" layer="27" rot="R180" display="off"/>
+<element name="D2" library="openag-diodes" package="CHIPLED_0603" value="APT1608" x="48.768" y="17.272" smashed="yes" rot="R270">
+<attribute name="MANUFACTURER" value="Kingbright" x="48.768" y="17.272" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="APT1608CGCK" x="48.768" y="17.272" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="NAME" x="48.1965" y="18.034" size="0.762" layer="25"/>
+<attribute name="VALUE" x="50.673" y="15.113" size="0.635" layer="27" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="48.768" y="17.272" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kingbright/APT1608CGCK/754-1116-1-ND/1747833#" x="48.768" y="17.272" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="754-1116-1-ND" x="48.768" y="17.272" size="0.762" layer="27" rot="R270" display="off"/>
 </element>
-<element name="R1" library="openag-resistors" package="RC0603N" value="100" x="45.466" y="-25.908" smashed="yes" rot="R270">
-<attribute name="MANUFACTURER" value="Yageo" x="45.466" y="-25.908" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="MPN" value="RC0603JR-07100RL" x="45.466" y="-25.908" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="NAME" x="46.228" y="-25.4" size="0.762" layer="25" ratio="6" rot="R270"/>
-<attribute name="VALUE" x="44.704" y="-27.94" size="0.762" layer="27" ratio="6"/>
-<attribute name="VENDOR" value="Digikey" x="45.466" y="-25.908" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" x="45.466" y="-25.908" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VPN" value="311-100GRCT-ND" x="45.466" y="-25.908" size="0.762" layer="27" rot="R270" display="off"/>
+<element name="R1" library="openag-resistors" package="RC0603N" value="100" x="48.768" y="20.066" smashed="yes">
+<attribute name="MANUFACTURER" value="Yageo" x="48.768" y="20.066" size="0.762" layer="27" display="off"/>
+<attribute name="MPN" value="RC0603JR-07100RL" x="48.768" y="20.066" size="0.762" layer="27" display="off"/>
+<attribute name="NAME" x="48.26" y="20.828" size="0.762" layer="25" ratio="6"/>
+<attribute name="VALUE" x="50.8" y="19.304" size="0.762" layer="27" ratio="6" rot="R90"/>
+<attribute name="VENDOR" value="Digikey" x="48.768" y="20.066" size="0.762" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-07100RL/311-100GRCT-ND/729644" x="48.768" y="20.066" size="0.762" layer="27" display="off"/>
+<attribute name="VPN" value="311-100GRCT-ND" x="48.768" y="20.066" size="0.762" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
 <signal name="GND">
+<via x="52.832" y="30.988" extent="1-16" drill="0.35"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C3" pad="2"/>
 <contactref element="C2" pad="2"/>
@@ -1576,33 +1576,40 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <contactref element="D2" pad="C"/>
 <contactref element="U1" pad="2"/>
 <polygon width="0.3048" layer="1" isolate="0.3048" rank="2">
-<vertex x="58.42" y="-29.21"/>
-<vertex x="34.29" y="-29.21"/>
-<vertex x="34.29" y="-13.97"/>
-<vertex x="58.42" y="-13.97"/>
+<vertex x="52.07" y="33.02"/>
+<vertex x="52.07" y="8.89"/>
+<vertex x="36.83" y="8.89"/>
+<vertex x="36.83" y="33.02"/>
 </polygon>
 <polygon width="0.4064" layer="16" isolate="0.4064" rank="2">
-<vertex x="58.42" y="-13.97"/>
-<vertex x="34.29" y="-13.97"/>
-<vertex x="34.29" y="-29.21"/>
-<vertex x="58.42" y="-29.21"/>
+<vertex x="36.83" y="33.02"/>
+<vertex x="36.83" y="8.89"/>
+<vertex x="52.07" y="8.89"/>
+<vertex x="52.07" y="33.02"/>
 </polygon>
-<via x="40.894" y="-27.178" extent="1-16" drill="0.35"/>
-<via x="43.942" y="-15.748" extent="1-16" drill="0.35"/>
-<via x="54.61" y="-17.526" extent="1-16" drill="0.35"/>
-<wire x1="28.448" y1="3.048" x2="43.942" y2="-15.748" width="0" layer="19" extent="1-1"/>
+<via x="47.752" y="15.748" extent="1-16" drill="0.35"/>
+<via x="38.608" y="18.542" extent="1-16" drill="0.35"/>
+<via x="40.386" y="28.448" extent="1-16" drill="0.35"/>
+</signal>
+<signal name="SCL">
+<wire x1="53.848" y1="32.512" x2="36.5252" y2="32.512" width="0.4064" layer="1"/>
+<wire x1="36.5252" y1="32.512" x2="36.0172" y2="32.004" width="0.4064" layer="1"/>
+</signal>
+<signal name="SDA">
+<wire x1="53.848" y1="33.528" x2="36.53540625" y2="33.528" width="0.4064" layer="1"/>
+<wire x1="36.53540625" y1="33.528" x2="35.306" y2="32.29859375" width="0.4064" layer="1"/>
 </signal>
 <signal name="+24V">
 <contactref element="L1" pad="P$1"/>
 <contactref element="C3" pad="1"/>
 <contactref element="TP1" pad="TP"/>
 <polygon width="0.4064" layer="1" isolate="0.4064">
-<vertex x="38.1" y="-29.21"/>
-<vertex x="34.29" y="-29.21"/>
-<vertex x="34.29" y="-13.97"/>
-<vertex x="38.1" y="-13.97"/>
+<vertex x="52.07" y="12.7"/>
+<vertex x="52.07" y="8.89"/>
+<vertex x="36.83" y="8.89"/>
+<vertex x="36.83" y="12.7"/>
 </polygon>
-<wire x1="37.832" y1="-20.32" x2="32.258" y2="9.144" width="0" layer="19" extent="1-16"/>
+<wire x1="35.306" y1="11.938" x2="37.338" y2="11.938" width="0.5588" layer="1"/>
 </signal>
 <signal name="+5V">
 <contactref element="U1" pad="3"/>
@@ -1610,27 +1617,31 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <contactref element="TP3" pad="TP"/>
 <contactref element="R1" pad="2"/>
 <polygon width="0.3048" layer="1" isolate="0.3048">
-<vertex x="58.42" y="-29.21"/>
-<vertex x="44.45" y="-29.21"/>
-<vertex x="44.45" y="-22.86"/>
-<vertex x="58.42" y="-22.86"/>
+<vertex x="52.07" y="33.02"/>
+<vertex x="52.07" y="19.05"/>
+<vertex x="45.72" y="19.05"/>
+<vertex x="45.72" y="33.02"/>
 </polygon>
-<wire x1="32.766" y1="7.62" x2="45.466" y2="-23.302" width="0" layer="19" extent="1-1"/>
+<wire x1="51.562" y1="7.62" x2="35.052" y2="7.62" width="0.5588" layer="1"/>
+<wire x1="51.562" y1="25.908" x2="52.324" y2="25.908" width="0.5588" layer="1"/>
+<wire x1="52.324" y1="25.908" x2="52.832" y2="25.4" width="0.5588" layer="1"/>
+<wire x1="52.832" y1="25.4" x2="52.832" y2="8.89" width="0.5588" layer="1"/>
+<wire x1="51.562" y1="7.62" x2="52.832" y2="8.89" width="0.5588" layer="1"/>
 </signal>
 <signal name="24V_EMI">
 <contactref element="C1" pad="1"/>
 <contactref element="L1" pad="P$2"/>
 <contactref element="U1" pad="1"/>
-<wire x1="49.53" y1="-19.05" x2="49.464" y2="-18.984" width="1.27" layer="1"/>
-<wire x1="49.464" y1="-18.984" x2="45.466" y2="-18.984" width="1.27" layer="1"/>
-<wire x1="42.432" y1="-20.32" x2="43.768" y2="-18.984" width="1.27" layer="1" curve="-90"/>
-<wire x1="43.768" y1="-18.984" x2="45.466" y2="-18.984" width="1.27" layer="1"/>
+<wire x1="41.91" y1="24.13" x2="41.844" y2="24.064" width="1.27" layer="1"/>
+<wire x1="41.844" y1="24.064" x2="41.844" y2="20.066" width="1.27" layer="1"/>
+<wire x1="43.18" y1="17.032" x2="41.844" y2="18.368" width="1.27" layer="1" curve="-90"/>
+<wire x1="41.844" y1="18.368" x2="41.844" y2="20.066" width="1.27" layer="1"/>
 </signal>
 <signal name="N$6">
 <contactref element="D2" pad="A"/>
 <contactref element="R1" pad="1"/>
-<wire x1="45.466" y1="-25.1302" x2="42.6998" y2="-25.1302" width="0.5588" layer="1"/>
-<wire x1="42.6998" y1="-25.1302" x2="42.672" y2="-25.158" width="0.5588" layer="1"/>
+<wire x1="47.9902" y1="20.066" x2="47.9902" y2="17.2998" width="0.5588" layer="1"/>
+<wire x1="47.9902" y1="17.2998" x2="48.018" y2="17.272" width="0.5588" layer="1"/>
 </signal>
 </signals>
 </board>
