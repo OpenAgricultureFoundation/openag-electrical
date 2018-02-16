@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
@@ -86,6 +86,17 @@
 <wire x1="-6.985" y1="1.27" x2="-1.397" y2="5.207" width="0.1524" layer="51"/>
 <text x="-1.4986" y="5.715" size="1.27" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
 <text x="-1.778" y="-0.508" size="1.27" layer="27">&gt;VALUE</text>
+</package>
+<package name="29333C">
+<smd name="P$1" x="-2.3" y="0" dx="7.2" dy="2.6" layer="1" rot="R90"/>
+<smd name="P$2" x="2.3" y="0" dx="7.2" dy="2.6" layer="1" rot="R90"/>
+<wire x1="-3.8" y1="3.8" x2="3.8" y2="3.8" width="0.254" layer="21"/>
+<wire x1="3.8" y1="3.8" x2="3.8" y2="-3.8" width="0.254" layer="21"/>
+<wire x1="3.8" y1="-3.8" x2="-3.8" y2="-3.8" width="0.254" layer="21"/>
+<wire x1="-3.8" y1="-3.8" x2="-3.8" y2="3.8" width="0.254" layer="21"/>
+<text x="-3.81" y="4.064" size="0.762" layer="25">&gt;NAME</text>
+<text x="0.508" y="-1.524" size="0.762" layer="27" rot="R90">&gt;VALUE</text>
+<text x="0.508" y="-1.524" size="0.762" layer="21" rot="R90">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -262,6 +273,63 @@
 <attribute name="MF" value="Abracon LLC" constant="no"/>
 <attribute name="MPN" value="ASPI-6045S-121M-T" constant="no"/>
 <attribute name="VALUE" value="120uH"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="33UH-29333C" prefix="L">
+<description>&lt;strong&gt;FIXED IND 33UH 1A 120 MOHM SMD&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;33µH Shielded Wirewound Inductor 1A 120 mOhm Max Nonstandard&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Type: Wirewound&lt;/li&gt;
+		&lt;li&gt;Inductance: 33µH&lt;/li&gt;
+		&lt;li&gt;Current Rating: 1A&lt;/li&gt;
+		&lt;li&gt;Shielding: Shielded&lt;/li&gt;
+		&lt;li&gt;DC Resistance (DCR): 120 mOhm Max&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Frequency - Test: 10kHz&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: Nonstandard&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.283" L x 0.283" W (7.20mm x 7.20mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.157" (4.00mm)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://www.murata-ps.com/data/magnetics/kmp_2900.pdf'&gt;2900 Series&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/murata-power-solutions-inc/29333C/811-1138-1-ND/1924860'&gt;811-1138-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="INDUCTOR" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="29333C">
+<connects>
+<connect gate="G$1" pin="1" pad="P$1"/>
+<connect gate="G$1" pin="2" pad="P$2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Murata Power Solutions Inc." constant="no"/>
+<attribute name="MPN" value="29333C" constant="no"/>
+<attribute name="VALUE" value="33uH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/murata-power-solutions-inc/29333C/811-1138-1-ND/1924860" constant="no"/>
+<attribute name="VPN" value="811-1138-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

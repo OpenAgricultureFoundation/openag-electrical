@@ -232,8 +232,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </polygon>
 </symbol>
 <symbol name="DIODE">
-<pin name="21" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
-<pin name="12" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
+<pin name="+" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+<pin name="-" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <wire x1="-1.27" y1="0" x2="-1.27" y2="-1.905" width="0.2032" layer="94"/>
 <wire x1="1.27" y1="0" x2="1.27" y2="1.905" width="0.2032" layer="94"/>
 <wire x1="-1.27" y1="1.905" x2="-1.27" y2="0" width="0.2032" layer="94"/>
@@ -481,59 +481,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </device>
 </devices>
 </deviceset>
-<deviceset name="B260A-13-F" prefix="D">
-<description>&lt;strong&gt;Diodes Incorporated - B260A-13-F - DIODE SCHOTTKY 60V 2A SMA&lt;/strong&gt;
-&lt;p&gt;Description:
-	&lt;ul&gt;
-		&lt;li&gt;Diode Schottky 60V 2A Surface Mount SMA&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-	&lt;ul id='specs'&gt;
-		&lt;li&gt;Diode Type: Schottky&lt;/li&gt;
-		&lt;li&gt;Voltage - DC Reverse (Vr) (Max): 60V&lt;/li&gt;
-		&lt;li&gt;Current - Average Rectified (Io): 2A&lt;/li&gt;
-		&lt;li&gt;Voltage - Forward (Vf) (Max) @ If: 700mV @ 2A&lt;/li&gt;
-		&lt;li&gt;Speed: Fast Recovery =&lt; 500ns, &gt; 200mA (Io)&lt;/li&gt;
-		&lt;li&gt;Current - Reverse Leakage @ Vr: 500µA @ 60V&lt;/li&gt;
-		&lt;li&gt;Capacitance @ Vr, F: 200pF @ 4V, 1MHz&lt;/li&gt;
-		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
-		&lt;li&gt;Package / Case: DO-214AC, SMA&lt;/li&gt;
-		&lt;li&gt;Supplier Device Package: SMA&lt;/li&gt;
-		&lt;li&gt;Operating Temperature - Junction: -65°C ~ 150°C&lt;/li&gt;
-		&lt;li&gt;Base Part Number: B260&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-	&lt;ul id='data_sheets'&gt;
-		&lt;li&gt;&lt;a href='https://www.diodes.com/assets/Datasheets/ds13004.pdf'&gt;B220(A) - B260(A)&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-	&lt;ul&gt;
-		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/B260A-13-F/B260A-FDICT-ND/755494'&gt;B260A-FDICT-ND&lt;/a&gt;&lt;/li&gt;
-	&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="DIODE" x="0" y="0" swaplevel="1"/>
-</gates>
-<devices>
-<device name="" package="SMA">
-<connects>
-<connect gate="A" pin="12" pad="1"/>
-<connect gate="A" pin="21" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="VALUE" value="B260A-13-F" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="SBR2A40P1-7" prefix="D">
 <description>&lt;strong&gt;DIODE SBR 40V 2A POWERDI123&lt;/strong&gt;
 &lt;p&gt;Description:
@@ -575,8 +522,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <devices>
 <device name="" package="POWERDI123">
 <connects>
-<connect gate="G$1" pin="12" pad="+"/>
-<connect gate="G$1" pin="21" pad="-"/>
+<connect gate="G$1" pin="+" pad="+"/>
+<connect gate="G$1" pin="-" pad="-"/>
 </connects>
 <technologies>
 <technology name="">

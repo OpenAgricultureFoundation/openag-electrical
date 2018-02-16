@@ -358,7 +358,7 @@ grid 15mm, 19649 Wickmann</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Bel Fuse" constant="no"/>
 <attribute name="MPN" value="SST7" constant="no"/>
-<attribute name="VALUE" value="SST7" constant="no"/>
+<attribute name="VALUE" value="7A" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026" constant="no"/>
 <attribute name="VPN" value=" 507-1072-1-ND" constant="no"/>
@@ -413,9 +413,7 @@ grid 15mm, 19649 Wickmann</description>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="F0402G0R15FNTR" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VALUE" value="150mA" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -471,7 +469,7 @@ grid 15mm, 19649 Wickmann</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Littlefuse Inc." constant="no"/>
 <attribute name="MPN" value="0448.400MR" constant="no"/>
-<attribute name="VALUE" value="0448.400MR" constant="no"/>
+<attribute name="VALUE" value="400mA" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/0448.400MR/F5573CT-ND/3306934" constant="no"/>
 <attribute name="VPN" value="F5573CT-ND" constant="no"/>
