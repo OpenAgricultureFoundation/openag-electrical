@@ -1191,7 +1191,7 @@
 </device>
 </devices>
 </deviceset>
-<deviceset name="120OHM-RC0603FR-07120RL">
+<deviceset name="120OHM-RC0603FR-07120RL" prefix="R">
 <description>&lt;strong&gt;RES SMD 120 OHM 1% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
