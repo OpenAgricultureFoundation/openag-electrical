@@ -1788,8 +1788,8 @@ Please make sure your boards conform to these design rules.</description>
 <element name="C3" library="openag-capacitors" package="C0603" value="330pF" x="81.153" y="49.149" smashed="yes" rot="R90">
 <attribute name="NAME" x="80.645" y="50.8" size="0.635" layer="25"/>
 <attribute name="POPULATE" value="YES" x="81.153" y="49.149" size="1.778" layer="27" rot="R90" display="off"/>
-<attribute name="VALUE" x="83.058" y="48.514" size="1.27" layer="27" rot="R90"/>
 <attribute name="VALUE" value="330pF" x="81.153" y="49.149" size="1.778" layer="27" rot="R90" display="off"/>
+<attribute name="VALUE" x="83.058" y="48.514" size="1.27" layer="27" rot="R90"/>
 <attribute name="VERIFIED" value="NO" x="81.153" y="49.149" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 </elements>
