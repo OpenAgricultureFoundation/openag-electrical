@@ -1019,6 +1019,7 @@ Vout: 5V@1A</text>
 <attribute name="MANUFACTURER" value="Texas Instruments" constant="no"/>
 <attribute name="MPN" value="LM2937IMP-3.3/NOPB" constant="no"/>
 <attribute name="VALUE" value="LM2937-3.3V" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" constant="no"/>
 <attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" constant="no"/>
 </technology>

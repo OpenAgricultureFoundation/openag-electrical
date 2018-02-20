@@ -576,11 +576,6 @@ http://www.tycoelectronics.com</description>
 </nets>
 </sheet>
 </sheets>
-<errors>
-<approved hash="106,1,25.654,100.584,5V_IN,,,,,"/>
-<approved hash="106,1,25.654,90.424,IO,,,,,"/>
-<approved hash="113,1,190.862,18.8595,FRAME1,,,,,"/>
-</errors>
 </schematic>
 </drawing>
 <drawing>

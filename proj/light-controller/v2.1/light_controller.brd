@@ -5261,8 +5261,8 @@ grid 15mm, 19649 Wickmann</description>
 <element name="J1" library="openag-connectors" package="22-23-2051" value="0022232051" x="15.875" y="74.803" smashed="yes" rot="R270">
 <attribute name="NAME" x="19.685" y="81.153" size="1.016" layer="25" ratio="10" rot="R270"/>
 <attribute name="POPULATE" value="YES" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
-<attribute name="VALUE" value="0022232051" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="14.097" y="71.501" size="1.016" layer="27" ratio="10" rot="R90"/>
+<attribute name="VALUE" value="0022232051" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VERIFIED" value="NO" x="15.875" y="74.803" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="FRAME1" library="openag-frames" package="DOCFIELD" value="" x="84.074" y="51.689" smashed="yes" rot="MR0">
@@ -5271,7 +5271,7 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="MPN" value="N/A" x="84.074" y="51.689" size="1.778" layer="28" rot="MR0" display="off"/>
 <attribute name="TITLE" value="Light Controller" x="77.724" y="60.6425" size="1.27" layer="22" rot="MR0"/>
 <attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/light_controller" x="78.359" y="57.3405" size="0.7112" layer="22" rot="MR0"/>
-<attribute name="VER" value="2.0" x="51.054" y="60.6425" size="1.27" layer="22" rot="MR0"/>
+<attribute name="VER" value="2.1" x="51.054" y="60.6425" size="1.27" layer="22" rot="MR0"/>
 </element>
 <element name="R6" library="openag-resistors" package="RC0603N" value="1K" x="99.314" y="54.61" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Panasonic" x="99.314" y="54.61" size="1.778" layer="27" rot="R270" display="off"/>
@@ -5812,6 +5812,12 @@ grid 15mm, 19649 Wickmann</description>
 <element name="SJ10" library="openag-connectors" package="SOLDERJUMPER_REFLOW_NOPASTE" value="" x="110.998" y="39.37" rot="MR90">
 <attribute name="MPN" value="N/A" x="117.348" y="34.29" size="1.778" layer="28" rot="MR90" display="off"/>
 </element>
+<element name="C19" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-12.7"/>
+<element name="C20" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-17.78"/>
+<element name="C24" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-22.86"/>
+<element name="C25" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-27.94"/>
+<element name="C30" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-33.02"/>
+<element name="C34" library="openag-capacitors" package="C0603" value="2.2uF" x="2.54" y="-38.1"/>
 </elements>
 <signals>
 <signal name="+24V">
@@ -5929,6 +5935,8 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ2" pad="1"/>
 <via x="28.702" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="28.702" y1="38.608" x2="28.702" y2="35.052" width="0.5588" layer="16"/>
+<contactref element="C34" pad="1"/>
+<wire x1="28.575" y1="26.25" x2="1.69" y2="-38.1" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM1">
 <contactref element="U1" pad="2"/>
@@ -6194,7 +6202,19 @@ grid 15mm, 19649 Wickmann</description>
 <via x="14.478" y="92.202" extent="1-16" drill="0.35"/>
 <via x="58.928" y="71.628" extent="1-16" drill="0.35"/>
 <via x="58.928" y="79.248" extent="1-16" drill="0.35"/>
+<contactref element="C19" pad="2"/>
+<contactref element="C20" pad="2"/>
+<contactref element="C24" pad="2"/>
+<contactref element="C25" pad="2"/>
+<contactref element="C30" pad="2"/>
+<contactref element="C34" pad="2"/>
 <wire x1="107.8865" y1="68.834" x2="102.9035" y2="67.691" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-12.7" x2="31.75" y2="0.762" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-17.78" x2="3.39" y2="-12.7" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-22.86" x2="3.39" y2="-17.78" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-27.94" x2="3.39" y2="-22.86" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-33.02" x2="3.39" y2="-27.94" width="0" layer="19" extent="1-1"/>
+<wire x1="3.39" y1="-38.1" x2="3.39" y2="-33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="VIN2">
 <contactref element="U2" pad="1"/>
@@ -6209,6 +6229,8 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ5" pad="1"/>
 <via x="44.958" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="44.958" y1="38.608" x2="44.958" y2="35.052" width="0.5588" layer="16"/>
+<contactref element="C30" pad="1"/>
+<wire x1="45.085" y1="26.25" x2="1.69" y2="-33.02" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM2">
 <contactref element="U2" pad="2"/>
@@ -6278,6 +6300,8 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ7" pad="1"/>
 <via x="61.468" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="61.468" y1="38.608" x2="61.468" y2="35.052" width="0.5588" layer="16"/>
+<contactref element="C25" pad="1"/>
+<wire x1="61.595" y1="26.25" x2="1.69" y2="-27.94" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM3">
 <contactref element="U3" pad="2"/>
@@ -6348,6 +6372,8 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ8" pad="1"/>
 <via x="77.978" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="77.978" y1="38.862" x2="77.978" y2="35.052" width="0.5588" layer="16"/>
+<contactref element="C24" pad="1"/>
+<wire x1="78.105" y1="26.25" x2="1.69" y2="-22.86" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM4">
 <contactref element="U4" pad="2"/>
@@ -6406,7 +6432,6 @@ grid 15mm, 19649 Wickmann</description>
 </signal>
 <signal name="VIN5">
 <contactref element="U5" pad="1"/>
-<contactref element="C13" pad="1"/>
 <contactref element="L5" pad="2"/>
 <polygon width="0.3048" layer="1" isolate="0.4064">
 <vertex x="90.805" y="25.4"/>
@@ -6417,6 +6442,9 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ9" pad="1"/>
 <via x="94.488" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="94.488" y1="35.052" x2="94.488" y2="38.608" width="0.5588" layer="16"/>
+<contactref element="C20" pad="1"/>
+<contactref element="C13" pad="1"/>
+<wire x1="94.615" y1="26.25" x2="1.69" y2="-17.78" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM5">
 <contactref element="U5" pad="2"/>
@@ -6482,6 +6510,8 @@ grid 15mm, 19649 Wickmann</description>
 <contactref element="SJ10" pad="1"/>
 <via x="110.998" y="35.052" extent="1-16" drill="0.35"/>
 <wire x1="110.998" y1="35.052" x2="110.998" y2="38.608" width="0.5588" layer="16"/>
+<contactref element="C19" pad="1"/>
+<wire x1="111.125" y1="26.25" x2="1.69" y2="-12.7" width="0" layer="19" extent="1-1"/>
 </signal>
 <signal name="DIM6">
 <contactref element="U6" pad="2"/>
