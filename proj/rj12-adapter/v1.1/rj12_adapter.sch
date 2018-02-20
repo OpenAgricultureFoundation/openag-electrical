@@ -6891,20 +6891,20 @@ Cambridge, MA</text>
 <sheets>
 <sheet>
 <plain>
-<wire x1="495.3" y1="0" x2="495.3" y2="266.7" width="0.254" layer="94"/>
-<wire x1="495.3" y1="266.7" x2="0" y2="266.7" width="0.254" layer="94"/>
+<wire x1="533.4" y1="0" x2="533.4" y2="266.7" width="0.254" layer="94"/>
+<wire x1="533.4" y1="266.7" x2="0" y2="266.7" width="0.254" layer="94"/>
 <wire x1="0" y1="266.7" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="419.1" y2="0" width="0.254" layer="94"/>
-<wire x1="381" y1="152.4" x2="381" y2="190.5" width="0.1524" layer="97"/>
-<wire x1="381" y1="190.5" x2="381" y2="228.6" width="0.1524" layer="97"/>
-<wire x1="381" y1="228.6" x2="457.2" y2="228.6" width="0.254" layer="97"/>
-<wire x1="457.2" y1="228.6" x2="457.2" y2="152.4" width="0.1524" layer="97"/>
-<text x="381" y="231.14" size="3.81" layer="97">5V to 3.3V@400mA Linear 
+<wire x1="0" y1="0" x2="457.2" y2="0" width="0.254" layer="94"/>
+<wire x1="228.6" y1="38.1" x2="228.6" y2="76.2" width="0.1524" layer="97"/>
+<wire x1="228.6" y1="76.2" x2="228.6" y2="114.3" width="0.1524" layer="97"/>
+<wire x1="228.6" y1="114.3" x2="304.8" y2="114.3" width="0.254" layer="97"/>
+<wire x1="304.8" y1="114.3" x2="304.8" y2="38.1" width="0.1524" layer="97"/>
+<text x="228.6" y="116.84" size="3.81" layer="97">5V to 3.3V@400mA Linear 
 Regulator w/Indicator LED</text>
-<wire x1="381" y1="152.4" x2="419.1" y2="152.4" width="0.1524" layer="97"/>
-<text x="398.78" y="220.98" size="3.81" layer="103">Linear Regulator</text>
+<wire x1="228.6" y1="38.1" x2="266.7" y2="38.1" width="0.1524" layer="97"/>
+<text x="246.38" y="106.68" size="3.81" layer="103">Linear Regulator</text>
 <text x="38.1" y="231.14" size="3.81" layer="103">RJ45 Connector Pair w/dI2C Buffer</text>
-<wire x1="419.1" y1="152.4" x2="457.2" y2="152.4" width="0.1524" layer="97"/>
+<wire x1="266.7" y1="38.1" x2="304.8" y2="38.1" width="0.1524" layer="97"/>
 <wire x1="38.1" y1="114.3" x2="38.1" y2="190.5" width="0.254" layer="97"/>
 <wire x1="38.1" y1="190.5" x2="38.1" y2="228.6" width="0.254" layer="97"/>
 <wire x1="38.1" y1="228.6" x2="152.4" y2="228.6" width="0.254" layer="97"/>
@@ -6913,33 +6913,33 @@ Regulator w/Indicator LED</text>
 <wire x1="190.5" y1="190.5" x2="190.5" y2="114.3" width="0.254" layer="97"/>
 <text x="78.74" y="182.88" size="3.048" layer="97">dI2C Buffer Channel 1</text>
 <text x="86.36" y="223.52" size="3.048" layer="97">RJ45 Connectors</text>
+<wire x1="381" y1="228.6" x2="457.2" y2="228.6" width="0.254" layer="97"/>
+<wire x1="457.2" y1="228.6" x2="495.3" y2="228.6" width="0.254" layer="97"/>
+<wire x1="495.3" y1="228.6" x2="495.3" y2="190.5" width="0.254" layer="97"/>
+<wire x1="495.3" y1="190.5" x2="457.2" y2="190.5" width="0.254" layer="97"/>
+<wire x1="457.2" y1="190.5" x2="381" y2="190.5" width="0.254" layer="97"/>
+<wire x1="381" y1="190.5" x2="381" y2="228.6" width="0.254" layer="97"/>
+<text x="381" y="231.14" size="3.81" layer="97">RJ12-I2C Connector Pair</text>
 <wire x1="228.6" y1="228.6" x2="304.8" y2="228.6" width="0.254" layer="97"/>
 <wire x1="304.8" y1="228.6" x2="342.9" y2="228.6" width="0.254" layer="97"/>
 <wire x1="342.9" y1="228.6" x2="342.9" y2="190.5" width="0.254" layer="97"/>
-<wire x1="342.9" y1="190.5" x2="304.8" y2="190.5" width="0.254" layer="97"/>
-<wire x1="304.8" y1="190.5" x2="228.6" y2="190.5" width="0.254" layer="97"/>
-<wire x1="228.6" y1="190.5" x2="228.6" y2="228.6" width="0.254" layer="97"/>
-<text x="228.6" y="231.14" size="3.81" layer="97">RJ12-I2C Connector Pair</text>
-<wire x1="228.6" y1="152.4" x2="304.8" y2="152.4" width="0.254" layer="97"/>
-<wire x1="304.8" y1="152.4" x2="342.9" y2="152.4" width="0.254" layer="97"/>
-<wire x1="342.9" y1="152.4" x2="342.9" y2="114.3" width="0.254" layer="97"/>
-<wire x1="342.9" y1="114.3" x2="342.9" y2="76.2" width="0.254" layer="97"/>
-<wire x1="342.9" y1="76.2" x2="304.8" y2="76.2" width="0.254" layer="97"/>
-<wire x1="304.8" y1="76.2" x2="228.6" y2="76.2" width="0.254" layer="97"/>
-<wire x1="228.6" y1="76.2" x2="228.6" y2="114.3" width="0.254" layer="97"/>
-<text x="228.6" y="154.94" size="3.81" layer="97">24V to 5V@1A Switching Regulator
+<wire x1="342.9" y1="190.5" x2="342.9" y2="152.4" width="0.254" layer="97"/>
+<wire x1="342.9" y1="152.4" x2="304.8" y2="152.4" width="0.254" layer="97"/>
+<wire x1="304.8" y1="152.4" x2="228.6" y2="152.4" width="0.254" layer="97"/>
+<wire x1="228.6" y1="152.4" x2="228.6" y2="190.5" width="0.254" layer="97"/>
+<text x="228.6" y="231.14" size="3.81" layer="97">24V to 5V@1A Switching Regulator
 w/Optional EMI Filter + Indicator LED</text>
-<text x="310.388" y="147.32" size="3.048" layer="103">Indicator LED</text>
-<wire x1="228.6" y1="114.3" x2="228.6" y2="152.4" width="0.254" layer="97"/>
-<text x="248.92" y="147.955" size="3.048" layer="97">Switching Regulator</text>
-<wire x1="304.8" y1="152.4" x2="304.8" y2="114.3" width="0.254" layer="97" style="longdash"/>
-<text x="238.76" y="107.315" size="3.048" layer="97">Optional EMI Filter (Class B)</text>
-<wire x1="304.8" y1="114.3" x2="304.8" y2="76.2" width="0.254" layer="97" style="longdash"/>
+<text x="310.388" y="223.52" size="3.048" layer="103">Indicator LED</text>
+<wire x1="228.6" y1="190.5" x2="228.6" y2="228.6" width="0.254" layer="97"/>
+<text x="248.92" y="224.155" size="3.048" layer="97">Switching Regulator</text>
+<wire x1="304.8" y1="228.6" x2="304.8" y2="190.5" width="0.254" layer="97" style="longdash"/>
+<text x="238.76" y="183.515" size="3.048" layer="97">Optional EMI Filter (Class B)</text>
+<wire x1="304.8" y1="190.5" x2="304.8" y2="152.4" width="0.254" layer="97" style="longdash"/>
 <wire x1="38.1" y1="190.5" x2="152.4" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <wire x1="152.4" y1="190.5" x2="190.5" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <wire x1="152.4" y1="228.6" x2="152.4" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <text x="157.988" y="218.44" size="3.048" layer="103">Indicator LED</text>
-<text x="386.08" y="182.88" size="3.048" layer="103">Indicator LED</text>
+<text x="233.68" y="68.58" size="3.048" layer="103">Indicator LED</text>
 <wire x1="38.1" y1="38.1" x2="38.1" y2="114.3" width="0.254" layer="97"/>
 <wire x1="190.5" y1="114.3" x2="190.5" y2="38.1" width="0.254" layer="97"/>
 <wire x1="190.5" y1="38.1" x2="152.4" y2="38.1" width="0.254" layer="97"/>
@@ -6951,26 +6951,26 @@ w/Optional EMI Filter + Indicator LED</text>
 <text x="162.56" y="101.6" size="3.302" layer="97">Testpads</text>
 <wire x1="152.4" y1="114.3" x2="152.4" y2="38.1" width="0.254" layer="97" style="longdash"/>
 <text x="162.56" y="172.72" size="3.302" layer="97">I2C Pullup</text>
-<wire x1="228.6" y1="114.3" x2="304.8" y2="114.3" width="0.254" layer="97" style="longdash"/>
-<wire x1="304.8" y1="114.3" x2="342.9" y2="114.3" width="0.254" layer="97" style="longdash"/>
-<text x="315.468" y="106.68" size="3.048" layer="103">Testpads</text>
-<wire x1="419.1" y1="190.5" x2="419.1" y2="152.4" width="0.254" layer="97" style="longdash"/>
-<wire x1="381" y1="190.5" x2="457.2" y2="190.5" width="0.254" layer="97" style="longdash"/>
-<text x="429.26" y="182.88" size="3.048" layer="103">Testpads</text>
-<wire x1="304.8" y1="228.6" x2="304.8" y2="190.5" width="0.254" layer="97" style="longdash"/>
-<text x="248.92" y="224.155" size="3.048" layer="97">RJ12 Connectors</text>
-<text x="314.96" y="220.98" size="3.048" layer="103">Testpads</text>
-<text x="381" y="76.2" size="3.048" layer="97">Changelog
+<wire x1="228.6" y1="190.5" x2="304.8" y2="190.5" width="0.254" layer="97" style="longdash"/>
+<wire x1="304.8" y1="190.5" x2="342.9" y2="190.5" width="0.254" layer="97" style="longdash"/>
+<text x="315.468" y="182.88" size="3.048" layer="103">Testpads</text>
+<wire x1="266.7" y1="76.2" x2="266.7" y2="38.1" width="0.254" layer="97" style="longdash"/>
+<wire x1="228.6" y1="76.2" x2="304.8" y2="76.2" width="0.254" layer="97" style="longdash"/>
+<text x="276.86" y="68.58" size="3.048" layer="103">Testpads</text>
+<wire x1="457.2" y1="228.6" x2="457.2" y2="190.5" width="0.254" layer="97" style="longdash"/>
+<text x="401.32" y="224.155" size="3.048" layer="97">RJ12 Connectors</text>
+<text x="467.36" y="220.98" size="3.048" layer="103">Testpads</text>
+<text x="419.1" y="76.2" size="3.048" layer="97">Changelog
  - changed 24v-to-5v regulator to R78E5
  - changed rj45 pair to use x2 dI2C buffers
  - updated to latest style &amp; naming conventions</text>
 </plain>
 <instances>
-<instance part="U4" gate="A" x="419.1" y="205.74"/>
-<instance part="C6" gate="G$1" x="398.78" y="205.74"/>
-<instance part="GND12" gate="1" x="398.78" y="195.58"/>
-<instance part="C9" gate="G$1" x="436.88" y="205.74"/>
-<instance part="P+1" gate="1" x="398.78" y="215.9"/>
+<instance part="U4" gate="A" x="266.7" y="91.44"/>
+<instance part="C6" gate="G$1" x="246.38" y="91.44"/>
+<instance part="GND12" gate="1" x="246.38" y="81.28"/>
+<instance part="C9" gate="G$1" x="284.48" y="91.44"/>
+<instance part="P+1" gate="1" x="246.38" y="101.6"/>
 <instance part="U2" gate="G$1" x="71.12" y="154.94"/>
 <instance part="R13" gate="G$1" x="134.62" y="165.1" rot="R90"/>
 <instance part="R14" gate="G$1" x="134.62" y="149.86" rot="R90"/>
@@ -6991,39 +6991,39 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="P+10" gate="1" x="111.76" y="172.72"/>
 <instance part="P+12" gate="1" x="144.78" y="134.62"/>
 <instance part="J1" gate="G$1" x="63.5" y="203.2"/>
-<instance part="GND1" gate="1" x="436.88" y="195.58"/>
-<instance part="GND6" gate="1" x="236.22" y="198.12" smashed="yes">
-<attribute name="VALUE" x="233.934" y="196.088" size="1.524" layer="96"/>
+<instance part="GND1" gate="1" x="284.48" y="81.28"/>
+<instance part="GND6" gate="1" x="388.62" y="198.12" smashed="yes">
+<attribute name="VALUE" x="386.334" y="196.088" size="1.524" layer="96"/>
 </instance>
-<instance part="GND7" gate="1" x="271.78" y="198.12" smashed="yes">
-<attribute name="VALUE" x="269.494" y="196.088" size="1.524" layer="96"/>
+<instance part="GND7" gate="1" x="424.18" y="198.12" smashed="yes">
+<attribute name="VALUE" x="421.894" y="196.088" size="1.524" layer="96"/>
 </instance>
-<instance part="+3V6" gate="G$1" x="271.78" y="218.44"/>
-<instance part="C1" gate="G$1" x="276.86" y="91.44"/>
-<instance part="C2" gate="G$1" x="284.48" y="129.54"/>
-<instance part="C3" gate="G$1" x="254" y="91.44"/>
-<instance part="L1" gate="G$1" x="266.7" y="93.98"/>
-<instance part="U1" gate="G$1" x="266.7" y="127"/>
-<instance part="GND2" gate="1" x="254" y="81.28"/>
-<instance part="GND3" gate="1" x="284.48" y="119.38"/>
-<instance part="P+2" gate="1" x="284.48" y="142.24"/>
-<instance part="P+3" gate="1" x="254" y="99.06" smashed="yes">
-<attribute name="VALUE" x="251.46" y="101.6" size="1.778" layer="96"/>
+<instance part="+3V6" gate="G$1" x="424.18" y="218.44"/>
+<instance part="C1" gate="G$1" x="276.86" y="167.64"/>
+<instance part="C2" gate="G$1" x="284.48" y="205.74"/>
+<instance part="C3" gate="G$1" x="254" y="167.64"/>
+<instance part="L1" gate="G$1" x="266.7" y="170.18"/>
+<instance part="U1" gate="G$1" x="266.7" y="203.2"/>
+<instance part="GND2" gate="1" x="254" y="157.48"/>
+<instance part="GND3" gate="1" x="284.48" y="195.58"/>
+<instance part="P+2" gate="1" x="284.48" y="218.44"/>
+<instance part="P+3" gate="1" x="254" y="175.26" smashed="yes">
+<attribute name="VALUE" x="251.46" y="177.8" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="320.04" y="129.54" rot="R270"/>
-<instance part="R1" gate="G$1" x="332.74" y="129.54"/>
-<instance part="GND4" gate="1" x="309.88" y="124.46"/>
-<instance part="P+4" gate="1" x="337.82" y="139.7"/>
-<instance part="GND8" gate="1" x="248.92" y="119.38"/>
+<instance part="D2" gate="G$1" x="320.04" y="205.74" rot="R270"/>
+<instance part="R1" gate="G$1" x="332.74" y="205.74"/>
+<instance part="GND4" gate="1" x="309.88" y="200.66"/>
+<instance part="P+4" gate="1" x="337.82" y="215.9"/>
+<instance part="GND8" gate="1" x="248.92" y="195.58"/>
 <instance part="D3" gate="G$1" x="165.1" y="205.74" rot="R270"/>
 <instance part="R3" gate="A" x="175.26" y="205.74"/>
 <instance part="GND11" gate="1" x="160.02" y="195.58"/>
 <instance part="P+5" gate="1" x="182.88" y="213.36"/>
-<instance part="+3V1" gate="G$1" x="436.88" y="215.9"/>
-<instance part="D4" gate="G$1" x="396.24" y="167.64" rot="R270"/>
-<instance part="R4" gate="G$1" x="408.94" y="167.64"/>
-<instance part="GND13" gate="1" x="386.08" y="162.56"/>
-<instance part="+3V2" gate="G$1" x="414.02" y="177.8"/>
+<instance part="+3V1" gate="G$1" x="284.48" y="101.6"/>
+<instance part="D4" gate="G$1" x="243.84" y="53.34" rot="R270"/>
+<instance part="R4" gate="G$1" x="256.54" y="53.34"/>
+<instance part="GND13" gate="1" x="233.68" y="48.26"/>
+<instance part="+3V2" gate="G$1" x="261.62" y="63.5"/>
 <instance part="U5" gate="G$1" x="68.58" y="78.74"/>
 <instance part="+3V8" gate="G$1" x="48.26" y="91.44"/>
 <instance part="P+14" gate="1" x="101.6" y="218.44"/>
@@ -7055,26 +7055,26 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="R7" gate="G$1" x="106.68" y="83.82" rot="R90"/>
 <instance part="R8" gate="G$1" x="106.68" y="68.58" rot="R90"/>
 <instance part="R9" gate="G$1" x="129.54" y="73.66" rot="R90"/>
-<instance part="SJ1" gate="1" x="266.7" y="101.6"/>
-<instance part="TP27" gate="G$1" x="325.12" y="101.6" rot="R180"/>
-<instance part="TP3" gate="G$1" x="325.12" y="99.06" rot="R180"/>
-<instance part="TP28" gate="G$1" x="325.12" y="96.52" rot="R180"/>
-<instance part="TP1" gate="G$1" x="441.96" y="175.26" rot="R180"/>
-<instance part="TP2" gate="G$1" x="441.96" y="172.72" rot="R180"/>
-<instance part="TP4" gate="G$1" x="441.96" y="167.64" rot="R180"/>
-<instance part="TP6" gate="G$1" x="441.96" y="177.8" rot="R180"/>
-<instance part="TP10" gate="G$1" x="441.96" y="170.18" rot="R180"/>
-<instance part="TP7" gate="G$1" x="325.12" y="210.82" rot="R180"/>
-<instance part="TP15" gate="G$1" x="325.12" y="213.36" rot="R180"/>
-<instance part="TP29" gate="G$1" x="325.12" y="205.74" rot="R180"/>
-<instance part="TP30" gate="G$1" x="325.12" y="215.9" rot="R180"/>
-<instance part="TP11" gate="G$1" x="325.12" y="208.28" rot="R180"/>
-<instance part="U$6" gate="G$1" x="459.74" y="5.08"/>
-<instance part="U$7" gate="G$1" x="459.74" y="20.32"/>
-<instance part="U$8" gate="G$1" x="459.74" y="33.02"/>
-<instance part="J2" gate="G$1" x="248.92" y="210.82"/>
-<instance part="J4" gate="G$1" x="284.48" y="210.82"/>
-<instance part="+3V3" gate="G$1" x="236.22" y="218.44"/>
+<instance part="SJ1" gate="1" x="266.7" y="177.8"/>
+<instance part="TP27" gate="G$1" x="325.12" y="177.8" rot="R180"/>
+<instance part="TP3" gate="G$1" x="325.12" y="175.26" rot="R180"/>
+<instance part="TP28" gate="G$1" x="325.12" y="172.72" rot="R180"/>
+<instance part="TP1" gate="G$1" x="289.56" y="60.96" rot="R180"/>
+<instance part="TP2" gate="G$1" x="289.56" y="58.42" rot="R180"/>
+<instance part="TP4" gate="G$1" x="289.56" y="53.34" rot="R180"/>
+<instance part="TP6" gate="G$1" x="289.56" y="63.5" rot="R180"/>
+<instance part="TP10" gate="G$1" x="289.56" y="55.88" rot="R180"/>
+<instance part="TP7" gate="G$1" x="477.52" y="210.82" rot="R180"/>
+<instance part="TP15" gate="G$1" x="477.52" y="213.36" rot="R180"/>
+<instance part="TP29" gate="G$1" x="477.52" y="205.74" rot="R180"/>
+<instance part="TP30" gate="G$1" x="477.52" y="215.9" rot="R180"/>
+<instance part="TP11" gate="G$1" x="477.52" y="208.28" rot="R180"/>
+<instance part="U$6" gate="G$1" x="497.84" y="5.08"/>
+<instance part="U$7" gate="G$1" x="497.84" y="20.32"/>
+<instance part="U$8" gate="G$1" x="497.84" y="33.02"/>
+<instance part="J2" gate="G$1" x="401.32" y="210.82"/>
+<instance part="J4" gate="G$1" x="436.88" y="210.82"/>
+<instance part="+3V3" gate="G$1" x="388.62" y="218.44"/>
 </instances>
 <busses>
 </busses>
@@ -7105,28 +7105,28 @@ w/Optional EMI Filter + Indicator LED</text>
 <segment>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C3" gate="G$1" pin="2"/>
-<wire x1="254" y1="86.36" x2="276.86" y2="86.36" width="0.1524" layer="91"/>
+<wire x1="254" y1="162.56" x2="276.86" y2="162.56" width="0.1524" layer="91"/>
 <pinref part="GND2" gate="1" pin="GND"/>
-<junction x="254" y="86.36"/>
-<junction x="254" y="86.36"/>
-<wire x1="254" y1="83.82" x2="254" y2="86.36" width="0.1524" layer="91"/>
+<junction x="254" y="162.56"/>
+<junction x="254" y="162.56"/>
+<wire x1="254" y1="160.02" x2="254" y2="162.56" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C2" gate="G$1" pin="2"/>
 <pinref part="GND3" gate="1" pin="GND"/>
-<wire x1="284.48" y1="124.46" x2="284.48" y2="121.92" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="200.66" x2="284.48" y2="198.12" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="GND4" gate="1" pin="GND"/>
-<wire x1="314.96" y1="129.54" x2="309.88" y2="129.54" width="0.1524" layer="91"/>
-<wire x1="309.88" y1="129.54" x2="309.88" y2="127" width="0.1524" layer="91"/>
+<wire x1="314.96" y1="205.74" x2="309.88" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="309.88" y1="205.74" x2="309.88" y2="203.2" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND8" gate="1" pin="GND"/>
-<wire x1="254" y1="124.46" x2="248.92" y2="124.46" width="0.1524" layer="91" style="longdash"/>
-<wire x1="248.92" y1="124.46" x2="248.92" y2="121.92" width="0.1524" layer="91" style="longdash"/>
+<wire x1="254" y1="200.66" x2="248.92" y2="200.66" width="0.1524" layer="91" style="longdash"/>
+<wire x1="248.92" y1="200.66" x2="248.92" y2="198.12" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
 <pinref part="D3" gate="G$1" pin="C"/>
@@ -7136,8 +7136,8 @@ w/Optional EMI Filter + Indicator LED</text>
 <segment>
 <pinref part="D4" gate="G$1" pin="C"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="391.16" y1="167.64" x2="386.08" y2="167.64" width="0.1524" layer="91"/>
-<wire x1="386.08" y1="167.64" x2="386.08" y2="165.1" width="0.1524" layer="91"/>
+<wire x1="238.76" y1="53.34" x2="233.68" y2="53.34" width="0.1524" layer="91"/>
+<wire x1="233.68" y1="53.34" x2="233.68" y2="50.8" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="129.54" y1="93.98" x2="129.54" y2="99.06" width="0.1524" layer="91"/>
@@ -7171,52 +7171,52 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="TP28" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="96.52" x2="320.04" y2="96.52" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="322.58" y1="172.72" x2="320.04" y2="172.72" width="0.1524" layer="91" style="longdash"/>
+<label x="320.04" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="C6" gate="G$1" pin="2"/>
 <pinref part="GND12" gate="1" pin="GND"/>
-<wire x1="398.78" y1="200.66" x2="398.78" y2="198.12" width="0.1524" layer="91"/>
+<wire x1="246.38" y1="86.36" x2="246.38" y2="83.82" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="GND"/>
-<wire x1="408.94" y1="200.66" x2="398.78" y2="200.66" width="0.1524" layer="91"/>
-<junction x="398.78" y="200.66"/>
+<wire x1="256.54" y1="86.36" x2="246.38" y2="86.36" width="0.1524" layer="91"/>
+<junction x="246.38" y="86.36"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="TAB"/>
 <pinref part="C9" gate="G$1" pin="2"/>
-<wire x1="431.8" y1="200.66" x2="436.88" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="86.36" x2="284.48" y2="86.36" width="0.1524" layer="91"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="436.88" y1="200.66" x2="436.88" y2="198.12" width="0.1524" layer="91"/>
-<junction x="436.88" y="200.66"/>
+<wire x1="284.48" y1="86.36" x2="284.48" y2="83.82" width="0.1524" layer="91"/>
+<junction x="284.48" y="86.36"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="TP"/>
-<wire x1="439.42" y1="167.64" x2="436.88" y2="167.64" width="0.1524" layer="91" style="longdash"/>
-<label x="436.88" y="167.64" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="287.02" y1="53.34" x2="284.48" y2="53.34" width="0.1524" layer="91" style="longdash"/>
+<label x="284.48" y="53.34" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP10" gate="G$1" pin="TP"/>
-<wire x1="439.42" y1="170.18" x2="439.42" y2="167.64" width="0.1524" layer="91" style="longdash"/>
-<junction x="439.42" y="167.64"/>
+<wire x1="287.02" y1="55.88" x2="287.02" y2="53.34" width="0.1524" layer="91" style="longdash"/>
+<junction x="287.02" y="53.34"/>
 </segment>
 <segment>
 <pinref part="TP29" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="205.74" x2="320.04" y2="205.74" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="474.98" y1="205.74" x2="472.44" y2="205.74" width="0.1524" layer="91" style="longdash"/>
+<label x="472.44" y="205.74" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP11" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="208.28" x2="322.58" y2="205.74" width="0.1524" layer="91" style="longdash"/>
-<junction x="322.58" y="205.74"/>
+<wire x1="474.98" y1="208.28" x2="474.98" y2="205.74" width="0.1524" layer="91" style="longdash"/>
+<junction x="474.98" y="205.74"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="GND"/>
-<wire x1="238.76" y1="203.2" x2="236.22" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="203.2" x2="388.62" y2="203.2" width="0.1524" layer="91"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="236.22" y1="203.2" x2="236.22" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="203.2" x2="388.62" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="GND"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="274.32" y1="203.2" x2="271.78" y2="203.2" width="0.1524" layer="91"/>
-<wire x1="271.78" y1="203.2" x2="271.78" y2="200.66" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="203.2" x2="424.18" y2="203.2" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="203.2" x2="424.18" y2="200.66" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL" class="0">
@@ -7245,18 +7245,18 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="TP15" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="213.36" x2="320.04" y2="213.36" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="474.98" y1="213.36" x2="472.44" y2="213.36" width="0.1524" layer="91" style="longdash"/>
+<label x="472.44" y="213.36" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="SCL"/>
-<wire x1="259.08" y1="210.82" x2="261.62" y2="210.82" width="0.1524" layer="91"/>
-<label x="261.62" y="210.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="411.48" y1="210.82" x2="414.02" y2="210.82" width="0.1524" layer="91"/>
+<label x="414.02" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="SCL"/>
-<wire x1="294.64" y1="210.82" x2="297.18" y2="210.82" width="0.1524" layer="91"/>
-<label x="297.18" y="210.82" size="1.27" layer="95" xref="yes"/>
+<wire x1="447.04" y1="210.82" x2="449.58" y2="210.82" width="0.1524" layer="91"/>
+<label x="449.58" y="210.82" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="SDA" class="0">
@@ -7285,18 +7285,18 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="TP30" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="215.9" x2="320.04" y2="215.9" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="474.98" y1="215.9" x2="472.44" y2="215.9" width="0.1524" layer="91" style="longdash"/>
+<label x="472.44" y="215.9" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="SDA"/>
-<wire x1="259.08" y1="213.36" x2="261.62" y2="213.36" width="0.1524" layer="91"/>
-<label x="261.62" y="213.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="411.48" y1="213.36" x2="414.02" y2="213.36" width="0.1524" layer="91"/>
+<label x="414.02" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J4" gate="G$1" pin="SDA"/>
-<wire x1="294.64" y1="213.36" x2="297.18" y2="213.36" width="0.1524" layer="91"/>
-<label x="297.18" y="213.36" size="1.27" layer="95" xref="yes"/>
+<wire x1="447.04" y1="213.36" x2="449.58" y2="213.36" width="0.1524" layer="91"/>
+<label x="449.58" y="213.36" size="1.27" layer="95" xref="yes"/>
 </segment>
 </net>
 <net name="+3V3" class="0">
@@ -7318,13 +7318,13 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="+3V6" gate="G$1" pin="+3V3"/>
-<wire x1="271.78" y1="213.36" x2="271.78" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="424.18" y1="213.36" x2="424.18" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="J4" gate="G$1" pin="3V3"/>
-<wire x1="274.32" y1="213.36" x2="271.78" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="426.72" y1="213.36" x2="424.18" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="414.02" y1="167.64" x2="414.02" y2="175.26" width="0.1524" layer="91" style="longdash"/>
+<wire x1="261.62" y1="53.34" x2="261.62" y2="60.96" width="0.1524" layer="91" style="longdash"/>
 <pinref part="+3V2" gate="G$1" pin="+3V3"/>
 </segment>
 <segment>
@@ -7344,28 +7344,28 @@ w/Optional EMI Filter + Indicator LED</text>
 <segment>
 <pinref part="+3V1" gate="G$1" pin="+3V3"/>
 <pinref part="C9" gate="G$1" pin="1"/>
-<wire x1="436.88" y1="213.36" x2="436.88" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="284.48" y1="99.06" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="U4" gate="A" pin="OUT"/>
-<wire x1="431.8" y1="208.28" x2="436.88" y2="208.28" width="0.1524" layer="91"/>
-<junction x="436.88" y="208.28"/>
+<wire x1="279.4" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91"/>
+<junction x="284.48" y="93.98"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="TP"/>
-<wire x1="439.42" y1="175.26" x2="436.88" y2="175.26" width="0.1524" layer="91" style="longdash"/>
-<label x="436.88" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="287.02" y1="60.96" x2="284.48" y2="60.96" width="0.1524" layer="91" style="longdash"/>
+<label x="284.48" y="60.96" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="TP6" gate="G$1" pin="TP"/>
-<wire x1="439.42" y1="177.8" x2="439.42" y2="175.26" width="0.1524" layer="91" style="longdash"/>
-<junction x="439.42" y="175.26"/>
+<wire x1="287.02" y1="63.5" x2="287.02" y2="60.96" width="0.1524" layer="91" style="longdash"/>
+<junction x="287.02" y="60.96"/>
 </segment>
 <segment>
 <pinref part="TP7" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="210.82" x2="320.04" y2="210.82" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="474.98" y1="210.82" x2="472.44" y2="210.82" width="0.1524" layer="91" style="longdash"/>
+<label x="472.44" y="210.82" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="J2" gate="G$1" pin="3V3"/>
-<wire x1="238.76" y1="213.36" x2="236.22" y2="213.36" width="0.1524" layer="91"/>
-<wire x1="236.22" y1="213.36" x2="236.22" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="391.16" y1="213.36" x2="388.62" y2="213.36" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="213.36" x2="388.62" y2="215.9" width="0.1524" layer="91"/>
 <pinref part="+3V3" gate="G$1" pin="+3V3"/>
 </segment>
 </net>
@@ -7378,15 +7378,15 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="L1" gate="G$1" pin="1"/>
-<wire x1="259.08" y1="93.98" x2="254" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="170.18" x2="254" y2="170.18" width="0.1524" layer="91"/>
 <pinref part="C3" gate="G$1" pin="1"/>
 <pinref part="P+3" gate="1" pin="+24V"/>
-<wire x1="254" y1="96.52" x2="254" y2="93.98" width="0.1524" layer="91"/>
-<junction x="254" y="93.98"/>
+<wire x1="254" y1="172.72" x2="254" y2="170.18" width="0.1524" layer="91"/>
+<junction x="254" y="170.18"/>
 <pinref part="SJ1" gate="1" pin="1"/>
-<wire x1="259.08" y1="93.98" x2="259.08" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="259.08" y1="101.6" x2="261.62" y2="101.6" width="0.1524" layer="91"/>
-<junction x="259.08" y="93.98"/>
+<wire x1="259.08" y1="170.18" x2="259.08" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="259.08" y1="177.8" x2="261.62" y2="177.8" width="0.1524" layer="91"/>
+<junction x="259.08" y="170.18"/>
 </segment>
 <segment>
 <pinref part="P+14" gate="1" pin="+24V"/>
@@ -7410,8 +7410,8 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="TP3" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="99.06" x2="320.04" y2="99.06" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="322.58" y1="175.26" x2="320.04" y2="175.26" width="0.1524" layer="91" style="longdash"/>
+<label x="320.04" y="175.26" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="+5V" class="0">
@@ -7435,15 +7435,15 @@ w/Optional EMI Filter + Indicator LED</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="VOUT"/>
 <pinref part="C2" gate="G$1" pin="1"/>
-<wire x1="279.4" y1="132.08" x2="284.48" y2="132.08" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="208.28" x2="284.48" y2="208.28" width="0.1524" layer="91"/>
 <pinref part="P+2" gate="1" pin="+5V"/>
-<wire x1="284.48" y1="132.08" x2="284.48" y2="139.7" width="0.1524" layer="91"/>
-<junction x="284.48" y="132.08"/>
+<wire x1="284.48" y1="208.28" x2="284.48" y2="215.9" width="0.1524" layer="91"/>
+<junction x="284.48" y="208.28"/>
 </segment>
 <segment>
 <pinref part="R1" gate="G$1" pin="2"/>
 <pinref part="P+4" gate="1" pin="+5V"/>
-<wire x1="337.82" y1="129.54" x2="337.82" y2="137.16" width="0.1524" layer="91" style="longdash"/>
+<wire x1="337.82" y1="205.74" x2="337.82" y2="213.36" width="0.1524" layer="91" style="longdash"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VDD_(B)"/>
@@ -7472,21 +7472,21 @@ w/Optional EMI Filter + Indicator LED</text>
 </segment>
 <segment>
 <pinref part="TP27" gate="G$1" pin="TP"/>
-<wire x1="322.58" y1="101.6" x2="320.04" y2="101.6" width="0.1524" layer="91" style="longdash"/>
-<label x="320.04" y="101.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="322.58" y1="177.8" x2="320.04" y2="177.8" width="0.1524" layer="91" style="longdash"/>
+<label x="320.04" y="177.8" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <pinref part="U4" gate="A" pin="IN"/>
 <pinref part="C6" gate="G$1" pin="1"/>
-<wire x1="408.94" y1="208.28" x2="398.78" y2="208.28" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="93.98" x2="246.38" y2="93.98" width="0.1524" layer="91"/>
 <pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="398.78" y1="213.36" x2="398.78" y2="208.28" width="0.1524" layer="91"/>
-<junction x="398.78" y="208.28"/>
+<wire x1="246.38" y1="99.06" x2="246.38" y2="93.98" width="0.1524" layer="91"/>
+<junction x="246.38" y="93.98"/>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="TP"/>
-<wire x1="439.42" y1="172.72" x2="436.88" y2="172.72" width="0.1524" layer="91" style="longdash"/>
-<label x="436.88" y="172.72" size="1.27" layer="95" rot="R180" xref="yes"/>
+<wire x1="287.02" y1="58.42" x2="284.48" y2="58.42" width="0.1524" layer="91" style="longdash"/>
+<label x="284.48" y="58.42" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="USBP" class="0">
@@ -7527,25 +7527,25 @@ w/Optional EMI Filter + Indicator LED</text>
 <segment>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="L1" gate="G$1" pin="2"/>
-<wire x1="276.86" y1="93.98" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="93.98" x2="284.48" y2="93.98" width="0.1524" layer="91" style="longdash"/>
-<junction x="276.86" y="93.98"/>
-<label x="284.48" y="93.98" size="1.778" layer="95" xref="yes"/>
+<wire x1="276.86" y1="170.18" x2="274.32" y2="170.18" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="170.18" x2="284.48" y2="170.18" width="0.1524" layer="91" style="longdash"/>
+<junction x="276.86" y="170.18"/>
+<label x="284.48" y="170.18" size="1.778" layer="95" xref="yes"/>
 <pinref part="SJ1" gate="1" pin="2"/>
-<wire x1="271.78" y1="101.6" x2="274.32" y2="101.6" width="0.1524" layer="91"/>
-<wire x1="274.32" y1="101.6" x2="274.32" y2="93.98" width="0.1524" layer="91"/>
-<junction x="274.32" y="93.98"/>
+<wire x1="271.78" y1="177.8" x2="274.32" y2="177.8" width="0.1524" layer="91"/>
+<wire x1="274.32" y1="177.8" x2="274.32" y2="170.18" width="0.1524" layer="91"/>
+<junction x="274.32" y="170.18"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="VIN"/>
-<wire x1="254" y1="132.08" x2="251.46" y2="132.08" width="0.1524" layer="91" style="longdash"/>
-<label x="251.46" y="132.08" size="1.778" layer="95" rot="R180" xref="yes"/>
+<wire x1="254" y1="208.28" x2="251.46" y2="208.28" width="0.1524" layer="91" style="longdash"/>
+<label x="251.46" y="208.28" size="1.778" layer="95" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="N$6" class="0">
 <segment>
 <pinref part="D2" gate="G$1" pin="A"/>
-<wire x1="327.66" y1="129.54" x2="322.58" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="327.66" y1="205.74" x2="322.58" y2="205.74" width="0.1524" layer="91"/>
 <pinref part="R1" gate="G$1" pin="1"/>
 </segment>
 </net>
@@ -7559,7 +7559,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <net name="N$5" class="0">
 <segment>
 <pinref part="D4" gate="G$1" pin="A"/>
-<wire x1="403.86" y1="167.64" x2="398.78" y2="167.64" width="0.1524" layer="91"/>
+<wire x1="251.46" y1="53.34" x2="246.38" y2="53.34" width="0.1524" layer="91"/>
 <pinref part="R4" gate="G$1" pin="1"/>
 </segment>
 </net>
