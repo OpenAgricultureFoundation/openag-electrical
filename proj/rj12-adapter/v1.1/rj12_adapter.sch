@@ -856,12 +856,16 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <text x="-2.54" y="2.794" size="0.762" layer="27">&gt;VALUE</text>
 <circle x="-5.588" y="-2.54" radius="0.406109375" width="0" layer="21"/>
 <text x="-2.54" y="2.794" size="0.762" layer="21">&gt;VALUE</text>
-<wire x1="0" y1="1.27" x2="0" y2="1.778" width="0.1524" layer="22"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="1.778" width="0.1524" layer="22"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.778" width="0.1524" layer="22"/>
-<text x="-0.254" y="2.032" size="0.762" layer="22" rot="MR90">GND</text>
-<text x="-2.794" y="2.032" size="0.762" layer="22" rot="MR90">VIN</text>
-<text x="2.286" y="2.032" size="0.762" layer="22" rot="MR90">VOUT</text>
+<wire x1="0" y1="1.016" x2="0" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="1.524" width="0.1524" layer="22"/>
+<text x="-0.254" y="1.778" size="0.762" layer="22" rot="MR90">GND</text>
+<text x="-2.794" y="1.778" size="0.762" layer="22" rot="MR90">VIN</text>
+<text x="2.286" y="1.778" size="0.762" layer="22" rot="MR90">VOUT</text>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-1.27" width="0.1524" layer="22"/>
 </package>
 </packages>
 <symbols>
@@ -1205,6 +1209,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.318" y="0.254" size="0.762" layer="22" rot="MR0">SDA</text>
 <text x="4.064" y="1.524" size="0.762" layer="22" rot="MR0">3V3</text>
 <text x="4.064" y="2.794" size="0.762" layer="22" rot="MR0">IO2</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="-10.16" y1="-5.08" x2="6.35" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="22"/>
 </package>
 <package name="RJ45-DI2C-USB-54602-908LF">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
@@ -1242,6 +1250,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
 <text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="10.16" x2="6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="10.16" width="0.1524" layer="22"/>
 </package>
 </packages>
 <symbols>
@@ -4663,11 +4675,11 @@ http://www.tycoelectronics.com</description>
 E14-140A
 Cambridge, MA</text>
 <wire x1="35.56" y1="-10.16" x2="35.56" y2="5.08" width="0.254" layer="94"/>
-<wire x1="35.56" y1="5.08" x2="10.16" y2="5.08" width="0.254" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="-40.64" y2="5.08" width="0.254" layer="94"/>
+<wire x1="35.56" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="-40.64" y2="5.08" width="0.254" layer="94"/>
 <wire x1="-40.64" y1="5.08" x2="-40.64" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="35.56" y1="-10.16" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
-<wire x1="10.16" y1="-10.16" x2="-40.64" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="35.56" y1="-10.16" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="-10.16" x2="-40.64" y2="-10.16" width="0.254" layer="94"/>
 <rectangle x1="-21.907496875" y1="-7.58698125" x2="-20.993096875" y2="-7.5412625" layer="94"/>
 <rectangle x1="-22.136096875" y1="-7.541259375" x2="-20.764496875" y2="-7.495540625" layer="94"/>
 <rectangle x1="-22.273259375" y1="-7.495540625" x2="-20.627340625" y2="-7.449821875" layer="94"/>
@@ -6706,7 +6718,7 @@ Cambridge, MA</text>
 <rectangle x1="-20.947378125" y1="2.288540625" x2="-20.444459375" y2="2.334259375" layer="94"/>
 <rectangle x1="-17.564096875" y1="2.288540625" x2="-16.969740625" y2="2.334259375" layer="94"/>
 <rectangle x1="-13.403578125" y1="2.288540625" x2="-12.854940625" y2="2.334259375" layer="94"/>
-<wire x1="10.16" y1="5.08" x2="10.16" y2="-10.16" width="0.254" layer="94"/>
+<wire x1="7.62" y1="5.08" x2="7.62" y2="-10.16" width="0.254" layer="94"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -6948,6 +6960,10 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="304.8" y1="228.6" x2="304.8" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <text x="248.92" y="224.155" size="3.048" layer="97">RJ12 Connectors</text>
 <text x="314.96" y="220.98" size="3.048" layer="103">Testpads</text>
+<text x="381" y="76.2" size="3.048" layer="97">Changelog
+ - changed 24v-to-5v regulator to R78E5
+ - changed rj45 pair to use x2 dI2C buffers
+ - updated to latest style &amp; naming conventions</text>
 </plain>
 <instances>
 <instance part="U4" gate="A" x="419.1" y="205.74"/>

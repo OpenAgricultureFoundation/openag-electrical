@@ -1,0 +1,7 @@
+In the directory for your current version of eagle:
+- Delete the eagle-x.x.x/scr/eagle.scr 
+- Delete eagle-x.x.x/scr/default-assign.scr
+
+In eagle-x.x.x/scr create a symlink to your *.scr files:
+- Run: ln -s  /your/path/to/openag_eagle/scr/eagle.scr eagle.scr
+- Run: ln -s  /your/path/to/openag_eagle/scr/default-assign.scr default-assign.scr

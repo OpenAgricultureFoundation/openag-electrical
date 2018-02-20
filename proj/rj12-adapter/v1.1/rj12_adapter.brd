@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="no"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="no"/>
@@ -23,17 +23,17 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="no"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="no"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
-<layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="22" name="bPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
@@ -46,10 +46,10 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
 <layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
@@ -58,8 +58,8 @@
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
 <layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -369,7 +369,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="34.925" y1="34.925" x2="34.925" y2="26.3525" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="23.8125" y1="10.795" x2="26.3525" y2="10.795" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="28.8925" y1="10.795" x2="31.4325" y2="10.795" width="0.1524" layer="21" style="shortdash"/>
-<text x="45.974" y="14.224" size="0.762" layer="22" rot="MR90">  EMI 
+<text x="46.228" y="14.224" size="0.762" layer="22" rot="MR90">  EMI 
 Bypass</text>
 <wire x1="81.28" y1="11.43" x2="81.28" y2="10.16" width="0.1524" layer="21"/>
 <wire x1="81.28" y1="46.99" x2="81.28" y2="45.72" width="0.1524" layer="21"/>
@@ -1696,7 +1696,32 @@ Scaled from 300x75 pixel monochrome bmp</description>
 <wire x1="40.005" y1="0.635" x2="40.005" y2="6.985" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="40.005" y1="6.985" x2="0.635" y2="6.985" width="0.1524" layer="21" style="shortdash"/>
 </package>
-<package name="CAMBRIDGE-MAP-RJ45-ADAPTER-V-1-1">
+<package name="CORNER">
+<hole x="0" y="0" drill="3.81"/>
+<wire x1="-5.08" y1="3.81" x2="3.81" y2="3.81" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-5.08" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.0254" layer="41"/>
+<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="3.81" width="0.0254" layer="41"/>
+<wire x1="3.81" y1="-5.08" x2="3.81" y2="3.81" width="0.0254" layer="42"/>
+<wire x1="3.81" y1="3.81" x2="-5.08" y2="3.81" width="0.0254" layer="42"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-5.08" width="0.0254" layer="42"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.0254" layer="42"/>
+<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="21"/>
+<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
+<wire x1="-3.175" y1="3.175" x2="-3.175" y2="-3.175" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-3.175" y1="-3.175" x2="3.175" y2="-3.175" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="3.175" y1="-3.175" x2="3.175" y2="3.175" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="3.175" y1="3.175" x2="-3.175" y2="3.175" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-5.08" width="0.1524" layer="49"/>
+<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="49"/>
+</package>
+<package name="CAMBRIDGE-MAP-RJ12-ADAPTER-V-1-1">
 <rectangle x1="11.1125" y1="1.2065" x2="11.6205" y2="1.3335" layer="22"/>
 <rectangle x1="15.9385" y1="1.2065" x2="17.4625" y2="1.3335" layer="22"/>
 <rectangle x1="17.7165" y1="1.2065" x2="18.0975" y2="1.3335" layer="22"/>
@@ -8881,10 +8906,10 @@ Scaled from 300x75 pixel monochrome bmp</description>
 <wire x1="22.86" y1="41.91" x2="12.7" y2="41.91" width="0.1524" layer="22"/>
 <wire x1="12.7" y1="41.91" x2="12.7" y2="29.21" width="0.1524" layer="22"/>
 <wire x1="12.7" y1="29.21" x2="22.86" y2="29.21" width="0.1524" layer="22"/>
-<wire x1="41.91" y1="16.51" x2="46.99" y2="16.51" width="0.1524" layer="22"/>
-<wire x1="46.99" y1="16.51" x2="46.99" y2="12.7" width="0.1524" layer="22"/>
-<wire x1="46.99" y1="12.7" x2="41.91" y2="12.7" width="0.1524" layer="22"/>
-<wire x1="41.91" y1="12.7" x2="41.91" y2="16.51" width="0.1524" layer="22"/>
+<wire x1="41.275" y1="17.145" x2="47.625" y2="17.145" width="0.1524" layer="22"/>
+<wire x1="47.625" y1="17.145" x2="47.625" y2="12.065" width="0.1524" layer="22"/>
+<wire x1="47.625" y1="12.065" x2="41.275" y2="12.065" width="0.1524" layer="22"/>
+<wire x1="41.275" y1="12.065" x2="41.275" y2="17.145" width="0.1524" layer="22"/>
 <wire x1="41.91" y1="22.86" x2="49.53" y2="22.86" width="0.1524" layer="22"/>
 <wire x1="49.53" y1="22.86" x2="49.53" y2="29.21" width="0.1524" layer="22"/>
 <wire x1="49.53" y1="29.21" x2="41.91" y2="29.21" width="0.1524" layer="22"/>
@@ -8897,31 +8922,6 @@ Scaled from 300x75 pixel monochrome bmp</description>
 <wire x1="78.74" y1="30.48" x2="78.74" y2="40.64" width="0.1524" layer="22"/>
 <wire x1="78.74" y1="40.64" x2="62.23" y2="40.64" width="0.1524" layer="22"/>
 <wire x1="62.23" y1="40.64" x2="62.23" y2="30.48" width="0.1524" layer="22"/>
-</package>
-<package name="CORNER">
-<hole x="0" y="0" drill="3.81"/>
-<wire x1="-5.08" y1="3.81" x2="3.81" y2="3.81" width="0.0254" layer="41"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="-5.08" width="0.0254" layer="41"/>
-<wire x1="3.81" y1="-5.08" x2="-5.08" y2="-5.08" width="0.0254" layer="41"/>
-<wire x1="-5.08" y1="-5.08" x2="-5.08" y2="3.81" width="0.0254" layer="41"/>
-<wire x1="3.81" y1="-5.08" x2="3.81" y2="3.81" width="0.0254" layer="42"/>
-<wire x1="3.81" y1="3.81" x2="-5.08" y2="3.81" width="0.0254" layer="42"/>
-<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-5.08" width="0.0254" layer="42"/>
-<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.0254" layer="42"/>
-<wire x1="-2.54" y1="2.54" x2="-2.54" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="-2.54" y1="-2.54" x2="2.54" y2="-2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="-2.54" x2="2.54" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="2.54" y1="2.54" x2="-2.54" y2="2.54" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="3.81" x2="3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="3.81" x2="3.81" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="3.81" y1="-3.81" x2="-3.81" y2="-3.81" width="0.1524" layer="21"/>
-<wire x1="-3.81" y1="-3.81" x2="-3.81" y2="3.81" width="0.1524" layer="21"/>
-<wire x1="-3.175" y1="3.175" x2="-3.175" y2="-3.175" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-3.175" y1="-3.175" x2="3.175" y2="-3.175" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="3.175" y1="-3.175" x2="3.175" y2="3.175" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="3.175" y1="3.175" x2="-3.175" y2="3.175" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="-5.08" y1="3.81" x2="-5.08" y2="-5.08" width="0.1524" layer="49"/>
-<wire x1="-5.08" y1="-5.08" x2="3.81" y2="-5.08" width="0.1524" layer="49"/>
 </package>
 </packages>
 </library>
@@ -9042,12 +9042,16 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <text x="-2.54" y="2.794" size="0.762" layer="27">&gt;VALUE</text>
 <circle x="-5.588" y="-2.54" radius="0.406109375" width="0" layer="21"/>
 <text x="-2.54" y="2.794" size="0.762" layer="21">&gt;VALUE</text>
-<wire x1="0" y1="1.27" x2="0" y2="1.778" width="0.1524" layer="22"/>
-<wire x1="2.54" y1="1.27" x2="2.54" y2="1.778" width="0.1524" layer="22"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="1.778" width="0.1524" layer="22"/>
-<text x="-0.254" y="2.032" size="0.762" layer="22" rot="MR90">GND</text>
-<text x="-2.794" y="2.032" size="0.762" layer="22" rot="MR90">VIN</text>
-<text x="2.286" y="2.032" size="0.762" layer="22" rot="MR90">VOUT</text>
+<wire x1="0" y1="1.016" x2="0" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="1.524" width="0.1524" layer="22"/>
+<text x="-0.254" y="1.778" size="0.762" layer="22" rot="MR90">GND</text>
+<text x="-2.794" y="1.778" size="0.762" layer="22" rot="MR90">VIN</text>
+<text x="2.286" y="1.778" size="0.762" layer="22" rot="MR90">VOUT</text>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-1.27" width="0.1524" layer="22"/>
 </package>
 </packages>
 </library>
@@ -9144,6 +9148,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.318" y="0.254" size="0.762" layer="22" rot="MR0">SDA</text>
 <text x="4.064" y="1.524" size="0.762" layer="22" rot="MR0">3V3</text>
 <text x="4.064" y="2.794" size="0.762" layer="22" rot="MR0">IO2</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="-10.16" y1="-5.08" x2="6.35" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="22"/>
 </package>
 <package name="RJ45-DI2C-USB-54602-908LF">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.2032" layer="21"/>
@@ -9181,6 +9189,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
 <text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="10.16" x2="6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="10.16" width="0.1524" layer="22"/>
 </package>
 </packages>
 </library>
@@ -9563,8 +9575,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Recom Power" x="46.99" y="25.4" size="0.762" layer="27" display="off"/>
 <attribute name="MPN" value="R-78E5.0-1.0" x="46.99" y="25.4" size="0.762" layer="27" display="off"/>
 <attribute name="NAME" x="41.275" y="32.004" size="0.762" layer="25"/>
-<attribute name="VALUE" x="44.45" y="28.956" size="0.762" layer="21"/>
 <attribute name="VALUE" x="44.45" y="28.956" size="0.762" layer="27"/>
+<attribute name="VALUE" x="44.45" y="28.956" size="0.762" layer="21"/>
 <attribute name="VENDOR" value="Digikey" x="46.99" y="25.4" size="0.762" layer="27" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="46.99" y="25.4" size="0.762" layer="27" display="off"/>
 <attribute name="VPN" value="945-2201-ND " x="46.99" y="25.4" size="0.762" layer="27" display="off"/>
@@ -9805,11 +9817,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-1-4-LP-N-R/AE10383-ND/2183634" x="73.66" y="20.32" size="1.778" layer="27" display="off"/>
 <attribute name="VPN" value="AE10383-ND" x="73.66" y="20.32" size="1.778" layer="27" display="off"/>
 </element>
-<element name="U$9" library="openag-frames" package="CAMBRIDGE-MAP-RJ45-ADAPTER-V-1-1" value="" x="1.27" y="1.27"/>
 <element name="U$1" library="openag-frames" package="CORNER" value="" x="5.08" y="5.08"/>
 <element name="U$2" library="openag-frames" package="CORNER" value="" x="5.08" y="52.07" rot="R270"/>
 <element name="U$3" library="openag-frames" package="CORNER" value="" x="80.01" y="52.07" rot="R180"/>
 <element name="U$4" library="openag-frames" package="CORNER" value="" x="80.01" y="5.08" rot="R90"/>
+<element name="U$9" library="openag-frames" package="CAMBRIDGE-MAP-RJ12-ADAPTER-V-1-1" value="" x="1.27" y="1.27"/>
 </elements>
 <signals>
 <signal name="PHOTON_SCL1">
@@ -10552,9 +10564,6 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.813" y1="33.3692" x2="26.9082" y2="33.274" width="0.3048" layer="1"/>
 <wire x1="26.9082" y1="33.274" x2="25.4158" y2="33.274" width="0.3048" layer="1"/>
 <wire x1="25.4158" y1="33.274" x2="25.4" y2="33.2898" width="0.3048" layer="1"/>
-</signal>
-<signal name="N$4">
-<via x="-16.51" y="63.5" extent="1-16" drill="0.35"/>
 </signal>
 </signals>
 </board>

@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="yes"/>
@@ -274,6 +274,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
 <text x="-7.62" y="10.4775" size="1.27" layer="25">&gt;NAME</text>
 <text x="-4.445" y="-7.62" size="1.27" layer="27">&gt;VALUE</text>
+<wire x1="-6.35" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="10.16" x2="6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="10.16" width="0.1524" layer="22"/>
 </package>
 <package name="HEADER-I2C">
 <description>.100" (2.54mm) Center Header - 4 Pin</description>
@@ -371,6 +375,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.318" y="0.254" size="0.762" layer="22" rot="MR0">SDA</text>
 <text x="4.064" y="1.524" size="0.762" layer="22" rot="MR0">3V3</text>
 <text x="4.064" y="2.794" size="0.762" layer="22" rot="MR0">IO2</text>
+<wire x1="-10.16" y1="5.08" x2="-10.16" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="-10.16" y1="-5.08" x2="6.35" y2="-5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="-5.08" x2="6.35" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="5.08" x2="-10.16" y2="5.08" width="0.1524" layer="22"/>
 </package>
 <package name="RJ12-RS485--A-2004-1-4-LP-N-R">
 <description>&lt;B&gt;RJ12, RJ14, RJ25&lt;/B&gt;
