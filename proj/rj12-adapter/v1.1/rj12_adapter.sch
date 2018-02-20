@@ -6879,8 +6879,8 @@ Cambridge, MA</text>
 <attribute name="AUTHOR" value="Jake Rye"/>
 </part>
 <part name="U$7" library="openag-frames" deviceset="TITLE" device="">
-<attribute name="TITLE" value="RJ45 to RJ12 Adapter"/>
-<attribute name="URL" value="https://github.com/openaginitiative/openag_eagle/proj/rj45-adapter"/>
+<attribute name="TITLE" value="RJ12 to RJ45 Adapter"/>
+<attribute name="URL" value="https://github.com/openaginitiative/openag_eagle/proj/rj12-adapter"/>
 <attribute name="VER" value="1.1"/>
 </part>
 <part name="U$8" library="openag-frames" deviceset="HEADER" device=""/>
