@@ -259,8 +259,8 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="-8.382" y1="-3.683" x2="-11.43" y2="-3.683" width="0.1524" layer="21"/>
 <pad name="1" x="-7.62" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
 <pad name="2" x="7.62" y="0" drill="1.3208" diameter="2.54" shape="long" rot="R90"/>
-<text x="-4.4196" y="3.6068" size="1.778" layer="25" ratio="10">&gt;NAME</text>
-<text x="-4.4196" y="-5.461" size="1.778" layer="27" ratio="10">&gt;VALUE</text>
+<text x="-12.5476" y="4.8768" size="0.762" layer="25" ratio="10">&gt;NAME</text>
+<text x="-2.3876" y="-4.191" size="0.762" layer="27" ratio="10">&gt;VALUE</text>
 <rectangle x1="-5.08" y1="1.651" x2="5.08" y2="2.159" layer="21"/>
 <rectangle x1="-5.08" y1="-2.159" x2="5.08" y2="-1.651" layer="21"/>
 <rectangle x1="5.08" y1="-3.175" x2="5.715" y2="-1.524" layer="21"/>
@@ -292,6 +292,7 @@ grid 15mm, 19649 Wickmann</description>
 <rectangle x1="-6.731" y1="-2.032" x2="-5.715" y2="-1.905" layer="21"/>
 <rectangle x1="-10.287" y1="-2.032" x2="-8.509" y2="-1.905" layer="21"/>
 <hole x="0" y="0" drill="2.794"/>
+<text x="-2.3876" y="-4.191" size="0.762" layer="21" ratio="10">&gt;VALUE</text>
 </package>
 </packages>
 <symbols>
@@ -527,6 +528,7 @@ grid 15mm, 19649 Wickmann</description>
 <technology name="">
 <attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
 <attribute name="MPN" value="64900001039" constant="no"/>
+<attribute name="VALUE" value="GSH15" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" constant="no"/>
 <attribute name="VPN" value="WK0011-ND" constant="no"/>

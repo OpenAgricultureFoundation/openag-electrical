@@ -104,8 +104,9 @@
 <wire x1="-0.5334" y1="-4.7752" x2="-0.5334" y2="-5.0546" width="0.127" layer="21"/>
 <wire x1="-0.5334" y1="-5.0546" x2="0.5334" y2="-5.0546" width="0.127" layer="21"/>
 <wire x1="0.5334" y1="-5.0546" x2="0.5334" y2="-4.7752" width="0.127" layer="21"/>
-<text x="2.794" y="-3.556" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
-<text x="-1.778" y="-3.302" size="1.27" layer="25" rot="R90">&gt;NAME</text>
+<text x="-1.524" y="-0.508" size="0.762" layer="27">&gt;VALUE</text>
+<text x="3.048" y="-5.08" size="0.762" layer="25" rot="R180">&gt;NAME</text>
+<text x="-1.524" y="-0.508" size="0.762" layer="21">&gt;VALUE</text>
 </package>
 <package name="CX1206">
 <smd name="1" x="-1.4732" y="0" dx="0.8636" dy="1.8542" layer="1"/>
@@ -231,33 +232,44 @@
 </symbols>
 <devicesets>
 <deviceset name="100UF-EEE-1HA101UP" prefix="C">
-<description>&lt;b&gt; Panasonic - EEE-1HA101UP - ELECTROLYTIC CAP ALUM 100UF 20% 50V SMD&lt;/b&gt;
+<description>&lt;strong&gt;CAP ALUM 100UF 20% 50V SMD&lt;/strong&gt;
 &lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD 2000 Hrs @ 85°C&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;100µF 50V Aluminum Electrolytic Capacitors Radial, Can - SMD  2000 Hrs @ 85°C&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Capacitance: 100uF&lt;/li&gt;
-&lt;li&gt;Tolerance: &amp;plusmn;20%&lt;/li&gt;
-&lt;li&gt;Rated Voltage: 50V&lt;/li&gt;
-&lt;li&gt;Polarization: Polar&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -40&amp;deg;C ~ 85&amp;deg;C&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Capacitance: 100µF&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 50V&lt;/li&gt;
+		&lt;li&gt;Lifetime @ Temp.: 2000 Hrs @ 85°C&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Polarization: Polar&lt;/li&gt;
+		&lt;li&gt;Ratings: AEC-Q200&lt;/li&gt;
+		&lt;li&gt;Applications: Automotive&lt;/li&gt;
+		&lt;li&gt;Ripple Current @ Low Frequency: 200mA @ 120Hz&lt;/li&gt;
+		&lt;li&gt;Ripple Current @ High Frequency: 340mA @ 10kHz&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.315" Dia (8.00mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.402" (10.20mm)&lt;/li&gt;
+		&lt;li&gt;Surface Mount Land Size: 0.327" L x 0.327" W (8.30mm x 8.30mm)&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Package / Case: Radial, Can - SMD&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf"&gt;S Series, Type V&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/ABA0000C1145.pdf'&gt;S Series, Type V&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='https://industrial.panasonic.com/cdbs/www-data/pdf/RDE0000/DME0000COL90.pdf'&gt;Aluminum Electrolytic Cap Part Numbering System&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA101UP/PCE3917CT-ND/766293"&gt;PCE3917CT-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA101UP/PCE3917CT-ND/766293'&gt;PCE3917CT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="C-US" x="0" y="0"/>
@@ -270,9 +282,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Panasonic Electronic Components" constant="no"/>
+<attribute name="MPN" value="EEE-1HA101UP" constant="no"/>
 <attribute name="VALUE" value="100uF"/>
-<attribute name="VERIFIED" value="NO"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/EEE-1HA101UP/PCE3917CT-ND/766293" constant="no"/>
+<attribute name="VPN" value="PCE3917CT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -324,42 +339,47 @@
 <attribute name="VALUE" value="4.7uF" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334" constant="no"/>
-<attribute name="VPN" value="
-1276-1248-1-ND" constant="no"/>
+<attribute name="VPN" value=" 1276-1248-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="1UF-CL10A105KB8NNNC" prefix="C">
-<description>&lt;b&gt; Samsung - CL10A105KB8NNNC - CAP CER 1UF 50V X5R 0603&lt;/b&gt;
+<description>&lt;strong&gt;CAP CER 1UF 50V X5R 0603&lt;/strong&gt;
 &lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;1µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;1µF ±10% 50V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Capacitance: 1µF&lt;/li&gt;
-&lt;li&gt;Tolerance: ±10%&lt;/li&gt;
-&lt;li&gt;Rated Voltage: 50V&lt;/li&gt;
-&lt;li&gt;Temperature Coefficient: X5R&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -55°C ~ 85°C&lt;/li&gt;
-&lt;li&gt;Packaging / Case: 0603 (1608 Metric)&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Capacitance: 1µF&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±10%&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 50V&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: X5R&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Applications: General Purpose&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount, MLCC&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.063" L x 0.032" W (1.60mm x 0.80mm)&lt;/li&gt;
+		&lt;li&gt;Thickness (Max): 0.035" (0.90mm)&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KB8NNNC.jsp"&gt;CL10A105KB8NNNC Spec&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.samsungsem.com/kr/support/product-search/mlcc/CL10A105KB8NNNC.jsp'&gt;CL10A105KB8NNNC Spec&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.samsungsem.com/kr/front/downloadcms.do?path=/kr/support/product-search/mlcc/__icsFiles/afieldfile/2014/11/05&amp;fileName=C_CL10A105KB8NNNC.pdf'&gt;CL10A105KB8NNNC Characteristics&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.samsungsem.com/kr/support/library/product-catalog/mlcc.jsp'&gt;MLCC Catalog&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A105KB8NNNC/1276-1860-1-ND/3889946"&gt;1276-1860-1-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A105KB8NNNC/1276-1860-1-ND/3889946'&gt;1276-1860-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="C-EU" x="0" y="0"/>
@@ -372,16 +392,19 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Samsung Electro-Mechanics" constant="no"/>
+<attribute name="MPN" value="CL10A105KB8NNNC" constant="no"/>
 <attribute name="VALUE" value="1uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics-america-inc/CL10A105KB8NNNC/1276-1860-1-ND/3889946" constant="no"/>
+<attribute name="VPN" value="1276-1860-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="22UF-C3216X5R1V226M160AC" prefix="C">
-<description>&lt;b&gt; TDK Corp - C3216X5R1V226M160AC - CAP CER 22UF 35V X5R 1206&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 22UF 35V X5R 1206&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;22µF ±20% 35V Ceramic Capacitor X5R 1206 (3216 Metric)&lt;/li&gt;
@@ -422,44 +445,52 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="TDK Corp" constant="no"/>
+<attribute name="MPN" value="C3216X5R1V226M160AC" constant="no"/>
 <attribute name="VALUE" value="22uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/tdk-corporation/C3216X5R1V226M160AC/445-8045-1-ND/2792165" constant="no"/>
+<attribute name="VPN" value="445-8045-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="0.1UF-X2Y-CX1206MKX7R9BB104" prefix="CX">
-<description>&lt;b&gt; Yageo - CX1206MKX7R9BB104 - CAP CER 0.1UF 50V X7R 1206&lt;/b&gt;
+<description>&lt;strong&gt;CAP CER 0.1UF 50V X7R 1206&lt;/strong&gt;
 &lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;0.1µF ±20% 50V Ceramic Capacitor X7R 1206 (3216 Metric)&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;0.1µF ±20% 50V Ceramic Capacitor X7R 1206 (3216 Metric)&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Capacitance: 0.1uF&lt;/li&gt;
-&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
-&lt;li&gt;Rated Voltage: 50V&lt;/li&gt;
-&lt;li&gt;Temperature Coefficient: X7R&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -55°C ~ 125°C	&lt;/li&gt;
-&lt;li&gt;Features: Low ESL (X2Y)&lt;/li&gt;
-&lt;li&gt;Package / Case: 1206 (3216 Metric)&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Capacitance: 0.1µF&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±20%&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 50V&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: X7R&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Features: Low ESL (X2Y)&lt;/li&gt;
+		&lt;li&gt;Applications: Bypass, Decoupling&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount, MLCC&lt;/li&gt;
+		&lt;li&gt;Package / Case: 1206 (3216 Metric)&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.126" L x 0.065" W (3.20mm x 1.65mm)&lt;/li&gt;
+		&lt;li&gt;Thickness (Max): 0.055" (1.40mm)&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="http://www.yageo.com/NewPortal/_en/search/productDocs.jsp?YageoPartNumber=CX1206MKX7R9BB104"&gt;EMI Filter X2Y Series&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/NewPortal/_en/search/productDocs.jsp?YageoPartNumber=CX1206MKX7R9BB104'&gt;EMI Filter X2Y Series&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='//media.digikey.com/pdf/Data%20Sheets/Yageo%20PDFs/X2Y%20Series,%206.3%20V%20to%20100%20V.pdf'&gt;X2Y Series&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/yageo/CX1206MKX7R9BB104/311-1261-1-ND/1645005"&gt;311-1261-1-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/CX1206MKX7R9BB104/311-1261-1-ND/1645005'&gt;311-1261-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
 <gate name="A" symbol="CX_CAP" x="-5.08" y="0"/>
@@ -474,16 +505,19 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="CX1206MKX7R9BB104" constant="no"/>
 <attribute name="VALUE" value="0.1uF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/CX1206MKX7R9BB104/311-1261-1-ND/1645005" constant="no"/>
+<attribute name="VPN" value="311-1261-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="330PF-CL10B331KB8NNNC" prefix="C">
-<description>&lt;b&gt; Samsung - CL10B331KB8NNNC - CAP CER 330PF 50V X7R 0603&lt;/b&gt;
+<description>&lt;b&gt; CAP CER 330PF 50V X7R 0603&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
 &lt;li&gt;330pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/li&gt;
@@ -523,9 +557,12 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="CL10B331KB8NNNC" constant="no"/>
+<attribute name="MPN" value="CL10B331KB8NNNC" constant="no"/>
 <attribute name="VALUE" value="330pF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL10B331KB8NNNC/1276-1787-1-ND/3889873" constant="no"/>
+<attribute name="VPN" value="1276-1787-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -636,7 +673,7 @@
 </devices>
 </deviceset>
 <deviceset name="10NF-C0603C103K5RACTU" prefix="C">
-<description>&lt;strong&gt;KEMET - C0603C103K5RACTU - CAP CER 10000PF 50V X7R 0603&lt;/strong&gt;
+<description>&lt;strong&gt;CAP CER 10000PF 50V X7R 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;10000pF ±10% 50V Ceramic Capacitor X7R 0603 (1608 Metric)&lt;/li&gt;
@@ -680,16 +717,19 @@
 </connects>
 <technologies>
 <technology name="">
-<attribute name="POPULATE" value="YES" constant="no"/>
+<attribute name="MANUFACTURER" value="KEMET" constant="no"/>
+<attribute name="MPN" value="C0603C103K5RACTU" constant="no"/>
 <attribute name="VALUE" value="10nF" constant="no"/>
-<attribute name="VERIFIED" value="NO" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/kemet/C0603C103K5RACTU/399-1091-1-ND/411366#" constant="no"/>
+<attribute name="VPN" value="399-1091-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
 </devices>
 </deviceset>
 <deviceset name="15UF-TPSD156K035R0100" prefix="C">
-<description>&lt;strong&gt;AVX Corporation - TPSD156K035R0100 - CAP TANT 15UF 35V 10% 2917&lt;/strong&gt;
+<description>&lt;strong&gt;CAP TANT 15UF 35V 10% 2917&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;15µF Molded Tantalum Capacitors 35V 2917 (7343 Metric) 100 mOhm&lt;/li&gt;
@@ -735,7 +775,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="AVX Corporation" constant="no"/>
+<attribute name="MPN" value="TPSD156K035R0100" constant="no"/>
 <attribute name="VALUE" value="15uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/scripts/DkSearch/dksus.dll?Detail&amp;itemSeq=250948407&amp;uq=636531796868727362#" constant="no"/>
+<attribute name="VPN" value="478-4100-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -793,8 +838,7 @@
 <attribute name="VALUE" value="220uF" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/avx-corporation/TPSY227K010R0100/478-5408-1-ND/1967712" constant="no"/>
-<attribute name="VPN" value="
-478-5408-1-ND " constant="no"/>
+<attribute name="VPN" value=" 478-5408-1-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -860,7 +904,7 @@
 </devices>
 </deviceset>
 <deviceset name="2.2UF-GRM188R6YA225KA12D" prefix="C">
-<description>&lt;strong&gt;Murata Electronics North America - GRM188R6YA225KA12D - CAP CER 2.2UF 35V X5R 0603&lt;/strong&gt;
+<description>&lt;strong&gt;CAP CER 2.2UF 35V X5R 0603&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
 		&lt;li&gt;2.2µF ±10% 35V Ceramic Capacitor X5R 0603 (1608 Metric)&lt;/li&gt;
@@ -907,7 +951,12 @@
 </connects>
 <technologies>
 <technology name="">
+<attribute name="MANUFACTURER" value="Murata Electronics North America" constant="no"/>
+<attribute name="MPN" value="GRM188R6YA225KA12D" constant="no"/>
 <attribute name="VALUE" value="2.2uF" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/murata-electronics-north-america/GRM188R6YA225KA12D/490-7204-1-ND/3900456" constant="no"/>
+<attribute name="VPN" value="490-7204-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
