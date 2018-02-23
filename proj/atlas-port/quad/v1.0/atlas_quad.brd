@@ -473,22 +473,24 @@
 <text x="51.054" y="97.79" size="0.762" layer="21" rot="R270">GND</text>
 <wire x1="51.435" y1="94.9325" x2="51.435" y2="89.535" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="51.435" y1="109.855" x2="51.435" y2="99.1235" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="46.99" y1="74.93" x2="44.704" y2="74.93" width="0.1524" layer="21"/>
-<wire x1="44.704" y1="74.93" x2="12.7" y2="74.93" width="0.1524" layer="21"/>
+<wire x1="46.99" y1="74.93" x2="12.7" y2="74.93" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="74.93" x2="2.54" y2="74.93" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="74.93" x2="2.54" y2="53.34" width="0.1524" layer="21"/>
 <wire x1="2.54" y1="53.34" x2="12.7" y2="53.34" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="53.34" x2="46.99" y2="53.34" width="0.1524" layer="21"/>
-<wire x1="46.99" y1="53.34" x2="46.99" y2="74.93" width="0.1524" layer="21"/>
+<wire x1="46.99" y1="53.34" x2="46.99" y2="56.642" width="0.1524" layer="21"/>
+<wire x1="46.99" y1="56.642" x2="46.99" y2="63.3095" width="0.1524" layer="21"/>
+<wire x1="46.99" y1="63.3095" x2="46.99" y2="74.93" width="0.1524" layer="21"/>
 <wire x1="48.26" y1="52.07" x2="46.99" y2="52.07" width="0.1524" layer="21"/>
 <wire x1="46.99" y1="52.07" x2="12.7" y2="52.07" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="52.07" x2="1.27" y2="52.07" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="52.07" x2="1.27" y2="76.2" width="0.1524" layer="21"/>
 <wire x1="1.27" y1="76.2" x2="12.7" y2="76.2" width="0.1524" layer="21"/>
-<wire x1="12.7" y1="76.2" x2="44.704" y2="76.2" width="0.1524" layer="21"/>
-<wire x1="44.704" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="21"/>
-<wire x1="48.26" y1="76.2" x2="48.26" y2="52.07" width="0.1524" layer="21"/>
-<wire x1="44.704" y1="74.93" x2="44.704" y2="76.2" width="0.1524" layer="21"/>
+<wire x1="12.7" y1="76.2" x2="48.26" y2="76.2" width="0.1524" layer="21"/>
+<wire x1="48.26" y1="76.2" x2="48.26" y2="63.3095" width="0.1524" layer="21"/>
+<wire x1="48.26" y1="63.3095" x2="48.26" y2="59.817" width="0.1524" layer="21"/>
+<wire x1="48.26" y1="59.817" x2="48.26" y2="56.642" width="0.1524" layer="21"/>
+<wire x1="48.26" y1="56.642" x2="48.26" y2="52.07" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="52.07" x2="12.7" y2="53.34" width="0.1524" layer="21"/>
 <wire x1="12.7" y1="74.93" x2="12.7" y2="76.2" width="0.1524" layer="21"/>
 <text x="1.524" y="65.405" size="0.762" layer="21" rot="R270">GND</text>
@@ -496,7 +498,6 @@
 <text x="47.244" y="54.229" size="0.762" layer="21" rot="R270">3V3</text>
 <text x="29.464" y="53.086" size="0.762" layer="21" rot="R180">NC</text>
 <text x="30.48" y="75.946" size="0.762" layer="21" rot="R180">NC</text>
-<wire x1="44.1325" y1="75.565" x2="31.115" y2="75.565" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="28.2575" y1="75.565" x2="13.335" y2="75.565" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="12.065" y1="75.565" x2="1.905" y2="75.565" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="1.905" y1="75.565" x2="1.905" y2="66.04" width="0.1524" layer="21" style="shortdash"/>
@@ -504,7 +505,7 @@
 <wire x1="1.905" y1="52.705" x2="12.065" y2="52.705" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="13.335" y1="52.705" x2="27.305" y2="52.705" width="0.1524" layer="21" style="shortdash"/>
 <wire x1="30.1625" y1="52.705" x2="46.355" y2="52.705" width="0.1524" layer="21" style="shortdash"/>
-<text x="1.524" y="76.454" size="0.762" layer="21">Particle Photon</text>
+<text x="1.524" y="76.454" size="0.762" layer="21">Particle Photon w/I2C Leads + 5V Enable</text>
 <wire x1="66.04" y1="71.12" x2="78.74" y2="71.12" width="0.1524" layer="21"/>
 <wire x1="78.74" y1="71.12" x2="85.09" y2="71.12" width="0.1524" layer="21"/>
 <wire x1="85.09" y1="71.12" x2="87.63" y2="71.12" width="0.1524" layer="21"/>
@@ -595,6 +596,13 @@ headers for optional standalone control.</text>
 <wire x1="41.148" y1="71.882" x2="41.148" y2="68.199" width="0.3048" layer="21"/>
 <wire x1="41.148" y1="68.199" x2="44.196" y2="68.199" width="0.3048" layer="21"/>
 <text x="42.418" y="68.834" size="0.762" layer="21" rot="R90">5V Enable</text>
+<wire x1="48.26" y1="56.642" x2="46.99" y2="56.642" width="0.1524" layer="21"/>
+<text x="47.244" y="58.928" size="0.762" layer="21" rot="R270">SCL</text>
+<text x="48.006" y="60.706" size="0.762" layer="21" rot="R90">SDA</text>
+<wire x1="47.117" y1="59.817" x2="48.26" y2="59.817" width="0.1524" layer="21"/>
+<wire x1="46.99" y1="63.3095" x2="48.26" y2="63.3095" width="0.1524" layer="21"/>
+<wire x1="47.625" y1="75.565" x2="47.625" y2="63.8175" width="0.1524" layer="21" style="shortdash"/>
+<wire x1="30.7975" y1="75.565" x2="47.625" y2="75.565" width="0.1524" layer="21" style="shortdash"/>
 </plain>
 <libraries>
 <library name="openag-capacitors">
@@ -2789,20 +2797,27 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <class number="0" name="default" width="0" drill="0">
 </class>
 </classes>
-<designrules name="openag-router">
-<description language="en">OpenAg's DRC for routing. Makes auto-trace spacing easier. Be sure to check fab house's DRC before sending out.</description>
+<designrules name="oshpark-2layer-mask">
+<description language="en">&lt;b&gt;OSH Park Design Rules&lt;/b&gt;
+&lt;p&gt;
+Please make sure your boards conform to these design rules.
+&lt;/p&gt;
+&lt;p&gt;
+Note, that not all DRC settings must be set by the manufacturer. Several can be adjusted for the design, including those listed on our docs page here. 
+&lt;a href=&quot;http://docs.oshpark.com/design-tools/eagle/design-rules-files/&quot;&gt;Adjustable Settings&lt;/a&gt;
+&lt;/p&gt;</description>
 <param name="layerSetup" value="(1*16)"/>
 <param name="mtCopper" value="0.035559375mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.0356mm 0.035559375mm"/>
 <param name="mtIsolate" value="1.6mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm 0.1499mm 0.2007mm"/>
-<param name="mdWireWire" value="12mil"/>
-<param name="mdWirePad" value="12mil"/>
-<param name="mdWireVia" value="12mil"/>
-<param name="mdPadPad" value="12mil"/>
-<param name="mdPadVia" value="12mil"/>
-<param name="mdViaVia" value="12mil"/>
-<param name="mdSmdPad" value="12mil"/>
-<param name="mdSmdVia" value="12mil"/>
-<param name="mdSmdSmd" value="12mil"/>
+<param name="mdWireWire" value="6mil"/>
+<param name="mdWirePad" value="6mil"/>
+<param name="mdWireVia" value="6mil"/>
+<param name="mdPadPad" value="6mil"/>
+<param name="mdPadVia" value="6mil"/>
+<param name="mdViaVia" value="6mil"/>
+<param name="mdSmdPad" value="6mil"/>
+<param name="mdSmdVia" value="6mil"/>
+<param name="mdSmdSmd" value="6mil"/>
 <param name="mdViaViaSameLayer" value="8mil"/>
 <param name="mnLayersViaInSmd" value="2"/>
 <param name="mdCopperDimension" value="15mil"/>
@@ -3334,8 +3349,8 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="21.59" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="21.59" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="13.97" y="89.7763" size="0.762" layer="25"/>
-<attribute name="VALUE" x="25.273" y="103.9368" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="25.273" y="103.9368" size="0.762" layer="21" rot="R180"/>
+<attribute name="VALUE" x="25.273" y="103.9368" size="0.762" layer="27" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="21.59" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="21.59" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="21.59" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
@@ -3344,8 +3359,8 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="38.1" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="38.1" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="45.72" y="90.4113" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="41.783" y="103.9368" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="41.783" y="103.9368" size="0.762" layer="21" rot="R180"/>
+<attribute name="VALUE" x="41.783" y="103.9368" size="0.762" layer="27" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="38.1" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="38.1" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="38.1" y="100.8888" size="0.762" layer="27" rot="R180" display="off"/>
@@ -3424,8 +3439,8 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MANUFACTURER" value="CUI Inc." x="78.74" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="PJ-036AH-SMT-TR" x="78.74" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="74.168" y="97.028" size="0.762" layer="21"/>
-<attribute name="VALUE" x="76.454" y="104.2162" size="0.762" layer="27"/>
 <attribute name="VALUE" x="76.454" y="104.2162" size="0.762" layer="21"/>
+<attribute name="VALUE" x="76.454" y="104.2162" size="0.762" layer="27"/>
 <attribute name="VENDOR" value="Digikey" x="78.74" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" x="78.74" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value="CP-036AHPJCT-ND" x="78.74" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3618,8 +3633,8 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MANUFACTURER" value="CUI Inc." x="86.36" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="PJ-036AH-SMT-TR" x="86.36" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="65.532" y="97.79" size="0.762" layer="21" rot="R180"/>
-<attribute name="VALUE" x="58.674" y="104.2162" size="0.762" layer="21"/>
 <attribute name="VALUE" x="58.674" y="104.2162" size="0.762" layer="27"/>
+<attribute name="VALUE" x="58.674" y="104.2162" size="0.762" layer="21"/>
 <attribute name="VENDOR" value="Digikey" x="86.36" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" x="86.36" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value="CP-036AHPJCT-ND" x="86.36" y="98.1202" size="1.778" layer="27" rot="R270" display="off"/>
@@ -3646,8 +3661,11 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MPN" value="N/A" x="51.308" y="98.298" size="1.778" layer="27" display="off"/>
 </element>
 <element name="U12" library="openag-microcontrollers" package="PHOTON" value="PHOTONH" x="7.62" y="74.295" rot="R270">
-<attribute name="POPULATE" value="YES" x="7.62" y="74.295" size="0.762" layer="27" rot="R270" display="off"/>
-<attribute name="VERIFIED" value="NO" x="7.62" y="74.295" size="0.762" layer="27" rot="R270" display="off"/>
+<attribute name="MANUFACTURER" value="Particle" x="7.62" y="74.295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="MPN" value="PHOTONH" x="7.62" y="74.295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VENDOR" value="Particle" x="7.62" y="74.295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VLINK" value="https://store.particle.io/products/photon" x="7.62" y="74.295" size="1.778" layer="27" rot="R270" display="off"/>
+<attribute name="VPN" value="PHOTONH" x="7.62" y="74.295" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
 <element name="C23" library="openag-capacitors" package="C0603" value="0.1uF" x="42.926" y="56.007" smashed="yes" rot="R90">
 <attribute name="MANUFACTURER" value="Kemet" x="42.926" y="56.007" size="1.778" layer="27" rot="R90" display="off"/>
@@ -3727,8 +3745,8 @@ Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-0
 <attribute name="MANUFACTURER" value="Recom Power" x="73.66" y="64.77" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="R-78E5.0-1.0" x="73.66" y="64.77" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="67.056" y="59.055" size="0.762" layer="25" rot="R90"/>
-<attribute name="VALUE" x="70.104" y="62.23" size="0.762" layer="27" rot="R90"/>
 <attribute name="VALUE" x="70.104" y="62.23" size="0.762" layer="21" rot="R90"/>
+<attribute name="VALUE" x="70.104" y="62.23" size="0.762" layer="27" rot="R90"/>
 <attribute name="VENDOR" value="Digikey" x="73.66" y="64.77" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="73.66" y="64.77" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VPN" value="945-2201-ND " x="73.66" y="64.77" size="0.762" layer="27" rot="R90" display="off"/>
