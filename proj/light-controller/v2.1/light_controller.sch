@@ -1734,16 +1734,16 @@ Bypass</text>
 &lt;P&gt;RJ12, RJ14 and RJ22 jacks side mounted
 http://www.tycoelectronics.com</description>
 <wire x1="8.255" y1="6.985" x2="8.255" y2="-6.985" width="0.1524" layer="21"/>
-<wire x1="8.255" y1="-6.985" x2="7.62" y2="-6.985" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="-6.985" x2="-10.795" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="8.255" y1="-6.985" x2="7.1374" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="7.1374" y1="-6.985" x2="-10.795" y2="-6.985" width="0.1524" layer="21"/>
 <wire x1="-10.795" y1="-6.985" x2="-10.795" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="-10.795" y1="6.985" x2="7.62" y2="6.985" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="8.255" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="-10.795" y1="6.985" x2="7.1374" y2="6.985" width="0.1524" layer="21"/>
+<wire x1="7.1374" y1="6.985" x2="8.255" y2="6.985" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="1.905" x2="-4.445" y2="1.905" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="0.635" x2="-4.445" y2="0.635" width="0.127" layer="21"/>
 <wire x1="-7.62" y1="-0.635" x2="-4.445" y2="-0.635" width="0.127" layer="21"/>
 <wire x1="-5.08" y1="-1.905" x2="-4.445" y2="-1.905" width="0.127" layer="21"/>
-<wire x1="7.62" y1="6.985" x2="7.62" y2="-6.985" width="0.1524" layer="21"/>
+<wire x1="7.1374" y1="6.985" x2="7.1374" y2="-6.985" width="0.1524" layer="21"/>
 <pad name="1" x="-8.89" y="-3.175" drill="0.8"/>
 <pad name="2" x="-6.35" y="-1.905" drill="0.8"/>
 <pad name="3" x="-8.89" y="-0.635" drill="0.8"/>
@@ -1774,9 +1774,9 @@ http://www.tycoelectronics.com</description>
 </package>
 <package name="RJ45-DI2C-USB-54602-908LF">
 <wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-10.112" x2="-7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-10.112" x2="7.62" y2="-10.112" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-10.112" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-9.6802" x2="-7.62" y2="10" width="0.1524" layer="21"/>
+<wire x1="-7.62" y1="-9.6802" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
+<wire x1="7.62" y1="10" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
 <wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.1524" layer="51"/>
 <wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.1524" layer="51"/>
 <wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.1524" layer="51"/>
@@ -1825,7 +1825,8 @@ http://www.tycoelectronics.com</description>
 <wire x1="0" y1="-4.4704" x2="0" y2="4.4958" width="0.1524" layer="21"/>
 <wire x1="0" y1="4.4958" x2="-13.5382" y2="4.4958" width="0.1524" layer="21"/>
 <text x="-6.096" y="-2.286" size="0.762" layer="27" rot="R90">&gt;VALUE</text>
-<wire x1="-12.954" y1="4.445" x2="-12.954" y2="-4.445" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="4.445" x2="-12.446" y2="-4.445" width="0.1524" layer="21"/>
+<circle x="-10.5" y="0" radius="1" width="0.01" layer="20"/>
 </package>
 <package name="PSOC-PROGRAMMER-22-23-2051">
 <description>.100" (2.54mm) Center Header - 5 Pin</description>
@@ -2627,26 +2628,6 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 </library>
 <library name="openag-fuses">
 <packages>
-<package name="SS">
-<smd name="1" x="-2.6289" y="0" dx="1.8034" dy="2.6416" layer="1"/>
-<smd name="2" x="2.6289" y="0" dx="1.8034" dy="2.6416" layer="1"/>
-<wire x1="-1.4224" y1="-1.4478" x2="1.4224" y2="-1.4478" width="0.1524" layer="21"/>
-<wire x1="1.4224" y1="1.4478" x2="-1.4224" y2="1.4478" width="0.1524" layer="21"/>
-<wire x1="-1.7272" y1="-1.3208" x2="-1.7272" y2="1.3208" width="0.1524" layer="51"/>
-<wire x1="-1.7272" y1="1.3208" x2="-3.175" y2="1.3208" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="-1.3208" x2="-1.7272" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="1.7272" y1="1.3208" x2="1.7272" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="1.7272" y1="-1.3208" x2="3.175" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="1.3208" x2="1.7272" y2="1.3208" width="0.1524" layer="51"/>
-<wire x1="-1.7272" y1="-1.3208" x2="1.7272" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="3.175" y1="-1.3208" x2="3.175" y2="1.3208" width="0.1524" layer="51"/>
-<wire x1="1.7272" y1="1.3208" x2="-1.7272" y2="1.3208" width="0.1524" layer="51"/>
-<wire x1="-3.175" y1="1.3208" x2="-3.175" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="-2.8448" y1="0" x2="-2.9972" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-2.9972" y1="0" x2="-2.8448" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
-</package>
 <package name="GSH15">
 <description>&lt;b&gt;FUSE HOLDER&lt;/b&gt;&lt;p&gt;
 grid 15mm, 19649 Wickmann</description>
@@ -2729,14 +2710,6 @@ grid 15mm, 19649 Wickmann</description>
 </package>
 </packages>
 <symbols>
-<symbol name="FUSE">
-<pin name="1" x="0" y="0" visible="off" length="short" direction="pas"/>
-<pin name="2" x="10.16" y="0" visible="off" length="short" direction="pas" rot="R180"/>
-<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
-<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
-<text x="-0.3302" y="-2.8956" size="1.778" layer="96" ratio="10" rot="SR0">&gt;Value</text>
-<text x="-0.2794" y="1.4224" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
-</symbol>
 <symbol name="FUSE-1">
 <wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
@@ -2750,57 +2723,6 @@ grid 15mm, 19649 Wickmann</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SST_7" prefix="F">
-<description>&lt;b&gt; FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/b&gt;
-&lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Current Rating: 7A&lt;/li&gt;
-&lt;li&gt;Voltage Rating: 125V&lt;/li&gt;
-&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
-&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://belfuse.com/resources/StewartConnector/SST.pdf"&gt;SST Type&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;
-
-&lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026"&gt;507-1072-1-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
-<gates>
-<gate name="A" symbol="FUSE" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SS">
-<connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="MANUFACTURER" value="Bel Fuse" constant="no"/>
-<attribute name="MPN" value="SST7" constant="no"/>
-<attribute name="VALUE" value="7A" constant="no"/>
-<attribute name="VENDOR" value="Digikey" constant="no"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/SST-7/507-1072-1-ND/615026" constant="no"/>
-<attribute name="VPN" value=" 507-1072-1-ND" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="GSH15" prefix="F" uservalue="yes">
 <description>&lt;strong&gt;FUSE BLOCK CART 250V 6.3A PCB&lt;/strong&gt;
 &lt;p&gt;Description:
@@ -9091,10 +9013,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="TP59" library="openag-testpads" deviceset="TP" device="TP04R"/>
 <part name="TP60" library="openag-testpads" deviceset="TP" device="TP04R"/>
 <part name="TP61" library="openag-testpads" deviceset="TP" device="TP04R"/>
-<part name="F1" library="openag-fuses" deviceset="SST_7" device="" value="7A"/>
 <part name="P+13" library="openag-supply" deviceset="+24V" device=""/>
 <part name="GND10" library="openag-supply" deviceset="GND" device=""/>
-<part name="GND11" library="openag-supply" deviceset="GND" device=""/>
 <part name="GND13" library="openag-supply" deviceset="GND" device=""/>
 <part name="C36" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
 <part name="C37" library="openag-capacitors" deviceset="4.7UF-CL21A475KBQNNNE" device="" value="4.7uF"/>
@@ -9103,8 +9023,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="D4" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608"/>
 <part name="GND14" library="openag-supply" deviceset="GND" device=""/>
 <part name="P+14" library="openag-supply" deviceset="+24V" device=""/>
-<part name="TP1" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="TP2" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="D7" library="openag-diodes" deviceset="SMAJ26A-13-F" device="" value="SMAJ26A"/>
 <part name="U$5" library="openag-frames" deviceset="HEADER" device=""/>
 <part name="U$6" library="openag-frames" deviceset="AUTHOR" device="">
@@ -9140,7 +9058,6 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="U8" library="openag-microcontrollers" deviceset="PSOC4100-CY8C4124PVI-432" device="" value="CY8C4124PVI-432"/>
 <part name="U9" library="openag-isolators" deviceset="ADM2481BRWZ-RL7" device="" value="ADM2481"/>
 <part name="J2" library="openag-connectors" deviceset="BARREL-JACK-PJ-036AH-SMT-TR" device="" value="PJ-036AH"/>
-<part name="J3" library="openag-connectors" deviceset="BARREL-JACK-PJ-036AH-SMT-TR" device="" value="PJ-036AH"/>
 <part name="J1" library="openag-connectors" deviceset="PSOC-PROGRAMMER-0022232051" device="" value="0022232051"/>
 <part name="U10" library="openag-pwm" deviceset="PCA9685PW/Q900-118" device="" value="PCA9685"/>
 <part name="U7" library="openag-dacs" deviceset="DAC5578SPW" device="" value="DAC5578"/>
@@ -9189,7 +9106,12 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="U5" library="openag-regulators" deviceset="RCD-24-0.70/VREF" device="" value="RCD-24-0.70/VREF"/>
 <part name="U6" library="openag-regulators" deviceset="RCD-24-0.70/VREF" device="" value="RCD-24-0.70/VREF"/>
 <part name="SJ1" library="openag-connectors" deviceset="EMI-BYPASS" device=""/>
-<part name="F2" library="openag-fuses" deviceset="GSH15" device="" value="GSH15"/>
+<part name="TP1" library="openag-testpads" deviceset="TP" device="TP04R"/>
+<part name="TP2" library="openag-testpads" deviceset="TP" device="TP04R"/>
+<part name="F3" library="openag-fuses" deviceset="GSH15" device="" value="GSH15"/>
+<part name="P+10" library="openag-supply" deviceset="+24V" device=""/>
+<part name="TP35" library="openag-testpads" deviceset="TP" device="TP04R"/>
+<part name="TP36" library="openag-testpads" deviceset="TP" device="TP04R"/>
 </parts>
 <sheets>
 <sheet>
@@ -9251,9 +9173,12 @@ Communication + Programming Header</text>
 <wire x1="685.8" y1="38.1" x2="685.8" y2="76.2" width="0.254" layer="97"/>
 <text x="685.8" y="78.74" size="3.81" layer="97">I2C Header</text>
 <text x="38.1" y="307.34" size="3.81" layer="97">6-Channel 24V, 700mA (per channel) Current Regulator Module w/I2C Controlled Dimming via PWM or Analog Signaling</text>
-<text x="785.876" y="69.596" size="3.81" layer="97">Changelog
-- added emi filter bypass back pads
+<text x="783.336" y="51.816" size="3.81" layer="97">Changelog
+- replaced 24v-to-5v regulator 
+   with R78E5
 - added dual i2c buffers
+- added emi filter bypass back pads
+- updated to style conventions v1.0
 - added 2u2 cap to dampen current 
    regulator resonance</text>
 <wire x1="876.3" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
@@ -9340,17 +9265,18 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="609.6" y1="190.5" x2="609.6" y2="152.4" width="0.254" layer="97" style="longdash"/>
 <wire x1="571.5" y1="190.5" x2="647.7" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <text x="619.76" y="182.88" size="3.048" layer="103">Testpads</text>
-<wire x1="723.9" y1="342.9" x2="838.2" y2="342.9" width="0.254" layer="97"/>
+<wire x1="723.9" y1="342.9" x2="800.1" y2="342.9" width="0.254" layer="97"/>
+<wire x1="800.1" y1="342.9" x2="838.2" y2="342.9" width="0.254" layer="97"/>
 <wire x1="838.2" y1="342.9" x2="838.2" y2="304.8" width="0.254" layer="97"/>
 <wire x1="838.2" y1="304.8" x2="838.2" y2="266.7" width="0.254" layer="97"/>
 <wire x1="838.2" y1="266.7" x2="800.1" y2="266.7" width="0.254" layer="97"/>
 <wire x1="800.1" y1="266.7" x2="723.9" y2="266.7" width="0.254" layer="97"/>
 <wire x1="723.9" y1="266.7" x2="723.9" y2="304.8" width="0.254" layer="97"/>
 <wire x1="723.9" y1="304.8" x2="723.9" y2="342.9" width="0.254" layer="97"/>
-<text x="759.46" y="337.82" size="3.048" layer="97">Barrel Jack Connectors</text>
-<text x="723.9" y="345.44" size="3.81" layer="97">Barrel Jack Connector Pair with 
+<text x="741.68" y="337.82" size="3.048" layer="97">Barrel Jack Connector</text>
+<text x="723.9" y="345.44" size="3.81" layer="97">Barrel Jack Connector with
 24V Conditioning + Fuse + Indicator LED</text>
-<text x="728.98" y="297.18" size="3.048" layer="97">24V Power Conditioning + Fuse</text>
+<text x="741.68" y="299.72" size="3.048" layer="97">24V Power Conditioning</text>
 <wire x1="800.1" y1="304.8" x2="838.2" y2="304.8" width="0.254" layer="97" style="longdash"/>
 <wire x1="800.1" y1="266.7" x2="800.1" y2="304.8" width="0.254" layer="97" style="longdash"/>
 <wire x1="800.1" y1="304.8" x2="723.9" y2="304.8" width="0.254" layer="97" style="longdash"/>
@@ -9377,6 +9303,10 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="228.6" y1="190.5" x2="266.7" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <wire x1="228.6" y1="228.6" x2="228.6" y2="190.5" width="0.254" layer="97" style="longdash"/>
 <text x="233.68" y="220.98" size="3.048" layer="97">DAC HW Enable</text>
+<text x="810.26" y="335.28" size="3.048" layer="97">Testpads</text>
+<wire x1="800.1" y1="342.9" x2="800.1" y2="304.8" width="0.254" layer="97" style="longdash"/>
+<text x="769.62" y="314.96" size="1.778" layer="97">Note:
+ - Barrel jack rated for 5A</text>
 </plain>
 <instances>
 <instance part="P+1" gate="1" x="63.5" y="276.86"/>
@@ -9581,21 +9511,17 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="TP59" gate="G$1" x="632.46" y="167.64" rot="R180"/>
 <instance part="TP60" gate="G$1" x="632.46" y="177.8" rot="R180"/>
 <instance part="TP61" gate="G$1" x="632.46" y="170.18" rot="R180"/>
-<instance part="F1" gate="A" x="741.68" y="281.94"/>
-<instance part="P+13" gate="1" x="795.02" y="297.18"/>
-<instance part="GND10" gate="1" x="759.46" y="271.78"/>
-<instance part="GND11" gate="1" x="822.96" y="309.88"/>
-<instance part="GND13" gate="1" x="764.54" y="309.88"/>
-<instance part="C36" gate="G$1" x="769.62" y="284.48"/>
-<instance part="C37" gate="A" x="779.78" y="284.48"/>
-<instance part="C43" gate="G$1" x="789.94" y="284.48"/>
+<instance part="P+13" gate="1" x="746.76" y="294.64"/>
+<instance part="GND10" gate="1" x="746.76" y="271.78"/>
+<instance part="GND13" gate="1" x="767.08" y="309.88"/>
+<instance part="C36" gate="G$1" x="756.92" y="284.48"/>
+<instance part="C37" gate="A" x="767.08" y="284.48"/>
+<instance part="C43" gate="G$1" x="777.24" y="284.48"/>
 <instance part="R11" gate="G$1" x="825.5" y="284.48"/>
 <instance part="D4" gate="G$1" x="815.34" y="284.48" rot="R270"/>
 <instance part="GND14" gate="1" x="807.72" y="276.86"/>
 <instance part="P+14" gate="1" x="833.12" y="292.1"/>
-<instance part="TP1" gate="G$1" x="789.94" y="274.32" rot="R180"/>
-<instance part="TP2" gate="G$1" x="784.86" y="289.56" rot="R270"/>
-<instance part="D7" gate="A" x="759.46" y="284.48" rot="R90"/>
+<instance part="D7" gate="A" x="746.76" y="284.48" rot="R90"/>
 <instance part="U$5" gate="G$1" x="840.74" y="33.02"/>
 <instance part="U$6" gate="G$1" x="840.74" y="5.08"/>
 <instance part="U$7" gate="G$1" x="840.74" y="20.32"/>
@@ -9623,8 +9549,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="TP34" gate="G$1" x="330.2" y="81.28" rot="R180"/>
 <instance part="U8" gate="A" x="728.98" y="195.58"/>
 <instance part="U9" gate="G$1" x="421.64" y="55.88"/>
-<instance part="J2" gate="G$1" x="746.76" y="317.5"/>
-<instance part="J3" gate="G$1" x="805.18" y="317.5"/>
+<instance part="J2" gate="G$1" x="749.3" y="317.5"/>
 <instance part="J1" gate="G$1" x="805.18" y="127"/>
 <instance part="U10" gate="G$1" x="312.42" y="167.64"/>
 <instance part="U7" gate="G$1" x="254" y="256.54"/>
@@ -9673,7 +9598,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="U5" gate="G$1" x="144.78" y="114.3"/>
 <instance part="U6" gate="G$1" x="144.78" y="76.2"/>
 <instance part="SJ1" gate="1" x="609.6" y="292.1"/>
-<instance part="F2" gate="1" x="746.76" y="289.56"/>
+<instance part="TP1" gate="G$1" x="822.96" y="327.66" rot="R180"/>
+<instance part="TP2" gate="G$1" x="822.96" y="322.58" rot="R180"/>
+<instance part="F3" gate="1" x="772.16" y="325.12"/>
+<instance part="P+10" gate="1" x="779.78" y="332.74"/>
+<instance part="TP35" gate="G$1" x="822.96" y="325.12" rot="R180"/>
+<instance part="TP36" gate="G$1" x="822.96" y="330.2" rot="R180"/>
 </instances>
 <busses>
 </busses>
@@ -9813,33 +9743,6 @@ w/Optional EMI Filter + Indicator LED</text>
 <label x="662.94" y="289.56" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<wire x1="789.94" y1="289.56" x2="789.94" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="779.78" y1="289.56" x2="779.78" y2="287.02" width="0.1524" layer="91"/>
-<junction x="779.78" y="289.56"/>
-<wire x1="751.84" y1="289.56" x2="759.46" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="759.46" y1="289.56" x2="769.62" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="769.62" y1="289.56" x2="779.78" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="789.94" y1="289.56" x2="784.86" y2="287.02" width="0.1524" layer="91"/>
-<wire x1="784.86" y1="287.02" x2="779.78" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="769.62" y1="287.02" x2="769.62" y2="289.56" width="0.1524" layer="91"/>
-<junction x="769.62" y="289.56"/>
-<pinref part="F1" gate="A" pin="2"/>
-<wire x1="751.84" y1="281.94" x2="751.84" y2="289.56" width="0.1524" layer="91"/>
-<pinref part="P+13" gate="1" pin="+24V"/>
-<wire x1="789.94" y1="289.56" x2="795.02" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="795.02" y1="289.56" x2="795.02" y2="294.64" width="0.1524" layer="91"/>
-<junction x="789.94" y="289.56"/>
-<pinref part="C36" gate="G$1" pin="1"/>
-<pinref part="C37" gate="A" pin="1"/>
-<pinref part="C43" gate="G$1" pin="1"/>
-<pinref part="TP2" gate="G$1" pin="TP"/>
-<junction x="784.86" y="287.02"/>
-<pinref part="D7" gate="A" pin="P$2"/>
-<junction x="759.46" y="289.56"/>
-<pinref part="F2" gate="1" pin="2"/>
-<junction x="751.84" y="289.56"/>
-</segment>
-<segment>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="P+14" gate="1" pin="+24V"/>
 <wire x1="830.58" y1="284.48" x2="833.12" y2="284.48" width="0.1524" layer="91" style="longdash"/>
@@ -9849,6 +9752,37 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="TP12" gate="G$1" pin="TP"/>
 <wire x1="327.66" y1="86.36" x2="325.12" y2="86.36" width="0.1524" layer="91"/>
 <label x="325.12" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+</segment>
+<segment>
+<pinref part="TP1" gate="G$1" pin="TP"/>
+<wire x1="820.42" y1="327.66" x2="817.88" y2="327.66" width="0.1524" layer="91"/>
+<label x="817.88" y="327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP36" gate="G$1" pin="TP"/>
+<wire x1="820.42" y1="330.2" x2="820.42" y2="327.66" width="0.1524" layer="91" style="longdash"/>
+<junction x="820.42" y="327.66"/>
+</segment>
+<segment>
+<wire x1="777.24" y1="289.56" x2="777.24" y2="287.02" width="0.1524" layer="91"/>
+<pinref part="C43" gate="G$1" pin="1"/>
+<wire x1="767.08" y1="289.56" x2="767.08" y2="287.02" width="0.1524" layer="91"/>
+<wire x1="746.76" y1="289.56" x2="756.92" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="289.56" x2="767.08" y2="289.56" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="287.02" x2="756.92" y2="289.56" width="0.1524" layer="91"/>
+<junction x="756.92" y="289.56"/>
+<pinref part="C36" gate="G$1" pin="1"/>
+<pinref part="C37" gate="A" pin="1"/>
+<pinref part="D7" gate="A" pin="P$2"/>
+<wire x1="777.24" y1="289.56" x2="767.08" y2="289.56" width="0.1524" layer="91"/>
+<junction x="767.08" y="289.56"/>
+<pinref part="P+13" gate="1" pin="+24V"/>
+<wire x1="746.76" y1="292.1" x2="746.76" y2="289.56" width="0.1524" layer="91"/>
+<junction x="746.76" y="289.56"/>
+</segment>
+<segment>
+<pinref part="F3" gate="1" pin="2"/>
+<pinref part="P+10" gate="1" pin="+24V"/>
+<wire x1="777.24" y1="325.12" x2="779.78" y2="325.12" width="0.1524" layer="91"/>
+<wire x1="779.78" y1="325.12" x2="779.78" y2="330.2" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VIN1" class="0">
@@ -10253,38 +10187,28 @@ w/Optional EMI Filter + Indicator LED</text>
 <junction x="629.92" y="167.64"/>
 </segment>
 <segment>
-<wire x1="820.42" y1="312.42" x2="822.96" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="820.42" y1="312.42" x2="820.42" y2="317.5" width="0.1524" layer="91"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="2"/>
-<junction x="820.42" y="312.42"/>
-<pinref part="J3" gate="G$1" pin="3"/>
-</segment>
-<segment>
-<wire x1="762" y1="312.42" x2="764.54" y2="312.42" width="0.1524" layer="91"/>
-<wire x1="762" y1="312.42" x2="762" y2="317.5" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="312.42" x2="767.08" y2="312.42" width="0.1524" layer="91"/>
+<wire x1="764.54" y1="312.42" x2="764.54" y2="317.5" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
 <pinref part="J2" gate="G$1" pin="2"/>
-<junction x="762" y="312.42"/>
+<junction x="764.54" y="312.42"/>
 <pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="759.46" y1="276.86" x2="759.46" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="769.62" y1="274.32" x2="769.62" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="769.62" y1="274.32" x2="779.78" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="779.78" y1="274.32" x2="779.78" y2="279.4" width="0.1524" layer="91"/>
-<wire x1="779.78" y1="274.32" x2="787.4" y2="274.32" width="0.1524" layer="91"/>
-<wire x1="787.4" y1="274.32" x2="789.94" y2="279.4" width="0.1524" layer="91"/>
-<junction x="779.78" y="274.32"/>
-<wire x1="769.62" y1="274.32" x2="759.46" y2="274.32" width="0.1524" layer="91"/>
-<junction x="769.62" y="274.32"/>
-<junction x="759.46" y="274.32"/>
+<wire x1="746.76" y1="276.86" x2="746.76" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="274.32" x2="756.92" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="756.92" y1="274.32" x2="767.08" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="274.32" x2="767.08" y2="279.4" width="0.1524" layer="91"/>
+<wire x1="767.08" y1="274.32" x2="777.24" y2="274.32" width="0.1524" layer="91"/>
+<wire x1="777.24" y1="274.32" x2="777.24" y2="279.4" width="0.1524" layer="91"/>
+<junction x="767.08" y="274.32"/>
+<wire x1="756.92" y1="274.32" x2="746.76" y2="274.32" width="0.1524" layer="91"/>
+<junction x="756.92" y="274.32"/>
+<junction x="746.76" y="274.32"/>
 <pinref part="C36" gate="G$1" pin="2"/>
 <pinref part="C37" gate="A" pin="2"/>
 <pinref part="C43" gate="G$1" pin="2"/>
-<pinref part="TP1" gate="G$1" pin="TP"/>
-<junction x="787.4" y="274.32"/>
 <pinref part="D7" gate="A" pin="P$1"/>
 </segment>
 <segment>
@@ -10346,6 +10270,14 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="GND16" gate="1" pin="GND"/>
 <wire x1="203.2" y1="203.2" x2="200.66" y2="203.2" width="0.1524" layer="91" style="longdash"/>
 <wire x1="200.66" y1="203.2" x2="200.66" y2="200.66" width="0.1524" layer="91" style="longdash"/>
+</segment>
+<segment>
+<pinref part="TP2" gate="G$1" pin="TP"/>
+<wire x1="820.42" y1="322.58" x2="817.88" y2="322.58" width="0.1524" layer="91"/>
+<label x="817.88" y="322.58" size="1.27" layer="95" rot="R180" xref="yes"/>
+<pinref part="TP35" gate="G$1" pin="TP"/>
+<wire x1="820.42" y1="325.12" x2="820.42" y2="322.58" width="0.1524" layer="91" style="longdash"/>
+<junction x="820.42" y="322.58"/>
 </segment>
 </net>
 <net name="VIN2" class="0">
@@ -11858,33 +11790,18 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="U12" gate="G$1" pin="DSCLM"/>
 </segment>
 </net>
-<net name="24V_IN" class="0">
-<segment>
-<wire x1="762" y1="325.12" x2="764.54" y2="325.12" width="0.1524" layer="91"/>
-<label x="764.54" y="325.12" size="1.016" layer="95" xref="yes"/>
-<pinref part="J2" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="820.42" y1="325.12" x2="822.96" y2="325.12" width="0.1524" layer="91"/>
-<label x="822.96" y="325.12" size="1.016" layer="95" xref="yes"/>
-<pinref part="J3" gate="G$1" pin="1"/>
-</segment>
-<segment>
-<wire x1="741.68" y1="289.56" x2="739.14" y2="289.56" width="0.1524" layer="91"/>
-<wire x1="739.14" y1="289.56" x2="739.14" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="F1" gate="A" pin="1"/>
-<wire x1="739.14" y1="281.94" x2="741.68" y2="281.94" width="0.1524" layer="91"/>
-<wire x1="739.14" y1="289.56" x2="736.6" y2="289.56" width="0.1524" layer="91"/>
-<junction x="739.14" y="289.56"/>
-<label x="736.6" y="289.56" size="1.778" layer="95" rot="R180" xref="yes"/>
-<pinref part="F2" gate="1" pin="1"/>
-</segment>
-</net>
 <net name="N$4" class="0">
 <segment>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="820.42" y1="284.48" x2="817.88" y2="284.48" width="0.1524" layer="91" style="longdash"/>
+</segment>
+</net>
+<net name="24V_IN" class="0">
+<segment>
+<pinref part="J2" gate="G$1" pin="1"/>
+<pinref part="F3" gate="1" pin="1"/>
+<wire x1="764.54" y1="325.12" x2="767.08" y2="325.12" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
