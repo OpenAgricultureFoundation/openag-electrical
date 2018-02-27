@@ -295,7 +295,7 @@
 <wire x1="1.651" y1="1.016" x2="2.286" y2="-1.016" width="0.2032" layer="94"/>
 <wire x1="2.286" y1="-1.016" x2="2.54" y2="0" width="0.2032" layer="94"/>
 <text x="-1.27" y="1.4986" size="1.778" layer="95">&gt;NAME</text>
-<text x="-3.81" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-2.54" y="-3.556" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
 </symbol>
@@ -702,16 +702,18 @@
 <text x="-0.762" y="-1.016" size="0.0254" layer="27">&gt;VALUE</text>
 <text x="0" y="-2.54" size="1" layer="37">&gt;TP_SIGNAL_NAME</text>
 </package>
+<package name="TP04R">
+<smd name="1" x="0" y="0" dx="0.4" dy="0.4" layer="1" roundness="100"/>
+</package>
 </packages>
 <symbols>
 <symbol name="TP">
-<wire x1="-0.762" y1="-0.762" x2="0" y2="0" width="0.254" layer="94"/>
-<wire x1="0" y1="0" x2="0.762" y2="-0.762" width="0.254" layer="94"/>
-<wire x1="0.762" y1="-0.762" x2="0" y2="-1.524" width="0.254" layer="94"/>
-<wire x1="0" y1="-1.524" x2="-0.762" y2="-0.762" width="0.254" layer="94"/>
-<text x="-1.27" y="1.27" size="1.778" layer="95">&gt;NAME</text>
-<text x="1.27" y="-1.27" size="1.778" layer="97">&gt;TP_SIGNAL_NAME</text>
-<pin name="TP" x="0" y="-2.54" visible="off" length="short" direction="in" rot="R90"/>
+<wire x1="-1.778" y1="-0.762" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-1.778" y2="0.762" width="0.254" layer="94"/>
+<wire x1="-1.778" y1="0.762" x2="-1.016" y2="0" width="0.254" layer="94"/>
+<wire x1="-1.016" y1="0" x2="-1.778" y2="-0.762" width="0.254" layer="94"/>
+<text x="-3.81" y="0" size="1.27" layer="95" rot="R180" align="center-left">&gt;NAME</text>
+<pin name="TP" x="0" y="0" visible="off" length="short" direction="in" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -749,6 +751,14 @@
 <technology name="">
 <attribute name="TP_SIGNAL_NAME" value="" constant="no"/>
 </technology>
+</technologies>
+</device>
+<device name="TP04R" package="TP04R">
+<connects>
+<connect gate="G$1" pin="TP" pad="1"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>
@@ -1316,8 +1326,8 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <circle x="-0.35" y="0.625" radius="0.075" width="0.0508" layer="51"/>
 <smd name="C" x="0" y="0.75" dx="0.8" dy="0.8" layer="1"/>
 <smd name="A" x="0" y="-0.75" dx="0.8" dy="0.8" layer="1"/>
-<text x="-0.635" y="-1.27" size="1.27" layer="25" rot="R90">&gt;NAME</text>
-<text x="-2.413" y="-1.651" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
+<text x="-0.508" y="1.397" size="0.762" layer="25">&gt;NAME</text>
+<text x="-0.635" y="-1.651" size="0.635" layer="27" rot="R90">&gt;VALUE</text>
 <rectangle x1="-0.45" y1="0.7" x2="-0.25" y2="0.85" layer="51"/>
 <rectangle x1="-0.275" y1="0.55" x2="-0.225" y2="0.6" layer="51"/>
 <rectangle x1="-0.45" y1="0.35" x2="-0.4" y2="0.725" layer="51"/>
@@ -1452,7 +1462,7 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <technologies>
 <technology name="">
 <attribute name="POPULATE" value="YES" constant="no"/>
-<attribute name="VALUE" value="APT1608CGCK" constant="no"/>
+<attribute name="VALUE" value="APT1608" constant="no"/>
 <attribute name="VERIFIED" value="NO" constant="no"/>
 </technology>
 </technologies>
@@ -1572,6 +1582,14 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-1.9" y="-0.992" size="0.635" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.4" y="-1.7" size="0.635" layer="27" rot="R90">&gt;VALUE</text>
 <circle x="-2.032" y="-1.778" radius="0.254" width="0.508" layer="21"/>
+<polygon width="0.1524" layer="31">
+<vertex x="1.2192" y="-0.6858"/>
+<vertex x="-0.9144" y="-0.6858"/>
+<vertex x="-1.143" y="-0.4572"/>
+<vertex x="-1.143" y="0.6858"/>
+<vertex x="1.2192" y="0.6858"/>
+</polygon>
+<rectangle x1="-1.27" y1="-0.8382" x2="1.3462" y2="0.8382" layer="29"/>
 </package>
 <package name="SHT2X">
 <smd name="1" x="-1" y="-1.4" dx="0.3" dy="0.4" layer="1" rot="R180"/>
@@ -1582,65 +1600,12 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <smd name="6" x="-1" y="1.4" dx="0.3" dy="0.4" layer="1" rot="R180"/>
 <smd name="7" x="0" y="0" dx="1.27" dy="1.651" layer="1" rot="R270"/>
 <polygon width="0.1524" layer="1">
-<vertex x="-1.2" y="1.7"/>
-<vertex x="-0.8" y="1.7"/>
-<vertex x="-0.8" y="1.2"/>
-<vertex x="-0.9" y="1.1254"/>
-<vertex x="-1.1" y="1.1254"/>
-<vertex x="-1.2" y="1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="-0.2" y="1.7"/>
-<vertex x="0.2" y="1.7"/>
-<vertex x="0.2" y="1.2"/>
-<vertex x="0.1" y="1.1254"/>
-<vertex x="-0.1" y="1.1254"/>
-<vertex x="-0.2" y="1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="0.8" y="1.7"/>
-<vertex x="1.2" y="1.7"/>
-<vertex x="1.2" y="1.2"/>
-<vertex x="1.1" y="1.1254"/>
-<vertex x="0.9" y="1.1254"/>
-<vertex x="0.8" y="1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="-0.8" y="-1.7"/>
-<vertex x="-1.2" y="-1.7"/>
-<vertex x="-1.2" y="-1.2"/>
-<vertex x="-1.1" y="-1.1254"/>
-<vertex x="-0.9" y="-1.1254"/>
-<vertex x="-0.8" y="-1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="0.2" y="-1.7"/>
-<vertex x="-0.2" y="-1.7"/>
-<vertex x="-0.2" y="-1.2"/>
-<vertex x="-0.1" y="-1.1254"/>
-<vertex x="0.1" y="-1.1254"/>
-<vertex x="0.2" y="-1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
-<vertex x="1.2" y="-1.7"/>
-<vertex x="0.8" y="-1.7"/>
-<vertex x="0.8" y="-1.2"/>
-<vertex x="0.9" y="-1.1254"/>
-<vertex x="1.1" y="-1.1254"/>
-<vertex x="1.2" y="-1.2"/>
-</polygon>
-<polygon width="0.1524" layer="1">
 <vertex x="-1.0484" y="0.6492"/>
 <vertex x="1.0484" y="0.6492"/>
 <vertex x="1.0484" y="-0.6492"/>
 <vertex x="-0.8492" y="-0.6492"/>
 <vertex x="-1.0484" y="-0.45"/>
 </polygon>
-<wire x1="1.2" y1="0.75" x2="-1.2" y2="0.75" width="0.01" layer="41"/>
-<wire x1="-1.2" y1="0.75" x2="-1.2" y2="-0.5" width="0.01" layer="41"/>
-<wire x1="-1.2" y1="-0.5" x2="-0.95" y2="-0.75" width="0.01" layer="41"/>
-<wire x1="-0.95" y1="-0.75" x2="1.2" y2="-0.75" width="0.01" layer="41"/>
-<wire x1="1.2" y1="-0.75" x2="1.2" y2="0.75" width="0.01" layer="41"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.4" y2="-1.5" width="0.1524" layer="21"/>
 <wire x1="-1.5" y1="-1.5" x2="-1.5" y2="1.5" width="0.1524" layer="21"/>
 <wire x1="-1.5" y1="1.5" x2="-1.4" y2="1.5" width="0.1524" layer="21"/>
@@ -1654,6 +1619,123 @@ Source: http://www.osram.convergy.de/ ... LG_LY Q971.pdf</description>
 <text x="-1.778" y="-1.27" size="0.635" layer="25" rot="R90">&gt;NAME</text>
 <text x="2.54" y="-1.524" size="0.635" layer="27" rot="R90">&gt;VALUE</text>
 <circle x="-2.032" y="-2.032" radius="0.254" width="0.508" layer="21"/>
+<polygon width="0.1524" layer="1">
+<vertex x="-1.1938" y="1.7018"/>
+<vertex x="-0.8128" y="1.7018"/>
+<vertex x="-0.8128" y="1.1938"/>
+<vertex x="-0.889" y="1.1176"/>
+<vertex x="-1.0922" y="1.1176"/>
+<vertex x="-1.1938" y="1.2192"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.0922" y="1.1176"/>
+<vertex x="-1.1938" y="1.2192"/>
+<vertex x="-1.1938" y="1.7018"/>
+<vertex x="-0.8128" y="1.7018"/>
+<vertex x="-0.8128" y="1.1938"/>
+<vertex x="-0.889" y="1.1176"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.1016" y="1.1176"/>
+<vertex x="-0.2032" y="1.2192"/>
+<vertex x="-0.2032" y="1.7018"/>
+<vertex x="0.2032" y="1.7018"/>
+<vertex x="0.2032" y="1.2192"/>
+<vertex x="0.1016" y="1.1176"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.7874" y="1.7018"/>
+<vertex x="1.2192" y="1.7018"/>
+<vertex x="1.2192" y="1.2192"/>
+<vertex x="1.1176" y="1.1176"/>
+<vertex x="0.889" y="1.1176"/>
+<vertex x="0.7874" y="1.2192"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.0668" y="0.6604"/>
+<vertex x="1.0668" y="0.6604"/>
+<vertex x="1.0668" y="-0.6604"/>
+<vertex x="-0.8636" y="-0.6604"/>
+<vertex x="-1.0668" y="-0.4572"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-1.2192" y="-1.7018"/>
+<vertex x="-0.7874" y="-1.7018"/>
+<vertex x="-0.7874" y="-1.2192"/>
+<vertex x="-0.889" y="-1.1176"/>
+<vertex x="-1.0922" y="-1.1176"/>
+<vertex x="-1.143" y="-1.1176"/>
+<vertex x="-1.2192" y="-1.1938"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="-0.2032" y="-1.7018"/>
+<vertex x="0.2032" y="-1.7018"/>
+<vertex x="0.2032" y="-1.1938"/>
+<vertex x="0.127" y="-1.1176"/>
+<vertex x="-0.1016" y="-1.1176"/>
+<vertex x="-0.127" y="-1.1176"/>
+<vertex x="-0.2032" y="-1.1938"/>
+</polygon>
+<polygon width="0.1524" layer="31">
+<vertex x="0.7874" y="-1.7018"/>
+<vertex x="1.2192" y="-1.7018"/>
+<vertex x="1.2192" y="-1.1938"/>
+<vertex x="1.1176" y="-1.0922"/>
+<vertex x="0.9144" y="-1.0922"/>
+<vertex x="0.889" y="-1.0922"/>
+<vertex x="0.7874" y="-1.1938"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-0.1016" y="1.1176"/>
+<vertex x="0.1016" y="1.1176"/>
+<vertex x="0.2032" y="1.2192"/>
+<vertex x="0.2032" y="1.7018"/>
+<vertex x="-0.2032" y="1.7018"/>
+<vertex x="-0.2032" y="1.2192"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="0.889" y="1.1176"/>
+<vertex x="1.1176" y="1.1176"/>
+<vertex x="1.2192" y="1.2192"/>
+<vertex x="1.2192" y="1.7018"/>
+<vertex x="0.7874" y="1.7018"/>
+<vertex x="0.7874" y="1.2192"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-0.7874" y="-1.7018"/>
+<vertex x="-0.7874" y="-1.2192"/>
+<vertex x="-0.889" y="-1.1176"/>
+<vertex x="-1.143" y="-1.1176"/>
+<vertex x="-1.2192" y="-1.1938"/>
+<vertex x="-1.2192" y="-1.7018"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="-0.2032" y="-1.7018"/>
+<vertex x="0.2032" y="-1.7018"/>
+<vertex x="0.2032" y="-1.1938"/>
+<vertex x="0.127" y="-1.1176"/>
+<vertex x="-0.127" y="-1.1176"/>
+<vertex x="-0.2032" y="-1.1938"/>
+</polygon>
+<polygon width="0.1524" layer="1">
+<vertex x="0.7874" y="-1.7018"/>
+<vertex x="0.7874" y="-1.1938"/>
+<vertex x="0.889" y="-1.0922"/>
+<vertex x="1.1176" y="-1.0922"/>
+<vertex x="1.2192" y="-1.1938"/>
+<vertex x="1.2192" y="-1.7018"/>
+</polygon>
+<wire x1="1.2192" y1="-0.8128" x2="1.2192" y2="0.8128" width="0.0254" layer="41"/>
+<wire x1="1.2192" y1="0.8128" x2="-1.2192" y2="0.8128" width="0.0254" layer="41"/>
+<wire x1="-1.2192" y1="0.8128" x2="-1.2192" y2="-0.8128" width="0.0254" layer="41"/>
+<wire x1="1.2192" y1="-0.8128" x2="-1.2192" y2="-0.8128" width="0.0254" layer="41"/>
+<rectangle x1="-1.3462" y1="-1.8288" x2="-0.6604" y2="-0.9906" layer="29"/>
+<rectangle x1="-0.3302" y1="-1.8288" x2="0.3302" y2="-0.9906" layer="29"/>
+<rectangle x1="0.6604" y1="-1.8288" x2="1.3462" y2="-0.9652" layer="29"/>
+<rectangle x1="-1.3208" y1="0.9906" x2="-0.6858" y2="1.8288" layer="29"/>
+<rectangle x1="-0.3302" y1="0.9906" x2="0.3302" y2="1.8288" layer="29"/>
+<rectangle x1="0.6604" y1="0.9906" x2="1.3462" y2="1.8288" layer="29"/>
+<rectangle x1="-1.1938" y1="-0.7874" x2="1.1938" y2="0.7874" layer="29"/>
 </package>
 <package name="T6713">
 <pad name="6" x="1.27" y="-13.97" drill="1.016" shape="long" rot="R180"/>
@@ -7685,11 +7767,11 @@ Cambridge, MA</text>
 <wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
 <wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
 <wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
 <smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1" cream="no"/>
 <text x="-1.651" y="1.143" size="0.8128" layer="25" ratio="10">&gt;NAME</text>
 <text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
+<rectangle x1="-1.4732" y1="-0.9144" x2="1.4732" y2="0.9144" layer="29"/>
 </package>
 </packages>
 <symbols>
@@ -8203,7 +8285,7 @@ Cambridge, MA</text>
 <attribute name="TITLE" value="Air Sensor Node"/>
 <attribute name="URL" value="github.com/OpenAgInitiative/openag_eagle/proj/sensor-nodes"/>
 </part>
-<part name="D1" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
+<part name="D1" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608"/>
 <part name="R2" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="GND5" library="openag-supply" deviceset="GND" device=""/>
 <part name="U4" library="openag-regulators" deviceset="LM2937IMP-3.3/NOPB" device="" value="LM2937IMP3.3NOPB"/>
@@ -8257,7 +8339,7 @@ Cambridge, MA</text>
 <part name="P+4" library="openag-supply" deviceset="+24V" device=""/>
 <part name="P+5" library="openag-supply" deviceset="+5V" device=""/>
 <part name="R7" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
-<part name="D5" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
+<part name="D5" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608"/>
 <part name="TP5" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP6" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP7" library="openag-testpads" deviceset="TP" device="TP06R"/>
@@ -8348,19 +8430,19 @@ w/Indicator LED + Enable</text>
 <instance part="GND14" gate="1" x="63.5" y="91.44"/>
 <instance part="+3V8" gate="G$1" x="55.88" y="137.16"/>
 <instance part="C8" gate="G$1" x="55.88" y="101.6"/>
-<instance part="TP13" gate="G$1" x="50.8" y="121.92"/>
-<instance part="TP14" gate="G$1" x="50.8" y="111.76" rot="R180"/>
+<instance part="TP13" gate="G$1" x="50.8" y="119.38" rot="R270"/>
+<instance part="TP14" gate="G$1" x="50.8" y="114.3" rot="R90"/>
 <instance part="TP15" gate="G$1" x="106.68" y="93.98" rot="R270"/>
-<instance part="TP16" gate="G$1" x="106.68" y="119.38" rot="R270"/>
+<instance part="TP16" gate="G$1" x="104.14" y="119.38" rot="R180"/>
 <instance part="U8" gate="G$1" x="76.2" y="20.32"/>
 <instance part="+3V10" gate="G$1" x="53.34" y="30.48" smashed="yes">
 <attribute name="VALUE" x="50.8" y="27.94" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="GND16" gate="1" x="53.34" y="15.24"/>
 <instance part="C10" gate="G$1" x="55.88" y="22.86"/>
-<instance part="TP21" gate="G$1" x="93.98" y="27.94"/>
-<instance part="TP22" gate="G$1" x="93.98" y="20.32"/>
-<instance part="TP23" gate="G$1" x="50.8" y="25.4" rot="R90"/>
+<instance part="TP21" gate="G$1" x="93.98" y="25.4" rot="R270"/>
+<instance part="TP22" gate="G$1" x="93.98" y="17.78" rot="R270"/>
+<instance part="TP23" gate="G$1" x="53.34" y="25.4"/>
 <instance part="TP24" gate="G$1" x="50.8" y="17.78" rot="R90"/>
 <instance part="U5" gate="G$1" x="187.96" y="17.78"/>
 <instance part="GND4" gate="1" x="172.72" y="10.16"/>
@@ -8368,18 +8450,18 @@ w/Indicator LED + Enable</text>
 <attribute name="VALUE" x="170.18" y="25.4" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="C2" gate="G$1" x="172.72" y="20.32"/>
-<instance part="TP17" gate="G$1" x="203.2" y="25.4"/>
-<instance part="TP18" gate="G$1" x="203.2" y="15.24"/>
-<instance part="TP19" gate="G$1" x="170.18" y="12.7" rot="R90"/>
-<instance part="TP20" gate="G$1" x="170.18" y="22.86" rot="R90"/>
+<instance part="TP17" gate="G$1" x="203.2" y="22.86" rot="R270"/>
+<instance part="TP18" gate="G$1" x="203.2" y="12.7" rot="R270"/>
+<instance part="TP19" gate="G$1" x="172.72" y="12.7"/>
+<instance part="TP20" gate="G$1" x="172.72" y="22.86"/>
 <instance part="U7" gate="G$1" x="160.02" y="119.38"/>
 <instance part="GND11" gate="1" x="180.34" y="96.52"/>
 <instance part="C7" gate="G$1" x="180.34" y="119.38"/>
 <instance part="+3V6" gate="G$1" x="198.12" y="129.54"/>
-<instance part="TP25" gate="G$1" x="185.42" y="139.7"/>
-<instance part="TP26" gate="G$1" x="185.42" y="132.08"/>
-<instance part="TP27" gate="G$1" x="200.66" y="121.92" rot="R270"/>
-<instance part="TP28" gate="G$1" x="182.88" y="99.06" rot="R270"/>
+<instance part="TP25" gate="G$1" x="185.42" y="137.16" rot="R270"/>
+<instance part="TP26" gate="G$1" x="185.42" y="129.54" rot="R270"/>
+<instance part="TP27" gate="G$1" x="198.12" y="121.92" rot="R180"/>
+<instance part="TP28" gate="G$1" x="180.34" y="99.06" rot="R180"/>
 <instance part="FRAME1" gate="G$1" x="190.5" y="-114.3"/>
 <instance part="D1" gate="G$1" x="-55.88" y="-63.5" rot="R270"/>
 <instance part="R2" gate="G$1" x="-38.1" y="-63.5"/>
@@ -8391,9 +8473,9 @@ w/Indicator LED + Enable</text>
 <instance part="SJ3" gate="1" x="-116.84" y="-63.5"/>
 <instance part="F2" gate="A" x="-40.64" y="-22.86"/>
 <instance part="+3V3" gate="G$1" x="-104.14" y="-55.88"/>
-<instance part="TP4" gate="G$1" x="-116.84" y="-30.48" rot="R90"/>
-<instance part="TP29" gate="G$1" x="-114.3" y="-17.78"/>
-<instance part="TP30" gate="G$1" x="-101.6" y="-63.5" rot="R270"/>
+<instance part="TP4" gate="G$1" x="-114.3" y="-30.48"/>
+<instance part="TP29" gate="G$1" x="-114.3" y="-20.32" rot="R270"/>
+<instance part="TP30" gate="G$1" x="-104.14" y="-63.5" rot="R180"/>
 <instance part="P+1" gate="1" x="-121.92" y="-12.7"/>
 <instance part="U2" gate="G$1" x="-88.9" y="78.74"/>
 <instance part="R13" gate="G$1" x="-17.78" y="88.9" rot="R90"/>
@@ -8417,12 +8499,12 @@ w/Indicator LED + Enable</text>
 <instance part="J2" gate="G$1" x="-45.72" y="127"/>
 <instance part="P+13" gate="1" x="-63.5" y="142.24"/>
 <instance part="GND18" gate="1" x="-58.42" y="116.84"/>
-<instance part="TP8" gate="G$1" x="-134.62" y="73.66" rot="R180"/>
-<instance part="TP9" gate="G$1" x="-121.92" y="78.74" rot="R180"/>
-<instance part="TP32" gate="G$1" x="-114.3" y="83.82" rot="R90"/>
-<instance part="TP33" gate="G$1" x="-116.84" y="68.58" rot="R90"/>
-<instance part="TP34" gate="G$1" x="-38.1" y="91.44" rot="R270"/>
-<instance part="TP35" gate="G$1" x="-134.62" y="134.62" rot="R180"/>
+<instance part="TP8" gate="G$1" x="-134.62" y="76.2" rot="R90"/>
+<instance part="TP9" gate="G$1" x="-121.92" y="81.28" rot="R90"/>
+<instance part="TP32" gate="G$1" x="-111.76" y="83.82"/>
+<instance part="TP33" gate="G$1" x="-114.3" y="68.58"/>
+<instance part="TP34" gate="G$1" x="-40.64" y="91.44" rot="R180"/>
+<instance part="TP35" gate="G$1" x="-134.62" y="137.16" rot="R90"/>
 <instance part="J1" gate="G$1" x="-116.84" y="127"/>
 <instance part="C4" gate="G$1" x="43.18" y="-50.8"/>
 <instance part="C5" gate="G$1" x="116.84" y="-58.42"/>
@@ -8454,14 +8536,14 @@ w/Indicator LED + Enable</text>
 <attribute name="NAME" x="133.096" y="-70.612" size="1.778" layer="95" rot="R90"/>
 <attribute name="VALUE" x="135.255" y="-70.612" size="1.27" layer="96" rot="R90"/>
 </instance>
-<instance part="TP5" gate="G$1" x="144.78" y="-50.8" rot="R180"/>
-<instance part="TP6" gate="G$1" x="40.64" y="-63.5" smashed="yes" rot="R90">
-<attribute name="NAME" x="39.37" y="-64.77" size="1.778" layer="95" rot="R270"/>
-<attribute name="TP_SIGNAL_NAME" x="41.91" y="-62.23" size="1.778" layer="97" rot="R90"/>
+<instance part="TP5" gate="G$1" x="144.78" y="-48.26" rot="R90"/>
+<instance part="TP6" gate="G$1" x="43.18" y="-63.5" smashed="yes">
+<attribute name="NAME" x="41.91" y="-62.23" size="1.778" layer="95" rot="R180"/>
+<attribute name="TP_SIGNAL_NAME" x="44.45" y="-64.77" size="1.778" layer="97"/>
 </instance>
-<instance part="TP7" gate="G$1" x="40.64" y="-48.26" smashed="yes" rot="R90">
+<instance part="TP7" gate="G$1" x="43.18" y="-48.26" smashed="yes">
 <attribute name="NAME" x="41.91" y="-46.99" size="1.778" layer="95" rot="R90"/>
-<attribute name="TP_SIGNAL_NAME" x="41.91" y="-46.99" size="1.778" layer="97" rot="R90"/>
+<attribute name="TP_SIGNAL_NAME" x="44.45" y="-49.53" size="1.778" layer="97"/>
 </instance>
 <instance part="SJ2" gate="1" x="137.16" y="-48.26"/>
 <instance part="GND1" gate="1" x="-48.26" y="-17.78"/>
@@ -8476,10 +8558,11 @@ w/Indicator LED + Enable</text>
 <wire x1="99.06" y1="93.98" x2="101.6" y2="93.98" width="0.1524" layer="91"/>
 <wire x1="101.6" y1="93.98" x2="101.6" y2="109.22" width="0.1524" layer="91"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="101.6" y1="93.98" x2="104.14" y2="93.98" width="0.1524" layer="91"/>
+<wire x1="101.6" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 <junction x="101.6" y="93.98"/>
 <pinref part="TP15" gate="G$1" pin="TP"/>
-<junction x="104.14" y="93.98"/>
+<junction x="106.68" y="93.98"/>
+<wire x1="104.14" y1="93.98" x2="106.68" y2="93.98" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U6" gate="G$1" pin="ADDR"/>
@@ -8500,10 +8583,11 @@ w/Indicator LED + Enable</text>
 <wire x1="63.5" y1="17.78" x2="55.88" y2="17.78" width="0.1524" layer="91"/>
 <pinref part="GND16" gate="1" pin="GND"/>
 <pinref part="C10" gate="G$1" pin="2"/>
-<wire x1="55.88" y1="17.78" x2="53.34" y2="17.78" width="0.1524" layer="91"/>
+<wire x1="55.88" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 <junction x="55.88" y="17.78"/>
 <pinref part="TP24" gate="G$1" pin="TP"/>
-<junction x="53.34" y="17.78"/>
+<junction x="50.8" y="17.78"/>
+<wire x1="53.34" y1="17.78" x2="50.8" y2="17.78" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U5" gate="G$1" pin="VSS"/>

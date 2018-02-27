@@ -1,0 +1,517 @@
+#require 6.5100
+
+// Easy BOM is based off Eagle's native bom.ulp Version 1.11
+// It generates a BOM from a PCB schematic that is compliant with contract
+// manufacturer specifications and formatted to match the GitHub CSV format.
+// To work properly, every part in the schematic must have the attributes
+// listed below.
+
+
+// Part Attributes:
+//  - MPN :: The manufacturer part number, must be valid part number or 'N/A'
+//           Parts with a value of N/A will not show up in the BOM. This is
+//           useful for logos, solder-in connectors, etc.
+//  - MANUFACTURER  :: The manufacturer of the part.
+//  - VENDOR :: The vendor of the part, usually Digikey or Mouser
+//  - VPN :: The vendor's part number
+//  - VLINK :: The link to the vendor's part
+
+
+// Revision history:
+//
+// 1.0
+// - Initial release
+//
+// Revision: 1.0
+
+string Version = "1.0";
+
+char  Separator = ',';
+
+#usage "en: <b>Easily Export a Bill Of Material for use with Contract Manufacturers and GitHub</b>\n"
+           "<p>"
+           "Generates a project's <i>Bill Of Material</i>&nbsp;&nbsp;including the attributes introduced in"
+           " version 5.0.0."
+           "<p>"
+           "<author>Author: support@cadsoft.de</author><br>"
+           "<author>Modified to use the new attributes by Carsten Wille.</author><br>"
+           "<author>.csv export added by Christian Schlittler.</author>"
+           "<author>Modification from bom.ulp version 1.11 to Easy BOM by Jake Rye</author>"
+
+// THIS PROGRAM IS PROVIDED AS IS AND WITHOUT WARRANTY OF ANY KIND, EXPRESSED OR IMPLIED
+
+string HelpTextEN =
+  "<b>How to generate the Bill Of Material</b>\n"
+  "<p>\n"
+  "<b>List type</b>\n"
+  "<p>\n"
+  "The <i>Bill Of Material</i> can be generated either as a list\n"
+  "of parts (where every part is listed on a line of its own),\n"
+  "or as a list of values, where all parts with the same value are grouped\n"
+  "together in one line. Use the <b><u>P</u>arts</b> and <b><u>V</u>alues</b>\n"
+  "radio buttons to select the list type.\n"
+  "<p>\n"
+  "<b>Output format</b>\n"
+  "<p>\n"
+  "Choose between pure ASCII <b><u>T</u>ext</b> format, <b><u>C</u>SV</b> or <b><u>H</u>TML</b>.\n"
+  ;
+
+string I18N[] = {
+  "en\v"
+  "de\v"
+  ,
+  "<hr><b>ERROR: No schematic!</b><p>\nThis program can only work in the schematic editor.\v"
+  "<hr><b>FEHLER: Kein Schaltplan!</b><p>\nDieses Programm kann nur in einem Schaltplan verwendet"
+  " werden.\v"
+  ,
+  "Part\tValue\tDevice\tPackage\tDescription\v"
+  "Bauteil\tWert\tDevice\tPackage\tDescription\v"
+  ,
+  "Qty\tValue\tDevice\tPackage\tParts\v"      // 2011-04-08
+  "Menge\tWert\tDevice\tGehäuse\tBauteile\v"  // 2011-04-08
+  ,
+  "Partlist exported from %s at %s\v"
+  "Stückliste exportiert aus %s am %s\v"
+  ,
+  "Bill Of Material - Preview\v"
+  "Stückliste - Vorschau\v"
+  ,
+  "-Close\v"
+  "-Schließen\v"
+  ,
+  "Save Bill Of Material\v"
+  "Stückliste speichern\v"
+  ,
+  "File '\v"
+  "Datei '\v"
+  ,
+  "' exists\n\nOverwrite?\v"
+  "' existiert\n\nÜberschreiben?\v"
+  ,
+  "+&Yes\v"
+  "+&Ja\v"
+  ,
+  "-&No\v"
+  "-&Nein\v"
+  ,
+  "&No\v"
+  "&Nein\v"
+  ,
+  "Name already defined!\v"
+  "Name ist bereits definiert!\v"
+  ,
+  " Header\v"
+  " Spaltenüberschrift\v"
+  ,
+  "&Name:\v"
+  "&Name:\v"
+  ,
+  "+OK\v"
+  "+OK\v"
+  ,
+  "Name can't be empty!\v"
+  "Name kann nicht leer sein!\v"
+  ,
+  "-Cancel\v"
+  "-Abbrechen\v"
+  ,
+  "&Headers\v"
+  "&Spaltenüberschriften\v"
+  ,
+  "Bill Of Material - Help\v"
+  "Stückliste - Hilfe\v"
+  ,
+  "Bill Of Material\v"
+  "Stückliste\v"
+  ,
+  "List type\v"
+  "Listen-Typ\v"
+  ,
+  "&Parts\v"
+  "&Bauteile\v"
+  ,
+  "&Values\v"
+  "&Werte\v"
+  ,
+  "Output format\v"
+  "Ausgabeformat\v"
+  ,
+  "&Text\v"
+  "&Text\v"
+  ,
+  "&CSV\v"
+  "&CSV\v"
+  ,
+  "&HTML\v"
+  "&HTML\v"
+  ,
+  "+Vie&w\v"
+  "+&Vorschau\v"
+  ,
+  "&Save...\v"
+  "&Speichern...\v"
+  ,
+  "H&elp\v"
+  "H&ilfe\v"
+  ,
+  "Current &variant \v"
+  "Aktuelle &Variante \v"
+  ,
+  "List &attributes\v"
+  "&Attribute auflisten\v"
+  };
+int Language = strstr (I18N [0], language ()) / 3;
+
+
+string tr (string s)
+{
+  string t = lookup (I18N, s, Language, '\v');
+  return t ? t : s;
+}
+
+
+if (!schematic)
+{
+  dlgMessageBox (usage + tr ("<hr><b>ERROR: No schematic!</b><p>\nThis program can only work in"
+                 " the schematic editor."));
+  exit (1);
+}
+
+string SeparatorString;
+int     NumParts;
+numeric string Lines[];
+numeric string PartName[];
+string  PartValue[], PartDevice[], PartPackage[], PartHeadline[];
+numeric string PartDescription [];
+int     PartValueOn[];
+int     Selected;
+
+string CurrentVariant = "";
+string Variants[] = { "" }; 
+int    cntVD = 0;
+int    VDsel = 0;
+
+int UseAttributes = 1;
+int FoundAttributes = 0;            // # of different attribute names found in schematic.
+numeric string AttributesList[];    // Sorted list of all attributes found in the schematic.
+numeric string PartAttributes[];    // Adjusted list of attributes per part.
+
+enum { ltParts, ltValues };         // List Types
+enum { ofText, ofCSV, ofHTML };     // Output Formats
+int ListType = ltValues;
+int OutputFormat = ofCSV;
+
+
+string StripWhiteSpace (string s)
+{
+  while (s && isspace (s[0]))
+    s = strsub (s, 1);
+  while (s && isspace (s[strlen (s) - 1]))
+    s = strsub (s, 0, strlen (s) - 1);
+  return s;
+}
+
+string ReplaceTabs(string s)
+{
+  int i;
+  while ((i = strchr(s, '\t')) >= 0)
+        s = strsub(s, 0, i) + "\\t" + strsub(s, i + 1);
+  return s;
+}
+
+void CollectPartData (string var)
+{
+  int Found = 0;
+  int i;
+  string attr[];
+
+  NumParts = 0;
+
+  FoundAttributes = 0;
+  if (UseAttributes) {
+    schematic (SCH)
+    {
+      SCH.allparts (P) // 2014-08-07
+      {
+        if (P.device.package)
+        {
+          if (P.populate)
+          {
+            P.attributes (A)
+            {
+              AttributesList[0] = "MPN";
+              AttributesList[1] = "MANUFACTURER";
+              AttributesList[2] = "VENDOR";
+              AttributesList[3] = "VPN";
+              AttributesList[4] = "VLINK";
+              FoundAttributes = 5;
+            }
+          }
+        }
+      }
+    }
+    sort (FoundAttributes, AttributesList);
+  }
+  // Second, collect all data
+  schematic (SCH)
+  {
+    SCH.allparts (P)
+    {
+      if (P.device.package)
+      {
+        if (P.populate)
+        {
+          PartName[NumParts] = P.name;
+          PartValue[NumParts] = P.value;
+          PartDevice[NumParts] = P.device.name;
+          PartPackage[NumParts] = P.device.package.name;
+          PartHeadline[NumParts] = ReplaceTabs(P.device.headline);
+          // currently not used:
+          // PartDescription[NumParts] = ReplaceTabs(P.device.description);
+          PartValueOn[NumParts] = P.device.value == "On";
+          // Zero all strings
+          for (i = 0; i < FoundAttributes; i ++)
+            attr[i] = "";
+          P.attributes(A)
+          {
+            for (i = 0; i < FoundAttributes; i ++)
+              if (A.name == AttributesList[i])
+              {
+                attr[i] = A.value;
+                break;
+              }
+            if ("VALUE" == A.name && 0 < strlen (A.value))
+             // Override old fashioned value information!
+            PartValueOn[NumParts] = 2;
+          }
+          PartAttributes[NumParts] = strjoin(attr, Separator);
+          NumParts ++;
+
+        }
+      }
+    }
+  }
+}
+
+
+void GenerateValueList (void)
+{
+  int NumLines = 0;
+  int Index [];
+  string attr[], s, s_val;
+
+  if (UseAttributes) s = strjoin(AttributesList, '\t');
+
+  Lines[NumLines ++] = tr ("Qty\tDevice\tParts\tDescription\t") + s;                
+  sort (NumParts, Index, PartDevice, PartAttributes, PartName, PartHeadline); 
+
+  
+  for (int n1 = 0, n2 = 0; ++ n2 <= NumParts; )
+  {
+    int i1 = Index [n1];
+    strsplit (attr, PartAttributes[i1], Separator);
+
+    if (UseAttributes) s = strjoin(attr, '\t');
+    s_val = attr[i1];
+    if (n2 < NumParts)
+    {
+      int i2 = Index [n2]; // 2012-11-08
+      strsplit (attr, PartAttributes[i2], Separator);
+      if (PartValue[i1] == PartValue[i2] && PartDevice[i1] == PartDevice[i2] && PartAttributes[i1] == PartAttributes[i2]) // 2012-11-08 check diffent values of attributes
+        continue;
+    }
+
+    string Quantity;
+    sprintf (Quantity, "%d", n2 - n1);
+    Lines[NumLines] = Quantity + "\t" + PartDevice[i1] + "\t";
+    for (;;)
+    {
+      Lines[NumLines] += PartName[i1];
+      if (++n1 < n2)
+      {
+        i1 = Index [n1];
+        Lines[NumLines] += "/";
+      }
+      else
+        break;
+    }
+    Lines[NumLines] += "\t" + PartHeadline[i1] + "\t" + s;
+    NumLines ++;
+  }
+  Lines[NumLines] = "";
+
+
+  // Get Key Index for "MPN" field
+  string key[];
+  strsplit (key, Lines[0], '\t');
+  int key_index=0;
+  for (key_index = 0; key_index < 9; key_index++) 
+  {
+    if (key[key_index] == "MPN") break;
+  }
+
+  // Remove BOM fields w/MPN set to "N/A"
+  string line[], NewLines[];
+  int NewNumLines=0;
+
+  // Copy CSV Header
+  NewLines[NewNumLines] = Lines[0];
+  NewNumLines++;
+
+  // Only Copy Non MPN=N/A Values
+  for (int i = 1; i < NumLines; i++)
+  {
+    strsplit(line, Lines[i], '\t');
+    if (line[key_index] != "N/A")
+    {
+      NewLines[NewNumLines] = Lines[i];
+      NewNumLines++;
+    }
+  }
+
+  // Erase Lines
+  for (i=0; i<NumLines; i++) 
+  {
+    Lines[i] = "";
+  }
+
+  // Repopulate Lines
+  for (i=0; i<NewNumLines; i++)
+  {
+    Lines[i] = NewLines[i];
+  }
+
+
+}
+
+
+void GenerateList (void)
+{
+  GenerateValueList ();
+}
+
+string MakeListHeader (void)
+{
+  string s;
+  schematic(SCH)
+    sprintf (s, tr ("Partlist exported from %s at %s"), SCH.name, t2string (time ()));
+  return s;
+}
+
+// 2008-11-24 Christian Schlittler: Make CSV, with all values double-quoted.
+// 2018-02-13 Jake Rye: Make CSV compliant w/GitHub format.
+string MakeListCSV (void)
+{
+  string List;
+  int numHeaders;
+
+  for (int l = 0; Lines[l]; l ++)
+  {
+    string a [];
+    int n = strsplit (a, Lines[l], '\t');
+    if (l == 0)
+      numHeaders = n;
+    else
+      n = numHeaders; // for the hidden key!
+    for (int i = 0; i < n; i ++)
+      List +=  a[i] + SeparatorString;
+    List += "\n";
+  }
+  return List;
+}
+
+
+string MakeList (void)
+{
+  return MakeListCSV();
+}
+
+void ViewList (void)
+{
+  dlgDialog (tr ("Bill Of Material - Preview"))
+  {
+    string s = MakeList ();
+    if (OutputFormat == ofText || OutputFormat == ofCSV)
+      s = "<pre>" + s + "</pre>";
+    dlgHBoxLayout dlgSpacing (400);
+    dlgHBoxLayout
+    {
+      dlgVBoxLayout dlgSpacing (300);
+      dlgTextView (s);
+    }
+    dlgHBoxLayout
+    {
+      dlgStretch (1);
+      dlgPushButton (tr ("-Close")) dlgReject ();
+    }
+  };
+}
+
+void SaveList (void)
+{
+  string FileName;
+  string FileExt = ".csv";
+
+  schematic(SCH) FileName = filesetext (SCH.name, FileExt);
+  FileName = dlgFileSave (tr ("Save Bill Of Material"), FileName);
+  if (FileName)
+  {
+    string a [];
+    if (!fileglob (a, FileName) || dlgMessageBox (tr ("File '") + FileName +
+        tr ("' exists\n\nOverwrite?"), tr("+&Yes"), tr("-&No")) == 0)
+    {
+      output (FileName, "wt")
+      {
+        printf ("%s", MakeList ()); // using "%s" to avoid problems if list contains any '%'
+      }
+    }
+  }
+}
+
+void DisplayHelp (void)
+{
+  dlgDialog (tr ("Bill Of Material - Help"))
+  {
+    dlgHBoxLayout dlgSpacing (400);
+    dlgHBoxLayout
+    {
+      dlgVBoxLayout dlgSpacing (300);
+      dlgTextView (HelpTextEN);
+    }
+    dlgHBoxLayout
+    {
+      dlgStretch (1);
+      dlgPushButton (tr ("-Close"))
+      dlgReject ();
+    }
+  };
+}
+
+schematic(SCH) {
+  sprintf(SeparatorString, "%c", Separator);
+  CurrentVariant = variant();
+  SCH.variantdefs(VD) {
+    if (CurrentVariant == VD.name) VDsel = cntVD;
+    sprintf(Variants[cntVD], "%s", VD.name);
+    cntVD++;
+  }
+}
+
+setvariant(CurrentVariant);
+CollectPartData(CurrentVariant);
+GenerateList();
+
+dlgDialog (tr ("Bill Of Material"))
+{
+  
+  dlgListView ("", Lines, Selected);
+  
+  dlgHBoxLayout  {
+    dlgPushButton (tr ("+Vie&w"))    ViewList ();
+    dlgPushButton (tr ("&Save...")) SaveList ();
+    dlgPushButton (tr ("H&elp"))    DisplayHelp ();
+    dlgPushButton (tr ("-Close"))   dlgAccept ();
+    dlgStretch(1);
+    dlgLabel("Version " + Version);
+  }
+};
