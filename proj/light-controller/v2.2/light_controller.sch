@@ -2700,6 +2700,9 @@ grid 15mm, 19649 Wickmann</description>
 <hole x="0" y="0" drill="2.794"/>
 <text x="-2.3876" y="-4.191" size="0.762" layer="21" ratio="10">&gt;VALUE</text>
 </package>
+<package name="FUSE-CARTRIDGE">
+<text x="0" y="0" size="0.762" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="FUSE-BLOCK">
@@ -2712,6 +2715,10 @@ grid 15mm, 19649 Wickmann</description>
 <text x="-3.81" y="-2.921" size="1.778" layer="96">&gt;VALUE</text>
 <pin name="2" x="5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1" rot="R180"/>
 <pin name="1" x="-5.08" y="0" visible="off" length="short" direction="pas" swaplevel="1"/>
+</symbol>
+<symbol name="FUSE-CARTRIDGE">
+<text x="-5.08" y="0" size="1.778" layer="94">&gt;VALUE</text>
+<text x="-5.08" y="2.54" size="1.778" layer="95">&gt;NAME</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -2768,6 +2775,60 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" constant="no"/>
 <attribute name="VPN" value="WK0011-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="0217005.MXP" prefix="F">
+<description>&lt;strong&gt;FUSE GLASS 5A 250VAC 5X20MM&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;FUSE GLASS 5A 250VAC 5X20MM&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Fuse Type: Cartridge, Glass&lt;/li&gt;
+		&lt;li&gt;Current Rating: 5A&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - AC: 250V&lt;/li&gt;
+		&lt;li&gt;Response Time: Fast&lt;/li&gt;
+		&lt;li&gt;Package / Case: 5mm x 20mm&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Holder&lt;/li&gt;
+		&lt;li&gt;Breaking Capacity @ Rated Voltage: 50A&lt;/li&gt;
+		&lt;li&gt;Melting I²t: 42.795&lt;/li&gt;
+		&lt;li&gt;Approvals: BSI, CE, CCC, CSA, KC, PSE, SEMKO, UR, VDE&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.205" Dia x 0.787" L (5.20mm x 20.00mm)&lt;/li&gt;
+		&lt;li&gt;DC Cold Resistance: 0.0137 Ohms&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.littelfuse.com/~/media/electronics/datasheets/fuses/littelfuse_fuse_217_datasheet.pdf.pdf'&gt;217 Series Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/littelfuse-inc/0217005.MXP/F1725-ND/777549#'&gt;F1725-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="FUSE-CARTRIDGE" x="5.08" y="0"/>
+</gates>
+<devices>
+<device name="" package="FUSE-CARTRIDGE">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Littelfuse Inc." constant="no"/>
+<attribute name="MPN" value="0217005.MXP" constant="no"/>
+<attribute name="VALUE" value="Use 5A Fuse" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/0217005.MXP/F1725-ND/777549" constant="no"/>
+<attribute name="VPN" value="F1725-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9460,6 +9521,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="TP6" library="openag-testpads" deviceset="TP" device="TP04R"/>
 <part name="TP37" library="openag-testpads" deviceset="TP" device="TP04R"/>
 <part name="TP38" library="openag-testpads" deviceset="TP" device="TP04R"/>
+<part name="F1" library="openag-fuses" deviceset="0217005.MXP" device="" value="Use 5A Fuse"/>
 </parts>
 <sheets>
 <sheet>
@@ -9639,7 +9701,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <text x="233.68" y="220.98" size="3.048" layer="97">DAC HW Enable</text>
 <text x="657.86" y="259.08" size="3.048" layer="97">Testpads</text>
 <wire x1="647.7" y1="266.7" x2="647.7" y2="228.6" width="0.254" layer="97" style="longdash"/>
-<text x="617.22" y="238.76" size="1.778" layer="97">Note:
+<text x="617.22" y="236.22" size="1.778" layer="97">Note:
  - Barrel jack rated for 5A</text>
 <wire x1="266.7" y1="419.1" x2="266.7" y2="342.9" width="0.254" layer="97"/>
 <wire x1="266.7" y1="342.9" x2="228.6" y2="342.9" width="0.254" layer="97"/>
@@ -9966,6 +10028,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="TP6" gate="G$1" x="515.62" y="337.82" rot="R180"/>
 <instance part="TP37" gate="G$1" x="515.62" y="358.14" rot="R180"/>
 <instance part="TP38" gate="G$1" x="515.62" y="363.22" rot="R180"/>
+<instance part="F1" gate="G$1" x="632.46" y="241.3"/>
 </instances>
 <busses>
 </busses>

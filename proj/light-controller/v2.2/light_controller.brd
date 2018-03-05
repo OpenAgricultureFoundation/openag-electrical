@@ -8,7 +8,7 @@
 </settings>
 <grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
 <layer number="3" name="Route3" color="4" fill="3" visible="no" active="yes"/>
 <layer number="4" name="Route4" color="1" fill="4" visible="no" active="yes"/>
@@ -23,19 +23,19 @@
 <layer number="13" name="Route13" color="4" fill="5" visible="no" active="yes"/>
 <layer number="14" name="Route14" color="1" fill="6" visible="no" active="yes"/>
 <layer number="15" name="Route15" color="4" fill="6" visible="no" active="no"/>
-<layer number="16" name="Bottom" color="1" fill="1" visible="no" active="yes"/>
-<layer number="17" name="Pads" color="2" fill="1" visible="no" active="yes"/>
-<layer number="18" name="Vias" color="2" fill="1" visible="no" active="yes"/>
-<layer number="19" name="Unrouted" color="6" fill="1" visible="no" active="yes"/>
-<layer number="20" name="Dimension" color="24" fill="1" visible="no" active="yes"/>
-<layer number="21" name="tPlace" color="7" fill="1" visible="no" active="yes"/>
+<layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
+<layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
+<layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
+<layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
+<layer number="21" name="tPlace" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="7" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="24" name="bOrigins" color="15" fill="1" visible="no" active="yes"/>
-<layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
-<layer number="27" name="tValues" color="7" fill="1" visible="no" active="yes"/>
-<layer number="28" name="bValues" color="7" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
+<layer number="25" name="tNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="26" name="bNames" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="27" name="tValues" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="28" name="bValues" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="29" name="tStop" color="7" fill="3" visible="no" active="yes"/>
 <layer number="30" name="bStop" color="7" fill="6" visible="no" active="yes"/>
 <layer number="31" name="tCream" color="7" fill="4" visible="no" active="yes"/>
@@ -46,20 +46,20 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
-<layer number="40" name="bKeepout" color="1" fill="11" visible="no" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
-<layer number="42" name="bRestrict" color="1" fill="10" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
+<layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
+<layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="no" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
-<layer number="45" name="Holes" color="7" fill="1" visible="no" active="yes"/>
+<layer number="45" name="Holes" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="46" name="Milling" color="3" fill="1" visible="no" active="yes"/>
 <layer number="47" name="Measures" color="7" fill="1" visible="no" active="yes"/>
 <layer number="48" name="Document" color="7" fill="1" visible="no" active="yes"/>
-<layer number="49" name="Reference" color="7" fill="1" visible="no" active="yes"/>
+<layer number="49" name="Reference" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="no"/>
-<layer number="51" name="tDocu" color="7" fill="1" visible="no" active="yes"/>
-<layer number="52" name="bDocu" color="7" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="7" fill="1" visible="yes" active="yes"/>
+<layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="53" name="tGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="54" name="bGND_GNDA" color="7" fill="1" visible="no" active="no"/>
 <layer number="56" name="wert" color="7" fill="1" visible="no" active="no"/>
@@ -627,7 +627,6 @@ or PWM control. Allows for daisy chaining comms between multiple boards.</text>
 - replaced 24v-to-5v regulator with R78E5
 - added dual i2c buffers
 - updated to style conventions v1.0</text>
-<text x="96.774" y="99.822" size="0.762" layer="21">5A Fuse</text>
 <wire x1="108.966" y1="95.25" x2="108.966" y2="93.98" width="0.1524" layer="21"/>
 <wire x1="103.378" y1="95.25" x2="103.378" y2="93.98" width="0.1524" layer="21"/>
 <wire x1="109.6645" y1="94.615" x2="112.395" y2="94.615" width="0.1524" layer="21" style="shortdash"/>
@@ -746,10 +745,6 @@ Conn</text>
 <wire x1="46.99" y1="88.9" x2="46.99" y2="87.884" width="0.1524" layer="41"/>
 <wire x1="30.734" y1="89.916" x2="31.75" y2="89.916" width="0.1524" layer="41"/>
 <wire x1="43.815" y1="110.8075" x2="43.815" y2="105.7275" width="0.1524" layer="21" style="shortdash"/>
-<wire x1="0" y1="0" x2="123.19" y2="0" width="0.1524" layer="22"/>
-<wire x1="123.19" y1="0" x2="123.19" y2="125.73" width="0.1524" layer="22"/>
-<wire x1="123.19" y1="125.73" x2="0" y2="125.73" width="0.1524" layer="22"/>
-<wire x1="0" y1="125.73" x2="0" y2="0" width="0.1524" layer="22"/>
 </plain>
 <libraries>
 <library name="openag-regulators">
@@ -2705,6 +2700,9 @@ grid 15mm, 19649 Wickmann</description>
 <hole x="0" y="0" drill="2.794"/>
 <text x="-2.3876" y="-4.191" size="0.762" layer="21" ratio="10">&gt;VALUE</text>
 </package>
+<package name="FUSE-CARTRIDGE">
+<text x="0" y="0" size="0.762" layer="21">&gt;VALUE</text>
+</package>
 </packages>
 </library>
 <library name="openag-microcontrollers">
@@ -3938,8 +3936,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Recom Power" x="105.41" y="74.93" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="R-78E5.0-1.0" x="105.41" y="74.93" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="111.125" y="68.326" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="107.95" y="71.374" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="107.95" y="71.374" size="0.762" layer="21" rot="R180"/>
+<attribute name="VALUE" x="107.95" y="71.374" size="0.762" layer="27" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="105.41" y="74.93" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="105.41" y="74.93" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="945-2201-ND " x="105.41" y="74.93" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4212,8 +4210,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Assmann WSW Components" x="35.052" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A-2004-1-4-LP-N-R" x="35.052" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="41.148" y="106.8578" size="0.762" layer="25"/>
-<attribute name="VALUE" x="40.132" y="121.5898" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="40.132" y="121.5898" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="40.132" y="121.5898" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="35.052" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-1-4-LP-N-R/AE10383-ND/2183634" x="35.052" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VPN" value="AE10383-ND" x="35.052" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
@@ -4222,8 +4220,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Assmann WSW Components" x="16.764" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="A-2004-1-4-LP-N-R" x="16.764" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="12.7" y="106.8578" size="0.762" layer="25"/>
-<attribute name="VALUE" x="24.892" y="121.5898" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="24.892" y="121.5898" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="24.892" y="121.5898" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="16.764" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/assmann-wsw-components/A-2004-1-4-LP-N-R/AE10383-ND/2183634" x="16.764" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
 <attribute name="VPN" value="AE10383-ND" x="16.764" y="118.6688" size="0.762" layer="27" rot="R90" display="off"/>
@@ -4232,8 +4230,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="55.88" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="55.88" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="48.26" y="105.0163" size="0.762" layer="25"/>
-<attribute name="VALUE" x="59.563" y="119.1768" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="59.563" y="119.1768" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="59.563" y="119.1768" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="55.88" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="55.88" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="55.88" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4242,8 +4240,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="72.39" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="72.39" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.01" y="105.6513" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="76.073" y="119.1768" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="76.073" y="119.1768" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="76.073" y="119.1768" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="72.39" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="72.39" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="72.39" y="116.1288" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4692,8 +4690,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="98.552" y="104.14" size="0.762" layer="27" display="off"/>
 <attribute name="MPN" value="64900001039" x="98.552" y="104.14" size="0.762" layer="27" display="off"/>
 <attribute name="NAME" x="86.0044" y="98.3488" size="0.762" layer="25" ratio="10"/>
-<attribute name="VALUE" x="96.9264" y="107.569" size="0.762" layer="27" ratio="10"/>
 <attribute name="VALUE" x="96.9264" y="107.569" size="0.762" layer="21" ratio="10"/>
+<attribute name="VALUE" x="96.9264" y="107.569" size="0.762" layer="27" ratio="10"/>
 <attribute name="VENDOR" value="Digikey" x="98.552" y="104.14" size="0.762" layer="27" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" x="98.552" y="104.14" size="0.762" layer="27" display="off"/>
 <attribute name="VPN" value="WK0011-ND" x="98.552" y="104.14" size="0.762" layer="27" display="off"/>
@@ -4776,6 +4774,13 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </element>
 <element name="TP38" library="openag-testpads" package="TP04R" value="TPTP04R" x="73.914" y="65.532" rot="R90">
 <attribute name="MPN" value="N/A" x="73.914" y="65.532" size="0.762" layer="27" rot="R90" display="off"/>
+</element>
+<element name="F1" library="openag-fuses" package="FUSE-CARTRIDGE" value="Use 5A Fuse" x="95.504" y="99.822">
+<attribute name="MANUFACTURER" value="Littelfuse Inc." x="95.504" y="99.822" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="0217005.MXP" x="95.504" y="99.822" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="95.504" y="99.822" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/0217005.MXP/F1725-ND/777549" x="95.504" y="99.822" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="F1725-ND" x="95.504" y="99.822" size="1.778" layer="27" display="off"/>
 </element>
 </elements>
 <signals>
@@ -4989,7 +4994,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <polygon width="0.3048" layer="16" isolate="0.4064" rank="3">
 <vertex x="0" y="0"/>
 <vertex x="123.19" y="0"/>
-<vertex x="124.46" y="125.73"/>
+<vertex x="123.19" y="125.73"/>
 <vertex x="1.27" y="125.73"/>
 </polygon>
 <contactref element="C28" pad="2"/>

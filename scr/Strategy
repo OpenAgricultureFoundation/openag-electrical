@@ -1,8 +1,0 @@
-Strategy
- - bplace layer --> white background, black squares
- - and the processed bplace w/map-x2.jpg
- - import map-x2-board-v-x-x
- - add border?
-
-TODO
-- generate map-x2-v-x-x w/python script
