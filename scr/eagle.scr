@@ -36,5 +36,5 @@ Change Width 0.010in;
 
 PAC:
 Grid Default On;
-Change Width 0.010in;
-Change Size 0.010in;
+Change Width 50mil;
+Change Size 50mil;

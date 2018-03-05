@@ -166,6 +166,8 @@
 <package name="SS">
 <smd name="1" x="-2.6289" y="0" dx="1.8034" dy="2.6416" layer="1"/>
 <smd name="2" x="2.6289" y="0" dx="1.8034" dy="2.6416" layer="1"/>
+<text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
+<text x="-1.27" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
 <wire x1="-1.4224" y1="-1.4478" x2="1.4224" y2="-1.4478" width="0.1524" layer="21"/>
 <wire x1="1.4224" y1="1.4478" x2="-1.4224" y2="1.4478" width="0.1524" layer="21"/>
 <wire x1="-1.7272" y1="-1.3208" x2="-1.7272" y2="1.3208" width="0.1524" layer="51"/>
@@ -178,10 +180,6 @@
 <wire x1="3.175" y1="-1.3208" x2="3.175" y2="1.3208" width="0.1524" layer="51"/>
 <wire x1="1.7272" y1="1.3208" x2="-1.7272" y2="1.3208" width="0.1524" layer="51"/>
 <wire x1="-3.175" y1="1.3208" x2="-3.175" y2="-1.3208" width="0.1524" layer="51"/>
-<wire x1="-2.8448" y1="0" x2="-2.9972" y2="0" width="0" layer="51" curve="-180"/>
-<wire x1="-2.9972" y1="0" x2="-2.8448" y2="0" width="0" layer="51" curve="-180"/>
-<text x="-3.5306" y="1.651" size="0.762" layer="25" ratio="6" rot="SR0">&gt;NAME</text>
-<text x="-1.524" y="-0.254" size="0.762" layer="27">&gt;VALUE</text>
 </package>
 <package name="0402">
 <wire x1="-0.245" y1="0.224" x2="0.245" y2="0.224" width="0.1524" layer="51"/>
@@ -303,8 +301,10 @@ grid 15mm, 19649 Wickmann</description>
 <wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
 <text x="-0.3302" y="-2.8956" size="1.778" layer="96" ratio="10" rot="SR0">&gt;Value</text>
 <text x="-0.2794" y="1.4224" size="1.778" layer="95" ratio="10" rot="SR0">&gt;Name</text>
+<wire x1="2.54" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
+<wire x1="7.62" y1="0" x2="5.08" y2="0" width="0.1524" layer="94" curve="-180"/>
 </symbol>
-<symbol name="FUSE-1">
+<symbol name="FUSE-BLOCK">
 <wire x1="-3.81" y1="-0.762" x2="3.81" y2="-0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="0.762" x2="-3.81" y2="0.762" width="0.254" layer="94"/>
 <wire x1="3.81" y1="-0.762" x2="3.81" y2="0.762" width="0.254" layer="94"/>
@@ -317,7 +317,7 @@ grid 15mm, 19649 Wickmann</description>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="SST_7" prefix="F">
+<deviceset name="SST7" prefix="F">
 <description>&lt;b&gt; FUSE BRD MNT 7A 125VAC/VDC 2SMD&lt;/b&gt;
 &lt;p&gt;Description:
 &lt;ul&gt;
@@ -516,7 +516,7 @@ grid 15mm, 19649 Wickmann</description>
 	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="1" symbol="FUSE-1" x="0" y="0"/>
+<gate name="1" symbol="FUSE-BLOCK" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="GSH15">
@@ -532,6 +532,65 @@ grid 15mm, 19649 Wickmann</description>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" constant="no"/>
 <attribute name="VPN" value="WK0011-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="SSQ5" prefix="F">
+<description>&lt;strong&gt;FUSE BRD MNT 5A 125VAC/VDC 2SMD&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;FUSE BRD MNT 3A 125VAC/VDC 2SMD&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Fuse Type: Board Mount (Cartridge Style Excluded)&lt;/li&gt;
+		&lt;li&gt;Current Rating: 5A&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - AC: 125V&lt;/li&gt;
+		&lt;li&gt;Voltage Rating - DC: 125V&lt;/li&gt;
+		&lt;li&gt;Response Time: Fast&lt;/li&gt;
+		&lt;li&gt;Package / Case: 2-SMD, Square End Block&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount&lt;/li&gt;
+		&lt;li&gt;Breaking Capacity @ Rated Voltage: 50A AC, 300A DC&lt;/li&gt;
+		&lt;li&gt;Melting I²t: 8.8&lt;/li&gt;
+		&lt;li&gt;Approvals: CE, CSA, cULus&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 125°C&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.240" L x 0.100" W x 0.100" H (6.10mm x 2.54mm x 2.54mm)&lt;/li&gt;
+		&lt;li&gt;DC Cold Resistance: 0.013 Ohms&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://belfuse.com/resources/StewartConnector/SSQ.pdf'&gt;SSQ Type&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/bel-fuse-inc/SSQ-5/507-1053-1-ND/615005'&gt;507-1053-1-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="A" symbol="FUSE" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="SS">
+<connects>
+<connect gate="A" pin="1" pad="1"/>
+<connect gate="A" pin="2" pad="2"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Bel Fuse Inc." constant="no"/>
+<attribute name="MPN" value="SSQ5" constant="no"/>
+<attribute name="VALUE" value="SSQ5" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/bel-fuse-inc/SSQ-5/507-1053-1-ND/615005" constant="no"/>
+<attribute name="VPN" value="507-1053-1-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
