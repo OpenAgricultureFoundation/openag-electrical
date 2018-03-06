@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1770,13 +1770,14 @@ http://www.tycoelectronics.com</description>
 <text x="2.921" y="-5.08" size="0.762" layer="21" rot="R90">&gt;VALUE</text>
 </package>
 <package name="RJ45-DI2C-USB-54602-908LF">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-9.6802" x2="-7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-9.6802" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.1524" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.1524" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.1524" layer="51"/>
+<wire x1="-7.72" y1="10.3" x2="7.72" y2="10.3" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="-7.72" y2="10.3" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="10.3" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="-6.5" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="-7.72" y2="-7.6" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-7.6" x2="7.72" y2="-7.6" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="-7.6" x2="7.72" y2="-6.5" width="0.1524" layer="21"/>
 <pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
 <pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
 <pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
@@ -1805,10 +1806,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
 <text x="-7.62" y="10.4775" size="0.762" layer="25">&gt;NAME</text>
 <text x="-3.683" y="-3.048" size="0.762" layer="27">&gt;VALUE</text>
-<wire x1="-6.35" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="22"/>
-<wire x1="6.35" y1="10.16" x2="6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="10.26" x2="6.35" y2="10.26" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="10.26" x2="6.35" y2="0" width="0.1524" layer="22"/>
 <wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="0" x2="-6.35" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="10.26" width="0.1524" layer="22"/>
 <text x="-3.683" y="-3.048" size="0.762" layer="21">&gt;VALUE</text>
 </package>
 <package name="BARREL-JACK-PJ-036AH">
@@ -9422,7 +9423,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </part>
 <part name="U$7" library="openag-frames" deviceset="TITLE" device="">
 <attribute name="TITLE" value="Light Controller"/>
-<attribute name="URL" value="https://github.com/openaginitiative/openag_eagle/proj/light-controller"/>
+<attribute name="URL" value="github.com/openaginitiative/openag_eagle/proj/light-controller"/>
 <attribute name="VER" value="2.2"/>
 </part>
 <part name="R10" library="openag-resistors" deviceset="0OHM-RC0603JR-070RL" device="" value="0 OHM"/>
@@ -9585,7 +9586,7 @@ Communication + Programming Header</text>
 <text x="304.8" y="383.54" size="3.81" layer="97">I2C Header</text>
 <text x="38.1" y="307.34" size="3.81" layer="97">6-Channel 24V, 700mA (per channel) Current Regulator Module w/I2C Controlled Dimming via PWM or Analog Signaling</text>
 <text x="580.136" y="39.116" size="3.81" layer="97">Changelog
-- added psoc4100</text>
+- added particle photon</text>
 <wire x1="723.9" y1="0" x2="0" y2="0" width="0.254" layer="94"/>
 <wire x1="0" y1="0" x2="0" y2="457.2" width="0.254" layer="94"/>
 <wire x1="0" y1="457.2" x2="723.9" y2="457.2" width="0.254" layer="94"/>
@@ -9617,7 +9618,7 @@ EMI Filter Bypass</text>
 Regulator w/Indicator LED</text>
 <wire x1="38.1" y1="342.9" x2="76.2" y2="342.9" width="0.1524" layer="97"/>
 <text x="60.96" y="411.48" size="3.048" layer="103">Linear Regulator</text>
-<text x="381" y="231.14" size="3.81" layer="103">RJ45 Connector Pair w/dI2C Buffer</text>
+<text x="381" y="231.14" size="3.81" layer="103">RJ45 Connector Pair w/dI2C Redriver</text>
 <wire x1="76.2" y1="342.9" x2="114.3" y2="342.9" width="0.1524" layer="97"/>
 <wire x1="381" y1="114.3" x2="381" y2="190.5" width="0.254" layer="97"/>
 <wire x1="381" y1="190.5" x2="381" y2="228.6" width="0.254" layer="97"/>

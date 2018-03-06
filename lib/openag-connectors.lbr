@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -238,13 +238,14 @@ http://www.tycoelectronics.com</description>
 <text x="-7.62" y="-2.54" size="1.27" layer="27">&gt;VALUE</text>
 </package>
 <package name="RJ45-DI2C-USB-54602-908LF">
-<wire x1="-7.62" y1="10" x2="7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-9.6802" x2="-7.62" y2="10" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-9.6802" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
-<wire x1="7.62" y1="10" x2="7.62" y2="-9.6802" width="0.1524" layer="21"/>
-<wire x1="-7.62" y1="-3" x2="-7.62" y2="-10.8" width="0.1524" layer="51"/>
-<wire x1="-7.62" y1="-10.8" x2="7.62" y2="-10.8" width="0.1524" layer="51"/>
-<wire x1="7.62" y1="-10.8" x2="7.62" y2="-3" width="0.1524" layer="51"/>
+<wire x1="-7.72" y1="10.3" x2="7.72" y2="10.3" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="-7.72" y2="10.3" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="10.3" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="-6.5" x2="7.72" y2="-6.4802" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-6.4802" x2="-7.72" y2="-7.6" width="0.1524" layer="21"/>
+<wire x1="-7.72" y1="-7.6" x2="7.72" y2="-7.6" width="0.1524" layer="21"/>
+<wire x1="7.72" y1="-7.6" x2="7.72" y2="-6.5" width="0.1524" layer="21"/>
 <pad name="DSDAP(1)" x="-4.445" y="6.35" drill="1" shape="square"/>
 <pad name="DSDAM(2)" x="-3.175" y="8.89" drill="1"/>
 <pad name="GND(3)" x="-1.905" y="6.35" drill="1"/>
@@ -273,10 +274,10 @@ http://www.tycoelectronics.com</description>
 <text x="4.7625" y="4.445" size="0.762" layer="22" rot="MR270">USBM</text>
 <text x="-7.62" y="10.4775" size="0.762" layer="25">&gt;NAME</text>
 <text x="-3.683" y="-3.048" size="0.762" layer="27">&gt;VALUE</text>
-<wire x1="-6.35" y1="10.16" x2="6.35" y2="10.16" width="0.1524" layer="22"/>
-<wire x1="6.35" y1="10.16" x2="6.35" y2="0" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="10.26" x2="6.35" y2="10.26" width="0.1524" layer="22"/>
+<wire x1="6.35" y1="10.26" x2="6.35" y2="0" width="0.1524" layer="22"/>
 <wire x1="6.35" y1="0" x2="-6.35" y2="0" width="0.1524" layer="22"/>
-<wire x1="-6.35" y1="0" x2="-6.35" y2="10.16" width="0.1524" layer="22"/>
+<wire x1="-6.35" y1="0" x2="-6.35" y2="10.26" width="0.1524" layer="22"/>
 <text x="-3.683" y="-3.048" size="0.762" layer="21">&gt;VALUE</text>
 </package>
 <package name="HEADER-I2C">
