@@ -10,12 +10,13 @@ etc. See example pcb and map below.
 4. [Usage](#usage)
 5. [Install](#install)
 6. [Troubleshooting](#troubleshooting)
+7. [How does this work?](#how-does-this-work?)
 
 ## Example PCB Input
-![](example_pcb.bmp)
+![](doc/example_pcb.bmp)
 
 ## Example Map Output
-![](example_map.bmp)
+![](doc/example_map.bmp)
 
 ## Constraints
 The bPlace lettering must be contained in a closed rectangular box w/6 mil 
@@ -64,3 +65,45 @@ large file size of the back map) and throw an error. To fix, generate the
 OSHPark gerber files and upload the zip. See OSHPark's `oshpark-2layer.cam`
 file.
 
+## How Does This Work?
+1. Script loads in raw pcb image and raw map image. See 
+   [Raw Map](#raw-map) and [Raw PCB](#raw-pcb).
+2. Runs a computer vision algorith with the help of opencv (thanks opencv!) to
+   find all the rectangles in the image. See [Marked PCB](#marked-pcb).
+3. Finds the outer most rectangle (the border rectangle) and crops the pcb 
+   image and map image to just barely fit within the border rectangle. See 
+   [Cropped PCB](#cropped-pcb) and [Cropped Map](#cropped-map).
+4. Since this map is going to be placed on the bottom layer of eagle, we need
+   the mirror image of it so the map is then flipped about the Y-axis. See
+   [Flipped Map](!flipped-map)
+5. Then, it fills in the remaining (non-boarder rectangles) to create an image
+   mask. See [Masked PCB](#masked-pcb).
+6. The mask is applied to map by performaing a `bitwise and` function that 
+   can be thought of as a way to simply lay the black squares of the mask on
+   top of the map.
+7. Voila! We have now generated the [Processed Map](#processed-map).
+
+
+## Raw Map
+![](cambridge.bmp)
+
+## Raw PCB
+![](doc/example_pcb.bmp)
+
+## Marked PCB
+![](doc/example_marked_pcb.bmp)
+
+## Cropped PCB
+![](doc/example_cropped_pcb.bmp)
+
+## Cropped Map
+![](doc/example_cropped_map.bmp)
+
+## Flipped Map
+![](doc/example_flipped_map.bmp)
+
+## Masked PCB
+![](doc/example_masked_pcb.bmp)
+
+## Processed Map
+![](doc/example_map.bmp)

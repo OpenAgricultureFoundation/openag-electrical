@@ -44,11 +44,19 @@ if __name__ == '__main__':
     Y_OFFSET = 100
     PCB_IMAGE = "data/pcb.bmp"
     MAP_IMAGE = "cambridge.bmp"
+    DIDACTIC = True
 
     # Get pcb image
     print("Loading pcb image")
     pcb = cv.imread(PCB_IMAGE)
     pcb_h, pcb_w = pcb.shape[:2]
+
+    # Display found squares
+    if DIDACTIC:
+        squares = find_squares(pcb)
+        marked_pcb = pcb
+        cv.drawContours( marked_pcb, squares, -1, (0, 255, 0), 3 )
+        cv.imwrite("data/marked_pcb.bmp", marked_pcb);
 
     # Identify border
     print("Identifying border")
@@ -70,6 +78,10 @@ if __name__ == '__main__':
     cropped_pcb = pcb[border[0][1]+10:border[2][1]-10, border[0][0]+10:border[2][0]-10]
     cropped_pcb_h, cropped_pcb_w = cropped_pcb.shape[:2]
 
+    # Display cropped pcb
+    if DIDACTIC:
+        cv.imwrite("data/cropped_pcb.bmp", cropped_pcb);
+
     # Create mask
     print("Creating mask...this can take a few minutes")
     squares = find_squares(cropped_pcb)
@@ -77,6 +89,10 @@ if __name__ == '__main__':
     for square in squares:
         cv.fillPoly(mask, pts =[square], color=(0,0,0))
         cv.drawContours( cropped_pcb, squares, -1, (0, 255, 0), 3 )
+
+    # Display mask
+    if DIDACTIC:
+        cv.imwrite("data/masked_pcb.bmp", mask);
 
     # Get map image
     print("Loading map image")
@@ -91,13 +107,21 @@ if __name__ == '__main__':
     else:
         print("Error: Mismatched dimensions")
         sys.exit(0)
-    cropped_map = raw_map[y:y+cropped_pcb_h, x:x+cropped_pcb_w]
+    cropped_map = raw_map[y:y+cropped_pcb_h, x:x+cropped_pcb_w]  
+
+    # Display cropped map
+    if DIDACTIC:
+        cv.imwrite("data/cropped_map.bmp", cropped_map);
 
     # Reflect map about y axis
     print("Reflecting map")
     flipped_map = cv.flip(cropped_map, 1)
 
-    # Apply mask to map
+    # Display flipped map
+    if DIDACTIC:
+        cv.imwrite("data/flipped_map.bmp", flipped_map);
+
+    # Apply mask to maps
     print("Applying mask to map")
     masked_map = cv.bitwise_and(flipped_map, mask)
     cv.imwrite("data/masked_map.bmp", masked_map)
