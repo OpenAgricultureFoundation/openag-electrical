@@ -1,7 +1,7 @@
 *.s#*
 *.b#*
 *.l#*
-proj/temp
+prj/temp
 lib/temp
 /msc/map-generator/data/*
 /msc/map-generator/venv
