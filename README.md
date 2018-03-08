@@ -1,11 +1,13 @@
-# OpenAg Eagle
-Repository for OpenAg's Eagle PCB work. Includes projects, parts, design blocks, scripts, and usage guidelines.
+# OpenAg Body
+Body of electrical and mechanical hardware to go with the brain software.
+Electrical design based in Eagle. Mechanical design based in Solidworks.
 
-*Please note: README is a WORK IN PROGRESS*
+*WORK IN PROGRESS*
 
+## Electrical Design
 ### Setup
-- Clone openag-eagle repo
-- Point eagle program directories at openag-eagle repo
+- Clone openag-body repo
+- Point eagle program directories at corresponding openag-body repo
 
 ### Projects
 - Create project directory structure
