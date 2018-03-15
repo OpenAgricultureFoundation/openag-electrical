@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="mm" unit="mm" style="lines" multiple="1" display="yes" altdistance="0.1" altunitdist="mm" altunit="mm"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -718,6 +718,44 @@ Bypass</text>
 <text x="-6.35" y="8.89" size="0.762" layer="25" ratio="10" rot="R270">&gt;NAME</text>
 <text x="-5.08" y="-0.381" size="0.762" layer="27" ratio="10">&gt;VALUE</text>
 </package>
+<package name="NAME-VALUE-ONLY">
+<text x="0" y="0" size="0.762" layer="25">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.762" layer="27">&gt;VALUE</text>
+</package>
+<package name="HEADER-1X12">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<pad name="1" x="-13.97" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-11.43" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-15.24" y="3.302" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-15.24" y="-4.318" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-15.24" y1="-2.54" x2="15.24" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="-2.54" x2="15.24" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="15.24" y1="2.54" x2="-15.24" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-15.24" y1="2.54" x2="-15.24" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="3" x="-8.89" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="-6.35" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="5" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="6" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="7" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="8" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="9" x="6.35" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="10" x="8.89" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="11" x="11.43" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="12" x="13.97" y="0" drill="1" shape="long" rot="R90"/>
+</package>
+<package name="HEADER-1X4">
+<description>.100" (2.54mm) Center Header - 4 Pin</description>
+<pad name="1" x="-3.81" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="2" x="-1.27" y="0" drill="1" shape="long" rot="R90"/>
+<text x="-5.08" y="3.302" size="1.016" layer="25" ratio="10">&gt;NAME</text>
+<text x="-5.08" y="-4.318" size="1.016" layer="27" ratio="10">&gt;VALUE</text>
+<wire x1="-5.08" y1="-2.54" x2="5.08" y2="-2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="-2.54" x2="5.08" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="5.08" y1="2.54" x2="-5.08" y2="2.54" width="0.1524" layer="21"/>
+<wire x1="-5.08" y1="2.54" x2="-5.08" y2="-2.54" width="0.1524" layer="21"/>
+<pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
+<pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
+</package>
 </packages>
 <symbols>
 <symbol name="HEADER-PSOC-PROGRAMMER">
@@ -946,6 +984,42 @@ Bypass</text>
 <text x="-7.62" y="6.096" size="1.27" layer="95">&gt;NAME</text>
 <text x="-7.62" y="-12.7" size="1.27" layer="96">&gt;VALUE</text>
 <pin name="IO2" x="10.16" y="-7.62" length="short" rot="R180"/>
+</symbol>
+<symbol name="NAME-VALUE-ONLY">
+<text x="0" y="0" size="1.778" layer="94">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="94">&gt;VALUE</text>
+</symbol>
+<symbol name="HEADER-1X12">
+<pin name="1" x="-7.62" y="12.7" length="short"/>
+<pin name="2" x="-7.62" y="10.16" length="short"/>
+<pin name="3" x="-7.62" y="7.62" length="short"/>
+<pin name="4" x="-7.62" y="5.08" length="short"/>
+<pin name="5" x="-7.62" y="2.54" length="short"/>
+<pin name="6" x="-7.62" y="0" length="short"/>
+<pin name="7" x="-7.62" y="-2.54" length="short"/>
+<pin name="8" x="-7.62" y="-5.08" length="short"/>
+<pin name="9" x="-7.62" y="-7.62" length="short"/>
+<pin name="10" x="-7.62" y="-10.16" length="short"/>
+<pin name="11" x="-7.62" y="-12.7" length="short"/>
+<pin name="12" x="-7.62" y="-15.24" length="short"/>
+<wire x1="-5.08" y1="15.24" x2="2.54" y2="15.24" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="15.24" x2="2.54" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="2.54" y1="-17.78" x2="-5.08" y2="-17.78" width="0.1524" layer="94"/>
+<wire x1="-5.08" y1="-17.78" x2="-5.08" y2="15.24" width="0.1524" layer="94"/>
+<text x="-5.08" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-5.08" y="-20.32" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="HEADER-1X4">
+<pin name="1" x="-5.08" y="5.08" length="short"/>
+<pin name="2" x="-5.08" y="2.54" length="short"/>
+<pin name="3" x="-5.08" y="0" length="short"/>
+<pin name="4" x="-5.08" y="-2.54" length="short"/>
+<wire x1="-2.54" y1="7.62" x2="5.08" y2="7.62" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="7.62" x2="5.08" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="5.08" y1="-5.08" x2="-2.54" y2="-5.08" width="0.1524" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
+<text x="-2.54" y="8.89" size="1.778" layer="95">&gt;NAME</text>
+<text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1612,6 +1686,288 @@ Bypass</text>
 <technology name="">
 <attribute name="MPN" value="N/A" constant="no"/>
 <attribute name="VALUE" value="ATLAS-DOUBLE-CONN" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X12-FEMALE-PPTC121LFBN-RC-BOM-ONLY" prefix="J">
+<description>&lt;strong&gt;CONN HEADER FEM 12POS.1" SGL TIN&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;12 Position Header Connector 0.100" (2.54mm) Through Hole Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Header&lt;/li&gt;
+		&lt;li&gt;Contact Type: Female Socket&lt;/li&gt;
+		&lt;li&gt;Style: Board to Board&lt;/li&gt;
+		&lt;li&gt;Number of Positions: 12&lt;/li&gt;
+		&lt;li&gt;Number of Positions Loaded: All&lt;/li&gt;
+		&lt;li&gt;Pitch - Mating: 0.100" (2.54mm)&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Fastening Type: Push-Pull&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Mating: Tin&lt;/li&gt;
+		&lt;li&gt;Insulation Color: Black&lt;/li&gt;
+		&lt;li&gt;Insulation Height: 0.335" (8.51mm)&lt;/li&gt;
+		&lt;li&gt;Contact Length - Post: 0.126" (3.20mm)&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+		&lt;li&gt;Material Flammability Rating: UL94 V-0&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Post: Tin&lt;/li&gt;
+		&lt;li&gt;Current Rating: 3A&lt;/li&gt;
+		&lt;li&gt;Voltage Rating: 250V&lt;/li&gt;
+		&lt;li&gt;Insulation Material: Polyester&lt;/li&gt;
+		&lt;li&gt;Contact Shape: Square&lt;/li&gt;
+		&lt;li&gt;Contact Material: Phosphor Bronze&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf'&gt;xPxCyyyLFBN-RC Drawing&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf'&gt;Female Headers .100" Data Sheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231'&gt;S6100-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NAME-VALUE-ONLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME-VALUE-ONLY">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231#" constant="no"/>
+<attribute name="VPN" value="S6100-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X12-FEMALE-PPTC121LFBN-RC" prefix="J">
+<description>&lt;strong&gt;CONN HEADER FEM 12POS.1" SGL TIN&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;12 Position Header Connector 0.100" (2.54mm) Through Hole Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Header&lt;/li&gt;
+		&lt;li&gt;Contact Type: Female Socket&lt;/li&gt;
+		&lt;li&gt;Style: Board to Board&lt;/li&gt;
+		&lt;li&gt;Number of Positions: 12&lt;/li&gt;
+		&lt;li&gt;Number of Positions Loaded: All&lt;/li&gt;
+		&lt;li&gt;Pitch - Mating: 0.100" (2.54mm)&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Fastening Type: Push-Pull&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Mating: Tin&lt;/li&gt;
+		&lt;li&gt;Insulation Color: Black&lt;/li&gt;
+		&lt;li&gt;Insulation Height: 0.335" (8.51mm)&lt;/li&gt;
+		&lt;li&gt;Contact Length - Post: 0.126" (3.20mm)&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+		&lt;li&gt;Material Flammability Rating: UL94 V-0&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Post: Tin&lt;/li&gt;
+		&lt;li&gt;Current Rating: 3A&lt;/li&gt;
+		&lt;li&gt;Voltage Rating: 250V&lt;/li&gt;
+		&lt;li&gt;Insulation Material: Polyester&lt;/li&gt;
+		&lt;li&gt;Contact Shape: Square&lt;/li&gt;
+		&lt;li&gt;Contact Material: Phosphor Bronze&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf'&gt;xPxCyyyLFBN-RC Drawing&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf'&gt;Female Headers .100" Data Sheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231'&gt;S6100-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="HEADER-1X12" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEADER-1X12">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="10" pad="10"/>
+<connect gate="G$1" pin="11" pad="11"/>
+<connect gate="G$1" pin="12" pad="12"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+<connect gate="G$1" pin="5" pad="5"/>
+<connect gate="G$1" pin="6" pad="6"/>
+<connect gate="G$1" pin="7" pad="7"/>
+<connect gate="G$1" pin="8" pad="8"/>
+<connect gate="G$1" pin="9" pad="9"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231" constant="no"/>
+<attribute name="VPN" value="S6100-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X4-MALE-PREC004SAAN-RC" prefix="J">
+<description>&lt;strong&gt;CONN HEADER .100" SNGL STR 4POS&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;4 Positions Header, Breakaway Connector 0.100" (2.54mm) Through Hole Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Header, Breakaway&lt;/li&gt;
+		&lt;li&gt;Contact Type: Male Pin&lt;/li&gt;
+		&lt;li&gt;Pitch - Mating: 0.100" (2.54mm)&lt;/li&gt;
+		&lt;li&gt;Number of Positions: 4&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Number of Positions Loaded: All&lt;/li&gt;
+		&lt;li&gt;Style: Board to Board or Cable&lt;/li&gt;
+		&lt;li&gt;Shrouding: Unshrouded&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Fastening Type: Push-Pull&lt;/li&gt;
+		&lt;li&gt;Contact Length - Mating: 0.230" (5.84mm)&lt;/li&gt;
+		&lt;li&gt;Contact Length - Post: 0.120" (3.05mm)&lt;/li&gt;
+		&lt;li&gt;Overall Contact Length: 0.448" (11.39mm)&lt;/li&gt;
+		&lt;li&gt;Insulation Height: 0.098" (2.50mm)&lt;/li&gt;
+		&lt;li&gt;Contact Shape: Square&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Mating: Tin&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Post: Tin&lt;/li&gt;
+		&lt;li&gt;Contact Material: Brass&lt;/li&gt;
+		&lt;li&gt;Insulation Material: Polybutylene Terephthalate (PBT)&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+		&lt;li&gt;Material Flammability Rating: UL94 V-0&lt;/li&gt;
+		&lt;li&gt;Insulation Color: Black&lt;/li&gt;
+		&lt;li&gt;Current Rating: 3A per Contact&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='//media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf'&gt;zzzCzzzSzzN-RC Drawing&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SAAN-RC/S1012EC-04-ND/2774850'&gt;S1012EC-04-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="HEADER-1X4" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="HEADER-1X4">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+<connect gate="G$1" pin="4" pad="4"/>
+</connects>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PREC004SAAN-RC" constant="no"/>
+<attribute name="VALUE" value="PREC004SAAN-RC" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SAAN-RC/S1012EC-04-ND/2774850" constant="no"/>
+<attribute name="VPN" value="S1012EC-04-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X4-MALE-PREC004SAAN-RC-BOM-ONLY" prefix="J">
+<description>&lt;strong&gt;CONN HEADER .100" SNGL STR 4POS&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;4 Positions Header, Breakaway Connector 0.100" (2.54mm) Through Hole Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Header, Breakaway&lt;/li&gt;
+		&lt;li&gt;Contact Type: Male Pin&lt;/li&gt;
+		&lt;li&gt;Pitch - Mating: 0.100" (2.54mm)&lt;/li&gt;
+		&lt;li&gt;Number of Positions: 4&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Number of Positions Loaded: All&lt;/li&gt;
+		&lt;li&gt;Style: Board to Board or Cable&lt;/li&gt;
+		&lt;li&gt;Shrouding: Unshrouded&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Fastening Type: Push-Pull&lt;/li&gt;
+		&lt;li&gt;Contact Length - Mating: 0.230" (5.84mm)&lt;/li&gt;
+		&lt;li&gt;Contact Length - Post: 0.120" (3.05mm)&lt;/li&gt;
+		&lt;li&gt;Overall Contact Length: 0.448" (11.39mm)&lt;/li&gt;
+		&lt;li&gt;Insulation Height: 0.098" (2.50mm)&lt;/li&gt;
+		&lt;li&gt;Contact Shape: Square&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Mating: Tin&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Post: Tin&lt;/li&gt;
+		&lt;li&gt;Contact Material: Brass&lt;/li&gt;
+		&lt;li&gt;Insulation Material: Polybutylene Terephthalate (PBT)&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+		&lt;li&gt;Material Flammability Rating: UL94 V-0&lt;/li&gt;
+		&lt;li&gt;Insulation Color: Black&lt;/li&gt;
+		&lt;li&gt;Current Rating: 3A per Contact&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='//media.digikey.com/PDF/Data%20Sheets/Sullins%20PDFs/z%20RzCzzzSzzN-RC,%20ST,11635-B.pdf'&gt;zzzCzzzSzzN-RC Drawing&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SAAN-RC/S1012EC-04-ND/2774850'&gt;S1012EC-04-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NAME-VALUE-ONLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME-VALUE-ONLY">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PREC004SAAN-RC" constant="no"/>
+<attribute name="VALUE" value="PREC004SAAN-RC" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SAAN-RC/S1012EC-04-ND/2774850" constant="no"/>
+<attribute name="VPN" value="S1012EC-04-ND" constant="no"/>
 </technology>
 </technologies>
 </device>

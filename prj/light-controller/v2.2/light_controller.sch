@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1405,52 +1405,60 @@ Vout: 5V@1A</text>
 </device>
 </devices>
 </deviceset>
-<deviceset name="10K-ERJ-3EKF1002V" prefix="R">
-<description>&lt;b&gt; RES SMD 10K OHM 1% 1/10W 0603&lt;/b&gt;
+<deviceset name="2.2K-RC0603JR-072K2L" prefix="R">
+<description>&lt;strong&gt;RES SMD 2.2K OHM 5% 1/10W 0603&lt;/strong&gt;
 &lt;p&gt;Description:
-&lt;ul&gt;
-&lt;li&gt;10 kOhms ±1% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Automotive AEC-Q200 Thick Film&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;2.2 kOhms ±5% 0.1W, 1/10W Chip Resistor 0603 (1608 Metric) Moisture Resistant Thick Film&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt; Technical Specifications:
-&lt;ul&gt;
-&lt;li&gt;Resistance: 10kOhms&lt;/li&gt;
-&lt;li&gt;Tolerance: ±1%&lt;/li&gt;
-&lt;li&gt;Power: 0.1W, 1/10W&lt;/li&gt;
-&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
-&lt;li&gt;Package/Case: 0603 (1608 Metric)&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Resistance: 2.2 kOhms&lt;/li&gt;
+		&lt;li&gt;Tolerance: ±5%&lt;/li&gt;
+		&lt;li&gt;Power (Watts): 0.1W, 1/10W&lt;/li&gt;
+		&lt;li&gt;Composition: Thick Film&lt;/li&gt;
+		&lt;li&gt;Features: Moisture Resistant&lt;/li&gt;
+		&lt;li&gt;Temperature Coefficient: ±100ppm/°C&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -55°C ~ 155°C&lt;/li&gt;
+		&lt;li&gt;Package / Case: 0603 (1608 Metric)&lt;/li&gt;
+		&lt;li&gt;Supplier Device Package: 0603&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.063" L x 0.032" W (1.60mm x 0.80mm)&lt;/li&gt;
+		&lt;li&gt;Height - Seated (Max): 0.022" (0.55mm)&lt;/li&gt;
+		&lt;li&gt;Number of Terminations: 2&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Datasheet(s):
-&lt;ul&gt;
-&lt;li&gt;&lt;a href="https://industrial.panasonic.com/ww/products/resistors/chip-resistors/general-purpose-chip-resistors/precision-thick-film-chip-resistors/ERJ3EKF1002V"&gt;ERJ-3EKF1002V View All Specifications&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/documents/recent/PYu-RC_Group_51_RoHS_L_8.pdf'&gt;RC Series, L Datasheet&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://www.yageo.com/exep/pages/download/literatures/PYu-R_Marking_2.pdf'&gt;Chip Resistor Marking&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;
 
 &lt;p&gt;Vendor(s):
-&lt;ul&gt;
-&lt;li&gt;Digikey: &lt;a href="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102"&gt;P10.0KHCT-ND&lt;/a&gt;&lt;/li&gt;
-&lt;/ul&gt;
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/yageo/RC0603JR-072K2L/311-2.2KGRCT-ND/729676#'&gt;311-2.2KGRCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
 &lt;/p&gt;</description>
 <gates>
-<gate name="A" symbol="R-US" x="0" y="0"/>
+<gate name="G$1" symbol="R-US" x="0" y="0"/>
 </gates>
 <devices>
 <device name="" package="RC0603N">
 <connects>
-<connect gate="A" pin="1" pad="1"/>
-<connect gate="A" pin="2" pad="2"/>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
 </connects>
 <technologies>
 <technology name="">
-<attribute name="MANUFACTURER" value="Panasonic" constant="no"/>
-<attribute name="MPN" value="ERJ-3EKF1002V" constant="no"/>
-<attribute name="VALUE" value="10K"/>
+<attribute name="MANUFACTURER" value="Yageo" constant="no"/>
+<attribute name="MPN" value="RC0603JR-072K2L" constant="no"/>
+<attribute name="VALUE" value="2.2k" constant="no"/>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
-<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERJ-3EKF1002V/P10.0KHCT-ND/198102" constant="no"/>
-<attribute name="VPN" value="P10.0KHCT-ND" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/yageo/RC0603JR-072K2L/311-2.2KGRCT-ND/729676#" constant="no"/>
+<attribute name="VPN" value="311-2.2KGRCT-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -9339,8 +9347,8 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="R35" library="openag-resistors" deviceset="600OHM-RC0603FR-07604RL" device="" value="600"/>
 <part name="R36" library="openag-resistors" deviceset="120OHM-RC0603FR-07120RL" device="" value="120"/>
 <part name="GND47" library="openag-supply" deviceset="GND" device=""/>
-<part name="R37" library="openag-resistors" deviceset="10K-ERJ-3EKF1002V" device="" value="10K"/>
-<part name="R38" library="openag-resistors" deviceset="10K-ERJ-3EKF1002V" device="" value="10K"/>
+<part name="R37" library="openag-resistors" deviceset="2.2K-RC0603JR-072K2L" device="" value="2.2k"/>
+<part name="R38" library="openag-resistors" deviceset="2.2K-RC0603JR-072K2L" device="" value="2.2k"/>
 <part name="+3V18" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="P+28" library="openag-supply" deviceset="+5V" device=""/>
 <part name="P+29" library="openag-supply" deviceset="+5V" device=""/>
@@ -9412,7 +9420,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <part name="C36" library="openag-capacitors" deviceset="10UF-GMK212BBJ106KG-T" device="" value="10uF"/>
 <part name="C37" library="openag-capacitors" deviceset="4.7UF-CL21A475KBQNNNE" device="" value="4.7uF"/>
 <part name="C43" library="openag-capacitors" deviceset="0.1UF-C0603C104K5RACTU" device="" value="0.1uF"/>
-<part name="R11" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
+<part name="R11" library="openag-resistors" deviceset="1K-ERJ-PB3D1001V" device="" value="1K"/>
 <part name="D4" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608"/>
 <part name="GND14" library="openag-supply" deviceset="GND" device=""/>
 <part name="P+14" library="openag-supply" deviceset="+24V" device=""/>
@@ -9850,8 +9858,8 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="R35" gate="G$1" x="454.66" y="129.54" rot="R90"/>
 <instance part="R36" gate="G$1" x="454.66" y="144.78" rot="R90"/>
 <instance part="GND47" gate="1" x="454.66" y="119.38"/>
-<instance part="R37" gate="A" x="523.24" y="147.32" rot="R90"/>
-<instance part="R38" gate="A" x="510.54" y="147.32" rot="R90"/>
+<instance part="R37" gate="G$1" x="523.24" y="147.32" rot="R90"/>
+<instance part="R38" gate="G$1" x="510.54" y="147.32" rot="R90"/>
 <instance part="+3V18" gate="G$1" x="523.24" y="165.1"/>
 <instance part="P+28" gate="1" x="436.88" y="167.64"/>
 <instance part="P+29" gate="1" x="454.66" y="172.72"/>
@@ -9925,7 +9933,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="C36" gate="G$1" x="604.52" y="208.28"/>
 <instance part="C37" gate="A" x="614.68" y="208.28"/>
 <instance part="C43" gate="G$1" x="624.84" y="208.28"/>
-<instance part="R11" gate="G$1" x="673.1" y="208.28"/>
+<instance part="R11" gate="A" x="673.1" y="208.28"/>
 <instance part="D4" gate="G$1" x="662.94" y="208.28" rot="R270"/>
 <instance part="GND14" gate="1" x="655.32" y="200.66"/>
 <instance part="P+14" gate="1" x="680.72" y="215.9"/>
@@ -10169,7 +10177,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <label x="662.94" y="327.66" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
 <segment>
-<pinref part="R11" gate="G$1" pin="2"/>
+<pinref part="R11" gate="A" pin="2"/>
 <pinref part="P+14" gate="1" pin="+24V"/>
 <wire x1="678.18" y1="208.28" x2="680.72" y2="208.28" width="0.1524" layer="91" style="longdash"/>
 <wire x1="680.72" y1="208.28" x2="680.72" y2="213.36" width="0.1524" layer="91" style="longdash"/>
@@ -11134,10 +11142,10 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="J7" gate="G$1" pin="3V3"/>
 </segment>
 <segment>
-<pinref part="R38" gate="A" pin="2"/>
+<pinref part="R38" gate="G$1" pin="2"/>
 <wire x1="510.54" y1="152.4" x2="510.54" y2="157.48" width="0.1524" layer="91"/>
 <wire x1="510.54" y1="157.48" x2="523.24" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="R37" gate="A" pin="2"/>
+<pinref part="R37" gate="G$1" pin="2"/>
 <wire x1="523.24" y1="157.48" x2="523.24" y2="152.4" width="0.1524" layer="91"/>
 <wire x1="523.24" y1="157.48" x2="523.24" y2="162.56" width="0.1524" layer="91"/>
 <junction x="523.24" y="157.48"/>
@@ -11943,7 +11951,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="U11" gate="G$1" pin="SDA"/>
 </segment>
 <segment>
-<pinref part="R37" gate="A" pin="1"/>
+<pinref part="R37" gate="G$1" pin="1"/>
 <wire x1="523.24" y1="142.24" x2="523.24" y2="139.7" width="0.1524" layer="91"/>
 <label x="523.24" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 </segment>
@@ -11983,7 +11991,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="U11" gate="G$1" pin="SCL"/>
 </segment>
 <segment>
-<pinref part="R38" gate="A" pin="1"/>
+<pinref part="R38" gate="G$1" pin="1"/>
 <label x="510.54" y="139.7" size="1.27" layer="95" rot="R180" xref="yes"/>
 <wire x1="510.54" y1="139.7" x2="510.54" y2="142.24" width="0.1524" layer="91"/>
 </segment>
@@ -12313,7 +12321,7 @@ w/Optional EMI Filter + Indicator LED</text>
 </net>
 <net name="N$4" class="0">
 <segment>
-<pinref part="R11" gate="G$1" pin="1"/>
+<pinref part="R11" gate="A" pin="1"/>
 <pinref part="D4" gate="G$1" pin="A"/>
 <wire x1="668.02" y1="208.28" x2="665.48" y2="208.28" width="0.1524" layer="91" style="longdash"/>
 </segment>

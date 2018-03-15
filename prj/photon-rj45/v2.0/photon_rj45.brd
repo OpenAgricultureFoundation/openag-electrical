@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="50" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
+<grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -440,6 +440,10 @@ RECOMMENDED ON ALL LAYERS</text>
 <text x="-6.096" y="-2.286" size="0.762" layer="27" rot="R90">&gt;VALUE</text>
 <wire x1="-12.446" y1="4.445" x2="-12.446" y2="-4.445" width="0.1524" layer="21"/>
 <circle x="-10.5" y="0" radius="1" width="0.01" layer="20"/>
+</package>
+<package name="NAME-VALUE-ONLY">
+<text x="0" y="0" size="0.762" layer="25">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.762" layer="27">&gt;VALUE</text>
 </package>
 </packages>
 </library>
@@ -1633,7 +1637,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SMAJ26A-13-F/SMAJ26A-FDICT-ND/806583" x="14.732" y="3.556" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value="SMAJ26A-FDICT-ND" x="14.732" y="3.556" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="J3" library="openag-connectors" package="BARREL-JACK-PJ-036AH" value="PJ-036AH" x="12.2428" y="10.795" smashed="yes">
+<element name="J2" library="openag-connectors" package="BARREL-JACK-PJ-036AH" value="PJ-036AH" x="12.2428" y="10.795" smashed="yes">
 <attribute name="MANUFACTURER" value="CUI Inc." x="12.2428" y="10.795" size="1.778" layer="27" display="off"/>
 <attribute name="MPN" value="PJ-036AH-SMT-TR" x="12.2428" y="10.795" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="12.5222" y="15.24" size="0.762" layer="21" rot="R270"/>
@@ -1680,6 +1684,24 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VPN" value="945-2201-ND " x="20.32" y="9.652" size="0.762" layer="27" rot="R270" display="off"/>
 </element>
 <element name="U$1" library="openag-frames" package="LOGO-BARE-750" value="" x="3.556" y="1.778" rot="MR90"/>
+<element name="J3" library="openag-connectors" package="NAME-VALUE-ONLY" value="PPTC121LFBN-RC" x="47.879" y="1.778" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="47.879" y="1.778" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPTC121LFBN-RC" x="47.879" y="1.778" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="47.879" y="1.778" size="0.762" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="46.101" y="1.778" size="0.762" layer="28" rot="MR0"/>
+<attribute name="VENDOR" value="Digikey" x="47.879" y="1.778" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231#" x="47.879" y="1.778" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VPN" value="S6100-ND" x="47.879" y="1.778" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
+<element name="J4" library="openag-connectors" package="NAME-VALUE-ONLY" value="PPTC121LFBN-RC" x="48.006" y="19.304" smashed="yes" rot="MR0">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" x="48.006" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="MPN" value="PPTC121LFBN-RC" x="48.006" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="NAME" x="48.006" y="19.304" size="0.762" layer="26" rot="MR90"/>
+<attribute name="VALUE" x="45.466" y="19.304" size="0.762" layer="28" rot="MR0"/>
+<attribute name="VENDOR" value="Digikey" x="48.006" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231#" x="48.006" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+<attribute name="VPN" value="S6100-ND" x="48.006" y="19.304" size="1.778" layer="28" rot="MR0" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="PHOTON_SCL1">
@@ -1724,8 +1746,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <contactref element="C5" pad="2"/>
 <contactref element="D1" pad="C"/>
 <contactref element="D3" pad="2"/>
-<contactref element="J3" pad="2"/>
-<contactref element="J3" pad="3"/>
+<contactref element="J2" pad="2"/>
+<contactref element="J2" pad="3"/>
 <contactref element="U1" pad="2"/>
 <wire x1="34.6202" y1="5.957" x2="35.294" y2="5.957" width="0.3048" layer="1"/>
 <wire x1="35.56" y1="6.858" x2="35.56" y2="6.985" width="0.3048" layer="1"/>
@@ -2101,7 +2123,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="6.604" y1="20.574" x2="7.6042" y2="20.574" width="0.3048" layer="1"/>
 </signal>
 <signal name="24V_IN1">
-<contactref element="J3" pad="1"/>
+<contactref element="J2" pad="1"/>
 <contactref element="F1" pad="1"/>
 <wire x1="15.113" y1="14.0081" x2="15.113" y2="10.2368" width="1.27" layer="1"/>
 <wire x1="15.113" y1="10.2368" x2="14.4428" y2="10.145" width="1.27" layer="1"/>

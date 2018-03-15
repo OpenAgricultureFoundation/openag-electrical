@@ -6,7 +6,7 @@
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="1.5" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -1368,6 +1368,10 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="-12.446" y1="4.445" x2="-12.446" y2="-4.445" width="0.1524" layer="21"/>
 <circle x="-10.5" y="0" radius="1" width="0.01" layer="20"/>
 </package>
+<package name="NAME-VALUE-ONLY">
+<text x="0" y="0" size="0.762" layer="25">&gt;NAME</text>
+<text x="0" y="-1.27" size="0.762" layer="27">&gt;VALUE</text>
+</package>
 </packages>
 <symbols>
 <symbol name="RJ45-DI2C-USB">
@@ -1418,6 +1422,10 @@ RECOMMENDED ON ALL LAYERS</text>
 <wire x1="-17.78" y1="15.24" x2="-17.78" y2="-7.62" width="0.254" layer="94"/>
 <text x="-17.78" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
 <wire x1="10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+</symbol>
+<symbol name="NAME-VALUE-ONLY">
+<text x="0" y="0" size="1.778" layer="94">&gt;NAME</text>
+<text x="0" y="-2.54" size="1.778" layer="94">&gt;VALUE</text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1549,6 +1557,71 @@ RECOMMENDED ON ALL LAYERS</text>
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" constant="no"/>
 <attribute name="VPN" value="CP-036AHPJCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="HEADER-1X12-FEMALE-PPTC121LFBN-RC-BOM-ONLY" prefix="J">
+<description>&lt;strong&gt;CONN HEADER FEM 12POS.1" SGL TIN&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;12 Position Header Connector 0.100" (2.54mm) Through Hole Tin&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Header&lt;/li&gt;
+		&lt;li&gt;Contact Type: Female Socket&lt;/li&gt;
+		&lt;li&gt;Style: Board to Board&lt;/li&gt;
+		&lt;li&gt;Number of Positions: 12&lt;/li&gt;
+		&lt;li&gt;Number of Positions Loaded: All&lt;/li&gt;
+		&lt;li&gt;Pitch - Mating: 0.100" (2.54mm)&lt;/li&gt;
+		&lt;li&gt;Number of Rows: 1&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Fastening Type: Push-Pull&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Mating: Tin&lt;/li&gt;
+		&lt;li&gt;Insulation Color: Black&lt;/li&gt;
+		&lt;li&gt;Insulation Height: 0.335" (8.51mm)&lt;/li&gt;
+		&lt;li&gt;Contact Length - Post: 0.126" (3.20mm)&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 105°C&lt;/li&gt;
+		&lt;li&gt;Material Flammability Rating: UL94 V-0&lt;/li&gt;
+		&lt;li&gt;Contact Finish - Post: Tin&lt;/li&gt;
+		&lt;li&gt;Current Rating: 3A&lt;/li&gt;
+		&lt;li&gt;Voltage Rating: 250V&lt;/li&gt;
+		&lt;li&gt;Insulation Material: Polyester&lt;/li&gt;
+		&lt;li&gt;Contact Shape: Square&lt;/li&gt;
+		&lt;li&gt;Contact Material: Phosphor Bronze&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.sullinscorp.com/drawings/78_P(N)PxCxxxLFBN-RC,_10492-H.pdf'&gt;xPxCyyyLFBN-RC Drawing&lt;/a&gt;&lt;/li&gt;
+		&lt;li&gt;&lt;a href='http://sullinscorp.com/catalogs/101_PAGE114-115_.100_FEMALE_HDR.pdf'&gt;Female Headers .100" Data Sheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231'&gt;S6100-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="NAME-VALUE-ONLY" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="NAME-VALUE-ONLY">
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Sullins Connector Solutions" constant="no"/>
+<attribute name="MPN" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VALUE" value="PPTC121LFBN-RC" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PPTC121LFBN-RC/S6100-ND/807231#" constant="no"/>
+<attribute name="VPN" value="S6100-ND" constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -6615,7 +6688,7 @@ Cambridge, MA</text>
 <part name="GND11" library="openag-supply" deviceset="GND" device=""/>
 <part name="P+8" library="openag-supply" deviceset="+24V" device=""/>
 <part name="D3" library="openag-diodes" deviceset="SMAJ26A-13-F" device="" value="SMAJ26A"/>
-<part name="J3" library="openag-connectors" deviceset="BARREL-JACK-PJ-036AH-SMT-TR" device="" value="PJ-036AH"/>
+<part name="J2" library="openag-connectors" deviceset="BARREL-JACK-PJ-036AH-SMT-TR" device="" value="PJ-036AH"/>
 <part name="P+9" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U1" library="openag-microcontrollers" deviceset="PHOTONH" device="-NO-BOTTOM-LABEL" value="PHOTONH"/>
 <part name="F1" library="openag-fuses" deviceset="SSQ5" device="" value="SSQ5"/>
@@ -6633,6 +6706,8 @@ Cambridge, MA</text>
 <attribute name="URL" value="github.com/openaginitiative/openag-body/prj/photon-rj45"/>
 <attribute name="VER" value="2.0"/>
 </part>
+<part name="J3" library="openag-connectors" deviceset="HEADER-1X12-FEMALE-PPTC121LFBN-RC-BOM-ONLY" device="" value="PPTC121LFBN-RC"/>
+<part name="J4" library="openag-connectors" deviceset="HEADER-1X12-FEMALE-PPTC121LFBN-RC-BOM-ONLY" device="" value="PPTC121LFBN-RC"/>
 </parts>
 <sheets>
 <sheet>
@@ -6733,7 +6808,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="GND11" gate="1" x="121.92" y="200.66"/>
 <instance part="P+8" gate="1" x="147.32" y="215.9"/>
 <instance part="D3" gate="A" x="60.96" y="208.28" rot="R90"/>
-<instance part="J3" gate="G$1" x="63.5" y="241.3"/>
+<instance part="J2" gate="G$1" x="63.5" y="241.3"/>
 <instance part="P+9" gate="1" x="93.98" y="256.54"/>
 <instance part="U1" gate="G$1" x="266.7" y="114.3"/>
 <instance part="F1" gate="A" x="81.28" y="248.92"/>
@@ -6746,6 +6821,8 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="GND10" gate="1" x="243.84" y="134.62"/>
 <instance part="P+12" gate="1" x="243.84" y="147.32"/>
 <instance part="U$2" gate="G$1" x="266.7" y="0"/>
+<instance part="J3" gate="G$1" x="261.62" y="86.36" rot="R90"/>
+<instance part="J4" gate="G$1" x="269.24" y="86.36" rot="R90"/>
 </instances>
 <busses>
 </busses>
@@ -6793,9 +6870,9 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="78.74" y1="236.22" x2="81.28" y2="236.22" width="0.1524" layer="91"/>
 <wire x1="78.74" y1="236.22" x2="78.74" y2="241.3" width="0.1524" layer="91"/>
 <pinref part="GND9" gate="1" pin="GND"/>
-<pinref part="J3" gate="G$1" pin="2"/>
+<pinref part="J2" gate="G$1" pin="2"/>
 <junction x="78.74" y="236.22"/>
-<pinref part="J3" gate="G$1" pin="3"/>
+<pinref part="J2" gate="G$1" pin="3"/>
 </segment>
 <segment>
 <pinref part="GND8" gate="1" pin="GND"/>
@@ -7080,7 +7157,7 @@ w/Optional EMI Filter + Indicator LED</text>
 </net>
 <net name="24V_IN1" class="0">
 <segment>
-<pinref part="J3" gate="G$1" pin="1"/>
+<pinref part="J2" gate="G$1" pin="1"/>
 <wire x1="78.74" y1="248.92" x2="81.28" y2="248.92" width="0.1524" layer="91"/>
 <pinref part="F1" gate="A" pin="1"/>
 </segment>
