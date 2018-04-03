@@ -1,0 +1,81 @@
+# Created by Ultra Librarian Gold 8.2.165 Copyright © 1999-2017
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'IND_BOURNS_SDR1307.pac';
+Layer 1;
+Smd '1' 187 551 -0 R0 (-182 0);
+Layer 1;
+Smd '2' 187 551 -0 R0 (182 0);
+Layer 21;
+Wire 6 (-75 -271) (75 -271);
+Wire 6 (75 271) (-75 271);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-329 -50);
+Layer 51;
+Wire 6 (-133 266) (-266 133);
+Wire 6 (-266 133) (-266 -133);
+Wire 6 (-266 -133) (-133 -266);
+Wire 6 (-133 -266) (133 -266);
+Wire 6 (133 -266) (266 -133);
+Wire 6 (266 -133) (266 133);
+Wire 6 (266 133) (133 266);
+Wire 6 (133 266) (-133 266);
+Change Size 50;
+Change Ratio 6;
+Text '*' SR0 (-269 -50);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'IND.sym';
+Layer 94;
+Pin '1' Pas None Short R180 Off 0 (600 0)
+Pin '2' Pas None Short R0 Off 1 (0 0)
+Wire 8 (200 0) (200 50);
+Wire 8 (300 0) (300 50);
+Wire 8 (500 0) (500 50);
+Wire 8 (100 0) (100 50);
+Wire 8 (400 0) (400 50);
+Wire 6 (200 50) -180 (300 50);
+Wire 6 (100 50) -180 (200 50);
+Wire 6 (300 50) -180 (400 50);
+Wire 6 (400 50) -180 (500 50);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (-78 -168);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (-36 132);
+
+Edit 'INDV.sym';
+Layer 94;
+Pin '1' Pas None Short R270 Off 0 (0 600)
+Pin '2' Pas None Short R90 Off 1 (0 0)
+Wire 8 (0 300) (-50 300);
+Wire 8 (0 200) (-50 200);
+Wire 8 (0 500) (-50 500);
+Wire 8 (0 100) (-50 100);
+Wire 8 (0 400) (-50 400);
+Wire 6 (-50 200) -180 (-50 300);
+Wire 6 (-50 100) -180 (-50 200);
+Wire 6 (-50 400) -180 (-50 500);
+Wire 6 (-50 300) -180 (-50 400);
+Layer 97;
+Layer 96;
+Change Size 137;
+Change Ratio 10;
+Text '>Value' SR0 (50 156);
+Layer 95;
+Change Size 137;
+Change Ratio 10;
+Text '>Name' SR0 (50 282);

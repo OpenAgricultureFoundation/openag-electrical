@@ -138,11 +138,11 @@
 <devices>
 <device name="" package="AL8861">
 <connects>
-<connect gate="G$1" pin="GND" pad="4 44"/>
-<connect gate="G$1" pin="ISEN" pad="2"/>
-<connect gate="G$1" pin="LX" pad="3"/>
-<connect gate="G$1" pin="VIN" pad="1"/>
-<connect gate="G$1" pin="VSET" pad="5"/>
+<connect gate="G$1" pin="GND" pad="2 44"/>
+<connect gate="G$1" pin="ISEN" pad="4"/>
+<connect gate="G$1" pin="LX" pad="1"/>
+<connect gate="G$1" pin="VIN" pad="5"/>
+<connect gate="G$1" pin="VSET" pad="3"/>
 </connects>
 <technologies>
 <technology name=""/>
