@@ -1,5 +1,5 @@
 # OpenAg Body
-Body of electrical and mechanical hardware to go with the brain software.
+Body of electrical hardware to go with the brain software.
 Electrical design based in Eagle. Mechanical design based in Solidworks.
 
 *WORK IN PROGRESS*
