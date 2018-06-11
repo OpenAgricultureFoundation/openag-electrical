@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="9.0.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="100" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="yes" active="yes"/>
@@ -756,6 +756,103 @@ Bypass</text>
 <pad name="3" x="1.27" y="0" drill="1" shape="long" rot="R90"/>
 <pad name="4" x="3.81" y="0" drill="1" shape="long" rot="R90"/>
 </package>
+<package name="23PINHEADERSMD">
+<smd name="DGND2" x="0" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND1" x="2.54" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_20" x="5.08" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN0" x="7.62" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN2" x="10.16" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN6" x="12.7" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN4" x="15.24" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SP11_SCLK" x="17.78" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SP11_DO" x="20.32" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_115" x="22.86" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_117" x="25.4" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_49" x="27.94" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SPIO_DO" x="30.48" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="I2C2_SCL" x="33.02" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SPIO_CS0" x="35.56" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_48" x="38.1" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="UART4_TXD" x="40.64" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="UART4_RXD" x="43.18" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="PWR_BUT" x="45.72" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SYS5V" x="48.26" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="VDD5V" x="50.8" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="VDD3.31" x="53.34" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND" x="55.88" y="0" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND3" x="0" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND4" x="2.54" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="ECAPWMO" x="5.08" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN1" x="7.62" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN3" x="10.16" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="AIN5" x="12.7" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GND_ADC" x="15.24" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="VDD_ADC" x="17.78" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_112" x="20.32" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SP11_CS0" x="22.86" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="UART1_RXD" x="25.4" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="UART1_TXD" x="27.94" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SPIO_SLCK" x="30.48" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="I2C_SDA" x="33.02" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SPIO_D1" x="35.56" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="EHRPWM1B" x="38.1" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="EHRPWM1A" x="40.64" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_60" x="43.18" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SYS_RESET" x="45.72" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="SYS5V1" x="48.26" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="VDD5V1" x="50.8" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="VDD3.3" x="53.34" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND5" x="55.88" y="5.207" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA0" x="0" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA2" x="2.54" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA4" x="5.08" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA6" x="7.62" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA8" x="10.16" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA12" x="12.7" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA13" x="15.24" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA14" x="17.78" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_HSYNC" x="20.32" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_VSYNC" x="22.86" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT0" x="25.4" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT4" x="27.94" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_CLK" x="30.48" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="EHRPWM2A" x="33.02" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_27" x="35.56" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_47" x="38.1" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="EHRPWM2B" x="40.64" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_45" x="43.18" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_69" x="45.72" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_66" x="48.26" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT2" x="50.8" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT6" x="53.34" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND6" x="55.88" y="48.26" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA1" x="0" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA3" x="2.54" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA5" x="5.08" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA7" x="7.62" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA9" x="10.16" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA10" x="12.7" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA11" x="15.24" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_DATA15" x="17.78" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_AC_BIAS" x="20.32" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="LCD_PCLK" x="22.86" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_61" x="25.4" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT1" x="27.94" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT5" x="30.48" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_CMD" x="33.02" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_65" x="35.56" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_46" x="38.1" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_26" x="40.64" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_44" x="43.18" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_68" x="45.72" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="GPIO_67" x="48.26" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT3" x="50.8" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="MMC1_DAT7" x="53.34" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<smd name="DGND7" x="55.88" y="53.467" dx="3.556" dy="1.27" layer="1" rot="R90"/>
+<text x="54.61" y="43.18" size="1.778" layer="21" rot="R270">Antenna or Ethernet on this Side</text>
+<text x="-1.27" y="15.24" size="1.778" layer="21" rot="R270">USB</text>
+<text x="0" y="40.64" size="1.778" layer="21">Beagle Bone Black</text>
+</package>
 </packages>
 <symbols>
 <symbol name="HEADER-PSOC-PROGRAMMER">
@@ -1020,6 +1117,99 @@ Bypass</text>
 <wire x1="-2.54" y1="-5.08" x2="-2.54" y2="7.62" width="0.1524" layer="94"/>
 <text x="-2.54" y="8.89" size="1.778" layer="95">&gt;NAME</text>
 <text x="-2.54" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
+<symbol name="24PINHEADERSMD">
+<pin name="DGND" x="-20.32" y="22.86" length="middle"/>
+<pin name="VDD3.3" x="-20.32" y="17.78" length="middle"/>
+<pin name="VDD5V" x="-20.32" y="12.7" length="middle"/>
+<pin name="SYS5V" x="-20.32" y="7.62" length="middle"/>
+<pin name="PWR_BUT" x="-20.32" y="2.54" length="middle"/>
+<pin name="UART4_RXD" x="-20.32" y="-2.54" length="middle"/>
+<pin name="UART4_TXD" x="-20.32" y="-7.62" length="middle"/>
+<pin name="GPIO_48" x="-20.32" y="-12.7" length="middle"/>
+<pin name="SPIO_CS0" x="-20.32" y="-17.78" length="middle"/>
+<pin name="I2C2_SCL" x="-20.32" y="-22.86" length="middle"/>
+<pin name="SPIO_D0" x="-20.32" y="-27.94" length="middle"/>
+<pin name="GPIO_49" x="-20.32" y="-33.02" length="middle"/>
+<pin name="GPIO_117" x="-20.32" y="-38.1" length="middle"/>
+<pin name="GPIO_115" x="-20.32" y="-43.18" length="middle"/>
+<pin name="SP11_D0" x="-20.32" y="-48.26" length="middle"/>
+<pin name="SP11_SCLK" x="-20.32" y="-53.34" length="middle"/>
+<pin name="AIN4" x="-20.32" y="-58.42" length="middle"/>
+<pin name="AIN6" x="-20.32" y="-63.5" length="middle"/>
+<pin name="AIN2" x="-20.32" y="-68.58" length="middle"/>
+<pin name="AIN0" x="-20.32" y="-73.66" length="middle"/>
+<pin name="GPIO_20" x="-20.32" y="-78.74" length="middle"/>
+<pin name="SYS_RESET" x="22.86" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO_60" x="22.86" y="-2.54" length="middle" rot="R180"/>
+<pin name="EHRPWM1A" x="22.86" y="-7.62" length="middle" rot="R180"/>
+<pin name="EHRPWM1B" x="22.86" y="-12.7" length="middle" rot="R180"/>
+<pin name="SPIO_D1" x="22.86" y="-17.78" length="middle" rot="R180"/>
+<pin name="I2C_SDA" x="22.86" y="-22.86" length="middle" rot="R180"/>
+<pin name="SPIO_SLCK" x="22.86" y="-27.94" length="middle" rot="R180"/>
+<pin name="UART1_TXD" x="22.86" y="-33.02" length="middle" rot="R180"/>
+<pin name="UART1_RXD" x="22.86" y="-38.1" length="middle" rot="R180"/>
+<pin name="SP11_CS0" x="22.86" y="-43.18" length="middle" rot="R180"/>
+<pin name="GPIO_112" x="22.86" y="-48.26" length="middle" rot="R180"/>
+<pin name="VDD_ADC" x="22.86" y="-53.34" length="middle" rot="R180"/>
+<pin name="GND_ADC" x="22.86" y="-58.42" length="middle" rot="R180"/>
+<pin name="AIN5" x="22.86" y="-63.5" length="middle" rot="R180"/>
+<pin name="AIN3" x="22.86" y="-68.58" length="middle" rot="R180"/>
+<pin name="AIN1" x="22.86" y="-73.66" length="middle" rot="R180"/>
+<pin name="ECAPWM0" x="22.86" y="-78.74" length="middle" rot="R180"/>
+<wire x1="-15.24" y1="27.94" x2="-15.24" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="-15.24" y1="-83.82" x2="17.78" y2="-83.82" width="0.254" layer="94"/>
+<wire x1="17.78" y1="-83.82" x2="17.78" y2="27.94" width="0.254" layer="94"/>
+<wire x1="17.78" y1="27.94" x2="-15.24" y2="27.94" width="0.254" layer="94"/>
+<pin name="MMC1_DAT6" x="73.66" y="22.86" length="middle"/>
+<pin name="MMC1_DAT2" x="73.66" y="17.78" length="middle"/>
+<pin name="GPIO_66" x="73.66" y="12.7" length="middle"/>
+<pin name="GPIO_69" x="73.66" y="7.62" length="middle"/>
+<pin name="GPIO_45" x="73.66" y="2.54" length="middle"/>
+<pin name="EHRPWM2B" x="73.66" y="-2.54" length="middle"/>
+<pin name="GPIO_47" x="73.66" y="-7.62" length="middle"/>
+<pin name="GPIO_27" x="73.66" y="-12.7" length="middle"/>
+<pin name="EHRPWM2A" x="73.66" y="-17.78" length="middle"/>
+<pin name="MMC1_CLK" x="73.66" y="-22.86" length="middle"/>
+<pin name="MMC1_DAT4" x="73.66" y="-27.94" length="middle"/>
+<pin name="MMC1_DAT0" x="73.66" y="-33.02" length="middle"/>
+<pin name="LCD_VSYNC" x="73.66" y="-38.1" length="middle"/>
+<pin name="LCD_HSYNC" x="73.66" y="-43.18" length="middle"/>
+<pin name="LCD_DATA14" x="73.66" y="-48.26" length="middle"/>
+<pin name="LCD_DATA13" x="73.66" y="-53.34" length="middle"/>
+<pin name="LCD_DATA12" x="73.66" y="-58.42" length="middle"/>
+<pin name="LCD_DATA8" x="73.66" y="-63.5" length="middle"/>
+<pin name="LCD_DATA6" x="73.66" y="-68.58" length="middle"/>
+<pin name="LCD_DATA4" x="73.66" y="-73.66" length="middle"/>
+<pin name="LCD_DATA2" x="73.66" y="-78.74" length="middle"/>
+<pin name="LCD_DATA0" x="73.66" y="-83.82" length="middle"/>
+<pin name="MMC1_DAT7" x="124.46" y="22.86" length="middle" rot="R180"/>
+<pin name="MMC1_DAT3" x="124.46" y="17.78" length="middle" rot="R180"/>
+<pin name="GPIO_67" x="124.46" y="12.7" length="middle" rot="R180"/>
+<pin name="GPIO_68" x="124.46" y="7.62" length="middle" rot="R180"/>
+<pin name="GPIO_44" x="124.46" y="2.54" length="middle" rot="R180"/>
+<pin name="GPIO_26" x="124.46" y="-2.54" length="middle" rot="R180"/>
+<pin name="GPIO_46" x="124.46" y="-7.62" length="middle" rot="R180"/>
+<pin name="GPIO_65" x="124.46" y="-12.7" length="middle" rot="R180"/>
+<pin name="MMC1_CMD" x="124.46" y="-17.78" length="middle" rot="R180"/>
+<pin name="MMC1_DAT5" x="124.46" y="-22.86" length="middle" rot="R180"/>
+<pin name="MMC1_DAT1" x="124.46" y="-27.94" length="middle" rot="R180"/>
+<pin name="GPIO_61" x="124.46" y="-33.02" length="middle" rot="R180"/>
+<pin name="LCD_PCLK" x="124.46" y="-38.1" length="middle" rot="R180"/>
+<pin name="LCD_AC_BIAS" x="124.46" y="-43.18" length="middle" rot="R180"/>
+<pin name="LCD_DATA15" x="124.46" y="-48.26" length="middle" rot="R180"/>
+<pin name="LCD_DATA11" x="124.46" y="-53.34" length="middle" rot="R180"/>
+<pin name="LCD_DATA10" x="124.46" y="-58.42" length="middle" rot="R180"/>
+<pin name="LCD_DATA9" x="124.46" y="-63.5" length="middle" rot="R180"/>
+<pin name="LCD_DATA7" x="124.46" y="-68.58" length="middle" rot="R180"/>
+<pin name="LCD_DATA5" x="124.46" y="-73.66" length="middle" rot="R180"/>
+<pin name="LCD_DATA3" x="124.46" y="-78.74" length="middle" rot="R180"/>
+<pin name="LCD_DATA1" x="124.46" y="-83.82" length="middle" rot="R180"/>
+<wire x1="78.74" y1="27.94" x2="78.74" y2="-88.9" width="0.254" layer="94"/>
+<wire x1="78.74" y1="-88.9" x2="119.38" y2="-88.9" width="0.254" layer="94"/>
+<wire x1="119.38" y1="-88.9" x2="119.38" y2="27.94" width="0.254" layer="94"/>
+<wire x1="119.38" y1="27.94" x2="78.74" y2="27.94" width="0.254" layer="94"/>
+<text x="10.16" y="40.64" size="6.4516" layer="94">Beagle Bone Black </text>
 </symbol>
 </symbols>
 <devicesets>
@@ -1969,6 +2159,114 @@ Bypass</text>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/sullins-connector-solutions/PREC004SAAN-RC/S1012EC-04-ND/2774850" constant="no"/>
 <attribute name="VPN" value="S1012EC-04-ND" constant="no"/>
 </technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="23PINHEADERSMD">
+<gates>
+<gate name="G$2" symbol="24PINHEADERSMD" x="40.64" y="38.1"/>
+</gates>
+<devices>
+<device name="" package="23PINHEADERSMD">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BBB_SMD">
+<gates>
+<gate name="G$1" symbol="24PINHEADERSMD" x="-22.86" y="2.54"/>
+</gates>
+<devices>
+<device name="" package="23PINHEADERSMD">
+<connects>
+<connect gate="G$1" pin="AIN0" pad="AIN0"/>
+<connect gate="G$1" pin="AIN1" pad="AIN1"/>
+<connect gate="G$1" pin="AIN2" pad="AIN2"/>
+<connect gate="G$1" pin="AIN3" pad="AIN3"/>
+<connect gate="G$1" pin="AIN4" pad="AIN4"/>
+<connect gate="G$1" pin="AIN5" pad="AIN5"/>
+<connect gate="G$1" pin="AIN6" pad="AIN6"/>
+<connect gate="G$1" pin="DGND" pad="DGND DGND1 DGND2 DGND3 DGND4 DGND5 DGND6 DGND7"/>
+<connect gate="G$1" pin="ECAPWM0" pad="ECAPWMO"/>
+<connect gate="G$1" pin="EHRPWM1A" pad="EHRPWM1A"/>
+<connect gate="G$1" pin="EHRPWM1B" pad="EHRPWM1B"/>
+<connect gate="G$1" pin="EHRPWM2A" pad="EHRPWM2A"/>
+<connect gate="G$1" pin="EHRPWM2B" pad="EHRPWM2B"/>
+<connect gate="G$1" pin="GND_ADC" pad="GND_ADC"/>
+<connect gate="G$1" pin="GPIO_112" pad="GPIO_112"/>
+<connect gate="G$1" pin="GPIO_115" pad="GPIO_115"/>
+<connect gate="G$1" pin="GPIO_117" pad="GPIO_117"/>
+<connect gate="G$1" pin="GPIO_20" pad="GPIO_20"/>
+<connect gate="G$1" pin="GPIO_26" pad="GPIO_26"/>
+<connect gate="G$1" pin="GPIO_27" pad="GPIO_27"/>
+<connect gate="G$1" pin="GPIO_44" pad="GPIO_44"/>
+<connect gate="G$1" pin="GPIO_45" pad="GPIO_45"/>
+<connect gate="G$1" pin="GPIO_46" pad="GPIO_46"/>
+<connect gate="G$1" pin="GPIO_47" pad="GPIO_47"/>
+<connect gate="G$1" pin="GPIO_48" pad="GPIO_48"/>
+<connect gate="G$1" pin="GPIO_49" pad="GPIO_49"/>
+<connect gate="G$1" pin="GPIO_60" pad="GPIO_60"/>
+<connect gate="G$1" pin="GPIO_61" pad="GPIO_61"/>
+<connect gate="G$1" pin="GPIO_65" pad="GPIO_65"/>
+<connect gate="G$1" pin="GPIO_66" pad="GPIO_66"/>
+<connect gate="G$1" pin="GPIO_67" pad="GPIO_67"/>
+<connect gate="G$1" pin="GPIO_68" pad="GPIO_68"/>
+<connect gate="G$1" pin="GPIO_69" pad="GPIO_69"/>
+<connect gate="G$1" pin="I2C2_SCL" pad="I2C2_SCL"/>
+<connect gate="G$1" pin="I2C_SDA" pad="I2C_SDA"/>
+<connect gate="G$1" pin="LCD_AC_BIAS" pad="LCD_AC_BIAS"/>
+<connect gate="G$1" pin="LCD_DATA0" pad="LCD_DATA0"/>
+<connect gate="G$1" pin="LCD_DATA1" pad="LCD_DATA1"/>
+<connect gate="G$1" pin="LCD_DATA10" pad="LCD_DATA10"/>
+<connect gate="G$1" pin="LCD_DATA11" pad="LCD_DATA11"/>
+<connect gate="G$1" pin="LCD_DATA12" pad="LCD_DATA12"/>
+<connect gate="G$1" pin="LCD_DATA13" pad="LCD_DATA13"/>
+<connect gate="G$1" pin="LCD_DATA14" pad="LCD_DATA14"/>
+<connect gate="G$1" pin="LCD_DATA15" pad="LCD_DATA15"/>
+<connect gate="G$1" pin="LCD_DATA2" pad="LCD_DATA2"/>
+<connect gate="G$1" pin="LCD_DATA3" pad="LCD_DATA3"/>
+<connect gate="G$1" pin="LCD_DATA4" pad="LCD_DATA4"/>
+<connect gate="G$1" pin="LCD_DATA5" pad="LCD_DATA5"/>
+<connect gate="G$1" pin="LCD_DATA6" pad="LCD_DATA6"/>
+<connect gate="G$1" pin="LCD_DATA7" pad="LCD_DATA7"/>
+<connect gate="G$1" pin="LCD_DATA8" pad="LCD_DATA8"/>
+<connect gate="G$1" pin="LCD_DATA9" pad="LCD_DATA9"/>
+<connect gate="G$1" pin="LCD_HSYNC" pad="LCD_HSYNC"/>
+<connect gate="G$1" pin="LCD_PCLK" pad="LCD_PCLK"/>
+<connect gate="G$1" pin="LCD_VSYNC" pad="LCD_VSYNC"/>
+<connect gate="G$1" pin="MMC1_CLK" pad="MMC1_CLK"/>
+<connect gate="G$1" pin="MMC1_CMD" pad="MMC1_CMD"/>
+<connect gate="G$1" pin="MMC1_DAT0" pad="MMC1_DAT0"/>
+<connect gate="G$1" pin="MMC1_DAT1" pad="MMC1_DAT1"/>
+<connect gate="G$1" pin="MMC1_DAT2" pad="MMC1_DAT2"/>
+<connect gate="G$1" pin="MMC1_DAT3" pad="MMC1_DAT3"/>
+<connect gate="G$1" pin="MMC1_DAT4" pad="MMC1_DAT4"/>
+<connect gate="G$1" pin="MMC1_DAT5" pad="MMC1_DAT5"/>
+<connect gate="G$1" pin="MMC1_DAT6" pad="MMC1_DAT6"/>
+<connect gate="G$1" pin="MMC1_DAT7" pad="MMC1_DAT7"/>
+<connect gate="G$1" pin="PWR_BUT" pad="PWR_BUT"/>
+<connect gate="G$1" pin="SP11_CS0" pad="SP11_CS0"/>
+<connect gate="G$1" pin="SP11_D0" pad="SP11_DO"/>
+<connect gate="G$1" pin="SP11_SCLK" pad="SP11_SCLK"/>
+<connect gate="G$1" pin="SPIO_CS0" pad="SPIO_CS0"/>
+<connect gate="G$1" pin="SPIO_D0" pad="SPIO_DO"/>
+<connect gate="G$1" pin="SPIO_D1" pad="SPIO_D1"/>
+<connect gate="G$1" pin="SPIO_SLCK" pad="SPIO_SLCK"/>
+<connect gate="G$1" pin="SYS5V" pad="SYS5V SYS5V1"/>
+<connect gate="G$1" pin="SYS_RESET" pad="SYS_RESET"/>
+<connect gate="G$1" pin="UART1_RXD" pad="UART1_RXD"/>
+<connect gate="G$1" pin="UART1_TXD" pad="UART1_TXD"/>
+<connect gate="G$1" pin="UART4_RXD" pad="UART4_RXD"/>
+<connect gate="G$1" pin="UART4_TXD" pad="UART4_TXD"/>
+<connect gate="G$1" pin="VDD3.3" pad="VDD3.3 VDD3.31"/>
+<connect gate="G$1" pin="VDD5V" pad="VDD5V VDD5V1"/>
+<connect gate="G$1" pin="VDD_ADC" pad="VDD_ADC"/>
+</connects>
+<technologies>
+<technology name=""/>
 </technologies>
 </device>
 </devices>

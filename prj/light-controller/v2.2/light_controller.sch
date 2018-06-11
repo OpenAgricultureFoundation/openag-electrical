@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="8.5.0">
+<eagle version="9.0.0">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.01" altunitdist="inch" altunit="inch"/>
+<grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="no" active="no"/>
 <layer number="2" name="Route2" color="1" fill="3" visible="no" active="no"/>
@@ -9964,7 +9964,10 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="J2" gate="G$1" x="596.9" y="241.3"/>
 <instance part="J1" gate="G$1" x="485.14" y="279.4"/>
 <instance part="U10" gate="G$1" x="312.42" y="167.64"/>
-<instance part="U7" gate="G$1" x="254" y="256.54"/>
+<instance part="U7" gate="G$1" x="254" y="256.54" smashed="yes">
+<attribute name="NAME" x="241.3" y="276.86" size="1.778" layer="95"/>
+<attribute name="VALUE" x="241.3" y="233.68" size="1.778" layer="96"/>
+</instance>
 <instance part="R6" gate="A" x="327.66" y="279.4"/>
 <instance part="R7" gate="A" x="327.66" y="271.78"/>
 <instance part="R8" gate="A" x="327.66" y="264.16"/>
@@ -10016,7 +10019,10 @@ w/Optional EMI Filter + Indicator LED</text>
 <instance part="P+10" gate="1" x="627.38" y="256.54"/>
 <instance part="TP35" gate="G$1" x="670.56" y="248.92" rot="R180"/>
 <instance part="TP36" gate="G$1" x="670.56" y="254" rot="R180"/>
-<instance part="U15" gate="G$1" x="187.96" y="378.46"/>
+<instance part="U15" gate="G$1" x="187.96" y="378.46" smashed="yes">
+<attribute name="NAME" x="175.26" y="412.75" size="1.778" layer="95"/>
+<attribute name="VALUE" x="172.72" y="344.17" size="1.778" layer="96"/>
+</instance>
 <instance part="C35" gate="G$1" x="210.82" y="403.86"/>
 <instance part="C44" gate="A" x="220.98" y="403.86"/>
 <instance part="+3V13" gate="G$1" x="220.98" y="414.02"/>
