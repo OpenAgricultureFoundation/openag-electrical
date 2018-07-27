@@ -1,0 +1,197 @@
+<Block caption="simple" number="7">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=0   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=11505 cv=11221 fa=32985 fw=4132 V=1.810931e+000
+	GEOMSUBDOM (1): gi=1 solid av=586 cv=586 fa=1397 fw=1228 V=1.346976e-003
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=93.8948295284709220 fw_s=9.9790606797714148 fw_nb=33576
+	GEOMSUBDOM (1):fa_s=0.1551396211874145 fw_s=1.0603688397714091 fw_nb=10368
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.19 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Ideal gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=11250 Gas=10668 Solid=0 Partial=582 Irregular=0
+CD X0= -0.6096, X1= 0.6096, Y0= -0.6096, Y1= 0.6096, Z0= -0.6096, Z1= 0.6096
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.07 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.06 sec.
+
+]]>
+<Block caption="simple" number="8">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<![CDATA[
+FS triangles count 1458 
+trajectory 0, dir = reverse, Time = -1969.16, Length = -0.0168211, PointCount = 6, TSR = 3
+trajectory 0, dir = fwrd, Time = 3600, Length = 0.0397747, PointCount = 9, TSR = 3
+trajectory 1, dir = reverse, Time = -5173.58, Length = -0.0491179, PointCount = 4, TSR = 3
+trajectory 1, dir = fwrd, Time = 3282.31, Length = 0.0386014, PointCount = 7, TSR = 3
+trajectory 2, dir = reverse, Time = -4081.84, Length = -0.0825009, PointCount = 6, TSR = 3
+trajectory 2, dir = fwrd, Time = 3569.75, Length = 0.219433, PointCount = 320, TSR = 3
+trajectory 3, dir = reverse, Time = -2103.85, Length = -0.0193813, PointCount = 3, TSR = 3
+trajectory 3, dir = fwrd, Time = 4627.89, Length = 0.0543907, PointCount = 6, TSR = 3
+trajectory 4, dir = reverse, Time = -2133.02, Length = -0.0201753, PointCount = 7, TSR = 3
+trajectory 4, dir = fwrd, Time = 4289.71, Length = 0.0554487, PointCount = 10, TSR = 3
+trajectory 5, dir = reverse, Time = -3315.56, Length = -0.0359676, PointCount = 4, TSR = 3
+trajectory 5, dir = fwrd, Time = 3417.28, Length = 0.0787996, PointCount = 75, TSR = 3
+trajectory 6, dir = reverse, Time = -3600, Length = -0.0510403, PointCount = 4, TSR = 3
+trajectory 6, dir = fwrd, Time = 3564.93, Length = 0.528987, PointCount = 675, TSR = 15
+trajectory 7, dir = reverse, Time = -3600, Length = -0.116183, PointCount = 8, TSR = 3
+trajectory 7, dir = fwrd, Time = 1573.15, Length = 0.532567, PointCount = 709, TSR = 15
+trajectory 8, dir = reverse, Time = -4706.74, Length = -0.0663345, PointCount = 5, TSR = 3
+trajectory 8, dir = fwrd, Time = 3478.85, Length = 0.109154, PointCount = 85, TSR = 3
+trajectory 9, dir = reverse, Time = -4466.1, Length = -0.0617017, PointCount = 8, TSR = 3
+trajectory 9, dir = fwrd, Time = 3314.19, Length = 0.0849928, PointCount = 24, TSR = 3
+trajectory 10, dir = reverse, Time = -3600, Length = -0.144569, PointCount = 10, TSR = 3
+trajectory 10, dir = fwrd, Time = 559.751, Length = 0.468518, PointCount = 567, TSR = 15
+trajectory 11, dir = reverse, Time = -3600, Length = -0.162201, PointCount = 11, TSR = 3
+trajectory 11, dir = fwrd, Time = 443, Length = 0.454635, PointCount = 568, TSR = 15
+trajectory 12, dir = reverse, Time = -3600, Length = -0.243726, PointCount = 18, TSR = 3
+trajectory 12, dir = fwrd, Time = 391.148, Length = 0.457276, PointCount = 595, TSR = 15
+trajectory 13, dir = reverse, Time = -3600, Length = -0.129502, PointCount = 9, TSR = 3
+trajectory 13, dir = fwrd, Time = 824.487, Length = 0.503024, PointCount = 559, TSR = 15
+trajectory 14, dir = reverse, Time = -4028.11, Length = -0.112691, PointCount = 8, TSR = 3
+trajectory 14, dir = fwrd, Time = 1311.51, Length = 0.552816, PointCount = 516, TSR = 15
+trajectory 15, dir = reverse, Time = -3951.8, Length = -0.301487, PointCount = 21, TSR = 3
+trajectory 15, dir = fwrd, Time = 137.932, Length = 0.402669, PointCount = 447, TSR = 15
+trajectory 16, dir = reverse, Time = -3600, Length = -0.328459, PointCount = 21, TSR = 3
+trajectory 16, dir = fwrd, Time = 98.3763, Length = 0.38034, PointCount = 455, TSR = 15
+trajectory 17, dir = reverse, Time = -3818.7, Length = -0.413286, PointCount = 27, TSR = 3
+trajectory 17, dir = fwrd, Time = 108.271, Length = 0.385711, PointCount = 482, TSR = 15
+trajectory 18, dir = reverse, Time = -3898.26, Length = -0.263698, PointCount = 18, TSR = 3
+trajectory 18, dir = fwrd, Time = 232.877, Length = 0.456916, PointCount = 443, TSR = 15
+trajectory 19, dir = reverse, Time = -3600, Length = -0.235565, PointCount = 18, TSR = 3
+trajectory 19, dir = fwrd, Time = 427.762, Length = 0.512422, PointCount = 456, TSR = 15
+trajectory 0, dir = reverse, Time = -3600, Length = -3.47151, PointCount = 1161, TSR = 3
+trajectory 0, dir = fwrd, Time = 688.097, Length = 3.46859, PointCount = 1854, TSR = 15
+trajectory 1, dir = reverse, Time = -3600, Length = -3.5289, PointCount = 1306, TSR = 3
+trajectory 1, dir = fwrd, Time = 487.698, Length = 2.97667, PointCount = 1844, TSR = 15
+trajectory 2, dir = reverse, Time = -3597.59, Length = -5.66101, PointCount = 1238, TSR = 3
+trajectory 2, dir = fwrd, Time = 677.734, Length = 3.89064, PointCount = 2033, TSR = 15
+trajectory 3, dir = reverse, Time = -3600, Length = -2.81158, PointCount = 841, TSR = 3
+trajectory 3, dir = fwrd, Time = 146.262, Length = 0.964011, PointCount = 1212, TSR = 15
+trajectory 4, dir = reverse, Time = -3600, Length = -3.46168, PointCount = 1008, TSR = 3
+trajectory 4, dir = fwrd, Time = 460.581, Length = 2.61232, PointCount = 1504, TSR = 15
+trajectory 5, dir = reverse, Time = -131.595, Length = -0.796613, PointCount = 59, TSR = 1
+trajectory 5, dir = fwrd, Time = 266.229, Length = 1.8388, PointCount = 493, TSR = 15
+trajectory 6, dir = reverse, Time = -3595.24, Length = -5.64846, PointCount = 1312, TSR = 3
+trajectory 6, dir = fwrd, Time = 349.896, Length = 2.11208, PointCount = 1878, TSR = 15
+trajectory 7, dir = reverse, Time = -3587.1, Length = -3.24846, PointCount = 884, TSR = 3
+trajectory 7, dir = fwrd, Time = 118.672, Length = 0.856734, PointCount = 1256, TSR = 15
+trajectory 8, dir = reverse, Time = -3603.74, Length = -6.34638, PointCount = 1268, TSR = 3
+trajectory 8, dir = fwrd, Time = 399.501, Length = 2.4856, PointCount = 1778, TSR = 15
+trajectory 9, dir = reverse, Time = -248.899, Length = -1.51257, PointCount = 120, TSR = 1
+trajectory 9, dir = fwrd, Time = 169.5, Length = 1.21485, PointCount = 567, TSR = 15
+trajectory 10, dir = reverse, Time = -3591.17, Length = -10.5402, PointCount = 1812, TSR = 3
+trajectory 10, dir = fwrd, Time = 150.233, Length = 1.01417, PointCount = 2244, TSR = 15
+trajectory 11, dir = reverse, Time = -113.011, Length = -0.61355, PointCount = 72, TSR = 1
+trajectory 11, dir = fwrd, Time = 125.018, Length = 0.875342, PointCount = 478, TSR = 15
+trajectory 12, dir = reverse, Time = -3599.93, Length = -6.43151, PointCount = 1402, TSR = 3
+trajectory 12, dir = fwrd, Time = 294.554, Length = 1.92433, PointCount = 1928, TSR = 15
+trajectory 13, dir = reverse, Time = -116.016, Length = -0.719595, PointCount = 54, TSR = 1
+trajectory 13, dir = fwrd, Time = 35.538, Length = 0.35295, PointCount = 408, TSR = 15
+trajectory 14, dir = reverse, Time = -3606.99, Length = -10.5104, PointCount = 1740, TSR = 3
+trajectory 14, dir = fwrd, Time = 3600, Length = 18.2812, PointCount = 3131, TSR = 3
+trajectory 15, dir = reverse, Time = -3594.19, Length = -11.9303, PointCount = 1849, TSR = 3
+trajectory 15, dir = fwrd, Time = 33.7051, Length = 0.327712, PointCount = 2319, TSR = 15
+trajectory 16, dir = reverse, Time = -519.332, Length = -2.85191, PointCount = 328, TSR = 1
+trajectory 16, dir = fwrd, Time = 58.3886, Length = 0.397779, PointCount = 836, TSR = 15
+trajectory 17, dir = reverse, Time = -376.906, Length = -2.25169, PointCount = 193, TSR = 1
+trajectory 17, dir = fwrd, Time = 25.025, Length = 0.326457, PointCount = 583, TSR = 15
+trajectory 18, dir = reverse, Time = -3597.93, Length = -6.48797, PointCount = 1291, TSR = 3
+trajectory 18, dir = fwrd, Time = 39.0909, Length = 0.352629, PointCount = 1766, TSR = 15
+trajectory 19, dir = reverse, Time = -3600, Length = -6.57922, PointCount = 1375, TSR = 3
+trajectory 19, dir = fwrd, Time = 30.3164, Length = 0.323901, PointCount = 1715, TSR = 15
+
+]]>
+<Block caption="simple" number="3">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>

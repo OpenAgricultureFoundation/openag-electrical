@@ -1,0 +1,92 @@
+<Block caption="simple" number="6">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=0   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=46611 cv=46366 fa=135110 fw=18913 V=1.041851e-001
+	GEOMSUBDOM (1): gi=1 solid av=6017 cv=6017 fa=15241 fw=12513 V=7.308401e-005
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=21.2865461827283400 fw_s=1.3714245710757058 fw_nb=170872
+	GEOMSUBDOM (1):fa_s=0.0715106407530528 fw_s=0.0407246887325017 fw_nb=119696
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.54 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Real gas with phase change thermodynamics
+	substance 0 type=fwRealGas, guid=934ad3cb-f018-4fd2-90be-300a7d977e00, name=Steam
+	substance 1 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=46198 Gas=40410 Solid=748 Partial=5040 Irregular=0
+CD X0= -0.243583298451, X1= 0.243583298451, Y0= -0.243583298451, Y1= 0.243583298451, Z0= -0.203583298451, Z1= 0.235710621488
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.12 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.22 sec.
+
+]]>
+<Block caption="simple" number="7">
+<![CDATA[
+95 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<Block caption="simple" number="8">
+<![CDATA[
+95 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="9">
+<![CDATA[
+95 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<![CDATA[
+FS triangles count 21514 
+trajectory 0, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 0, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+trajectory 1, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 1, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+trajectory 2, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 2, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+trajectory 3, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 3, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+trajectory 4, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 4, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+trajectory 5, dir = reverse, Time = -3600, Length = 0, PointCount = 2, TSR = 3
+trajectory 5, dir = fwrd, Time = 3600, Length = 0, PointCount = 3, TSR = 3
+
+]]>

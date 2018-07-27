@@ -1,0 +1,28 @@
+﻿absolute path:C:\Users\poitr\Google Drive\MIT_ML\Github\openag_eagle\prj\pfc-edu\v1.0\Mechanical\2
+init:1
+run_capture:1
+run_solver:1
+new_calc:1
+close_monitor:0
+run_convert:0
+isOK:1
+ForceNewCalc:1
+run_capture_prestate:1
+StartFldName:C:\Users\poitr\Google Drive\MIT_ML\Github\openag_eagle\prj\pfc-edu\v1.0\Mechanical\2\2.fld
+TransTimeMoments:
+TransFldNames:
+CurSelTranFld:0
+Trans:0
+UsePrevRes:0
+ForcetoRunCPT:1
+ComputerName:
+port:54263
+ProcessResults:1
+LoadLastResult:1
+ProcessorsToUse:0
+LoadBaseFLDFile:0
+BaseFLDFile:
+id:{1F3D88E9-F62F-404A-ADCA-63FA8FC51959}
+calculation_state:15
+ForceContinue:0
+SolverProcessId:11436

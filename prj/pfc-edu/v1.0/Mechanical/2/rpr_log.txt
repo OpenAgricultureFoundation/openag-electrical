@@ -1,0 +1,382 @@
+<Block caption="simple" number="7">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="0">
+<![CDATA[
+EXTERNAL=0   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=12328 cv=12200 fa=35224 fw=4416 V=3.657216e-001
+	GEOMSUBDOM (1): gi=1 solid av=872 cv=872 fa=2084 fw=1320 V=9.919893e-004
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=33.3501445972916740 fw_s=3.6075023968745370 fw_nb=36168
+	GEOMSUBDOM (1):fa_s=0.2160052223431362 fw_s=0.1737935879319931 fw_nb=11424
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.23 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Ideal gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=12136 Gas=11264 Solid=0 Partial=872 Irregular=0
+CD X0= -0.25, X1= 0.25, Y0= -0.25, Y1= 0.25, Z0= -0.581027202471, Z1= 0.885827202
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.08 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.13 sec.
+
+]]>
+<Block caption="simple" number="8">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<![CDATA[
+FS triangles count 912 
+trajectory 0, dir = reverse, Time = -0.000413036, Length = -0.00665559, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 0.00917707, Length = 0.685071, PointCount = 376, TSR = 15
+trajectory 1, dir = reverse, Time = -0.000555228, Length = -0.00561638, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 0.0169221, Length = 0.766315, PointCount = 397, TSR = 15
+trajectory 2, dir = reverse, Time = -0.00041467, Length = -0.00665833, PointCount = 4, TSR = 1
+trajectory 2, dir = fwrd, Time = 0.00920508, Length = 0.685024, PointCount = 376, TSR = 15
+trajectory 3, dir = reverse, Time = -0.000547065, Length = -0.0139691, PointCount = 4, TSR = 1
+trajectory 3, dir = fwrd, Time = 0.00962745, Length = 0.632585, PointCount = 365, TSR = 15
+trajectory 4, dir = reverse, Time = -0.000420909, Length = -0.00666681, PointCount = 4, TSR = 1
+trajectory 4, dir = fwrd, Time = 0.00929439, Length = 0.685114, PointCount = 376, TSR = 15
+trajectory 5, dir = reverse, Time = -0.0005605, Length = -0.00562423, PointCount = 4, TSR = 1
+trajectory 5, dir = fwrd, Time = 0.0169671, Length = 0.766328, PointCount = 395, TSR = 15
+trajectory 6, dir = reverse, Time = -0.000418588, Length = -0.00666393, PointCount = 4, TSR = 1
+trajectory 6, dir = fwrd, Time = 0.0092663, Length = 0.685046, PointCount = 376, TSR = 15
+trajectory 7, dir = reverse, Time = -0.000373505, Length = -0.0104332, PointCount = 4, TSR = 1
+trajectory 7, dir = fwrd, Time = 0.00965359, Length = 0.632592, PointCount = 365, TSR = 15
+trajectory 8, dir = reverse, Time = -0.00041902, Length = -0.00669407, PointCount = 4, TSR = 1
+trajectory 8, dir = fwrd, Time = 0.00945513, Length = 0.68515, PointCount = 375, TSR = 15
+trajectory 9, dir = reverse, Time = -0.000565426, Length = -0.00561398, PointCount = 4, TSR = 1
+trajectory 9, dir = fwrd, Time = 0.017032, Length = 0.766437, PointCount = 395, TSR = 15
+trajectory 10, dir = reverse, Time = -0.000419304, Length = -0.00668923, PointCount = 4, TSR = 1
+trajectory 10, dir = fwrd, Time = 0.00943718, Length = 0.685087, PointCount = 375, TSR = 15
+trajectory 11, dir = reverse, Time = -0.000547553, Length = -0.0140749, PointCount = 4, TSR = 1
+trajectory 11, dir = fwrd, Time = 0.00984938, Length = 0.632619, PointCount = 365, TSR = 15
+trajectory 12, dir = reverse, Time = -0.000414786, Length = -0.00679438, PointCount = 4, TSR = 1
+trajectory 12, dir = fwrd, Time = 0.0095533, Length = 0.685223, PointCount = 376, TSR = 15
+trajectory 13, dir = reverse, Time = -0.000562309, Length = -0.005652, PointCount = 4, TSR = 1
+trajectory 13, dir = fwrd, Time = 0.0170271, Length = 0.766505, PointCount = 395, TSR = 15
+trajectory 14, dir = reverse, Time = -0.000412133, Length = -0.00679109, PointCount = 4, TSR = 1
+trajectory 14, dir = fwrd, Time = 0.00954115, Length = 0.685154, PointCount = 375, TSR = 15
+trajectory 15, dir = reverse, Time = -0.000523776, Length = -0.0144099, PointCount = 4, TSR = 1
+trajectory 15, dir = fwrd, Time = 0.00995283, Length = 0.632657, PointCount = 365, TSR = 15
+trajectory 16, dir = reverse, Time = -0.000547254, Length = -0.0139722, PointCount = 4, TSR = 1
+trajectory 16, dir = fwrd, Time = 0.00966225, Length = 0.632589, PointCount = 365, TSR = 15
+trajectory 17, dir = reverse, Time = -0.000549054, Length = -0.0139767, PointCount = 4, TSR = 1
+trajectory 17, dir = fwrd, Time = 0.00969388, Length = 0.632588, PointCount = 365, TSR = 15
+trajectory 18, dir = reverse, Time = -0.000550378, Length = -0.0140635, PointCount = 4, TSR = 1
+trajectory 18, dir = fwrd, Time = 0.00984975, Length = 0.63263, PointCount = 365, TSR = 15
+trajectory 19, dir = reverse, Time = -0.000524073, Length = -0.0144096, PointCount = 4, TSR = 1
+trajectory 19, dir = fwrd, Time = 0.00989715, Length = 0.632662, PointCount = 365, TSR = 15
+
+]]>
+<Block caption="simple" number="9">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="10">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="11">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="12">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="13">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="Vwr::LoadFlowField" number="1">
+<![CDATA[
+EXTERNAL=0   LAMTURB=1   CHT=0
+IT=6   NT=2   NZ=1
+U_DIM_EXT_MAX=8   US_DIM=0
+-----------------------------------------------------------------------
+Allocating meshes:
+	CPU count: 4
+	MESH 0:
+		Sub-meshes count: 4
+-----------------------------------------------------------------------
+----------------------------------------------------------
+BCF --> BCF.GEOMSUBDOM (bridge arrays) (cpu_num=4):
+MESH (0):
+	Fluid Subdom Constructor: 1 subdom(s).
+	Solid Subdom Constructor: 1 subdom(s).
+	Net Asm Subdom Constructor: 0 subdom(s).
+	GEOMSUBDOM (0): gi=0 fluid av=40876 cv=40736 fa=118952 fw=8432 V=2.830447e+000
+	GEOMSUBDOM (1): gi=1 solid av=1105 cv=1105 fa=2876 fw=1496 V=1.249895e-003
+	Setting nb of w-faces...OK.
+
+MESH (0) checking:
+	GEOMSUBDOM (0):fa_s=198.8351462743024700 fw_s=12.2364877181111050 fw_nb=68306
+	GEOMSUBDOM (1):fa_s=0.2808518360531644 fw_s=0.1942011606741693 fw_nb=12842
+MESH (0) checking: OK.
+----------------------------------------------------------
+Read cpt took 0.41 sec.
+
+===ThermodynamicsHolder:===
+Subdom 0 Ideal gas thermodynamics
+	substance 0 type=fwGas, guid=2B966F4A9A9F11D4A50048A0E8000000, name=Air
+===ThermodynamicsHolder:===
+MESH::Bricks: Total=40795 Gas=39694 Solid=82 Partial=1019 Irregular=0
+CD X0= -0.670930082704, X1= 0.670930082704, Y0= -0.670930082704, Y1= 0.670930082704, Z0= -0.646625334786, Z1= 0.926025334786
+Working in No GDBLight mode
+Working in No GDBLight mode
+Read cfld took 0.08 sec.
+Collecting Reference Parameters... OK
+Read fld took 0.12 sec.
+
+]]>
+<Block caption="simple" number="14">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+</Block>
+<![CDATA[
+FS triangles count 892 
+trajectory 0, dir = reverse, Time = -0.12565, Length = -0.00218327, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 47.4311, Length = 0.949177, PointCount = 463, TSR = 15
+trajectory 1, dir = reverse, Time = -0.125637, Length = -0.00218324, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 49.2161, Length = 0.947118, PointCount = 448, TSR = 15
+trajectory 2, dir = reverse, Time = -0.131701, Length = -0.00218365, PointCount = 4, TSR = 1
+trajectory 2, dir = fwrd, Time = 51.2465, Length = 0.942036, PointCount = 441, TSR = 15
+trajectory 3, dir = reverse, Time = -0.131789, Length = -0.00218366, PointCount = 4, TSR = 1
+trajectory 3, dir = fwrd, Time = 51.7494, Length = 0.947565, PointCount = 528, TSR = 15
+trajectory 4, dir = reverse, Time = -0.113336, Length = -0.00218178, PointCount = 4, TSR = 1
+trajectory 4, dir = fwrd, Time = 39.5716, Length = 0.93788, PointCount = 438, TSR = 15
+trajectory 5, dir = reverse, Time = -0.113301, Length = -0.00218176, PointCount = 4, TSR = 1
+trajectory 5, dir = fwrd, Time = 41.2122, Length = 0.936702, PointCount = 441, TSR = 15
+trajectory 6, dir = reverse, Time = -0.118041, Length = -0.00218217, PointCount = 4, TSR = 1
+trajectory 6, dir = fwrd, Time = 43.2841, Length = 0.934469, PointCount = 432, TSR = 15
+trajectory 7, dir = reverse, Time = -0.131906, Length = -0.00218215, PointCount = 4, TSR = 1
+trajectory 7, dir = fwrd, Time = 45.6847, Length = 0.934466, PointCount = 427, TSR = 15
+trajectory 8, dir = reverse, Time = -0.0233683, Length = -0.000334313, PointCount = 2, TSR = 1
+trajectory 8, dir = fwrd, Time = 51.3798, Length = 0.936618, PointCount = 431, TSR = 15
+trajectory 9, dir = reverse, Time = -0.118185, Length = -0.00218217, PointCount = 4, TSR = 1
+trajectory 9, dir = fwrd, Time = 42.2249, Length = 0.936596, PointCount = 431, TSR = 15
+trajectory 10, dir = reverse, Time = -0.129126, Length = -0.00218294, PointCount = 4, TSR = 1
+trajectory 10, dir = fwrd, Time = 46.1979, Length = 0.936772, PointCount = 437, TSR = 15
+trajectory 11, dir = reverse, Time = -0.771616, Length = -0.0118128, PointCount = 4, TSR = 1
+trajectory 11, dir = fwrd, Time = 52.8146, Length = 0.938506, PointCount = 436, TSR = 15
+trajectory 12, dir = reverse, Time = -0.107206, Length = -0.0021812, PointCount = 4, TSR = 1
+trajectory 12, dir = fwrd, Time = 35.5815, Length = 0.930769, PointCount = 426, TSR = 15
+trajectory 13, dir = reverse, Time = -0.107157, Length = -0.0021812, PointCount = 4, TSR = 1
+trajectory 13, dir = fwrd, Time = 36.6307, Length = 0.930638, PointCount = 425, TSR = 15
+trajectory 14, dir = reverse, Time = -0.10901, Length = -0.00218136, PointCount = 4, TSR = 1
+trajectory 14, dir = fwrd, Time = 37.7312, Length = 0.931197, PointCount = 433, TSR = 15
+trajectory 15, dir = reverse, Time = -0.117464, Length = -0.00218152, PointCount = 4, TSR = 1
+trajectory 15, dir = fwrd, Time = 39.783, Length = 0.932138, PointCount = 428, TSR = 15
+trajectory 16, dir = reverse, Time = -0.129237, Length = -0.00218208, PointCount = 4, TSR = 1
+trajectory 16, dir = fwrd, Time = 43.7899, Length = 0.933566, PointCount = 439, TSR = 15
+trajectory 17, dir = reverse, Time = -0.145355, Length = -0.0021829, PointCount = 4, TSR = 1
+trajectory 17, dir = fwrd, Time = 51.0042, Length = 0.934797, PointCount = 434, TSR = 15
+trajectory 18, dir = reverse, Time = -0.109172, Length = -0.00218134, PointCount = 4, TSR = 1
+trajectory 18, dir = fwrd, Time = 36.7665, Length = 0.931832, PointCount = 426, TSR = 15
+trajectory 19, dir = reverse, Time = -0.116822, Length = -0.00218181, PointCount = 4, TSR = 1
+trajectory 19, dir = fwrd, Time = 39.9732, Length = 0.932978, PointCount = 429, TSR = 15
+trajectory 20, dir = reverse, Time = -0.127148, Length = -0.00218279, PointCount = 4, TSR = 1
+trajectory 20, dir = fwrd, Time = 45.2404, Length = 0.934357, PointCount = 431, TSR = 15
+trajectory 21, dir = reverse, Time = -0.140351, Length = -0.00218415, PointCount = 4, TSR = 1
+trajectory 21, dir = fwrd, Time = 52.793, Length = 0.935863, PointCount = 432, TSR = 15
+trajectory 22, dir = reverse, Time = -0.104361, Length = -0.00218094, PointCount = 4, TSR = 1
+trajectory 22, dir = fwrd, Time = 33.0639, Length = 0.92962, PointCount = 427, TSR = 15
+trajectory 23, dir = reverse, Time = -0.104313, Length = -0.00218095, PointCount = 4, TSR = 1
+trajectory 23, dir = fwrd, Time = 34.0068, Length = 0.929488, PointCount = 431, TSR = 15
+trajectory 24, dir = reverse, Time = -0.104529, Length = -0.0021811, PointCount = 4, TSR = 1
+trajectory 24, dir = fwrd, Time = 35.1393, Length = 0.929751, PointCount = 429, TSR = 15
+trajectory 25, dir = reverse, Time = -0.109601, Length = -0.00218146, PointCount = 4, TSR = 1
+trajectory 25, dir = fwrd, Time = 37.1308, Length = 0.930245, PointCount = 433, TSR = 15
+trajectory 26, dir = reverse, Time = -0.116841, Length = -0.00218207, PointCount = 4, TSR = 1
+trajectory 26, dir = fwrd, Time = 40.4334, Length = 0.931326, PointCount = 431, TSR = 15
+trajectory 27, dir = reverse, Time = -0.128234, Length = -0.00218335, PointCount = 4, TSR = 1
+trajectory 27, dir = fwrd, Time = 46.235, Length = 0.932713, PointCount = 431, TSR = 15
+trajectory 28, dir = reverse, Time = -0.104675, Length = -0.00218107, PointCount = 4, TSR = 1
+trajectory 28, dir = fwrd, Time = 34.1435, Length = 0.930153, PointCount = 429, TSR = 15
+trajectory 29, dir = reverse, Time = -0.109773, Length = -0.00218145, PointCount = 4, TSR = 1
+trajectory 29, dir = fwrd, Time = 37.0577, Length = 0.930867, PointCount = 428, TSR = 15
+trajectory 30, dir = reverse, Time = -0.117022, Length = -0.00218213, PointCount = 4, TSR = 1
+trajectory 30, dir = fwrd, Time = 41.584, Length = 0.931731, PointCount = 432, TSR = 15
+trajectory 31, dir = reverse, Time = -0.128325, Length = -0.0021834, PointCount = 4, TSR = 1
+trajectory 31, dir = fwrd, Time = 48.1284, Length = 0.933003, PointCount = 433, TSR = 15
+trajectory 0, dir = reverse, Time = -0.104336, Length = -0.00218082, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 32.936, Length = 0.928431, PointCount = 427, TSR = 15
+trajectory 1, dir = reverse, Time = -0.1041, Length = -0.00218089, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 33.9956, Length = 0.928581, PointCount = 429, TSR = 15
+trajectory 2, dir = reverse, Time = -0.106929, Length = -0.00218126, PointCount = 4, TSR = 1
+trajectory 2, dir = fwrd, Time = 35.8371, Length = 0.92892, PointCount = 428, TSR = 15
+trajectory 3, dir = reverse, Time = -0.111485, Length = -0.00218161, PointCount = 4, TSR = 1
+trajectory 3, dir = fwrd, Time = 38.984, Length = 0.929613, PointCount = 434, TSR = 15
+trajectory 4, dir = reverse, Time = -0.121632, Length = -0.0021829, PointCount = 4, TSR = 1
+trajectory 4, dir = fwrd, Time = 44.2323, Length = 0.930775, PointCount = 427, TSR = 15
+trajectory 5, dir = reverse, Time = -0.104425, Length = -0.00218093, PointCount = 4, TSR = 1
+trajectory 5, dir = fwrd, Time = 32.3347, Length = 0.927783, PointCount = 429, TSR = 15
+trajectory 6, dir = reverse, Time = -0.104399, Length = -0.00218093, PointCount = 4, TSR = 1
+trajectory 6, dir = fwrd, Time = 33.0258, Length = 0.927697, PointCount = 429, TSR = 15
+trajectory 7, dir = reverse, Time = -0.104649, Length = -0.00218108, PointCount = 4, TSR = 1
+trajectory 7, dir = fwrd, Time = 34.1791, Length = 0.927788, PointCount = 426, TSR = 15
+trajectory 8, dir = reverse, Time = -0.109711, Length = -0.00218145, PointCount = 4, TSR = 1
+trajectory 8, dir = fwrd, Time = 36.3355, Length = 0.928042, PointCount = 426, TSR = 15
+trajectory 9, dir = reverse, Time = -0.116923, Length = -0.00218208, PointCount = 4, TSR = 1
+trajectory 9, dir = fwrd, Time = 40.0391, Length = 0.92857, PointCount = 429, TSR = 15
+trajectory 10, dir = reverse, Time = -0.128261, Length = -0.00218337, PointCount = 4, TSR = 1
+trajectory 10, dir = fwrd, Time = 45.8605, Length = 0.929536, PointCount = 426, TSR = 15
+trajectory 11, dir = reverse, Time = -0.10473, Length = -0.00218107, PointCount = 4, TSR = 1
+trajectory 11, dir = fwrd, Time = 33.1688, Length = 0.928072, PointCount = 426, TSR = 15
+trajectory 12, dir = reverse, Time = -0.109837, Length = -0.00218144, PointCount = 4, TSR = 1
+trajectory 12, dir = fwrd, Time = 36.107, Length = 0.928546, PointCount = 431, TSR = 15
+trajectory 13, dir = reverse, Time = -0.117099, Length = -0.00218211, PointCount = 4, TSR = 1
+trajectory 13, dir = fwrd, Time = 40.5384, Length = 0.929084, PointCount = 426, TSR = 15
+trajectory 14, dir = reverse, Time = -0.128416, Length = -0.00218339, PointCount = 4, TSR = 1
+trajectory 14, dir = fwrd, Time = 47.0385, Length = 0.929984, PointCount = 428, TSR = 15
+trajectory 15, dir = reverse, Time = -0.107337, Length = -0.00218119, PointCount = 4, TSR = 1
+trajectory 15, dir = fwrd, Time = 33.7312, Length = 0.927339, PointCount = 429, TSR = 15
+trajectory 16, dir = reverse, Time = -0.107312, Length = -0.0021812, PointCount = 4, TSR = 1
+trajectory 16, dir = fwrd, Time = 34.3227, Length = 0.927261, PointCount = 430, TSR = 15
+trajectory 17, dir = reverse, Time = -0.109182, Length = -0.00218135, PointCount = 4, TSR = 1
+trajectory 17, dir = fwrd, Time = 35.6215, Length = 0.927329, PointCount = 426, TSR = 15
+trajectory 18, dir = reverse, Time = -0.11681, Length = -0.00218181, PointCount = 4, TSR = 1
+trajectory 18, dir = fwrd, Time = 38.1749, Length = 0.927552, PointCount = 427, TSR = 15
+trajectory 19, dir = reverse, Time = -0.127121, Length = -0.00218275, PointCount = 4, TSR = 1
+trajectory 19, dir = fwrd, Time = 42.8219, Length = 0.928022, PointCount = 431, TSR = 15
+trajectory 20, dir = reverse, Time = -0.140385, Length = -0.00218411, PointCount = 4, TSR = 1
+trajectory 20, dir = fwrd, Time = 49.8857, Length = 0.928802, PointCount = 430, TSR = 15
+trajectory 21, dir = reverse, Time = -0.109269, Length = -0.00218134, PointCount = 4, TSR = 1
+trajectory 21, dir = fwrd, Time = 34.609, Length = 0.927576, PointCount = 425, TSR = 15
+trajectory 22, dir = reverse, Time = -0.116929, Length = -0.0021818, PointCount = 4, TSR = 1
+trajectory 22, dir = fwrd, Time = 37.7915, Length = 0.927981, PointCount = 425, TSR = 15
+trajectory 23, dir = reverse, Time = -0.127279, Length = -0.00218278, PointCount = 4, TSR = 1
+trajectory 23, dir = fwrd, Time = 43.0226, Length = 0.928539, PointCount = 426, TSR = 15
+trajectory 24, dir = reverse, Time = -0.140505, Length = -0.00218415, PointCount = 4, TSR = 1
+trajectory 24, dir = fwrd, Time = 50.7036, Length = 0.929402, PointCount = 431, TSR = 15
+trajectory 25, dir = reverse, Time = -0.113547, Length = -0.00218179, PointCount = 4, TSR = 1
+trajectory 25, dir = fwrd, Time = 37.206, Length = 0.927139, PointCount = 427, TSR = 15
+trajectory 26, dir = reverse, Time = -0.113518, Length = -0.0021818, PointCount = 4, TSR = 1
+trajectory 26, dir = fwrd, Time = 37.7638, Length = 0.927069, PointCount = 428, TSR = 15
+trajectory 27, dir = reverse, Time = -0.118216, Length = -0.00218222, PointCount = 4, TSR = 1
+trajectory 27, dir = fwrd, Time = 39.5406, Length = 0.927137, PointCount = 432, TSR = 15
+trajectory 28, dir = reverse, Time = -0.129133, Length = -0.00218298, PointCount = 4, TSR = 1
+trajectory 28, dir = fwrd, Time = 42.9833, Length = 0.927355, PointCount = 434, TSR = 15
+trajectory 29, dir = reverse, Time = -0.771587, Length = -0.0118128, PointCount = 4, TSR = 1
+trajectory 29, dir = fwrd, Time = 49.1913, Length = 0.927786, PointCount = 426, TSR = 15
+trajectory 30, dir = reverse, Time = -0.118331, Length = -0.00218221, PointCount = 4, TSR = 1
+trajectory 30, dir = fwrd, Time = 38.4505, Length = 0.927356, PointCount = 430, TSR = 15
+trajectory 31, dir = reverse, Time = -0.129278, Length = -0.00218297, PointCount = 4, TSR = 1
+trajectory 31, dir = fwrd, Time = 42.2721, Length = 0.927725, PointCount = 428, TSR = 15
+trajectory 0, dir = reverse, Time = -0.772557, Length = -0.0118129, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 49.0254, Length = 0.928288, PointCount = 429, TSR = 15
+trajectory 1, dir = reverse, Time = -0.125867, Length = -0.00218327, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 43.7369, Length = 0.927162, PointCount = 428, TSR = 15
+trajectory 2, dir = reverse, Time = -0.125831, Length = -0.00218327, PointCount = 4, TSR = 1
+trajectory 2, dir = fwrd, Time = 44.222, Length = 0.927085, PointCount = 424, TSR = 15
+trajectory 3, dir = reverse, Time = -0.131756, Length = -0.0021837, PointCount = 4, TSR = 1
+trajectory 3, dir = fwrd, Time = 46.6336, Length = 0.927141, PointCount = 425, TSR = 15
+trajectory 4, dir = reverse, Time = -0.131903, Length = -0.00218368, PointCount = 4, TSR = 1
+trajectory 4, dir = fwrd, Time = 45.5314, Length = 0.927362, PointCount = 427, TSR = 15
+trajectory 0, dir = reverse, Time = -0.119735, Length = -0.00218208, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 42.5475, Length = 0.932811, PointCount = 430, TSR = 15
+trajectory 1, dir = reverse, Time = -0.119833, Length = -0.00218176, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 41.3095, Length = 0.932279, PointCount = 429, TSR = 15
+trajectory 0, dir = reverse, Time = -0.117806, Length = -0.00218241, PointCount = 4, TSR = 1
+trajectory 0, dir = fwrd, Time = 44.1581, Length = 0.943606, PointCount = 455, TSR = 15
+trajectory 1, dir = reverse, Time = -0.129894, Length = -0.0021825, PointCount = 4, TSR = 1
+trajectory 1, dir = fwrd, Time = 48.321, Length = 0.937804, PointCount = 432, TSR = 15
+trajectory 2, dir = reverse, Time = -0.129079, Length = -0.00218302, PointCount = 4, TSR = 1
+trajectory 2, dir = fwrd, Time = 48.0446, Length = 0.941341, PointCount = 428, TSR = 15
+trajectory 3, dir = reverse, Time = -0.106749, Length = -0.00218109, PointCount = 4, TSR = 1
+trajectory 3, dir = fwrd, Time = 34.8485, Length = 0.930829, PointCount = 426, TSR = 15
+trajectory 4, dir = reverse, Time = -0.106651, Length = -0.0021811, PointCount = 4, TSR = 1
+trajectory 4, dir = fwrd, Time = 36.2036, Length = 0.930561, PointCount = 428, TSR = 15
+trajectory 5, dir = reverse, Time = -0.117385, Length = -0.00218156, PointCount = 4, TSR = 1
+trajectory 5, dir = fwrd, Time = 39.7168, Length = 0.931978, PointCount = 428, TSR = 15
+trajectory 6, dir = reverse, Time = -0.141389, Length = -0.00218298, PointCount = 4, TSR = 1
+trajectory 6, dir = fwrd, Time = 50.3327, Length = 0.934373, PointCount = 430, TSR = 15
+trajectory 7, dir = reverse, Time = -0.116883, Length = -0.00218183, PointCount = 4, TSR = 1
+trajectory 7, dir = fwrd, Time = 40.1584, Length = 0.932739, PointCount = 433, TSR = 15
+trajectory 8, dir = reverse, Time = -0.138201, Length = -0.00218398, PointCount = 4, TSR = 1
+trajectory 8, dir = fwrd, Time = 52.1572, Length = 0.935291, PointCount = 430, TSR = 15
+trajectory 9, dir = reverse, Time = -0.104439, Length = -0.00218079, PointCount = 4, TSR = 1
+trajectory 9, dir = fwrd, Time = 32.4225, Length = 0.92845, PointCount = 426, TSR = 15
+trajectory 10, dir = reverse, Time = -0.104629, Length = -0.00218083, PointCount = 4, TSR = 1
+trajectory 10, dir = fwrd, Time = 34.3799, Length = 0.928666, PointCount = 431, TSR = 15
+trajectory 11, dir = reverse, Time = -0.113079, Length = -0.00218181, PointCount = 4, TSR = 1
+trajectory 11, dir = fwrd, Time = 39.6974, Length = 0.929797, PointCount = 437, TSR = 15
+trajectory 12, dir = reverse, Time = -0.106851, Length = -0.00218109, PointCount = 4, TSR = 1
+trajectory 12, dir = fwrd, Time = 33.3734, Length = 0.927502, PointCount = 426, TSR = 15
+trajectory 13, dir = reverse, Time = -0.106803, Length = -0.00218109, PointCount = 4, TSR = 1
+trajectory 13, dir = fwrd, Time = 34.2695, Length = 0.927331, PointCount = 425, TSR = 15
+trajectory 14, dir = reverse, Time = -0.11686, Length = -0.00218183, PointCount = 4, TSR = 1
+trajectory 14, dir = fwrd, Time = 38.448, Length = 0.927721, PointCount = 425, TSR = 15
+trajectory 15, dir = reverse, Time = -0.138233, Length = -0.00218394, PointCount = 4, TSR = 1
+trajectory 15, dir = fwrd, Time = 49.4209, Length = 0.929009, PointCount = 427, TSR = 15
+trajectory 16, dir = reverse, Time = -0.116987, Length = -0.00218182, PointCount = 4, TSR = 1
+trajectory 16, dir = fwrd, Time = 38.2655, Length = 0.928199, PointCount = 425, TSR = 15
+trajectory 17, dir = reverse, Time = -0.138348, Length = -0.00218397, PointCount = 4, TSR = 1
+trajectory 17, dir = fwrd, Time = 50.339, Length = 0.929579, PointCount = 429, TSR = 15
+trajectory 18, dir = reverse, Time = -0.118057, Length = -0.00218244, PointCount = 4, TSR = 1
+trajectory 18, dir = fwrd, Time = 40.1414, Length = 0.927051, PointCount = 425, TSR = 15
+trajectory 19, dir = reverse, Time = -0.129054, Length = -0.00218306, PointCount = 4, TSR = 1
+trajectory 19, dir = fwrd, Time = 44.1815, Length = 0.92717, PointCount = 426, TSR = 15
+trajectory 20, dir = reverse, Time = -0.129195, Length = -0.00218305, PointCount = 4, TSR = 1
+trajectory 20, dir = fwrd, Time = 43.1176, Length = 0.927453, PointCount = 426, TSR = 15
+
+]]>

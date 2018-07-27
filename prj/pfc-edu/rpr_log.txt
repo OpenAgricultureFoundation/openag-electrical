@@ -1,0 +1,364 @@
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+90 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+90 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+97 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+97 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+97 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="6">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="6">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="0">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="1">
+<![CDATA[
+82 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="2">
+<![CDATA[
+Windows 10 (or higher) (Version 10.0.17134)
+GenuineIntel, Stepping ID = 3, Model = 14, Family = 6, Extended model = 4, MMX SSE SSE2 Hyper-Threading Technology SSE3
+CPU Brand String: Intel(R) Core(TM) i7-6600U CPU @ 2.60GHz
+Cache Line Size = 64, L2 Associativity = 6, Cache Size = 256K
+Number of cores: 4, Processor type: 8664, Active processor mask: 15, Page size: 4096 bites
+std::thread::hardware_concurrency = 4
+OpenMP enabled (spec=200203). max_threads = 4, num_procs = 4, num_threads = 4.
+
+]]>
+</Block>
+<Block caption="simple" number="3">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="4">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
+<Block caption="simple" number="5">
+<![CDATA[
+87 parameter(s) in list of scalar parameters
+4 parameter(s) in list of vector parameters
+
+]]>
+</Block>
