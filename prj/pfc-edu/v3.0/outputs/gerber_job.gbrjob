@@ -1,0 +1,11 @@
+G04 Gerber job file.*
+%TF.FileFunction,JobInfo*%
+%TF.GenerationSoftware,Autodesk,EAGLE,9.1.1*%
+%TF.CreationDate,2018-08-01T17:30:25Z*%
+%TF.Part,Single*%
+%MOMM*%
+%TJ.B_Owner,Dan Poitrast <poitrast@gmail.com>*%
+%TJ.B_ID,PFCEDU_V3*%
+%TJ.B_LayerNum,2*%
+%TJ.B_Thickness,1.570000*%
+M02*

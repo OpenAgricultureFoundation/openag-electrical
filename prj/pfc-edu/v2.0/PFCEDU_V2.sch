@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="9.0.1">
+<eagle version="9.1.1">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -19489,10 +19489,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="-261.62" y1="266.7" x2="-284.48" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="266.7" x2="-284.48" y2="281.94" width="0.1524" layer="91"/>
-<pinref part="U$4" gate="G$1" pin="SYS5V"/>
-<wire x1="-261.62" y1="261.62" x2="-284.48" y2="261.62" width="0.1524" layer="91"/>
-<wire x1="-284.48" y1="261.62" x2="-284.48" y2="266.7" width="0.1524" layer="91"/>
-<junction x="-284.48" y="266.7"/>
 </segment>
 <segment>
 <pinref part="P+18" gate="1" pin="+5V"/>

@@ -1,0 +1,133 @@
+# Created by Ultra Librarian Gold 8.2.234 Copyright © 1999-2018
+# Frank Frank, Accelerated Designs
+
+Grid mil;
+Set Wire_Bend 2;
+
+
+Edit 'CONN5_5-1634503-1.pac';
+Change Drill 43;
+Pad '1' Round 0 63 R0 (0 0);
+Change Drill 63;
+Pad '2' Round 0 83 R0 (-123 123);
+Change Drill 63;
+Pad '3' Round 0 83 R0 (-123 -123);
+Change Drill 63;
+Pad '4' Round 0 83 R0 (123 -123);
+Change Drill 63;
+Pad '5' Round 0 83 R0 (123 123);
+Layer 21;
+Wire 6 (-223 -223) (223 -223);
+Wire 6 (223 -223) (223 223);
+Wire 6 (223 223) (-223 223);
+Wire 6 (-223 223) (-223 -223);
+Wire 6 (271 0) -180 (265 0);
+Wire 6 (265 0) -180 (271 0);
+Layer 51;
+Wire 6 (-218 -218) (218 -218);
+Wire 6 (218 -218) (218 218);
+Wire 6 (218 218) (-218 218);
+Wire 6 (-218 218) (-218 -218);
+Wire 0 (206 0) -180 (200 0);
+Wire 0 (200 0) -180 (206 0);
+Layer 25;
+Change Size 50;
+Change Ratio 6;
+Text '>Name' SR0 (-129 -25);
+Layer 27;
+
+Edit 'CONN_5-1634503-1_TYCO.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Wire 6 (400 0) (200 0);
+Wire 6 (400 0) (350 33);
+Wire 6 (400 0) (350 -33);
+Wire 6 (200 100) (200 -500);
+Wire 6 (200 -100) (400 -100);
+Wire 6 (500 -500) (500 100);
+Wire 6 (500 100) (200 100);
+Wire 6 (400 -200) (200 -200);
+Wire 6 (400 -200) (350 -167);
+Wire 6 (400 -200) (350 -233);
+Wire 6 (400 -300) (350 -267);
+Wire 6 (400 -300) (350 -333);
+Wire 6 (400 -400) (200 -400);
+Wire 6 (400 -400) (350 -367);
+Wire 6 (400 -400) (350 -433);
+Wire 6 (400 -300) (200 -300);
+Wire 6 (500 -500) (200 -500);
+Wire 6 (400 -100) (350 -67);
+Wire 6 (400 -100) (350 -133);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_5-1634503-1_TYCO_2.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Wire 6 (300 0) (200 0);
+Wire 6 (300 0) (350 33);
+Wire 6 (300 0) (350 -33);
+Wire 6 (200 100) (200 -500);
+Wire 6 (200 -100) (300 -100);
+Wire 6 (500 -500) (500 100);
+Wire 6 (500 100) (200 100);
+Wire 6 (300 -200) (200 -200);
+Wire 6 (300 -200) (350 -167);
+Wire 6 (300 -200) (350 -233);
+Wire 6 (200 -300) (300 -300);
+Wire 6 (300 -100) (350 -67);
+Wire 6 (300 -400) (200 -400);
+Wire 6 (300 -400) (350 -367);
+Wire 6 (300 -400) (350 -433);
+Wire 6 (200 -500) (500 -500);
+Wire 6 (300 -100) (350 -133);
+Wire 6 (300 -300) (350 -267);
+Wire 6 (300 -300) (350 -333);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit 'CONN_5-1634503-1_TYCO_3.sym';
+Layer 94;
+Pin '1' Pas None Middle R0 Pad 0 (0 0)
+Pin '2' Pas None Middle R0 Pad 0 (0 -100)
+Pin '3' Pas None Middle R0 Pad 0 (0 -200)
+Pin '4' Pas None Middle R0 Pad 0 (0 -300)
+Pin '5' Pas None Middle R0 Pad 0 (0 -400)
+Wire 6 (200 100) (200 -500);
+Wire 6 (500 -500) (500 100);
+Wire 6 (500 100) (200 100);
+Wire 6 (200 -500) (500 -500);
+Layer 97;
+Layer 95;
+Change Size 82;
+Change Ratio 6;
+Text '>Name' SR0 (164 209);
+
+Edit '5-1634503-1.dev';
+Prefix 'J';
+Description '';
+Value Off;
+Add CONN_5-1634503-1_TYCO 'A' Next  0 (0 0);
+Package 'CONN5_5-1634503-1';
+Technology '';
+Attribute Vendor 'TE Connectivity';
+Attribute Manufacturer_Part_Number '516345031';
+Connect 'A.1' '1';
+Connect 'A.2' '2';
+Connect 'A.3' '3';
+Connect 'A.4' '4';
+Connect 'A.5' '5';
