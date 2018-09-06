@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="no"/>
+<setting alwaysvectorfont="yes"/>
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
@@ -163,7 +163,7 @@
 <layer number="255" name="routoute" color="7" fill="1" visible="no" active="yes"/>
 </layers>
 <board>
-<fusionsync huburn="a.cGVyc29uYWw6dWUyZDQ5ZWNm" projecturn="a.cGVyc29uYWw6dWUyZDQ5ZWNmIzIwMTgwODI3MTQ1NzkzNzAx" f3durn="urn:adsk.wipprod:dm.lineage:A54xREN7THWxmwrWM6qwpw" pcbguid="4216efb9-2f54-44b7-b09a-7bcfc6d0badd" lastpulledtime="2018-02-02T18:34:31Z" lastsyncedchangeguid="aa3ca7f9-00d6-52e2-9f82-5a8c0fa7ec72"/>
+<fusionsync huburn="a.cGVyc29uYWw6dWUyZDQ5ZWNm" projecturn="a.cGVyc29uYWw6dWUyZDQ5ZWNmIzIwMTgwODI3MTQ1NzkzNzAx" f3durn="urn:adsk.wipprod:dm.lineage:A54xREN7THWxmwrWM6qwpw" pcbguid="4216efb9-2f54-44b7-b09a-7bcfc6d0badd" lastpulledtime="2018-02-02T18:34:31Z" lastsyncedchangeguid="78ec3fee-b9e6-7f76-2271-f597d7512f37"/>
 <plain>
 <wire x1="151.6226875" y1="284.734" x2="0" y2="284.734" width="0" layer="109"/>
 <wire x1="0" y1="284.734" x2="0" y2="265.176" width="0" layer="109"/>
@@ -4357,30 +4357,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </package>
 </packages>
 </library>
-<library name="R-78E5.0-1.0">
-<description>&lt;Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="R-78E5.0-1.0">
-<description>&lt;b&gt;R-78E5.0-1.0&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="3.21" y="2" drill="1.15" diameter="1.75"/>
-<pad name="2" x="5.75" y="2" drill="1.15" diameter="1.75"/>
-<pad name="3" x="8.29" y="2" drill="1.15" diameter="1.75"/>
-<text x="5.511" y="5.508" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="5.511" y="5.508" size="1.27" layer="51" align="center">&gt;VALUE</text>
-<wire x1="0" y1="8.5" x2="11.6" y2="8.5" width="0.254" layer="51"/>
-<wire x1="11.6" y1="8.5" x2="11.6" y2="0" width="0.254" layer="51"/>
-<wire x1="11.6" y1="0" x2="0" y2="0" width="0.254" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="8.5" width="0.254" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="8.5" width="0.254" layer="25"/>
-<wire x1="0" y1="8.5" x2="11.6" y2="8.5" width="0.254" layer="25"/>
-<wire x1="11.6" y1="8.5" x2="11.6" y2="0" width="0.254" layer="25"/>
-<wire x1="11.6" y1="0" x2="0" y2="0" width="0.254" layer="25"/>
-<circle x="2.333" y="-1.068" radius="0.2742" width="0.5" layer="25"/>
-</package>
-</packages>
-</library>
 <library name="PJ-036ah">
 <packages>
 <package name="PJ-036AH">
@@ -4997,12 +4973,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <packageinstance name="HTU20D(F)"/>
 </packageinstances>
 </package3d>
-<package3d name="SHT2X" urn="urn:adsk.eagle:package:4911592/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="SHT2X" urn="urn:adsk.eagle:package:4911592/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SHT2X"/>
 </packageinstances>
 </package3d>
-<package3d name="T6713" urn="urn:adsk.eagle:package:4911591/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="T6713" urn="urn:adsk.eagle:package:4911591/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="T6713"/>
 </packageinstances>
@@ -5045,11 +5021,43 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="0.254" y="-3.048" size="0.762" layer="21" ratio="6" rot="R90">&gt;VALUE</text>
 <circle x="-2.794" y="3.556" radius="0.254" width="0.508" layer="21"/>
 </package>
+<package name="R-78E5.0-1.0" urn="urn:adsk.eagle:footprint:4911496/1" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;
+Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-01-en-DC_DC_WANDLER_R_78C5_0_1_0.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.6764"/>
+<wire x1="-5.6968" y1="-1.9" x2="5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="-1.9" x2="5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="6.44" x2="-5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="-5.6968" y1="6.44" x2="-5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="0" y1="1.016" x2="0" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-1.27" width="0.1524" layer="22"/>
+<text x="-5.715" y="7.112" size="0.762" layer="25">&gt;NAME</text>
+<text x="-2.54" y="2.794" size="0.762" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="2.794" size="0.762" layer="21">&gt;VALUE</text>
+<text x="-0.254" y="1.778" size="0.762" layer="22" rot="MR90">GND</text>
+<text x="-2.794" y="1.778" size="0.762" layer="22" rot="MR90">VIN</text>
+<text x="2.286" y="1.778" size="0.762" layer="22" rot="MR90">VOUT</text>
+<circle x="-5.588" y="-2.54" radius="0.406109375" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MP04A" urn="urn:adsk.eagle:package:4911514/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MP04A"/>
+</packageinstances>
+</package3d>
+<package3d name="R-78E5.0-1.0" urn="urn:adsk.eagle:package:4911512/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;
+Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-01-en-DC_DC_WANDLER_R_78C5_0_1_0.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="R-78E5.0-1.0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -5155,13 +5163,15 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </package3d>
 </packages3d>
 </library>
-<library name="Tomaszewski">
+<library name="Tomaszewski" urn="urn:adsk.eagle:library:5093932">
 <packages>
-<package name="CREE-XLAMP-XP-E">
+<package name="CREE-XLAMP-XP-E" urn="urn:adsk.eagle:footprint:5094029/1" library_version="1" library_locally_modified="yes">
 <circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
 <smd name="C" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
 <smd name="THERM" x="0" y="0" dx="1.3" dy="3.3" layer="1" rot="R180" cream="no"/>
 <smd name="C@1" x="-1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
+<smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
+<smd name="A@1" x="1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
 <text x="-1.778" y="2.032" size="0.889" layer="25" font="vector" ratio="20">&gt;NAME</text>
 <text x="-1.778" y="-2.921" size="0.889" layer="27" font="vector" ratio="20">&gt;VALUE</text>
 <wire x1="1.65" y1="-1.625" x2="-1.625" y2="-1.625" width="0.2032" layer="51"/>
@@ -5170,13 +5180,18 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <wire x1="1.65" y1="1.625" x2="1.65" y2="-1.625" width="0.2032" layer="51"/>
 <wire x1="1.525" y1="0" x2="1.15" y2="0" width="0.1016" layer="51"/>
 <wire x1="1.325" y1="-0.175" x2="1.325" y2="0.175" width="0.1016" layer="51"/>
-<smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
-<smd name="A@1" x="1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
 <rectangle x1="-0.505" y1="-0.375" x2="0.505" y2="0.375" layer="31"/>
 <rectangle x1="-0.505" y1="-1.375" x2="0.505" y2="-0.625" layer="31"/>
 <rectangle x1="-0.505" y1="0.625" x2="0.505" y2="1.375" layer="31"/>
 </package>
 </packages>
+<packages3d>
+<package3d name="CREE-XLAMP-XP-E" urn="urn:adsk.eagle:package:5094264/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CREE-XLAMP-XP-E"/>
+</packageinstances>
+</package3d>
+</packages3d>
 </library>
 <library name="wirepad" urn="urn:adsk.eagle:library:412">
 <description>&lt;b&gt;Single Pads&lt;/b&gt;&lt;p&gt;
@@ -5848,19 +5863,6 @@ design rules under a new name.</description>
 <attribute name="SPICEPREFIX" value="R" x="188.3308375" y="265.72718125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VALUE" x="186.4258375" y="266.36218125" size="1.27" layer="27" rot="R270"/>
 </element>
-<element name="T1" library="R-78E5.0-1.0" package="R-78E5.0-1.0" value="R-78E5.0-1.0" x="54.17058125" y="273.6443625" smashed="yes" rot="R180">
-<attribute name="3D_PACKAGE" value="" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_NUMBER" value="" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="RECOM Power" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="R-78E5.0-1.0" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="52.46958125" y="262.0403625" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="OTHER_PART_NUMBER" value="" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="1446290" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="54.17058125" y="273.6443625" size="1.778" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="46.62758125" y="263.8183625" size="1.27" layer="51" rot="R180" align="center"/>
-</element>
 <element name="R8" library="SparkFun-Resistors" package="0603-RES" value="10K" x="44.7141625" y="211.58961875" rot="R270">
 <attribute name="PROD_ID" value="RES-00824" x="44.7141625" y="211.58961875" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
@@ -5993,7 +5995,7 @@ design rules under a new name.</description>
 <element name="TP37" library="openag-testpads" package="TP06R" value="TPTP06R" x="46.3448375" y="124.19838125" rot="R90">
 <attribute name="MPN" value="N/A" x="46.3448375" y="124.19838125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U11" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" package="SHT2X" package3d_urn="urn:adsk.eagle:package:4911592/1" value="SHT25" x="47.6148375" y="86.86038125" smashed="yes" rot="R270">
+<element name="U11" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" package="SHT2X" package3d_urn="urn:adsk.eagle:package:4911592/2" value="SHT25" x="47.6148375" y="86.86038125" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Sensirion AG" x="47.6148375" y="86.86038125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="SHT25" x="47.6148375" y="86.86038125" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="46.4083375" y="88.63838125" size="0.635" layer="25"/>
@@ -6023,7 +6025,7 @@ design rules under a new name.</description>
 <element name="TP41" library="openag-testpads" package="TP06R" value="TPTP06R" x="47.8688375" y="81.01838125" rot="R90">
 <attribute name="MPN" value="N/A" x="47.8688375" y="81.01838125" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
-<element name="U12" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" package="T6713" package3d_urn="urn:adsk.eagle:package:4911591/1" value="T6713-5K" x="61.95821875" y="132.2730375" smashed="yes" rot="R180">
+<element name="U12" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" package="T6713" package3d_urn="urn:adsk.eagle:package:4911591/2" value="T6713-5K" x="61.95821875" y="132.2730375" smashed="yes" rot="R180">
 <attribute name="MANUFACTURER" value="Amphenol Advanced Sensors" x="61.95821875" y="132.2730375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="T6713-5K" x="61.95821875" y="132.2730375" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="62.46621875" y="133.5430375" size="0.762" layer="25" ratio="10" rot="R270"/>
@@ -6053,30 +6055,30 @@ design rules under a new name.</description>
 <element name="TP45" library="openag-testpads" package="TP06R" value="TPTP06R" x="45.95621875" y="149.5450375" rot="R180">
 <attribute name="MPN" value="N/A" x="45.95621875" y="149.5450375" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="CH2-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="156.3624" rot="MR90"/>
-<element name="CH6-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="156.3624" rot="MR90"/>
-<element name="CH6-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="72.5424" rot="MR90"/>
-<element name="CH6-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="212.2424" rot="MR90"/>
-<element name="CH1-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="156.3624" rot="MR90"/>
-<element name="CH1-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="100.4824" rot="MR90"/>
-<element name="CH1-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="212.2424" rot="MR90"/>
-<element name="CH1-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="72.5424" rot="MR90"/>
-<element name="CH3-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="72.5424" rot="MR90"/>
-<element name="CH3-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="184.3024" rot="MR90"/>
-<element name="CH3-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="128.4224" rot="MR90"/>
-<element name="CH2-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="72.5424" rot="MR90"/>
-<element name="CH3-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="184.3024" rot="MR90"/>
-<element name="CH5-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="128.4224" rot="MR90"/>
-<element name="CH5-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="212.2424" rot="MR90"/>
-<element name="CH5-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="100.4824" rot="MR90"/>
-<element name="CH5-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="156.3624" rot="MR90"/>
-<element name="CH2-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="184.3024" rot="MR90"/>
-<element name="CH2-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="128.4224" rot="MR90"/>
-<element name="CH4-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="212.2424" rot="MR90"/>
-<element name="CH4-7" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="156.337" y="128.4224" rot="MR90"/>
-<element name="CH4-8" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="128.397" y="184.3024" rot="MR90"/>
-<element name="CH4-9" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="100.457" y="100.4824" rot="MR90"/>
-<element name="CH6-6" library="Tomaszewski" package="CREE-XLAMP-XP-E" value="XP-E" x="184.277" y="100.4824" rot="MR90"/>
+<element name="CH2-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="156.3624" rot="MR90"/>
+<element name="CH6-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="156.3624" rot="MR90"/>
+<element name="CH6-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="72.5424" rot="MR90"/>
+<element name="CH6-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="212.2424" rot="MR90"/>
+<element name="CH1-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="156.3624" rot="MR90"/>
+<element name="CH1-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="100.4824" rot="MR90"/>
+<element name="CH1-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="212.2424" rot="MR90"/>
+<element name="CH1-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="72.5424" rot="MR90"/>
+<element name="CH3-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="72.5424" rot="MR90"/>
+<element name="CH3-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="184.3024" rot="MR90"/>
+<element name="CH3-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="128.4224" rot="MR90"/>
+<element name="CH2-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="72.5424" rot="MR90"/>
+<element name="CH3-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="184.3024" rot="MR90"/>
+<element name="CH5-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="128.4224" rot="MR90"/>
+<element name="CH5-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="212.2424" rot="MR90"/>
+<element name="CH5-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="100.4824" rot="MR90"/>
+<element name="CH5-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="156.3624" rot="MR90"/>
+<element name="CH2-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="184.3024" rot="MR90"/>
+<element name="CH2-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="128.4224" rot="MR90"/>
+<element name="CH4-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="212.2424" rot="MR90"/>
+<element name="CH4-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="156.337" y="128.4224" rot="MR90"/>
+<element name="CH4-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="128.397" y="184.3024" rot="MR90"/>
+<element name="CH4-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="100.457" y="100.4824" rot="MR90"/>
+<element name="CH6-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" package="CREE-XLAMP-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E" x="184.277" y="100.4824" rot="MR90"/>
 <element name="D8" library="openag-diodes" library_urn="urn:adsk.eagle:library:4908387" package="CHIPLED_0603" package3d_urn="urn:adsk.eagle:package:15822/2" value="APT1608" x="43.053" y="252.857" smashed="yes" rot="R270">
 <attribute name="MANUFACTURER" value="Kingbright" x="43.053" y="252.857" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="APT1608CGCK" x="43.053" y="252.857" size="1.778" layer="27" rot="R270" display="off"/>
@@ -6140,19 +6142,6 @@ design rules under a new name.</description>
 </element>
 <element name="TP63" library="openag-testpads" package="TP06R" value="TPTP06R" x="47.752" y="254.762" rot="R270">
 <attribute name="MPN" value="N/A" x="47.752" y="254.762" size="1.778" layer="27" rot="R270" display="off"/>
-</element>
-<element name="T2" library="R-78E5.0-1.0" package="R-78E5.0-1.0" value="R-78E12.0-1.0" x="40.894" y="273.558" smashed="yes" rot="R180">
-<attribute name="3D_PACKAGE" value="" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="ALLIED_NUMBER" value="" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="DESCRIPTION" value="Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="HEIGHT" value="mm" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_NAME" value="RECOM Power" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="R-78E5.0-1.0" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="NAME" x="35.383" y="268.05" size="1.27" layer="25" rot="R180" align="center"/>
-<attribute name="OTHER_PART_NUMBER" value="" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="RS_PART_NUMBER" value="1446290" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="SUPPLIER_NAME" value="RS" x="40.894" y="273.558" size="6.4516" layer="27" rot="R180" display="off"/>
-<attribute name="VALUE" x="32.843" y="263.478" size="1.27" layer="51" rot="R180" align="center"/>
 </element>
 <element name="PAD7" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,3" package3d_urn="urn:adsk.eagle:package:30834/1" value="WIREPAD3,81/1,3" x="105.156" y="8.89"/>
 <element name="PAD8" library="wirepad" library_urn="urn:adsk.eagle:library:412" package="3,81/1,3" package3d_urn="urn:adsk.eagle:package:30834/1" value="WIREPAD3,81/1,3" x="109.982" y="8.89"/>
@@ -6987,6 +6976,20 @@ design rules under a new name.</description>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21A475KBQNNNE/1276-1248-1-ND/3889334" x="234.696" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value=" 1276-1248-1-ND" x="234.696" y="44.196" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
+<element name="U5" library="openag-regulators" library_urn="urn:adsk.eagle:library:4911494" package="R-78E5.0-1.0" package3d_urn="urn:adsk.eagle:package:4911512/2" value="R-78E12-1.0" x="30.226" y="271.526">
+<attribute name="MANUFACTURER" value="Recom Power" x="30.226" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="R-78E5.0-1.0" x="30.226" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="30.226" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="30.226" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="945-2201-ND " x="30.226" y="271.526" size="1.778" layer="27" display="off"/>
+</element>
+<element name="U7" library="openag-regulators" library_urn="urn:adsk.eagle:library:4911494" package="R-78E5.0-1.0" package3d_urn="urn:adsk.eagle:package:4911512/2" value="R-78E5.0-1.0" x="43.434" y="271.526">
+<attribute name="MANUFACTURER" value="Recom Power" x="43.434" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="MPN" value="R-78E5.0-1.0" x="43.434" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VENDOR" value="Digikey" x="43.434" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="43.434" y="271.526" size="1.778" layer="27" display="off"/>
+<attribute name="VPN" value="945-2201-ND " x="43.434" y="271.526" size="1.778" layer="27" display="off"/>
+</element>
 </elements>
 <signals>
 <signal name="GND">
@@ -7018,7 +7021,6 @@ design rules under a new name.</description>
 <via x="183.1238375" y="264.20318125" extent="1-16" drill="0.35"/>
 <via x="178.2978375" y="268.01318125" extent="1-16" drill="0.35"/>
 <via x="178.8058375" y="270.55318125" extent="1-16" drill="0.35"/>
-<contactref element="T1" pad="2"/>
 <contactref element="D2" pad="C"/>
 <contactref element="D3" pad="C"/>
 <contactref element="D4" pad="C"/>
@@ -7107,7 +7109,6 @@ design rules under a new name.</description>
 <contactref element="U17" pad="4"/>
 <via x="38.354" y="241.046" extent="1-16" drill="0.35"/>
 <via x="40.64" y="239.268" extent="1-16" drill="0.35"/>
-<contactref element="T2" pad="2"/>
 <via x="28.956" y="200.66" extent="1-16" drill="0.35"/>
 <via x="31.9278" y="203.2254" extent="1-16" drill="0.35"/>
 <via x="53.6194" y="208.026" extent="1-16" drill="0.35"/>
@@ -7461,6 +7462,8 @@ design rules under a new name.</description>
 <contactref element="U14" pad="4"/>
 <contactref element="C1" pad="2"/>
 <contactref element="C5" pad="2"/>
+<contactref element="U5" pad="2"/>
+<contactref element="U7" pad="2"/>
 </signal>
 <signal name="24V_IN">
 <contactref element="F12" pad="1"/>
@@ -7474,7 +7477,6 @@ design rules under a new name.</description>
 <contactref element="F12" pad="2"/>
 <contactref element="J2" pad="24V(6)"/>
 <contactref element="J3" pad="24V(6)"/>
-<contactref element="T1" pad="1"/>
 <contactref element="R12" pad="2"/>
 <wire x1="136.1084375" y1="265.2115625" x2="149.606" y2="251.714" width="2.54" layer="1"/>
 <wire x1="149.606" y1="251.714" x2="198.5162375" y2="251.714" width="2.54" layer="1"/>
@@ -7492,13 +7494,9 @@ design rules under a new name.</description>
 <wire x1="138.43" y1="265.43" x2="138.2115625" y2="265.2115625" width="0.6096" layer="1"/>
 <wire x1="138.2115625" y1="265.2115625" x2="136.1084375" y2="265.2115625" width="0.6096" layer="1"/>
 <wire x1="154.94959375" y1="271.526" x2="144.526" y2="271.526" width="0.6096" layer="16"/>
-<contactref element="T2" pad="1"/>
-<wire x1="37.684" y1="271.558" x2="38.1" y2="271.974" width="0.6096" layer="1"/>
 <wire x1="38.1" y1="275.336" x2="38.1" y2="271.974" width="0.6096" layer="1"/>
 <wire x1="30.353" y1="266.319" x2="30.48" y2="266.446" width="0.3048" layer="1"/>
 <wire x1="30.48" y1="266.446" x2="36.83" y2="266.446" width="0.3048" layer="1"/>
-<wire x1="37.684" y1="267.3" x2="37.684" y2="271.558" width="0.3048" layer="1"/>
-<wire x1="36.83" y1="266.446" x2="37.684" y2="267.3" width="0.3048" layer="1"/>
 <wire x1="282.448" y1="256.794" x2="282.448" y2="119.38" width="2.54" layer="1"/>
 <wire x1="282.448" y1="119.38" x2="282.448" y2="73.914" width="2.54" layer="1"/>
 <wire x1="249.49658125" y1="43.5203625" x2="245.77294375" y2="47.244" width="2.54" layer="1"/>
@@ -7527,7 +7525,6 @@ design rules under a new name.</description>
 <wire x1="50.8" y1="275.59" x2="39.878" y2="275.59" width="2.54" layer="1"/>
 <wire x1="39.878" y1="275.59" x2="38.862" y2="274.574" width="2.54" layer="1"/>
 <wire x1="38.862" y1="274.574" x2="38.1" y2="275.336" width="0.6096" layer="1"/>
-<wire x1="50.96058125" y1="271.6443625" x2="50.96058125" y2="275.42941875" width="0.6096" layer="1"/>
 <wire x1="50.96058125" y1="275.42941875" x2="50.8" y2="275.59" width="0.6096" layer="1"/>
 <wire x1="232.918" y1="48.006" x2="234.95" y2="48.006" width="0.3048" layer="1"/>
 <contactref element="TP99" pad="1"/>
@@ -7755,6 +7752,16 @@ design rules under a new name.</description>
 <wire x1="238.506" y1="45.974" x2="239.014" y2="46.482" width="0.3048" layer="1"/>
 <wire x1="234.696" y1="45.146" x2="234.696" y2="46.482" width="0.3048" layer="1"/>
 <wire x1="234.696" y1="46.482" x2="235.204" y2="46.99" width="0.3048" layer="1"/>
+<contactref element="U5" pad="1"/>
+<contactref element="U7" pad="1"/>
+<wire x1="38.1" y1="271.974" x2="38.548" y2="271.526" width="0.3048" layer="1"/>
+<wire x1="38.548" y1="271.526" x2="40.894" y2="271.526" width="0.3048" layer="1"/>
+<wire x1="40.894" y1="270.51" x2="40.894" y2="271.526" width="0.3048" layer="1"/>
+<wire x1="36.83" y1="266.446" x2="40.894" y2="270.51" width="0.3048" layer="1"/>
+<wire x1="27.686" y1="271.526" x2="27.686" y2="273.812" width="0.6096" layer="1"/>
+<wire x1="27.686" y1="273.812" x2="28.448" y2="274.574" width="0.6096" layer="1"/>
+<wire x1="28.448" y1="274.574" x2="38.862" y2="274.574" width="0.6096" layer="1"/>
+<wire x1="38.862" y1="274.574" x2="39.878" y2="275.59" width="0.6096" layer="1"/>
 </signal>
 <signal name="SDA">
 <contactref element="U1" pad="23"/>
@@ -8968,8 +8975,6 @@ design rules under a new name.</description>
 <contactref element="J3" pad="USBM(8)"/>
 </signal>
 <signal name="+5V">
-<contactref element="T1" pad="3"/>
-<wire x1="45.88058125" y1="271.6443625" x2="45.88058125" y2="262.18399375" width="0.6096" layer="1"/>
 <contactref element="R26" pad="1"/>
 <contactref element="IC2" pad="10"/>
 <contactref element="R19" pad="2"/>
@@ -8992,7 +8997,7 @@ design rules under a new name.</description>
 <wire x1="171.6938375" y1="262.93318125" x2="174.5268375" y2="262.93318125" width="0.3048" layer="1"/>
 <wire x1="174.5268375" y1="262.93318125" x2="174.6538375" y2="262.80618125" width="0.3048" layer="1"/>
 <contactref element="R11" pad="2"/>
-<wire x1="45.88058125" y1="262.18399375" x2="49.784" y2="262.18399375" width="0.6096" layer="1"/>
+<wire x1="49.784" y1="262.18399375" x2="45.88058125" y2="262.18399375" width="0.6096" layer="1"/>
 <wire x1="49.784" y1="262.18399375" x2="73.96999375" y2="262.18399375" width="0.6096" layer="1"/>
 <wire x1="73.96999375" y1="262.18399375" x2="75.1179625" y2="263.3319625" width="0.6096" layer="1"/>
 <wire x1="133.9240375" y1="263.3319625" x2="134.366" y2="262.89" width="0.6096" layer="1"/>
@@ -9044,6 +9049,9 @@ design rules under a new name.</description>
 <wire x1="32.258" y1="245.90558125" x2="30.7441625" y2="247.41941875" width="0.3048" layer="1"/>
 <wire x1="275.082" y1="227.838" x2="276.352" y2="227.838" width="0.3048" layer="1"/>
 <wire x1="276.352" y1="227.838" x2="279.146" y2="225.044" width="0.3048" layer="1"/>
+<contactref element="U7" pad="3"/>
+<wire x1="45.88058125" y1="262.18399375" x2="45.88058125" y2="271.43258125" width="0.6096" layer="1"/>
+<wire x1="45.88058125" y1="271.43258125" x2="45.974" y2="271.526" width="0.6096" layer="1"/>
 </signal>
 <signal name="N$12">
 <contactref element="D2" pad="A"/>
@@ -10994,7 +11002,6 @@ design rules under a new name.</description>
 <signal name="N$210">
 </signal>
 <signal name="+12V">
-<contactref element="T2" pad="3"/>
 <wire x1="102.4390375" y1="22.4290375" x2="14.986" y2="22.4290375" width="0.8128" layer="1"/>
 <contactref element="PAD8" pad="1"/>
 <contactref element="PAD7" pad="1"/>
@@ -11009,12 +11016,14 @@ design rules under a new name.</description>
 <wire x1="18.24999375" y1="73.914" x2="18.24999375" y2="65.74799375" width="0.8128" layer="1"/>
 <wire x1="18.24999375" y1="65.74799375" x2="14.859" y2="62.357" width="0.8128" layer="1"/>
 <wire x1="18.24999375" y1="220.4523625" x2="28.956" y2="229.616" width="0.8128" layer="1"/>
-<wire x1="32.604" y1="269.719475" x2="32.604" y2="271.558" width="0.8128" layer="1"/>
 <wire x1="29.3906" y1="266.506075" x2="32.604" y2="269.719475" width="0.8128" layer="1"/>
 <wire x1="28.956" y1="229.616" x2="29.3906" y2="230.0506" width="0.8128" layer="1"/>
 <wire x1="29.3906" y1="230.0506" x2="29.3906" y2="266.506075" width="0.8128" layer="1"/>
 <wire x1="14.986" y1="22.4290375" x2="14.986" y2="62.23" width="0.8128" layer="1"/>
 <wire x1="14.986" y1="62.23" x2="14.859" y2="62.357" width="0.8128" layer="1"/>
+<contactref element="U5" pad="3"/>
+<wire x1="32.604" y1="269.719475" x2="32.604" y2="271.364" width="0.6096" layer="1"/>
+<wire x1="32.604" y1="271.364" x2="32.766" y2="271.526" width="0.6096" layer="1"/>
 </signal>
 <signal name="PHOTON_SCL6">
 </signal>

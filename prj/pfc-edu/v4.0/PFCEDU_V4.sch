@@ -14517,76 +14517,6 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
-<library name="R-78E5.0-1.0">
-<description>&lt;Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by SamacSys&lt;/author&gt;</description>
-<packages>
-<package name="R-78E5.0-1.0">
-<description>&lt;b&gt;R-78E5.0-1.0&lt;/b&gt;&lt;br&gt;
-</description>
-<pad name="1" x="3.21" y="2" drill="1.15" diameter="1.75"/>
-<pad name="2" x="5.75" y="2" drill="1.15" diameter="1.75"/>
-<pad name="3" x="8.29" y="2" drill="1.15" diameter="1.75"/>
-<text x="5.511" y="5.508" size="1.27" layer="25" align="center">&gt;NAME</text>
-<text x="5.511" y="5.508" size="1.27" layer="51" align="center">&gt;VALUE</text>
-<wire x1="0" y1="8.5" x2="11.6" y2="8.5" width="0.254" layer="51"/>
-<wire x1="11.6" y1="8.5" x2="11.6" y2="0" width="0.254" layer="51"/>
-<wire x1="11.6" y1="0" x2="0" y2="0" width="0.254" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="8.5" width="0.254" layer="51"/>
-<wire x1="0" y1="0" x2="0" y2="8.5" width="0.254" layer="25"/>
-<wire x1="0" y1="8.5" x2="11.6" y2="8.5" width="0.254" layer="25"/>
-<wire x1="11.6" y1="8.5" x2="11.6" y2="0" width="0.254" layer="25"/>
-<wire x1="11.6" y1="0" x2="0" y2="0" width="0.254" layer="25"/>
-<circle x="2.333" y="-1.068" radius="0.2742" width="0.5" layer="25"/>
-</package>
-</packages>
-<symbols>
-<symbol name="R-78E5.0-1.0">
-<wire x1="5.08" y1="2.54" x2="25.4" y2="2.54" width="0.254" layer="94"/>
-<wire x1="25.4" y1="2.54" x2="25.4" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="25.4" y1="-5.08" x2="5.08" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="-5.08" x2="5.08" y2="2.54" width="0.254" layer="94"/>
-<text x="15.24" y="5.08" size="1.778" layer="95" align="center">&gt;NAME</text>
-<text x="15.24" y="-7.62" size="1.778" layer="96" align="center">&gt;VALUE</text>
-<pin name="+VIN" x="0" y="0" length="middle" direction="pas"/>
-<pin name="GND" x="0" y="-2.54" length="middle" direction="pas"/>
-<pin name="+VOUT" x="30.48" y="0" length="middle" direction="pas" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="R-78E5.0-1.0" prefix="T">
-<description>&lt;b&gt;Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU&lt;/b&gt;&lt;p&gt;
-&lt;/b&gt;&lt;br&gt;&lt;a href="&lt;br&gt;&lt;a href="https://componentsearchengine.com/Images/1/R-78E5.0-1.0.jpg" title="Image"&gt;
-&lt;img src="https://componentsearchengine.com/Images/1/R-78E5.0-1.0.jpg" width="150"&gt;&lt;/a&gt;&lt;p&gt;
-Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt; Datasheet &lt;/a&gt;</description>
-<gates>
-<gate name="G$1" symbol="R-78E5.0-1.0" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="R-78E5.0-1.0">
-<connects>
-<connect gate="G$1" pin="+VIN" pad="1"/>
-<connect gate="G$1" pin="+VOUT" pad="3"/>
-<connect gate="G$1" pin="GND" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="3D_PACKAGE" value="" constant="no"/>
-<attribute name="ALLIED_NUMBER" value="" constant="no"/>
-<attribute name="DESCRIPTION" value="Non-Isolated DC/DC Converters 8-28Vin 5V 1.0A THRU" constant="no"/>
-<attribute name="HEIGHT" value="mm" constant="no"/>
-<attribute name="MANUFACTURER_NAME" value="RECOM Power" constant="no"/>
-<attribute name="MANUFACTURER_PART_NUMBER" value="R-78E5.0-1.0" constant="no"/>
-<attribute name="OTHER_PART_NUMBER" value="" constant="no"/>
-<attribute name="RS_PART_NUMBER" value="1446290" constant="no"/>
-<attribute name="SUPPLIER_NAME" value="RS" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="PJ-036ah">
 <packages>
 <package name="PJ-036AH">
@@ -15985,12 +15915,12 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <packageinstance name="HTU20D(F)"/>
 </packageinstances>
 </package3d>
-<package3d name="SHT2X" urn="urn:adsk.eagle:package:4911592/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="SHT2X" urn="urn:adsk.eagle:package:4911592/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="SHT2X"/>
 </packageinstances>
 </package3d>
-<package3d name="T6713" urn="urn:adsk.eagle:package:4911591/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="T6713" urn="urn:adsk.eagle:package:4911591/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="T6713"/>
 </packageinstances>
@@ -16178,7 +16108,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="SHT25" urn="urn:adsk.eagle:component:4911600/1" prefix="U" library_version="1" library_locally_modified="yes">
+<deviceset name="SHT25" urn="urn:adsk.eagle:component:4911600/1" locally_modified="yes" prefix="U" library_version="1" library_locally_modified="yes">
 <description>&lt;strong&gt;SENSOR HUMI/TEMP 3V I2C 1.8% SMD&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
@@ -16227,7 +16157,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <connect gate="G$1" pin="VSS" pad="2"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4911592/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4911592/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16242,7 +16172,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 </device>
 </devices>
 </deviceset>
-<deviceset name="T6713-5K" urn="urn:adsk.eagle:component:4911599/1" prefix="U" library_version="1" library_locally_modified="yes">
+<deviceset name="T6713-5K" urn="urn:adsk.eagle:component:4911599/1" locally_modified="yes" prefix="U" library_version="1" library_locally_modified="yes">
 <description>&lt;strong&gt;CO2 MODULE 5000PPM DIFFUSION&lt;/strong&gt;
 &lt;p&gt;Description:
 	&lt;ul&gt;
@@ -16288,7 +16218,7 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <connect gate="G$1" pin="V++" pad="3"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4911591/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4911591/2"/>
 </package3dinstances>
 <technologies>
 <technology name="">
@@ -16341,11 +16271,43 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <text x="0.254" y="-3.048" size="0.762" layer="21" ratio="6" rot="R90">&gt;VALUE</text>
 <circle x="-2.794" y="3.556" radius="0.254" width="0.508" layer="21"/>
 </package>
+<package name="R-78E5.0-1.0" urn="urn:adsk.eagle:footprint:4911496/1" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;
+Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-01-en-DC_DC_WANDLER_R_78C5_0_1_0.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<pad name="1" x="-2.54" y="0" drill="1" diameter="1.6764"/>
+<pad name="2" x="0" y="0" drill="1" diameter="1.6764"/>
+<pad name="3" x="2.54" y="0" drill="1" diameter="1.6764"/>
+<wire x1="-5.6968" y1="-1.9" x2="5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="-1.9" x2="5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="5.6968" y1="6.44" x2="-5.6968" y2="6.44" width="0.2032" layer="21"/>
+<wire x1="-5.6968" y1="6.44" x2="-5.6968" y2="-1.9" width="0.2032" layer="21"/>
+<wire x1="0" y1="1.016" x2="0" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="2.54" y1="1.016" x2="2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="-2.54" y1="1.016" x2="-2.54" y2="1.524" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="-1.27" x2="-3.81" y2="-1.27" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="-1.27" x2="-3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="-3.81" y1="5.08" x2="3.81" y2="5.08" width="0.1524" layer="22"/>
+<wire x1="3.81" y1="5.08" x2="3.81" y2="-1.27" width="0.1524" layer="22"/>
+<text x="-5.715" y="7.112" size="0.762" layer="25">&gt;NAME</text>
+<text x="-2.54" y="2.794" size="0.762" layer="27">&gt;VALUE</text>
+<text x="-2.54" y="2.794" size="0.762" layer="21">&gt;VALUE</text>
+<text x="-0.254" y="1.778" size="0.762" layer="22" rot="MR90">GND</text>
+<text x="-2.794" y="1.778" size="0.762" layer="22" rot="MR90">VIN</text>
+<text x="2.286" y="1.778" size="0.762" layer="22" rot="MR90">VOUT</text>
+<circle x="-5.588" y="-2.54" radius="0.406109375" width="0" layer="21"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="MP04A" urn="urn:adsk.eagle:package:4911514/2" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="MP04A"/>
+</packageinstances>
+</package3d>
+<package3d name="R-78E5.0-1.0" urn="urn:adsk.eagle:package:4911512/2" type="model" library_version="1" library_locally_modified="yes">
+<description>&lt;b&gt;INNOLINE DC/DC-Converter&lt;/b&gt; 1.0 AMP SIP3 Single Output&lt;p&gt;
+Source: &lt;a href="http://www.mikrocontroller.net/attachment/150645/157764-da-01-en-DC_DC_WANDLER_R_78C5_0_1_0.pdf"&gt; Data sheet &lt;/a&gt;</description>
+<packageinstances>
+<packageinstance name="R-78E5.0-1.0"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -16361,6 +16323,24 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <wire x1="10.16" y1="5.08" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="10.16" y1="-7.62" x2="-7.62" y2="-7.62" width="0.254" layer="94"/>
 <wire x1="-7.62" y1="-7.62" x2="-7.62" y2="5.08" width="0.254" layer="94"/>
+</symbol>
+<symbol name="R-78E5.0-1.0" urn="urn:adsk.eagle:symbol:4911504/1" library_version="1" library_locally_modified="yes">
+<wire x1="-10.16" y1="16.51" x2="10.16" y2="16.51" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="16.51" x2="10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-10.16" y2="-5.08" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="-5.08" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
+<wire x1="-10.16" y1="7.62" x2="-10.16" y2="16.51" width="0.4064" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="-10.16" y2="7.62" width="0.4064" layer="94"/>
+<text x="-10.16" y="17.78" size="1.778" layer="95">&gt;NAME</text>
+<text x="-10.16" y="-7.62" size="1.778" layer="96">&gt;VALUE</text>
+<text x="-7.874" y="-3.302" size="1.524" layer="95">GND</text>
+<text x="-9.144" y="8.636" size="1.651" layer="94">DC/DC Converter
+Vin: 8-28V
+Vout: 5V@1A</text>
+<pin name="VIN" x="-12.7" y="5.08" length="short" direction="pas"/>
+<pin name="VOUT" x="12.7" y="5.08" length="short" direction="pas" rot="R180"/>
+<pin name="GND" x="-12.7" y="-2.54" visible="pad" length="short" direction="pas"/>
 </symbol>
 </symbols>
 <devicesets>
@@ -16425,6 +16405,69 @@ Source: &lt;a href="http://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf"&gt;
 <attribute name="VENDOR" value="Digikey" constant="no"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" constant="no"/>
 <attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" constant="no"/>
+</technology>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="R-78E5.0-1.0" urn="urn:adsk.eagle:component:4911520/1" locally_modified="yes" prefix="U" library_version="1" library_locally_modified="yes">
+<description>&lt;strong&gt;DC/DC CONVERTER 5V 5W&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Linear Regulator Replacement DC DC Converter 1 Output 5V    1A 8V - 28V Input&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Type: Linear Regulator Replacement&lt;/li&gt;
+		&lt;li&gt;Number of Outputs: 1&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Min): 8V&lt;/li&gt;
+		&lt;li&gt;Voltage - Input (Max): 28V&lt;/li&gt;
+		&lt;li&gt;Voltage - Output 1: 5V&lt;/li&gt;
+		&lt;li&gt;Current - Output (Max): 1A&lt;/li&gt;
+		&lt;li&gt;Power (Watts): 5W&lt;/li&gt;
+		&lt;li&gt;Applications: ITE (Commercial)&lt;/li&gt;
+		&lt;li&gt;Features: SCP&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -40°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Efficiency: 91%&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Through Hole&lt;/li&gt;
+		&lt;li&gt;Package / Case: 3-SIP Module&lt;/li&gt;
+		&lt;li&gt;Size / Dimension: 0.46" L x 0.33" W x 0.41" H (11.6mm x 8.5mm x 10.4mm)&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='https://www.recom-power.com/pdf/Innoline/R-78Exx-1.0.pdf'&gt;R-78E-1.0 Series Datasheet&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585'&gt;945-2201-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="R-78E5.0-1.0" x="0" y="0"/>
+</gates>
+<devices>
+<device name="" package="R-78E5.0-1.0">
+<connects>
+<connect gate="G$1" pin="GND" pad="2"/>
+<connect gate="G$1" pin="VIN" pad="1"/>
+<connect gate="G$1" pin="VOUT" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4911512/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="Recom Power" constant="no"/>
+<attribute name="MPN" value="R-78E5.0-1.0" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" constant="no"/>
+<attribute name="VPN" value="945-2201-ND " constant="no"/>
 </technology>
 </technologies>
 </device>
@@ -16701,9 +16744,28 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="Tomaszewski">
+<library name="Tomaszewski" urn="urn:adsk.eagle:library:5093932">
 <packages>
-<package name="CREE-XLAMP">
+<package name="CREE-XLAMP-XP-E" urn="urn:adsk.eagle:footprint:5094029/1" library_version="1" library_locally_modified="yes">
+<circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
+<smd name="C" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
+<smd name="THERM" x="0" y="0" dx="1.3" dy="3.3" layer="1" rot="R180" cream="no"/>
+<smd name="C@1" x="-1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
+<smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
+<smd name="A@1" x="1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
+<text x="-1.778" y="2.032" size="0.889" layer="25" font="vector" ratio="20">&gt;NAME</text>
+<text x="-1.778" y="-2.921" size="0.889" layer="27" font="vector" ratio="20">&gt;VALUE</text>
+<wire x1="1.65" y1="-1.625" x2="-1.625" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="-1.625" y1="1.625" x2="1.65" y2="1.625" width="0.2032" layer="51"/>
+<wire x1="1.65" y1="1.625" x2="1.65" y2="-1.625" width="0.2032" layer="51"/>
+<wire x1="1.525" y1="0" x2="1.15" y2="0" width="0.1016" layer="51"/>
+<wire x1="1.325" y1="-0.175" x2="1.325" y2="0.175" width="0.1016" layer="51"/>
+<rectangle x1="-0.505" y1="-0.375" x2="0.505" y2="0.375" layer="31"/>
+<rectangle x1="-0.505" y1="-1.375" x2="0.505" y2="-0.625" layer="31"/>
+<rectangle x1="-0.505" y1="0.625" x2="0.505" y2="1.375" layer="31"/>
+</package>
+<package name="CREE-XLAMP" urn="urn:adsk.eagle:footprint:5093993/1" library_version="1" library_locally_modified="yes">
 <wire x1="1.65" y1="-1.625" x2="-1.625" y2="-1.625" width="0.2032" layer="51"/>
 <wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1.625" width="0.2032" layer="51"/>
 <wire x1="-1.625" y1="1.625" x2="1.65" y2="1.625" width="0.2032" layer="51"/>
@@ -16720,28 +16782,21 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <text x="-1.27" y="2.54" size="1.27" layer="25">&gt;NAME</text>
 <text x="-1.27" y="-3.81" size="1.27" layer="27">&gt;VALUE</text>
 </package>
-<package name="CREE-XLAMP-XP-E">
-<circle x="0" y="0" radius="1.25" width="0.2032" layer="51"/>
-<smd name="C" x="-1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
-<smd name="THERM" x="0" y="0" dx="1.3" dy="3.3" layer="1" rot="R180" cream="no"/>
-<smd name="C@1" x="-1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
-<text x="-1.778" y="2.032" size="0.889" layer="25" font="vector" ratio="20">&gt;NAME</text>
-<text x="-1.778" y="-2.921" size="0.889" layer="27" font="vector" ratio="20">&gt;VALUE</text>
-<wire x1="1.65" y1="-1.625" x2="-1.625" y2="-1.625" width="0.2032" layer="51"/>
-<wire x1="-1.625" y1="-1.625" x2="-1.625" y2="1.625" width="0.2032" layer="51"/>
-<wire x1="-1.625" y1="1.625" x2="1.65" y2="1.625" width="0.2032" layer="51"/>
-<wire x1="1.65" y1="1.625" x2="1.65" y2="-1.625" width="0.2032" layer="51"/>
-<wire x1="1.525" y1="0" x2="1.15" y2="0" width="0.1016" layer="51"/>
-<wire x1="1.325" y1="-0.175" x2="1.325" y2="0.175" width="0.1016" layer="51"/>
-<smd name="A" x="1.4" y="0" dx="0.5" dy="3.3" layer="1" rot="R180"/>
-<smd name="A@1" x="1.725" y="0" dx="0.45" dy="0.5" layer="1" rot="R180"/>
-<rectangle x1="-0.505" y1="-0.375" x2="0.505" y2="0.375" layer="31"/>
-<rectangle x1="-0.505" y1="-1.375" x2="0.505" y2="-0.625" layer="31"/>
-<rectangle x1="-0.505" y1="0.625" x2="0.505" y2="1.375" layer="31"/>
-</package>
 </packages>
+<packages3d>
+<package3d name="CREE-XLAMP-XP-E" urn="urn:adsk.eagle:package:5094264/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CREE-XLAMP-XP-E"/>
+</packageinstances>
+</package3d>
+<package3d name="CREE-XLAMP" urn="urn:adsk.eagle:package:5094226/1" type="box" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="CREE-XLAMP"/>
+</packageinstances>
+</package3d>
+</packages3d>
 <symbols>
-<symbol name="LED-W/THERM">
+<symbol name="LED-W/THERM" urn="urn:adsk.eagle:symbol:5093952/1" library_version="1" library_locally_modified="yes">
 <wire x1="1.27" y1="0" x2="0" y2="-2.54" width="0.254" layer="94"/>
 <wire x1="0" y1="-2.54" x2="-1.27" y2="0" width="0.254" layer="94"/>
 <wire x1="1.27" y1="-2.54" x2="0" y2="-2.54" width="0.254" layer="94"/>
@@ -16755,6 +16810,7 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <text x="6.096" y="-4.572" size="1.778" layer="96" rot="R90">&gt;VALUE</text>
 <pin name="C" x="0" y="-5.08" visible="off" length="short" direction="pas" rot="R90"/>
 <pin name="A" x="0" y="2.54" visible="off" length="short" direction="pas" rot="R270"/>
+<pin name="THERM" x="2.54" y="-1.27" visible="off" length="short" rot="R180"/>
 <polygon width="0.1524" layer="94">
 <vertex x="-3.429" y="-2.159"/>
 <vertex x="-3.048" y="-1.27"/>
@@ -16765,11 +16821,10 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <vertex x="-2.921" y="-2.413"/>
 <vertex x="-2.413" y="-2.921"/>
 </polygon>
-<pin name="THERM" x="2.54" y="-1.27" visible="off" length="short" rot="R180"/>
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="LED_W/THERM" prefix="LED">
+<deviceset name="LED_W/THERM" urn="urn:adsk.eagle:component:5094314/1" locally_modified="yes" prefix="LED" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="LED-W/THERM" x="0" y="0"/>
 </gates>
@@ -16780,6 +16835,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <connect gate="G$1" pin="C" pad="C C@1"/>
 <connect gate="G$1" pin="THERM" pad="THERM"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5094226/1"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -16790,6 +16848,9 @@ Source: http://focus.ti.com/lit/ds/symlink/ads1271.pdf</description>
 <connect gate="G$1" pin="C" pad="C C@1" route="any"/>
 <connect gate="G$1" pin="THERM" pad="THERM"/>
 </connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:5094264/2"/>
+</package3dinstances>
 <technologies>
 <technology name=""/>
 </technologies>
@@ -18071,7 +18132,6 @@ http://www.zetex.com&lt;p&gt;
 <part name="R31" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0603" package3d_urn="urn:adsk.eagle:package:23555/2" value="10K"/>
 <part name="+3V19" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="GND43" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
-<part name="T1" library="R-78E5.0-1.0" deviceset="R-78E5.0-1.0" device=""/>
 <part name="P+1" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="P+10" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+5V" device=""/>
 <part name="+3V6" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
@@ -18112,7 +18172,7 @@ http://www.zetex.com&lt;p&gt;
 <part name="TP7" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP36" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP37" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="U11" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" deviceset="SHT25" device="" package3d_urn="urn:adsk.eagle:package:4911592/1" value="SHT25"/>
+<part name="U11" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" deviceset="SHT25" device="" package3d_urn="urn:adsk.eagle:package:4911592/2" value="SHT25"/>
 <part name="GND34" library="openag-supply" deviceset="GND" device=""/>
 <part name="+3V32" library="openag-supply" deviceset="+3V3" device=""/>
 <part name="C15" library="openag-capacitors" library_urn="urn:adsk.eagle:library:4907403" deviceset="0.1UF-C0603C104K5RACTU" device="" package3d_urn="urn:adsk.eagle:package:4907464/2" value="0.1uF"/>
@@ -18120,7 +18180,7 @@ http://www.zetex.com&lt;p&gt;
 <part name="TP39" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP40" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP41" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="U12" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" deviceset="T6713-5K" device="" package3d_urn="urn:adsk.eagle:package:4911591/1" value="T6713-5K"/>
+<part name="U12" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" deviceset="T6713-5K" device="" package3d_urn="urn:adsk.eagle:package:4911591/2" value="T6713-5K"/>
 <part name="GND35" library="openag-supply" deviceset="GND" device=""/>
 <part name="C16" library="openag-capacitors" library_urn="urn:adsk.eagle:library:4907403" deviceset="0.1UF-C0603C104K5RACTU" device="" package3d_urn="urn:adsk.eagle:package:4907464/2" value="0.1uF"/>
 <part name="+3V33" library="openag-supply" deviceset="+3V3" device=""/>
@@ -18128,30 +18188,30 @@ http://www.zetex.com&lt;p&gt;
 <part name="TP43" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP44" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="TP45" library="openag-testpads" deviceset="TP" device="TP06R"/>
-<part name="CH2-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH2-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH2-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH2-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH4-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH4-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH4-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH4-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH6-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH6-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH6-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH6-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH1-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH1-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH1-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH1-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH3-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH3-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH3-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH3-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH5-6" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH5-7" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH5-8" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
-<part name="CH5-9" library="Tomaszewski" deviceset="LED_W/THERM" device="-XP-E" value="XP-E"/>
+<part name="CH2-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH2-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH2-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH2-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH4-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH4-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH4-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH4-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH6-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH6-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH6-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH6-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH1-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH1-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH1-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH1-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH3-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH3-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH3-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH3-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH5-6" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH5-7" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH5-8" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
+<part name="CH5-9" library="Tomaszewski" library_urn="urn:adsk.eagle:library:5093932" deviceset="LED_W/THERM" device="-XP-E" package3d_urn="urn:adsk.eagle:package:5094264/2" value="XP-E"/>
 <part name="D8" library="openag-diodes" library_urn="urn:adsk.eagle:library:4908387" deviceset="APT1608CGCK" device="" package3d_urn="urn:adsk.eagle:package:15822/2" value="APT1608"/>
 <part name="R44" library="openag-resistors" library_urn="urn:adsk.eagle:library:4911533" deviceset="100OHM-RC0603JR-07100RL" device="" package3d_urn="urn:adsk.eagle:package:4911540/2" value="100"/>
 <part name="GND41" library="openag-supply" deviceset="GND" device=""/>
@@ -18167,7 +18227,6 @@ http://www.zetex.com&lt;p&gt;
 <part name="TP63" library="openag-testpads" deviceset="TP" device="TP06R"/>
 <part name="P+16" library="openag-supply" deviceset="+5V" device=""/>
 <part name="GND54" library="openag-supply" deviceset="GND" device=""/>
-<part name="T2" library="R-78E5.0-1.0" deviceset="R-78E5.0-1.0" device="" value="R-78E12.0-1.0"/>
 <part name="GND18" library="supply1" deviceset="GND" device=""/>
 <part name="P+4" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+12V" device=""/>
 <part name="+3V21" library="openag-supply" deviceset="+3V3" device=""/>
@@ -18384,6 +18443,8 @@ http://www.zetex.com&lt;p&gt;
 <part name="U14" library="openag-isolators" library_urn="urn:adsk.eagle:library:4908470" deviceset="ISO1540DR" device="" package3d_urn="urn:adsk.eagle:package:4908481/1" value="ISO1540"/>
 <part name="C1" library="openag-capacitors" library_urn="urn:adsk.eagle:library:4907403" deviceset="10UF-GMK212BBJ106KG-T" device="" package3d_urn="urn:adsk.eagle:package:4907463/2" value="10uF"/>
 <part name="C5" library="openag-capacitors" library_urn="urn:adsk.eagle:library:4907403" deviceset="4.7UF-CL21A475KBQNNNE" device="" package3d_urn="urn:adsk.eagle:package:4907463/2" value="4.7uF"/>
+<part name="U5" library="openag-regulators" library_urn="urn:adsk.eagle:library:4911494" deviceset="R-78E5.0-1.0" device="" package3d_urn="urn:adsk.eagle:package:4911512/2" value="R-78E12-1.0"/>
+<part name="U7" library="openag-regulators" library_urn="urn:adsk.eagle:library:4911494" deviceset="R-78E5.0-1.0" device="" package3d_urn="urn:adsk.eagle:package:4911512/2"/>
 </parts>
 <sheets>
 <sheet>
@@ -18745,7 +18806,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <instance part="R31" gate="G$1" x="-457.2" y="495.3" rot="R90"/>
 <instance part="+3V19" gate="G$1" x="-449.58" y="513.08"/>
 <instance part="GND43" gate="1" x="-251.46" y="289.56"/>
-<instance part="T1" gate="G$1" x="-170.18" y="469.9"/>
 <instance part="P+1" gate="1" x="-137.16" y="480.06"/>
 <instance part="P+10" gate="1" x="-284.48" y="284.48"/>
 <instance part="+3V6" gate="G$1" x="-274.32" y="284.48"/>
@@ -18923,7 +18983,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <instance part="TP63" gate="G$1" x="-119.38" y="330.2" rot="R90"/>
 <instance part="P+16" gate="1" x="-139.7" y="391.16"/>
 <instance part="GND54" gate="1" x="-101.6" y="368.3"/>
-<instance part="T2" gate="G$1" x="-167.64" y="490.22"/>
 <instance part="GND18" gate="1" x="-167.64" y="480.06"/>
 <instance part="P+4" gate="1" x="-137.16" y="502.92"/>
 <instance part="+3V21" gate="G$1" x="-43.18" y="381"/>
@@ -19205,6 +19264,8 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <instance part="U14" gate="A" x="-731.52" y="335.28"/>
 <instance part="C1" gate="G$1" x="-205.74" y="469.9" rot="MR0"/>
 <instance part="C5" gate="A" x="-223.52" y="469.9"/>
+<instance part="U5" gate="G$1" x="-152.4" y="487.68"/>
+<instance part="U7" gate="G$1" x="-152.4" y="462.28"/>
 </instances>
 <busses>
 </busses>
@@ -19225,8 +19286,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-237.49" y="459.74"/>
 <pinref part="GND63" gate="1" pin="GND"/>
 <pinref part="C11" gate="G$1" pin="2"/>
-<pinref part="T1" gate="G$1" pin="GND"/>
-<wire x1="-170.18" y1="467.36" x2="-170.18" y2="459.74" width="0.1524" layer="91"/>
 <wire x1="-170.18" y1="459.74" x2="-185.42" y2="459.74" width="0.1524" layer="91"/>
 <junction x="-185.42" y="459.74"/>
 <wire x1="-266.7" y1="466.09" x2="-247.65" y2="466.09" width="0.1524" layer="91"/>
@@ -19235,6 +19294,8 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-266.7" y1="459.74" x2="-247.65" y2="459.74" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="2"/>
 <pinref part="C5" gate="A" pin="2"/>
+<pinref part="U7" gate="G$1" pin="GND"/>
+<wire x1="-165.1" y1="459.74" x2="-170.18" y2="459.74" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="GND1" gate="1" pin="GND"/>
@@ -19418,11 +19479,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-109.22" y1="370.84" x2="-104.14" y2="370.84" width="0.1524" layer="91"/>
 <pinref part="GND54" gate="1" pin="GND"/>
 <wire x1="-104.14" y1="370.84" x2="-101.6" y2="370.84" width="0.1524" layer="91"/>
-</segment>
-<segment>
-<pinref part="T2" gate="G$1" pin="GND"/>
-<wire x1="-167.64" y1="487.68" x2="-167.64" y2="482.6" width="0.1524" layer="91"/>
-<pinref part="GND18" gate="1" pin="GND"/>
 </segment>
 <segment>
 <pinref part="PAD9" gate="G$1" pin="P"/>
@@ -19687,6 +19743,12 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-693.42" y1="215.9" x2="-693.42" y2="214.884" width="0.1524" layer="91"/>
 <wire x1="-693.42" y1="214.884" x2="-673.608" y2="214.884" width="0.1524" layer="91"/>
 </segment>
+<segment>
+<pinref part="GND18" gate="1" pin="GND"/>
+<wire x1="-167.64" y1="482.6" x2="-167.64" y2="485.14" width="0.1524" layer="91"/>
+<pinref part="U5" gate="G$1" pin="GND"/>
+<wire x1="-167.64" y1="485.14" x2="-165.1" y2="485.14" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="24V_IN" class="0">
 <segment>
@@ -19729,15 +19791,17 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-241.3" y1="476.504" x2="-238.506" y2="476.758" width="0.1524" layer="91"/>
 <wire x1="-238.506" y1="476.758" x2="-237.49" y2="476.25" width="0.1524" layer="91"/>
 <junction x="-237.49" y="476.25"/>
-<pinref part="T1" gate="G$1" pin="+VIN"/>
 <wire x1="-175.26" y1="476.25" x2="-175.26" y2="469.9" width="0.1524" layer="91"/>
-<wire x1="-175.26" y1="469.9" x2="-170.18" y2="469.9" width="0.1524" layer="91"/>
-<pinref part="T2" gate="G$1" pin="+VIN"/>
-<wire x1="-167.64" y1="490.22" x2="-172.72" y2="490.22" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="490.22" x2="-172.72" y2="477.52" width="0.1524" layer="91"/>
 <wire x1="-172.72" y1="477.52" x2="-175.26" y2="477.52" width="0.1524" layer="91"/>
 <pinref part="C1" gate="G$1" pin="1"/>
 <pinref part="C5" gate="A" pin="1"/>
+<pinref part="U5" gate="G$1" pin="VIN"/>
+<wire x1="-165.1" y1="492.76" x2="-172.72" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-172.72" y1="492.76" x2="-172.72" y2="490.22" width="0.1524" layer="91"/>
+<pinref part="U7" gate="G$1" pin="VIN"/>
+<wire x1="-165.1" y1="467.36" x2="-175.26" y2="467.36" width="0.1524" layer="91"/>
+<wire x1="-175.26" y1="467.36" x2="-175.26" y2="469.9" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="P+2" gate="1" pin="+24V"/>
@@ -20728,12 +20792,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 </net>
 <net name="+5V" class="0">
 <segment>
-<pinref part="T1" gate="G$1" pin="+VOUT"/>
-<pinref part="P+1" gate="1" pin="+5V"/>
-<wire x1="-139.7" y1="469.9" x2="-137.16" y2="469.9" width="0.1524" layer="91"/>
-<wire x1="-137.16" y1="469.9" x2="-137.16" y2="477.52" width="0.1524" layer="91"/>
-</segment>
-<segment>
 <pinref part="R26" gate="G$1" pin="1"/>
 <wire x1="-337.82" y1="459.74" x2="-337.82" y2="454.66" width="0.1524" layer="91"/>
 <pinref part="+3V15" gate="1" pin="+5V"/>
@@ -20797,6 +20855,12 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <pinref part="P+10" gate="1" pin="+5V"/>
 <wire x1="-261.62" y1="266.7" x2="-284.48" y2="266.7" width="0.1524" layer="91"/>
 <wire x1="-284.48" y1="266.7" x2="-284.48" y2="281.94" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="U7" gate="G$1" pin="VOUT"/>
+<wire x1="-139.7" y1="467.36" x2="-137.16" y2="467.36" width="0.1524" layer="91"/>
+<pinref part="P+1" gate="1" pin="+5V"/>
+<wire x1="-137.16" y1="467.36" x2="-137.16" y2="477.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$12" class="0">
@@ -21434,11 +21498,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 </net>
 <net name="+12V" class="0">
 <segment>
-<pinref part="T2" gate="G$1" pin="+VOUT"/>
-<wire x1="-137.16" y1="490.22" x2="-137.16" y2="500.38" width="0.1524" layer="91"/>
-<pinref part="P+4" gate="1" pin="+12V"/>
-</segment>
-<segment>
 <pinref part="PAD8" gate="G$1" pin="P"/>
 <wire x1="-795.02" y1="157.48" x2="-795.02" y2="177.8" width="0.1524" layer="91"/>
 <wire x1="-795.02" y1="177.8" x2="-802.64" y2="177.8" width="0.1524" layer="91"/>
@@ -21447,6 +21506,12 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <wire x1="-805.18" y1="177.8" x2="-805.18" y2="157.48" width="0.1524" layer="91"/>
 <pinref part="P+15" gate="1" pin="+12V"/>
 <junction x="-802.64" y="177.8"/>
+</segment>
+<segment>
+<pinref part="U5" gate="G$1" pin="VOUT"/>
+<pinref part="P+4" gate="1" pin="+12V"/>
+<wire x1="-139.7" y1="492.76" x2="-137.16" y2="492.76" width="0.1524" layer="91"/>
+<wire x1="-137.16" y1="492.76" x2="-137.16" y2="500.38" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="SCL3" class="0">
