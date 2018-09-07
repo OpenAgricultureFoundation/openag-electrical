@@ -14517,63 +14517,6 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 </deviceset>
 </devicesets>
 </library>
-<library name="PJ-036ah">
-<packages>
-<package name="PJ-036AH">
-<smd name="1" x="2.2" y="-0.65" dx="3.3" dy="4.4" layer="1" rot="R90"/>
-<smd name="2" x="-6.75" y="6.45" dx="6.75" dy="3.9" layer="1" rot="R180"/>
-<smd name="3" x="-6.75" y="-6.45" dx="6.2" dy="3.9" layer="1" rot="R180"/>
-<wire x1="0" y1="1.27" x2="0" y2="4.5" width="0.127" layer="22"/>
-<wire x1="0" y1="4.5" x2="-13.55" y2="4.5" width="0.127" layer="22"/>
-<wire x1="-13.55" y1="4.5" x2="-13.55" y2="-4.5" width="0.127" layer="22"/>
-<wire x1="-13.55" y1="-4.5" x2="0" y2="-4.5" width="0.127" layer="22"/>
-<wire x1="0" y1="-4.5" x2="0" y2="1.397" width="0.127" layer="22"/>
-</package>
-</packages>
-<symbols>
-<symbol name="PJ-036AH">
-<wire x1="7.62" y1="12.7" x2="7.62" y2="5.08" width="0.254" layer="94"/>
-<wire x1="7.62" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
-<wire x1="5.08" y1="5.08" x2="5.08" y2="6.35" width="0.254" layer="94"/>
-<wire x1="5.08" y1="6.35" x2="5.08" y2="11.43" width="0.254" layer="94"/>
-<wire x1="5.08" y1="11.43" x2="5.08" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="12.7" x2="7.62" y2="12.7" width="0.254" layer="94"/>
-<wire x1="5.08" y1="11.43" x2="-12.7" y2="11.43" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="6.35" x2="5.08" y2="6.35" width="0.254" layer="94"/>
-<wire x1="-12.7" y1="6.35" x2="-12.7" y2="11.43" width="0.254" layer="94" curve="-180"/>
-<wire x1="7.62" y1="1.27" x2="-2.54" y2="1.27" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="1.27" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
-<wire x1="7.62" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
-<wire x1="-6.35" y1="-5.08" x2="-8.89" y2="-1.27" width="0.254" layer="94"/>
-<wire x1="-8.89" y1="-1.27" x2="-11.43" y2="-5.08" width="0.254" layer="94"/>
-<pin name="1" x="12.7" y="8.89" length="middle" rot="R180"/>
-<pin name="3" x="12.7" y="1.27" length="middle" rot="R180"/>
-<pin name="2" x="12.7" y="-5.08" length="middle" rot="R180"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="PJ-036AH">
-<gates>
-<gate name="G$1" symbol="PJ-036AH" x="-2.54" y="-2.54"/>
-</gates>
-<devices>
-<device name="" package="PJ-036AH">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-<connect gate="G$1" pin="3" pad="3"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="openag-connectors" urn="urn:adsk.eagle:library:4908154">
 <packages>
 <package name="SJ1" urn="urn:adsk.eagle:footprint:4908170/1" library_version="1" library_locally_modified="yes">
@@ -14813,6 +14756,20 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 <wire x1="-4" y1="8" x2="4" y2="8" width="0.127" layer="21"/>
 <wire x1="4" y1="8" x2="4" y2="-12" width="0.127" layer="21"/>
 </package>
+<package name="BARREL-JACK-PJ-036AH" urn="urn:adsk.eagle:footprint:4908215/1" library_version="1" library_locally_modified="yes">
+<smd name="1" x="2.2" y="-0.65" dx="3.3" dy="4.4" layer="1" rot="R90"/>
+<smd name="2" x="-6.75" y="6.45" dx="6.75" dy="3.9" layer="1" rot="R180"/>
+<smd name="3" x="-6.75" y="-6.45" dx="6.2" dy="3.9" layer="1" rot="R180"/>
+<text x="1.27" y="2.794" size="0.762" layer="21" rot="R90">&gt;NAME</text>
+<text x="-6.096" y="-2.286" size="0.762" layer="21" rot="R90">&gt;VALUE</text>
+<text x="-6.096" y="-2.286" size="0.762" layer="27" rot="R90">&gt;VALUE</text>
+<wire x1="-13.5636" y1="4.4958" x2="-13.5636" y2="-4.4704" width="0.1524" layer="21"/>
+<wire x1="-13.5636" y1="-4.4704" x2="0" y2="-4.4704" width="0.1524" layer="21"/>
+<wire x1="0" y1="-4.4704" x2="0" y2="4.4958" width="0.1524" layer="21"/>
+<wire x1="0" y1="4.4958" x2="-13.5382" y2="4.4958" width="0.1524" layer="21"/>
+<wire x1="-12.446" y1="4.445" x2="-12.446" y2="-4.445" width="0.1524" layer="21"/>
+<circle x="-10.5" y="0" radius="1" width="0.01" layer="20"/>
+</package>
 </packages>
 <packages3d>
 <package3d name="SJ1" urn="urn:adsk.eagle:package:4908252/1" type="box" library_version="1" library_locally_modified="yes">
@@ -14820,7 +14777,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 <packageinstance name="SJ1"/>
 </packageinstances>
 </package3d>
-<package3d name="23PINHEADERSMD" urn="urn:adsk.eagle:package:4908238/1" type="box" library_version="1" library_locally_modified="yes">
+<package3d name="23PINHEADERSMD" urn="urn:adsk.eagle:package:4908238/3" type="model" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="23PINHEADERSMD"/>
 </packageinstances>
@@ -14839,6 +14796,11 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 <package3d name="USB_RIGHT" urn="urn:adsk.eagle:package:4908236/1" type="box" library_version="1" library_locally_modified="yes">
 <packageinstances>
 <packageinstance name="USB_RIGHT"/>
+</packageinstances>
+</package3d>
+<package3d name="BARREL-JACK-PJ-036AH" urn="urn:adsk.eagle:package:4908246/2" type="model" library_version="1" library_locally_modified="yes">
+<packageinstances>
+<packageinstance name="BARREL-JACK-PJ-036AH"/>
 </packageinstances>
 </package3d>
 </packages3d>
@@ -15002,6 +14964,39 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 <wire x1="-20.32" y1="0" x2="-20.32" y2="22.86" width="0.254" layer="94"/>
 <wire x1="-20.32" y1="22.86" x2="0" y2="22.86" width="0.254" layer="94"/>
 </symbol>
+<symbol name="BARREL-JACK" urn="urn:adsk.eagle:symbol:4908196/1" library_version="1" library_locally_modified="yes">
+<wire x1="7.62" y1="11.43" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<wire x1="7.62" y1="7.62" x2="7.62" y2="3.81" width="0.254" layer="94"/>
+<wire x1="7.62" y1="3.81" x2="5.08" y2="3.81" width="0.254" layer="94"/>
+<wire x1="5.08" y1="3.81" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="5.08" y1="5.08" x2="5.08" y2="10.16" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="5.08" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="11.43" x2="7.62" y2="11.43" width="0.254" layer="94"/>
+<wire x1="5.08" y1="10.16" x2="-12.7" y2="10.16" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="5.08" y2="5.08" width="0.254" layer="94"/>
+<wire x1="-12.7" y1="5.08" x2="-12.7" y2="10.16" width="0.254" layer="94" curve="-180"/>
+<wire x1="10.16" y1="0" x2="-2.54" y2="0" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="0" x2="-2.54" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-1.27" y1="-2.54" x2="-3.81" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="-3.81" y1="-2.54" x2="-2.54" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-2.54" y1="-5.08" x2="-1.27" y2="-2.54" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="-6.35" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-6.35" y1="-5.08" x2="-8.89" y2="-1.27" width="0.254" layer="94"/>
+<wire x1="-8.89" y1="-1.27" x2="-11.43" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="-7.62" x2="10.16" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-7.62" x2="10.16" y2="-5.08" width="0.254" layer="94"/>
+<wire x1="10.16" y1="-5.08" x2="10.16" y2="0" width="0.254" layer="94"/>
+<wire x1="10.16" y1="0" x2="10.16" y2="7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="10.16" y2="15.24" width="0.254" layer="94"/>
+<wire x1="10.16" y1="15.24" x2="-17.78" y2="15.24" width="0.254" layer="94"/>
+<wire x1="-17.78" y1="15.24" x2="-17.78" y2="-7.62" width="0.254" layer="94"/>
+<wire x1="10.16" y1="7.62" x2="7.62" y2="7.62" width="0.254" layer="94"/>
+<pin name="1" x="15.24" y="7.62" length="middle" rot="R180"/>
+<pin name="2" x="15.24" y="-5.08" length="middle" rot="R180"/>
+<pin name="3" x="15.24" y="0" length="middle" rot="R180"/>
+<text x="-17.78" y="16.51" size="1.778" layer="95">&gt;NAME</text>
+<text x="-17.78" y="-10.16" size="1.778" layer="96">&gt;VALUE</text>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="SOLDERJUMPER" urn="urn:adsk.eagle:component:4908281/1" prefix="SJ" uservalue="yes" library_version="1" library_locally_modified="yes">
@@ -15030,7 +15025,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 </device>
 </devices>
 </deviceset>
-<deviceset name="BBB_SMD" urn="urn:adsk.eagle:component:4908260/1" library_version="1" library_locally_modified="yes">
+<deviceset name="BBB_SMD" urn="urn:adsk.eagle:component:4908260/1" locally_modified="yes" library_version="1" library_locally_modified="yes">
 <gates>
 <gate name="G$1" symbol="24PINHEADERSMD" x="-22.86" y="2.54"/>
 </gates>
@@ -15121,7 +15116,7 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 <connect gate="G$1" pin="VDD_ADC" pad="VDD_ADC"/>
 </connects>
 <package3dinstances>
-<package3dinstance package3d_urn="urn:adsk.eagle:package:4908238/1"/>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4908238/3"/>
 </package3dinstances>
 <technologies>
 <technology name=""/>
@@ -15198,6 +15193,73 @@ Source: &lt;a href="http://www.nxp.com/docs/en/data-sheet/PCA9615.pdf"&gt; Datas
 </package3dinstances>
 <technologies>
 <technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="BARREL-JACK-PJ-036AH-SMT-TR" urn="urn:adsk.eagle:component:4908272/1" locally_modified="yes" prefix="J" library_version="1" library_locally_modified="yes">
+<description>&lt;strong&gt;CONN PWR JACK 2X5.5MM SOLDER&lt;/strong&gt;
+&lt;p&gt;Description:
+	&lt;ul&gt;
+		&lt;li&gt;Power Barrel Connector Jack 2.10mm ID (0.083"), 5.50mm OD (0.217") Surface Mount, Right Angle&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt; Technical Specifications:
+	&lt;ul id='specs'&gt;
+		&lt;li&gt;Connector Type: Jack&lt;/li&gt;
+		&lt;li&gt;Gender: Male&lt;/li&gt;
+		&lt;li&gt;Industry Recognized Mating Diameter: 2.10mm ID (0.083"), 5.50mm OD (0.217")&lt;/li&gt;
+		&lt;li&gt;Actual Diameter: 0.078" (2.00mm ID), 0.248" (6.30mm OD)&lt;/li&gt;
+		&lt;li&gt;Number of Positions/Contacts: 2 Conductors, 3 Contacts&lt;/li&gt;
+		&lt;li&gt;Internal Switch(s): Single Switch, Normally Closed&lt;/li&gt;
+		&lt;li&gt;Mounting Type: Surface Mount, Right Angle&lt;/li&gt;
+		&lt;li&gt;Termination: Solder&lt;/li&gt;
+		&lt;li&gt;Shielding: Unshielded&lt;/li&gt;
+		&lt;li&gt;Voltage - Rated: 24VDC&lt;/li&gt;
+		&lt;li&gt;Current Rating: 5A&lt;/li&gt;
+		&lt;li&gt;Mating Length/Depth: 0.360" (9.15mm)&lt;/li&gt;
+		&lt;li&gt;Contact Material - Plating: Silver&lt;/li&gt;
+		&lt;li&gt;Operating Temperature: -25°C ~ 85°C&lt;/li&gt;
+		&lt;li&gt;Housing Material: Polyamide (PA6T), Nylon 6T&lt;/li&gt;
+		&lt;li&gt;Contact Material: Brass; Copper Alloy&lt;/li&gt;
+		&lt;li&gt;Body Color: Black&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Datasheet(s):
+	&lt;ul id='data_sheets'&gt;
+		&lt;li&gt;&lt;a href='http://www.cui.com/product/resource/digikeypdf/pj-036ah-smt-tr.pdf'&gt;PJ-036AH-SMT-TR&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;
+
+&lt;p&gt;Vendor(s):
+	&lt;ul&gt;
+		&lt;li&gt;Digikey: &lt;a href='https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994'&gt;CP-036AHPJCT-ND&lt;/a&gt;&lt;/li&gt;
+	&lt;/ul&gt;
+&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="BARREL-JACK" x="-2.54" y="-2.54"/>
+</gates>
+<devices>
+<device name="" package="BARREL-JACK-PJ-036AH">
+<connects>
+<connect gate="G$1" pin="1" pad="1"/>
+<connect gate="G$1" pin="2" pad="2"/>
+<connect gate="G$1" pin="3" pad="3"/>
+</connects>
+<package3dinstances>
+<package3dinstance package3d_urn="urn:adsk.eagle:package:4908246/2"/>
+</package3dinstances>
+<technologies>
+<technology name="">
+<attribute name="MANUFACTURER" value="CUI Inc." constant="no"/>
+<attribute name="MPN" value="PJ-036AH-SMT-TR" constant="no"/>
+<attribute name="VALUE" value="PJ-036AH" constant="no"/>
+<attribute name="VENDOR" value="Digikey" constant="no"/>
+<attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" constant="no"/>
+<attribute name="VPN" value="CP-036AHPJCT-ND" constant="no"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -18150,7 +18212,7 @@ http://www.zetex.com&lt;p&gt;
 <part name="GND9" library="openag-supply" deviceset="GND" device=""/>
 <part name="+3V9" library="supply1" library_urn="urn:adsk.eagle:library:371" deviceset="+3V3" device=""/>
 <part name="P+12" library="openag-supply" deviceset="+24V" device=""/>
-<part name="U$3" library="PJ-036ah" deviceset="PJ-036AH" device=""/>
+<part name="U$3" library="openag-connectors" library_urn="urn:adsk.eagle:library:4908154" deviceset="BARREL-JACK-PJ-036AH-SMT-TR" device="" package3d_urn="urn:adsk.eagle:package:4908246/2" value="PJ-036AH"/>
 <part name="GND46" library="supply1" deviceset="GND" device=""/>
 <part name="U9" library="openag-sensors" library_urn="urn:adsk.eagle:library:4911564" deviceset="CCS811" device="" package3d_urn="urn:adsk.eagle:package:4911589/1" value="CCS811"/>
 <part name="C2\2" library="openag-capacitors" library_urn="urn:adsk.eagle:library:4907403" deviceset="4.7UF-CL21A475KBQNNNE" device="" package3d_urn="urn:adsk.eagle:package:4907463/2" value="4.7uF"/>
@@ -18242,7 +18304,7 @@ http://www.zetex.com&lt;p&gt;
 <part name="PAD14" library="wirepad" library_urn="urn:adsk.eagle:library:412" deviceset="SMD2" device="" package3d_urn="urn:adsk.eagle:package:30839/1"/>
 <part name="GND28" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="P+17" library="openag-supply" deviceset="+5V" device=""/>
-<part name="U$4" library="openag-connectors" library_urn="urn:adsk.eagle:library:4908154" deviceset="BBB_SMD" device="" package3d_urn="urn:adsk.eagle:package:4908238/1"/>
+<part name="U$4" library="openag-connectors" library_urn="urn:adsk.eagle:library:4908154" deviceset="BBB_SMD" device="" package3d_urn="urn:adsk.eagle:package:4908238/3"/>
 <part name="R48" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805W" package3d_urn="urn:adsk.eagle:package:23537/1"/>
 <part name="GND36" library="SparkFun-Aesthetics" deviceset="GND" device=""/>
 <part name="R49" library="rcl" library_urn="urn:adsk.eagle:library:334" deviceset="R-US_" device="R0805W" package3d_urn="urn:adsk.eagle:package:23537/1"/>
@@ -19389,11 +19451,11 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="2"/>
-<wire x1="-269.24" y1="502.92" x2="-266.7" y2="502.92" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="502.92" x2="-266.7" y2="502.92" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="502.92" x2="-266.7" y2="497.84" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="502.92" x2="-266.7" y2="509.27" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="509.27" x2="-266.446" y2="509.27" width="0.1524" layer="91"/>
-<wire x1="-266.7" y1="509.27" x2="-269.24" y2="509.27" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="509.27" x2="-266.7" y2="508" width="0.1524" layer="91"/>
 <pinref part="U$3" gate="G$1" pin="3"/>
 <pinref part="GND46" gate="1" pin="GND"/>
 </segment>
@@ -19764,7 +19826,7 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 </segment>
 <segment>
 <pinref part="U$3" gate="G$1" pin="1"/>
-<wire x1="-269.24" y1="516.89" x2="-262.382" y2="516.89" width="0.1524" layer="91"/>
+<wire x1="-266.7" y1="515.62" x2="-262.382" y2="516.89" width="0.1524" layer="91"/>
 <label x="-262.382" y="516.89" size="1.016" layer="95" xref="yes"/>
 </segment>
 </net>
