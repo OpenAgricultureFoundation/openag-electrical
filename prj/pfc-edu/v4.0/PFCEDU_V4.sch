@@ -20976,6 +20976,17 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <label x="-460.756" y="243.332" size="1.27" layer="95" rot="R180" xref="yes"/>
 <pinref part="LED+2" gate="1" pin="MP"/>
 </segment>
+<segment>
+<pinref part="U$25" gate="G$1" pin="ISEN"/>
+<wire x1="-525.78" y1="233.68" x2="-528.32" y2="233.68" width="0.1524" layer="91"/>
+<wire x1="-528.32" y1="233.68" x2="-528.32" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="C72" gate="G$1" pin="2"/>
+<wire x1="-528.32" y1="223.52" x2="-515.62" y2="223.52" width="0.1524" layer="91"/>
+<pinref part="RS2" gate="G$1" pin="1"/>
+<junction x="-528.32" y="233.68"/>
+<label x="-541.02" y="223.52" size="1.778" layer="95" rot="MR0" xref="yes"/>
+<wire x1="-528.32" y1="223.52" x2="-541.02" y2="223.52" width="0.1524" layer="91"/>
+</segment>
 </net>
 <net name="CH1-" class="0">
 <segment>
@@ -21638,19 +21649,6 @@ w/3v3 Enable, Indicator LED &amp; Fuse</text>
 <junction x="-495.3" y="243.84"/>
 <label x="-497.84" y="248.92" size="1.778" layer="95" rot="MR0"/>
 <pinref part="L14" gate="G$1" pin="1"/>
-</segment>
-</net>
-<net name="LED+" class="0">
-<segment>
-<pinref part="U$25" gate="G$1" pin="ISEN"/>
-<wire x1="-525.78" y1="233.68" x2="-528.32" y2="233.68" width="0.1524" layer="91"/>
-<wire x1="-528.32" y1="233.68" x2="-528.32" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C72" gate="G$1" pin="2"/>
-<wire x1="-528.32" y1="223.52" x2="-515.62" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="RS2" gate="G$1" pin="1"/>
-<junction x="-528.32" y="233.68"/>
-<label x="-541.02" y="223.52" size="1.778" layer="95" rot="MR0" xref="yes"/>
-<wire x1="-528.32" y1="223.52" x2="-541.02" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="VSET_2" class="0">

@@ -3,7 +3,7 @@
 <eagle version="9.1.3">
 <drawing>
 <settings>
-<setting alwaysvectorfont="yes"/>
+<setting alwaysvectorfont="no"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="10" unitdist="mil" unit="mil" style="lines" multiple="1" display="yes" altdistance="5" altunitdist="mil" altunit="mil"/>
@@ -4295,8 +4295,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Recom Power" x="35.052" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="R-78E5.0-1.0" x="35.052" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="40.767" y="65.786" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="37.592" y="68.834" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="37.592" y="68.834" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="37.592" y="68.834" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="35.052" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="35.052" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="945-2201-ND " x="35.052" y="72.39" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4464,8 +4464,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="56.134" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="56.134" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="48.514" y="70.5993" size="0.762" layer="25"/>
-<attribute name="VALUE" x="59.817" y="85.0138" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="59.817" y="85.0138" size="0.762" layer="21" rot="R180"/>
+<attribute name="VALUE" x="59.817" y="85.0138" size="0.762" layer="27" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="56.134" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="56.134" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="56.134" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4474,8 +4474,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Amphenol FCI" x="72.644" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="54602-908LF" x="72.644" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="80.264" y="71.4883" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="76.327" y="85.0138" size="0.762" layer="27" rot="R180"/>
 <attribute name="VALUE" x="76.327" y="85.0138" size="0.762" layer="21" rot="R180"/>
+<attribute name="VALUE" x="76.327" y="85.0138" size="0.762" layer="27" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="72.644" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/amphenol-fci/54602-908LF/609-1046-ND/1001360" x="72.644" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="609-1046-ND" x="72.644" y="81.9658" size="0.762" layer="27" rot="R180" display="off"/>
@@ -4604,8 +4604,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="100.584" y="62.23" size="0.762" layer="27" display="off"/>
 <attribute name="MPN" value="64900001039" x="100.584" y="62.23" size="0.762" layer="27" display="off"/>
 <attribute name="NAME" x="88.0364" y="56.4388" size="0.762" layer="25" ratio="10"/>
-<attribute name="VALUE" x="98.9584" y="65.659" size="0.762" layer="21" ratio="10"/>
 <attribute name="VALUE" x="98.9584" y="65.659" size="0.762" layer="27" ratio="10"/>
+<attribute name="VALUE" x="98.9584" y="65.659" size="0.762" layer="21" ratio="10"/>
 <attribute name="VENDOR" value="Digikey" x="100.584" y="62.23" size="0.762" layer="27" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" x="100.584" y="62.23" size="0.762" layer="27" display="off"/>
 <attribute name="VPN" value="WK0011-ND" x="100.584" y="62.23" size="0.762" layer="27" display="off"/>
