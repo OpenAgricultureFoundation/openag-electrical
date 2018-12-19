@@ -1,0 +1,3 @@
+READ ME
+Raspberry Pi to BBB socket i2c adapter 
+THIS VERSION DOES NOT WORK! PLEASE SEE VERSION 2.0
