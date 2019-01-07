@@ -9981,11 +9981,11 @@ W = angled&lt;p&gt;
 </classes>
 <parts>
 <part name="ATTRIBUTES" library="openag-frames" deviceset="DOCFIELD" device="">
-<attribute name="AUTHOR" value="SN"/>
-<attribute name="DESCRIPTION" value="RPi to BBB adapter"/>
-<attribute name="TITLE" value="RPi adapter"/>
+<attribute name="AUTHOR" value="Sebastian"/>
+<attribute name="DESCRIPTION" value="RPi to BBB"/>
+<attribute name="TITLE" value="RPi to BBB"/>
 <attribute name="URL" value="https://github.com/OpenAgInitiative/"/>
-<attribute name="VER" value="0.0"/>
+<attribute name="VER" value="2.0"/>
 </part>
 <part name="D2" library="openag-diodes" deviceset="APT1608CGCK" device="" value="APT1608CGCK"/>
 <part name="R10" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="200"/>
@@ -10221,26 +10221,26 @@ https://creativecommons.org/licenses/by-sa/4.0/</text>
 </net>
 <net name="SDA" class="0">
 <segment>
-<pinref part="SV1" gate="G$1" pin="27"/>
-<wire x1="-162.56" y1="236.22" x2="-172.72" y2="236.22" width="0.1524" layer="91"/>
-<label x="-172.72" y="236.22" size="1.778" layer="95"/>
-</segment>
-<segment>
 <pinref part="SV2" gate="G$1" pin="20"/>
 <wire x1="-279.4" y1="226.06" x2="-271.78" y2="226.06" width="0.1524" layer="91"/>
 <label x="-271.78" y="226.06" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="3"/>
+<wire x1="-162.56" y1="205.74" x2="-172.72" y2="205.74" width="0.1524" layer="91"/>
+<label x="-172.72" y="205.74" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="SCL" class="0">
-<segment>
-<pinref part="SV1" gate="G$1" pin="28"/>
-<wire x1="-147.32" y1="236.22" x2="-134.62" y2="236.22" width="0.1524" layer="91"/>
-<label x="-134.62" y="236.22" size="1.778" layer="95"/>
-</segment>
 <segment>
 <pinref part="SV2" gate="G$1" pin="19"/>
 <wire x1="-294.64" y1="226.06" x2="-302.26" y2="226.06" width="0.1524" layer="91"/>
 <label x="-302.26" y="226.06" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="SV1" gate="G$1" pin="5"/>
+<wire x1="-162.56" y1="208.28" x2="-177.8" y2="208.28" width="0.1524" layer="91"/>
+<label x="-177.8" y="208.28" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>
