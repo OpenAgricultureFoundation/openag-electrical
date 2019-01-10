@@ -2575,8 +2575,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="CUI Inc." x="138.684" y="79.0702" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="PJ-036AH-SMT-TR" x="138.684" y="79.0702" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="141.478" y="77.8002" size="0.762" layer="21"/>
-<attribute name="VALUE" x="136.398" y="85.1662" size="0.762" layer="21"/>
 <attribute name="VALUE" x="136.398" y="85.1662" size="0.762" layer="27"/>
+<attribute name="VALUE" x="136.398" y="85.1662" size="0.762" layer="21"/>
 <attribute name="VENDOR" value="Digikey" x="138.684" y="79.0702" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/cui-inc/PJ-036AH-SMT-TR/CP-036AHPJCT-ND/1530994" x="138.684" y="79.0702" size="1.778" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value="CP-036AHPJCT-ND" x="138.684" y="79.0702" size="1.778" layer="27" rot="R270" display="off"/>
@@ -2591,8 +2591,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Littelfuse Inc." x="138.684" y="69.85" size="0.762" layer="27" display="off"/>
 <attribute name="MPN" value="64900001039" x="138.684" y="69.85" size="0.762" layer="27" display="off"/>
 <attribute name="NAME" x="126.1364" y="64.0588" size="0.762" layer="25" ratio="10"/>
-<attribute name="VALUE" x="137.0584" y="73.279" size="0.762" layer="27" ratio="10"/>
 <attribute name="VALUE" x="137.0584" y="73.279" size="0.762" layer="21" ratio="10"/>
+<attribute name="VALUE" x="137.0584" y="73.279" size="0.762" layer="27" ratio="10"/>
 <attribute name="VENDOR" value="Digikey" x="138.684" y="69.85" size="0.762" layer="27" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/littelfuse-inc/64900001039/WK0011-ND/245470" x="138.684" y="69.85" size="0.762" layer="27" display="off"/>
 <attribute name="VPN" value="WK0011-ND" x="138.684" y="69.85" size="0.762" layer="27" display="off"/>
@@ -2642,8 +2642,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Murata Power Solutions Inc." x="146.812" y="50.038" size="0.762" layer="27" rot="R270" display="off"/>
 <attribute name="MPN" value="29333C" x="146.812" y="50.038" size="0.762" layer="27" rot="R270" display="off"/>
 <attribute name="NAME" x="150.876" y="53.848" size="0.762" layer="25" rot="R270"/>
-<attribute name="VALUE" x="145.288" y="49.53" size="0.762" layer="27"/>
 <attribute name="VALUE" x="145.288" y="49.53" size="0.762" layer="21"/>
+<attribute name="VALUE" x="145.288" y="49.53" size="0.762" layer="27"/>
 <attribute name="VENDOR" value="Digikey" x="146.812" y="50.038" size="0.762" layer="27" rot="R270" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/murata-power-solutions-inc/29333C/811-1138-1-ND/1924860" x="146.812" y="50.038" size="0.762" layer="27" rot="R270" display="off"/>
 <attribute name="VPN" value="811-1138-1-ND" x="146.812" y="50.038" size="0.762" layer="27" rot="R270" display="off"/>
@@ -2652,8 +2652,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Recom Power" x="145.542" y="40.64" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="R-78E5.0-1.0" x="145.542" y="40.64" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="151.257" y="34.036" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="148.082" y="37.084" size="0.762" layer="21" rot="R180"/>
 <attribute name="VALUE" x="148.082" y="37.084" size="0.762" layer="27" rot="R180"/>
+<attribute name="VALUE" x="148.082" y="37.084" size="0.762" layer="21" rot="R180"/>
 <attribute name="VENDOR" value="Digikey" x="145.542" y="40.64" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/recom-power/R-78E5.0-1.0/945-2201-ND/4930585" x="145.542" y="40.64" size="0.762" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="945-2201-ND " x="145.542" y="40.64" size="0.762" layer="27" rot="R180" display="off"/>
@@ -2745,8 +2745,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="127.762" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="MPN" value="LM2937IMP-3.3/NOPB" x="127.762" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="NAME" x="129.794" y="35.814" size="0.762" layer="25" ratio="6" rot="R180"/>
-<attribute name="VALUE" x="127.508" y="42.672" size="0.762" layer="27" ratio="6" rot="R270"/>
 <attribute name="VALUE" x="127.508" y="42.672" size="0.762" layer="21" ratio="6" rot="R270"/>
+<attribute name="VALUE" x="127.508" y="42.672" size="0.762" layer="27" ratio="6" rot="R270"/>
 <attribute name="VENDOR" value="Digikey" x="127.762" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/LM2937IMP-3.3-NOPB/LM2937IMP-3.3-NOPBCT-ND/270742#" x="127.762" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value=" LM2937IMP-3.3/NOPBCT-ND" x="127.762" y="39.624" size="1.778" layer="27" rot="R180" display="off"/>
@@ -2835,8 +2835,8 @@ design rules under a new name.</description>
 <attribute name="MANUFACTURER" value="Texas Instruments" x="109.22" y="69.469" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="MPN" value="DAC5578SPW" x="109.22" y="69.469" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="NAME" x="111.252" y="66.548" size="0.762" layer="25" rot="R180"/>
-<attribute name="VALUE" x="109.635" y="67.235" size="0.762" layer="27" rot="R90"/>
 <attribute name="VALUE" x="109.635" y="67.235" size="0.762" layer="21" rot="R90"/>
+<attribute name="VALUE" x="109.635" y="67.235" size="0.762" layer="27" rot="R90"/>
 <attribute name="VENDOR" value="Digikey" x="109.22" y="69.469" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/texas-instruments/DAC5578SPW/296-27736-5-ND/2360827" x="109.22" y="69.469" size="1.778" layer="27" rot="R90" display="off"/>
 <attribute name="VPN" value="296-27736-5-ND" x="109.22" y="69.469" size="1.778" layer="27" rot="R90" display="off"/>

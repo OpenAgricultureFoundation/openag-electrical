@@ -366,6 +366,16 @@ Bypass</text>
 <wire x1="61.9125" y1="42.8625" x2="82.2325" y2="42.8625" width="0.127" layer="21"/>
 <wire x1="60.6425" y1="44.1325" x2="82.2325" y2="44.1325" width="0.127" layer="25"/>
 <wire x1="24.13" y1="15.875" x2="24.13" y2="13.0175" width="0.3048" layer="41"/>
+<text x="2.54" y="-52.3875" size="1.778" layer="21">Relay 1</text>
+<text x="21.59" y="-52.3875" size="1.778" layer="21">Relay 2</text>
+<text x="40.005" y="-52.3875" size="1.778" layer="21">Relay 3</text>
+<text x="59.055" y="-52.705" size="1.778" layer="21">Relay 4</text>
+<text x="76.5175" y="-52.705" size="1.778" layer="21">Relay 5</text>
+<text x="21.2725" y="-63.1825" size="1.778" layer="21">2</text>
+<text x="10.4775" y="-63.1825" size="1.778" layer="21">1</text>
+<text x="40.005" y="-63.1825" size="1.778" layer="21">3</text>
+<text x="58.7375" y="-63.1825" size="1.778" layer="21">4</text>
+<text x="75.565" y="-63.1825" size="1.778" layer="21">5</text>
 </plain>
 <libraries>
 <library name="openag-frames">
@@ -2962,7 +2972,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="-4.1275" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="VPN" value="SBR2A40P1DITR-ND" x="-4.1275" y="11.43" size="1.778" layer="27" display="off"/>
 </element>
-<element name="RELAY_2" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="6.0325" y="-47.3075" smashed="yes">
+<element name="RELAY_1" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="6.0325" y="-47.3075" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="G5LE14 DC12" x="-12.7" y="-28.8925" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="2.7559" y="-39.2303" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="OMRON" x="-12.7" y="-28.8925" size="1.778" layer="27" display="off"/>
@@ -2994,7 +3004,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="23.495" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="SBR2A40P1DITR-ND" x="23.495" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RELAY_3" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="24.765" y="-47.3075" smashed="yes">
+<element name="RELAY_2" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="24.765" y="-47.3075" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="G5LE14 DC12" x="6.0325" y="-28.8925" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="21.4884" y="-39.2303" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="OMRON" x="6.0325" y="-28.8925" size="1.778" layer="27" display="off"/>
@@ -3026,7 +3036,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="42.2275" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="SBR2A40P1DITR-ND" x="42.2275" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RELAY_4" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="43.4975" y="-47.3075" smashed="yes">
+<element name="RELAY_3" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="43.4975" y="-47.3075" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="G5LE14 DC12" x="24.765" y="-28.8925" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="40.2209" y="-39.2303" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="OMRON" x="24.765" y="-28.8925" size="1.778" layer="27" display="off"/>
@@ -3058,7 +3068,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="60.96" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="SBR2A40P1DITR-ND" x="60.96" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RELAY_5" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="62.23" y="-47.3075" smashed="yes">
+<element name="RELAY_4" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="62.23" y="-47.3075" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="G5LE14 DC12" x="43.4975" y="-28.8925" size="1.778" layer="27" display="off"/>
 <attribute name="NAME" x="58.9534" y="-39.2303" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="OMRON" x="43.4975" y="-28.8925" size="1.778" layer="27" display="off"/>
@@ -3090,9 +3100,9 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <attribute name="VLINK" value="https://www.digikey.com/product-detail/en/diodes-incorporated/SBR2A40P1-7/SBR2A40P1DITR-ND/1681825" x="79.6925" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 <attribute name="VPN" value="SBR2A40P1DITR-ND" x="79.6925" y="-55.88" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
-<element name="RELAY_6" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="80.645" y="-47.3075" smashed="yes">
+<element name="RELAY_5" library="relay_2" package="RELAY_G5LE-1" value="G5LE-14_DC12" x="80.645" y="-47.3075" smashed="yes">
 <attribute name="MANUFACTURER_PART_NUMBER" value="G5LE14 DC12" x="61.9125" y="-28.8925" size="1.778" layer="27" display="off"/>
-<attribute name="NAME" x="79.9084" y="-39.2303" size="1.27" layer="25" ratio="6" rot="SR0"/>
+<attribute name="NAME" x="77.3684" y="-39.5478" size="1.27" layer="25" ratio="6" rot="SR0"/>
 <attribute name="VENDOR" value="OMRON" x="61.9125" y="-28.8925" size="1.778" layer="27" display="off"/>
 </element>
 <element name="F6" library="fuse" library_urn="urn:adsk.eagle:library:233" package="GSH15" package3d_urn="urn:adsk.eagle:package:14065/1" value="" x="84.455" y="-13.6525" smashed="yes" rot="R270">
@@ -3187,8 +3197,8 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <element name="TP38" library="openag-testpads" package="TP04R" value="TPTP04R" x="57.4675" y="12.2555" smashed="yes" rot="R270">
 <attribute name="MPN" value="N/A" x="57.4675" y="12.2555" size="1.778" layer="27" rot="R270" display="off"/>
 </element>
-<element name="TP39" library="openag-testpads" package="TP04R" value="TPTP04R" x="39.1795" y="-4.0005" smashed="yes" rot="R180">
-<attribute name="MPN" value="N/A" x="39.1795" y="-4.0005" size="1.778" layer="27" rot="R180" display="off"/>
+<element name="TP39" library="openag-testpads" package="TP04R" value="TPTP04R" x="36.1315" y="4.2545" smashed="yes" rot="R180">
+<attribute name="MPN" value="N/A" x="36.1315" y="4.2545" size="1.778" layer="27" rot="R180" display="off"/>
 </element>
 <element name="TP40" library="openag-testpads" package="TP04R" value="TPTP04R" x="77.089" y="-20.447" smashed="yes">
 <attribute name="MPN" value="N/A" x="77.089" y="-20.447" size="1.778" layer="27" display="off"/>
@@ -3641,6 +3651,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="26.1907" y1="23.0157" x2="26.035" y2="22.86" width="0.3048" layer="1"/>
 <via x="54.2925" y="47.3075" extent="1-16" drill="0.35"/>
 <via x="78.74" y="39.37" extent="1-16" drill="0.35"/>
+<via x="64.77" y="0.9525" extent="1-16" drill="0.35"/>
 </signal>
 <signal name="+24V">
 <contactref element="L1" pad="1"/>
@@ -3681,15 +3692,15 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 <wire x1="20.0787" y1="18.39684375" x2="21.4129" y2="17.06264375" width="0.5588" layer="16"/>
 <wire x1="21.4129" y1="15.32235625" x2="20.44434375" y2="14.3538" width="0.5588" layer="16"/>
 <wire x1="20.44434375" y1="14.3538" x2="16.0175" y2="14.3538" width="0.5588" layer="16"/>
-<contactref element="RELAY_2" pad="5"/>
+<contactref element="RELAY_1" pad="5"/>
 <contactref element="D3" pad="-"/>
-<contactref element="RELAY_3" pad="5"/>
+<contactref element="RELAY_2" pad="5"/>
 <contactref element="D5" pad="-"/>
-<contactref element="RELAY_4" pad="5"/>
+<contactref element="RELAY_3" pad="5"/>
 <contactref element="D7" pad="-"/>
-<contactref element="RELAY_5" pad="5"/>
+<contactref element="RELAY_4" pad="5"/>
 <contactref element="D8" pad="-"/>
-<contactref element="RELAY_6" pad="5"/>
+<contactref element="RELAY_5" pad="5"/>
 <contactref element="D9" pad="-"/>
 <contactref element="TP29" pad="1"/>
 <wire x1="68.2244" y1="-31.8897" x2="73.245" y2="-21.59" width="0.508" layer="1"/>
@@ -4215,7 +4226,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$42">
 <contactref element="D3" pad="+"/>
-<contactref element="RELAY_2" pad="2"/>
+<contactref element="RELAY_1" pad="2"/>
 <contactref element="U$10" pad="N4"/>
 <wire x1="0.0381" y1="-31.8897" x2="0.0381" y2="-23.024409375" width="0.508" layer="1"/>
 <wire x1="0.0381" y1="-23.024409375" x2="-0.03" y2="-22.86" width="0.508" layer="1" curve="45"/>
@@ -4224,11 +4235,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$44">
 <contactref element="F2" pad="2"/>
-<contactref element="RELAY_2" pad="1"/>
+<contactref element="RELAY_1" pad="1"/>
 <wire x1="6.0325" y1="-29.8831" x2="9.8425" y2="-21.2725" width="2.54" layer="1"/>
 </signal>
 <signal name="N$45">
-<contactref element="RELAY_2" pad="3"/>
+<contactref element="RELAY_1" pad="3"/>
 <contactref element="LSP3" pad="MP"/>
 <wire x1="7.9375" y1="-62.5475" x2="7.9375" y2="-52.0065" width="1.8288" layer="1"/>
 <wire x1="7.9375" y1="-52.0065" x2="0.0381" y2="-44.1071" width="1.8288" layer="1"/>
@@ -4240,18 +4251,18 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$48">
 <contactref element="D5" pad="+"/>
-<contactref element="RELAY_3" pad="2"/>
+<contactref element="RELAY_2" pad="2"/>
 <contactref element="U$11" pad="N4"/>
 <wire x1="18.7325" y1="-19.4425" x2="19.3975" y2="-21.59" width="0.508" layer="1"/>
 <wire x1="18.7706" y1="-31.8897" x2="19.3975" y2="-21.59" width="0.508" layer="1"/>
 </signal>
 <signal name="N$49">
 <contactref element="F3" pad="2"/>
-<contactref element="RELAY_3" pad="1"/>
+<contactref element="RELAY_2" pad="1"/>
 <wire x1="24.765" y1="-29.8831" x2="28.575" y2="-21.2725" width="2.54" layer="1"/>
 </signal>
 <signal name="N$50">
-<contactref element="RELAY_3" pad="3"/>
+<contactref element="RELAY_2" pad="3"/>
 <contactref element="LSP5" pad="MP"/>
 <wire x1="18.7706" y1="-44.1071" x2="18.7706" y2="-62.5094" width="1.8288" layer="1"/>
 <wire x1="18.7706" y1="-62.5094" x2="18.7325" y2="-62.5475" width="1.8288" layer="1"/>
@@ -4263,7 +4274,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$53">
 <contactref element="D7" pad="+"/>
-<contactref element="RELAY_4" pad="2"/>
+<contactref element="RELAY_3" pad="2"/>
 <contactref element="U$12" pad="N4"/>
 <wire x1="37.435" y1="-31.8216" x2="37.5031" y2="-31.8897" width="0.508" layer="1"/>
 <wire x1="37.465" y1="-19.4425" x2="38.13" y2="-21.59" width="0.508" layer="1"/>
@@ -4271,11 +4282,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$54">
 <contactref element="F4" pad="2"/>
-<contactref element="RELAY_4" pad="1"/>
+<contactref element="RELAY_3" pad="1"/>
 <wire x1="43.4975" y1="-29.8831" x2="47.3075" y2="-21.2725" width="2.54" layer="1"/>
 </signal>
 <signal name="N$55">
-<contactref element="RELAY_4" pad="3"/>
+<contactref element="RELAY_3" pad="3"/>
 <contactref element="LSP8" pad="MP"/>
 <wire x1="37.5031" y1="-44.1071" x2="37.5031" y2="-62.5094" width="1.8288" layer="1"/>
 <wire x1="37.5031" y1="-62.5094" x2="37.465" y2="-62.5475" width="1.8288" layer="1"/>
@@ -4287,7 +4298,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$58">
 <contactref element="D8" pad="+"/>
-<contactref element="RELAY_5" pad="2"/>
+<contactref element="RELAY_4" pad="2"/>
 <contactref element="U$13" pad="N4"/>
 <wire x1="56.1675" y1="-31.8216" x2="56.2356" y2="-31.8897" width="0.508" layer="1"/>
 <wire x1="56.1975" y1="-19.4425" x2="56.8625" y2="-21.59" width="0.508" layer="1"/>
@@ -4295,12 +4306,12 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$59">
 <contactref element="F5" pad="2"/>
-<contactref element="RELAY_5" pad="1"/>
+<contactref element="RELAY_4" pad="1"/>
 <wire x1="66.04" y1="-21.2725" x2="62.466353125" y2="-29.646746875" width="2.54" layer="1"/>
 <wire x1="62.466353125" y1="-29.646746875" x2="62.23" y2="-29.8831" width="2.54" layer="1"/>
 </signal>
 <signal name="N$60">
-<contactref element="RELAY_5" pad="3"/>
+<contactref element="RELAY_4" pad="3"/>
 <contactref element="LSP13" pad="MP"/>
 <wire x1="56.1975" y1="-62.5475" x2="56.1975" y2="-44.1452" width="1.8288" layer="1"/>
 <wire x1="56.1975" y1="-44.1452" x2="56.2356" y2="-44.1071" width="1.8288" layer="1"/>
@@ -4312,7 +4323,7 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$63">
 <contactref element="D9" pad="+"/>
-<contactref element="RELAY_6" pad="2"/>
+<contactref element="RELAY_5" pad="2"/>
 <contactref element="U$14" pad="N4"/>
 <wire x1="74.5825" y1="-31.8216" x2="74.6506" y2="-31.8897" width="0.508" layer="1"/>
 <wire x1="75.595" y1="-21.59" x2="74.6125" y2="-19.76" width="0.508" layer="1"/>
@@ -4322,11 +4333,11 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$64">
 <contactref element="F6" pad="2"/>
-<contactref element="RELAY_6" pad="1"/>
+<contactref element="RELAY_5" pad="1"/>
 <wire x1="84.455" y1="-21.2725" x2="80.645" y2="-29.8831" width="2.54" layer="1"/>
 </signal>
 <signal name="N$65">
-<contactref element="RELAY_6" pad="3"/>
+<contactref element="RELAY_5" pad="3"/>
 <contactref element="LSP11" pad="MP"/>
 <wire x1="73.025" y1="-62.5475" x2="73.025" y2="-45.7327" width="1.8288" layer="1"/>
 <wire x1="73.025" y1="-45.7327" x2="74.6506" y2="-44.1071" width="1.8288" layer="1"/>
@@ -4563,30 +4574,30 @@ Note, that not all DRC settings must be set by the manufacturer. Several can be 
 </signal>
 <signal name="N$27">
 <contactref element="LSP2" pad="MP"/>
-<contactref element="RELAY_2" pad="4"/>
+<contactref element="RELAY_1" pad="4"/>
 <wire x1="11.1125" y1="-60.0075" x2="11.1125" y2="-45.0215" width="1.8288" layer="1"/>
 <wire x1="11.1125" y1="-45.0215" x2="12.0269" y2="-44.1071" width="1.8288" layer="1"/>
 </signal>
 <signal name="N$31">
-<contactref element="RELAY_3" pad="4"/>
+<contactref element="RELAY_2" pad="4"/>
 <contactref element="LSP4" pad="MP"/>
 <wire x1="21.9075" y1="-60.0075" x2="21.9075" y2="-52.959" width="1.8288" layer="1"/>
 <wire x1="21.9075" y1="-52.959" x2="30.7594" y2="-44.1071" width="1.8288" layer="1"/>
 </signal>
 <signal name="N$32">
-<contactref element="RELAY_4" pad="4"/>
+<contactref element="RELAY_3" pad="4"/>
 <contactref element="LSP7" pad="MP"/>
 <wire x1="40.64" y1="-60.0075" x2="40.64" y2="-52.959" width="1.8288" layer="1"/>
 <wire x1="40.64" y1="-52.959" x2="49.4919" y2="-44.1071" width="1.8288" layer="1"/>
 </signal>
 <signal name="N$46">
-<contactref element="RELAY_6" pad="4"/>
+<contactref element="RELAY_5" pad="4"/>
 <contactref element="LSP12" pad="MP"/>
 <wire x1="76.2" y1="-60.0075" x2="76.2" y2="-54.5465" width="1.8288" layer="1"/>
 <wire x1="76.2" y1="-54.5465" x2="86.6394" y2="-44.1071" width="1.8288" layer="1"/>
 </signal>
 <signal name="N$51">
-<contactref element="RELAY_5" pad="4"/>
+<contactref element="RELAY_4" pad="4"/>
 <contactref element="LSP14" pad="MP"/>
 <wire x1="59.3725" y1="-60.0075" x2="59.3725" y2="-52.959" width="1.8288" layer="1"/>
 <wire x1="59.3725" y1="-52.959" x2="68.2244" y2="-44.1071" width="1.8288" layer="1"/>

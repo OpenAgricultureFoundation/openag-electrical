@@ -8259,7 +8259,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="J1" library="openag-connectors" deviceset="RJ45-DI2C-USB-54602-908LF" device="PTH" value="54602-908LF"/>
 <part name="U3" library="openag-buffers" deviceset="PCA9615DPJ" device="" value="PCA9615"/>
 <part name="D3" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
-<part name="RELAY_2" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
+<part name="RELAY_1" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
 <part name="F2" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="P+16" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U$10" library="openag-transistors" deviceset="LTV-355T" device=""/>
@@ -8267,7 +8267,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND22" library="openag-supply" deviceset="GND" device=""/>
 <part name="R20" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="D5" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
-<part name="RELAY_3" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
+<part name="RELAY_2" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
 <part name="F3" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="P+17" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U$11" library="openag-transistors" deviceset="LTV-355T" device=""/>
@@ -8275,7 +8275,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND24" library="openag-supply" deviceset="GND" device=""/>
 <part name="R21" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="D7" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
-<part name="RELAY_4" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
+<part name="RELAY_3" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
 <part name="F4" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="P+18" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U$12" library="openag-transistors" deviceset="LTV-355T" device=""/>
@@ -8283,7 +8283,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND26" library="openag-supply" deviceset="GND" device=""/>
 <part name="R22" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="D8" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
-<part name="RELAY_5" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
+<part name="RELAY_4" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
 <part name="F5" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="P+19" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U$13" library="openag-transistors" deviceset="LTV-355T" device=""/>
@@ -8291,7 +8291,7 @@ grid 15mm, 19649 Wickmann</description>
 <part name="GND28" library="openag-supply" deviceset="GND" device=""/>
 <part name="R23" library="openag-resistors" deviceset="100OHM-RC0603JR-07100RL" device="" value="100"/>
 <part name="D9" library="openag-diodes" deviceset="SBR2A40P1-7" device="" value="SBR2A40P1-7"/>
-<part name="RELAY_6" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
+<part name="RELAY_5" library="relay_2" deviceset="G5LE-14_DC12" device=""/>
 <part name="F6" library="fuse" library_urn="urn:adsk.eagle:library:233" deviceset="GSH15" device="" package3d_urn="urn:adsk.eagle:package:14065/1"/>
 <part name="P+20" library="openag-supply" deviceset="+24V" device=""/>
 <part name="U$14" library="openag-transistors" deviceset="LTV-355T" device=""/>
@@ -8678,7 +8678,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <attribute name="VALUE" x="-271.7038" y="-107.4928" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="-272.0086" y="-104.0384" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="RELAY_2" gate="A" x="-243.84" y="-137.16" smashed="yes" rot="R90">
+<instance part="RELAY_1" gate="A" x="-243.84" y="-137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="-208.6356" y="-105.6386" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-200.3806" y="-108.1786" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 </instance>
@@ -8704,7 +8704,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <attribute name="VALUE" x="-109.1438" y="-107.4928" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="-109.4486" y="-104.0384" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="RELAY_3" gate="A" x="-81.28" y="-137.16" smashed="yes" rot="R90">
+<instance part="RELAY_2" gate="A" x="-81.28" y="-137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="-46.0756" y="-105.6386" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-37.8206" y="-108.1786" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 </instance>
@@ -8730,7 +8730,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <attribute name="VALUE" x="53.4162" y="-107.4928" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="53.1114" y="-104.0384" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="RELAY_4" gate="A" x="81.28" y="-137.16" smashed="yes" rot="R90">
+<instance part="RELAY_3" gate="A" x="81.28" y="-137.16" smashed="yes" rot="R90">
 <attribute name="NAME" x="116.4844" y="-105.6386" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="124.7394" y="-108.1786" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 </instance>
@@ -8756,7 +8756,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <attribute name="VALUE" x="-276.7838" y="-188.7728" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="-277.0886" y="-185.3184" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="RELAY_5" gate="A" x="-248.92" y="-218.44" smashed="yes" rot="R90">
+<instance part="RELAY_4" gate="A" x="-248.92" y="-218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="-213.7156" y="-186.9186" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-205.4606" y="-189.4586" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 </instance>
@@ -8782,7 +8782,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <attribute name="VALUE" x="-114.2238" y="-188.7728" size="1.778" layer="96" ratio="10" rot="SR180"/>
 <attribute name="NAME" x="-114.5286" y="-185.3184" size="1.778" layer="95" ratio="10" rot="SR180"/>
 </instance>
-<instance part="RELAY_6" gate="A" x="-86.36" y="-218.44" smashed="yes" rot="R90">
+<instance part="RELAY_5" gate="A" x="-86.36" y="-218.44" smashed="yes" rot="R90">
 <attribute name="NAME" x="-51.1556" y="-186.9186" size="2.0828" layer="95" ratio="6" rot="SR180"/>
 <attribute name="VALUE" x="-42.9006" y="-189.4586" size="2.0828" layer="96" ratio="6" rot="SR180"/>
 </instance>
@@ -9272,7 +9272,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <wire x1="-289.56" y1="180.34" x2="-289.56" y2="185.42" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="RELAY_2" gate="A" pin="5"/>
+<pinref part="RELAY_1" gate="A" pin="5"/>
 <wire x1="-243.84" y1="-93.98" x2="-243.84" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="-88.9" x2="-266.7" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="D3" gate="G$1" pin="-"/>
@@ -9282,7 +9282,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <junction x="-266.7" y="-88.9"/>
 </segment>
 <segment>
-<pinref part="RELAY_3" gate="A" pin="5"/>
+<pinref part="RELAY_2" gate="A" pin="5"/>
 <wire x1="-81.28" y1="-93.98" x2="-81.28" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-88.9" x2="-104.14" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="D5" gate="G$1" pin="-"/>
@@ -9292,7 +9292,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <junction x="-104.14" y="-88.9"/>
 </segment>
 <segment>
-<pinref part="RELAY_4" gate="A" pin="5"/>
+<pinref part="RELAY_3" gate="A" pin="5"/>
 <wire x1="81.28" y1="-93.98" x2="81.28" y2="-88.9" width="0.1524" layer="91"/>
 <wire x1="81.28" y1="-88.9" x2="58.42" y2="-88.9" width="0.1524" layer="91"/>
 <pinref part="D7" gate="G$1" pin="-"/>
@@ -9302,7 +9302,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <junction x="58.42" y="-88.9"/>
 </segment>
 <segment>
-<pinref part="RELAY_5" gate="A" pin="5"/>
+<pinref part="RELAY_4" gate="A" pin="5"/>
 <wire x1="-248.92" y1="-175.26" x2="-248.92" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="-248.92" y1="-170.18" x2="-271.78" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="D8" gate="G$1" pin="-"/>
@@ -9312,7 +9312,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <junction x="-271.78" y="-170.18"/>
 </segment>
 <segment>
-<pinref part="RELAY_6" gate="A" pin="5"/>
+<pinref part="RELAY_5" gate="A" pin="5"/>
 <wire x1="-86.36" y1="-175.26" x2="-86.36" y2="-170.18" width="0.1524" layer="91"/>
 <wire x1="-86.36" y1="-170.18" x2="-109.22" y2="-170.18" width="0.1524" layer="91"/>
 <pinref part="D9" gate="G$1" pin="-"/>
@@ -9682,7 +9682,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="D3" gate="G$1" pin="+"/>
 <wire x1="-266.7" y1="-114.3" x2="-266.7" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-266.7" y1="-137.16" x2="-243.84" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="RELAY_2" gate="A" pin="1"/>
+<pinref part="RELAY_1" gate="A" pin="1"/>
 <wire x1="-243.84" y1="-137.16" x2="-243.84" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="U$10" gate="G$1" pin="COLLECTOR"/>
 <wire x1="-279.4" y1="-137.16" x2="-266.7" y2="-137.16" width="0.1524" layer="91"/>
@@ -9693,12 +9693,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="F2" gate="1" pin="2"/>
 <wire x1="-226.06" y1="-137.16" x2="-231.14" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-231.14" y1="-137.16" x2="-231.14" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="RELAY_2" gate="A" pin="2"/>
+<pinref part="RELAY_1" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$45" class="0">
 <segment>
-<pinref part="RELAY_2" gate="A" pin="3"/>
+<pinref part="RELAY_1" gate="A" pin="3"/>
 <wire x1="-226.06" y1="-109.22" x2="-226.06" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="LSP3" gate="1" pin="MP"/>
 </segment>
@@ -9715,7 +9715,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="D5" gate="G$1" pin="+"/>
 <wire x1="-104.14" y1="-114.3" x2="-104.14" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-104.14" y1="-137.16" x2="-81.28" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="RELAY_3" gate="A" pin="1"/>
+<pinref part="RELAY_2" gate="A" pin="1"/>
 <wire x1="-81.28" y1="-137.16" x2="-81.28" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="U$11" gate="G$1" pin="COLLECTOR"/>
 <wire x1="-116.84" y1="-137.16" x2="-104.14" y2="-137.16" width="0.1524" layer="91"/>
@@ -9726,12 +9726,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="F3" gate="1" pin="2"/>
 <wire x1="-63.5" y1="-137.16" x2="-68.58" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="-68.58" y1="-137.16" x2="-68.58" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="RELAY_3" gate="A" pin="2"/>
+<pinref part="RELAY_2" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$50" class="0">
 <segment>
-<pinref part="RELAY_3" gate="A" pin="3"/>
+<pinref part="RELAY_2" gate="A" pin="3"/>
 <wire x1="-63.5" y1="-109.22" x2="-63.5" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="LSP5" gate="1" pin="MP"/>
 </segment>
@@ -9748,7 +9748,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="D7" gate="G$1" pin="+"/>
 <wire x1="58.42" y1="-114.3" x2="58.42" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="58.42" y1="-137.16" x2="81.28" y2="-137.16" width="0.1524" layer="91"/>
-<pinref part="RELAY_4" gate="A" pin="1"/>
+<pinref part="RELAY_3" gate="A" pin="1"/>
 <wire x1="81.28" y1="-137.16" x2="81.28" y2="-134.62" width="0.1524" layer="91"/>
 <pinref part="U$12" gate="G$1" pin="COLLECTOR"/>
 <wire x1="45.72" y1="-137.16" x2="58.42" y2="-137.16" width="0.1524" layer="91"/>
@@ -9759,12 +9759,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="F4" gate="1" pin="2"/>
 <wire x1="99.06" y1="-137.16" x2="93.98" y2="-137.16" width="0.1524" layer="91"/>
 <wire x1="93.98" y1="-137.16" x2="93.98" y2="-124.46" width="0.1524" layer="91"/>
-<pinref part="RELAY_4" gate="A" pin="2"/>
+<pinref part="RELAY_3" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$55" class="0">
 <segment>
-<pinref part="RELAY_4" gate="A" pin="3"/>
+<pinref part="RELAY_3" gate="A" pin="3"/>
 <wire x1="99.06" y1="-109.22" x2="99.06" y2="-93.98" width="0.1524" layer="91"/>
 <pinref part="LSP8" gate="1" pin="MP"/>
 </segment>
@@ -9781,7 +9781,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="D8" gate="G$1" pin="+"/>
 <wire x1="-271.78" y1="-195.58" x2="-271.78" y2="-218.44" width="0.1524" layer="91"/>
 <wire x1="-271.78" y1="-218.44" x2="-248.92" y2="-218.44" width="0.1524" layer="91"/>
-<pinref part="RELAY_5" gate="A" pin="1"/>
+<pinref part="RELAY_4" gate="A" pin="1"/>
 <wire x1="-248.92" y1="-218.44" x2="-248.92" y2="-215.9" width="0.1524" layer="91"/>
 <pinref part="U$13" gate="G$1" pin="COLLECTOR"/>
 <wire x1="-284.48" y1="-218.44" x2="-271.78" y2="-218.44" width="0.1524" layer="91"/>
@@ -9792,12 +9792,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="F5" gate="1" pin="2"/>
 <wire x1="-231.14" y1="-218.44" x2="-236.22" y2="-218.44" width="0.1524" layer="91"/>
 <wire x1="-236.22" y1="-218.44" x2="-236.22" y2="-205.74" width="0.1524" layer="91"/>
-<pinref part="RELAY_5" gate="A" pin="2"/>
+<pinref part="RELAY_4" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$60" class="0">
 <segment>
-<pinref part="RELAY_5" gate="A" pin="3"/>
+<pinref part="RELAY_4" gate="A" pin="3"/>
 <wire x1="-231.14" y1="-190.5" x2="-231.14" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="LSP13" gate="1" pin="MP"/>
 </segment>
@@ -9814,7 +9814,7 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="D9" gate="G$1" pin="+"/>
 <wire x1="-109.22" y1="-195.58" x2="-109.22" y2="-218.44" width="0.1524" layer="91"/>
 <wire x1="-109.22" y1="-218.44" x2="-86.36" y2="-218.44" width="0.1524" layer="91"/>
-<pinref part="RELAY_6" gate="A" pin="1"/>
+<pinref part="RELAY_5" gate="A" pin="1"/>
 <wire x1="-86.36" y1="-218.44" x2="-86.36" y2="-215.9" width="0.1524" layer="91"/>
 <pinref part="U$14" gate="G$1" pin="COLLECTOR"/>
 <wire x1="-121.92" y1="-218.44" x2="-109.22" y2="-218.44" width="0.1524" layer="91"/>
@@ -9825,12 +9825,12 @@ w/Optional EMI Filter + Indicator LED</text>
 <pinref part="F6" gate="1" pin="2"/>
 <wire x1="-68.58" y1="-218.44" x2="-73.66" y2="-218.44" width="0.1524" layer="91"/>
 <wire x1="-73.66" y1="-218.44" x2="-73.66" y2="-205.74" width="0.1524" layer="91"/>
-<pinref part="RELAY_6" gate="A" pin="2"/>
+<pinref part="RELAY_5" gate="A" pin="2"/>
 </segment>
 </net>
 <net name="N$65" class="0">
 <segment>
-<pinref part="RELAY_6" gate="A" pin="3"/>
+<pinref part="RELAY_5" gate="A" pin="3"/>
 <wire x1="-68.58" y1="-190.5" x2="-68.58" y2="-175.26" width="0.1524" layer="91"/>
 <pinref part="LSP11" gate="1" pin="MP"/>
 </segment>
@@ -10057,14 +10057,14 @@ w/Optional EMI Filter + Indicator LED</text>
 <net name="N$27" class="0">
 <segment>
 <pinref part="LSP2" gate="1" pin="MP"/>
-<pinref part="RELAY_2" gate="A" pin="4"/>
+<pinref part="RELAY_1" gate="A" pin="4"/>
 <wire x1="-238.76" y1="-93.98" x2="-238.6838" y2="-93.98" width="0.1524" layer="91"/>
 <wire x1="-238.6838" y1="-93.98" x2="-238.6838" y2="-109.1946" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$31" class="0">
 <segment>
-<pinref part="RELAY_3" gate="A" pin="4"/>
+<pinref part="RELAY_2" gate="A" pin="4"/>
 <pinref part="LSP4" gate="1" pin="MP"/>
 <wire x1="-76.1238" y1="-109.1946" x2="-76.2" y2="-109.1946" width="0.1524" layer="91"/>
 <wire x1="-76.2" y1="-109.1946" x2="-76.2" y2="-93.98" width="0.1524" layer="91"/>
@@ -10072,7 +10072,7 @@ w/Optional EMI Filter + Indicator LED</text>
 </net>
 <net name="N$32" class="0">
 <segment>
-<pinref part="RELAY_4" gate="A" pin="4"/>
+<pinref part="RELAY_3" gate="A" pin="4"/>
 <pinref part="LSP7" gate="1" pin="MP"/>
 <wire x1="86.4362" y1="-109.1946" x2="86.36" y2="-109.1946" width="0.1524" layer="91"/>
 <wire x1="86.36" y1="-109.1946" x2="86.36" y2="-93.98" width="0.1524" layer="91"/>
@@ -10080,7 +10080,7 @@ w/Optional EMI Filter + Indicator LED</text>
 </net>
 <net name="N$46" class="0">
 <segment>
-<pinref part="RELAY_6" gate="A" pin="4"/>
+<pinref part="RELAY_5" gate="A" pin="4"/>
 <pinref part="LSP12" gate="1" pin="MP"/>
 <wire x1="-81.2038" y1="-190.4746" x2="-81.28" y2="-190.4746" width="0.1524" layer="91"/>
 <wire x1="-81.28" y1="-190.4746" x2="-81.28" y2="-175.26" width="0.1524" layer="91"/>
@@ -10088,7 +10088,7 @@ w/Optional EMI Filter + Indicator LED</text>
 </net>
 <net name="N$51" class="0">
 <segment>
-<pinref part="RELAY_5" gate="A" pin="4"/>
+<pinref part="RELAY_4" gate="A" pin="4"/>
 <pinref part="LSP14" gate="1" pin="MP"/>
 <wire x1="-243.7638" y1="-190.4746" x2="-243.84" y2="-190.4746" width="0.1524" layer="91"/>
 <wire x1="-243.84" y1="-190.4746" x2="-243.84" y2="-175.26" width="0.1524" layer="91"/>
